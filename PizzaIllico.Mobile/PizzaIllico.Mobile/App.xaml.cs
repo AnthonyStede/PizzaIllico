@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using PizzaIllico.Mobile.Pages;
 using PizzaIllico.Mobile.Services;
+using Storm.Mvvm;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
@@ -9,21 +10,25 @@ using Xamarin.Forms.Xaml;
 
 namespace PizzaIllico.Mobile
 {
-    public partial class App
+    public partial class App : MvvmApplication
     {
-        public App() : base(() => new ShopListPage(), RegisterServices)
+        public App() : base(() => new RegistrationPage())
         {
-#if DEBUG
+/*#if DEBUG
             Log.Listeners.Add(new DelegateLogListener((arg1, arg2) => Debug.WriteLine($"{arg1} : {arg2}")));
-#endif
+#endif*/
             InitializeComponent();
         }
 
-        private static void RegisterServices()
+       /*private static void RegisterServices()
         {
             DependencyService.RegisterSingleton<IApiService>(new ApiService());
-            
+
             DependencyService.RegisterSingleton<IPizzaApiService>(new PizzaApiService());
-        }
-    }
+        }*/
+       
+
+     }
+
+    
 }

@@ -1,0 +1,13 @@
+C:\Users\ginto\Desktop\Projet_Xamarin\PizzaIllico.Mobile\PizzaIllico.Mobile\bin\Debug\netstandard2.0\PizzaIllico.Mobile.deps.json
+C:\Users\ginto\Desktop\Projet_Xamarin\PizzaIllico.Mobile\PizzaIllico.Mobile\bin\Debug\netstandard2.0\PizzaIllico.Mobile.dll
+C:\Users\ginto\Desktop\Projet_Xamarin\PizzaIllico.Mobile\PizzaIllico.Mobile\bin\Debug\netstandard2.0\PizzaIllico.Mobile.pdb
+C:\Users\ginto\Desktop\Projet_Xamarin\PizzaIllico.Mobile\PizzaIllico.Mobile\obj\Debug\netstandard2.0\PizzaIllico.Mobile.csprojAssemblyReference.cache
+C:\Users\ginto\Desktop\Projet_Xamarin\PizzaIllico.Mobile\PizzaIllico.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ginto\Desktop\Projet_Xamarin\PizzaIllico.Mobile\PizzaIllico.Mobile\obj\Debug\netstandard2.0\Pages\RegistrationPage.xaml.g.cs
+C:\Users\ginto\Desktop\Projet_Xamarin\PizzaIllico.Mobile\PizzaIllico.Mobile\obj\Debug\netstandard2.0\Pages\ShopListPage.xaml.g.cs
+C:\Users\ginto\Desktop\Projet_Xamarin\PizzaIllico.Mobile\PizzaIllico.Mobile\obj\Debug\netstandard2.0\PizzaIllico.Mobile.AssemblyInfoInputs.cache
+C:\Users\ginto\Desktop\Projet_Xamarin\PizzaIllico.Mobile\PizzaIllico.Mobile\obj\Debug\netstandard2.0\PizzaIllico.Mobile.AssemblyInfo.cs
+C:\Users\ginto\Desktop\Projet_Xamarin\PizzaIllico.Mobile\PizzaIllico.Mobile\obj\Debug\netstandard2.0\PizzaIllico.Mobile.csproj.CoreCompileInputs.cache
+C:\Users\ginto\Desktop\Projet_Xamarin\PizzaIllico.Mobile\PizzaIllico.Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ginto\Desktop\Projet_Xamarin\PizzaIllico.Mobile\PizzaIllico.Mobile\obj\Debug\netstandard2.0\PizzaIllico.Mobile.dll
+C:\Users\ginto\Desktop\Projet_Xamarin\PizzaIllico.Mobile\PizzaIllico.Mobile\obj\Debug\netstandard2.0\PizzaIllico.Mobile.pdb
