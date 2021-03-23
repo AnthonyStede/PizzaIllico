@@ -28,9 +28,10 @@ namespace PizzaIllico.Mobile.Pages
 
             var item = new RegUserTable()
             {
-                UserName = EntryUserName.Text,
+                Email = EntryUserEmail.Text,              
                 Password = EntryUserPassword.Text,
-                Email = EntryUserEmail.Text,
+                UserFirstName = EntryUserFirstName.Text,
+                UserLastName = EntryUserFirstName.Text,
                 PhoneNumber = EntryUserPhoneNumber.Text
             };
 

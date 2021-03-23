@@ -20,12 +20,12 @@ namespace PizzaIllico.Mobile
             InitializeComponent();
         }
 
-       /*private static void RegisterServices()
+       private static void RegisterServices()
         {
             DependencyService.RegisterSingleton<IApiService>(new ApiService());
 
             DependencyService.RegisterSingleton<IPizzaApiService>(new PizzaApiService());
-        }*/
+        }
        
 
      }
