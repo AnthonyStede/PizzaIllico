@@ -12,7 +12,7 @@ namespace PizzaIllico.Mobile
 {
     public partial class App : MvvmApplication
     {
-        public App() : base(() => new ShopListPage(), RegisterServices)
+        public App() : base(() => new PizzaListPage(), RegisterServices)
         {
 /*#if DEBUG
             Log.Listeners.Add(new DelegateLogListener((arg1, arg2) => Debug.WriteLine($"{arg1} : {arg2}")));
