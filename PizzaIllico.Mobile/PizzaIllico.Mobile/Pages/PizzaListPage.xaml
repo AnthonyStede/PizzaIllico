@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<forms:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                       xmlns:forms="clr-namespace:Storm.Mvvm.Forms;assembly=Storm.Mvvm.Forms"
+                       xmlns:viewModels="clr-namespace:PizzaIllico.Mobile.ViewModels;assembly=PizzaIllico.Mobile"
+                       xmlns:pizzas="clr-namespace:PizzaIllico.Mobile.Dtos.Pizzas;assembly=PizzaIllico.Mobile"
+                       xmlns:extensions="clr-namespace:PizzaIllico.Mobile.Extensions;assembly=PizzaIllico.Mobile"
+                       x:Class="PizzaIllico.Mobile.Pages.PizzaListPage"
+                       x:DataType="viewModels:PizzaListViewModel"
+                       Title="Pizzas">
+    <StackLayout>
+
+        <Label Margin ="0,30,0,0" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Text="NOM DU RESTAURANT" Font="Bold,20" TextColor="Black"/>
+        <Label Margin ="0,30,0,30" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Text="ADDRESSE DU RESTAURANT" Font="13" TextColor="Black"/>
+        <ListView HasUnevenRows="True" ItemsSource="{Binding Pizzas}"
+                  SelectionMode="None"
+                  >
+            <ListView.Behaviors>
+                <extensions:ListViewItemTappedBehavior Command="{Binding SelectedCommand}"/>
+            </ListView.Behaviors>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell x:DataType="pizzas:PizzaItem">
+                        <StackLayout Orientation="Vertical">
+                            <Label Padding="5,0,0,0" Text="{Binding Name}" Font="15" TextColor="Black"
+                                    />
+                            <Grid Margin ="0,0,0,20" Grid.Column="0" Padding="5,0,0,0" ColumnSpacing="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="5*"/>
+                                    <ColumnDefinition Width="3*"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding Description}" HorizontalOptions="StartAndExpand" Grid.Column="0"
+                                   />
+                                <Button Text="Ajouter au panier" HeightRequest="80" HorizontalOptions="EndAndExpand" Grid.Column="1"/>
+                            </Grid>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</forms:BaseContentPage>
