@@ -11,24 +11,24 @@ using Xamarin.Forms;
 
 namespace PizzaIllico.Mobile.ViewModels
 {
-	public class ShopListViewModel : ViewModelBase
+	public class PizzaListViewModel : ViewModelBase
 	{
-		private ObservableCollection<ShopItem> _shops;
+		private ObservableCollection<PizzaItem> _pizzas;
 
-		public ObservableCollection<ShopItem> Shops
+		public ObservableCollection<PizzaItem> Pizzas
 		{
-			get => _shops;
-			set => SetProperty(ref _shops, value);
+			get => _pizzas;
+			set => SetProperty(ref _pizzas, value);
 		}
 
 		public ICommand SelectedCommand { get; }
 
-		public ShopListViewModel()
+		public PizzaListViewModel()
 		{
-			SelectedCommand = new Command<ShopItem>(SelectedAction);
+			SelectedCommand = new Command<PizzaItem>(SelectedAction);
 		}
 
-		private void SelectedAction(ShopItem obj)
+		private void SelectedAction(PizzaItem obj)
 		{
 
 		}
@@ -39,13 +39,13 @@ namespace PizzaIllico.Mobile.ViewModels
 
 			IPizzaApiService service = DependencyService.Get<IPizzaApiService>();
 
-			Response<List<ShopItem>> response = await service.ListShops();
+			Response<List<PizzaItem>> response = await service.ListPizzas(1); //id
 
 			Console.WriteLine($"Appel HTTP : {response.IsSuccess}");
 			if (response.IsSuccess)
 			{
 				Console.WriteLine($"Appel HTTP : {response.Data.Count}");
-				Shops = new ObservableCollection<ShopItem>(response.Data);
+				Pizzas = new ObservableCollection<PizzaItem>(response.Data);
 			}
 		}
 	}
