@@ -32,7 +32,7 @@
                 BackgroundColor="DeepSkyBlue"              
                />
 
-        <Label Text="{Binding Message}" TextColor="Black"/>
+        <Label Text="{Binding Message}" TextColor="Red"/>
 
         <Button Text="Go back to Login Page"
                 Clicked="Button_Clicked"/>

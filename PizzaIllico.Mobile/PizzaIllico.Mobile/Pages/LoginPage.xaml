@@ -20,12 +20,17 @@
         <Entry Text="{Binding Password}"
                IsPassword="True"
                Placeholder="Your Password"/>
+        
         <Button Command="{Binding LoginCommand}"
-                Text="Login"/>
+                CommandParameter="{Binding access_code}"
+                Text="Login"
+                />
 
         <Button Text="Have no account? SIGN UP NOW"
                 Clicked="Button_Clicked"/>
 
+        <Label Text="{Binding Message}" TextColor="Red"/>
+        
     </StackLayout>
 
 </ContentPage>
