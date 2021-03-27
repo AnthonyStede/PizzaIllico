@@ -84,7 +84,7 @@ namespace PizzaIllico.Mobile.Services
             return responseBody;
         }
 
-        public async Task LoginAsync (string login, string password)
+        public async Task<ResponseBody> LoginAsync (string login, string password)
         {
 
             var client = new HttpClient();
@@ -108,7 +108,9 @@ namespace PizzaIllico.Mobile.Services
 
             Debug.WriteLine(content);
 
+            ResponseBody responseBody = JsonConvert.DeserializeObject<ResponseBody>(jsonResponse);
 
+            return responseBody;
         }
     }
 }

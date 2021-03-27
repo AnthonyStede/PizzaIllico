@@ -21,10 +21,15 @@ namespace PizzaIllico.Mobile.ViewModels
             {
                 return new Command(async() =>
                 {
+                    var isSuccess = await _apiService.LoginAsync(Login, Password);
+                    if (isSuccess.IsSuccess)
+                    {
 
-                    await _apiService.LoginAsync(Login, Password);
+                    }
+                    else
+                    {
 
-
+                    }
                 });
             }
         }
