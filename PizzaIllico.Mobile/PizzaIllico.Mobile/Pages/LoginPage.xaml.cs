@@ -1,5 +1,4 @@
-﻿using PizzaIllico.Mobile.ViewModels;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,19 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace PizzaIllico.Mobile.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class RegisterPage : ContentPage
+    public partial class LoginPage : ContentPage
     {
-        public RegisterPage()
+        public LoginPage()
         {
             InitializeComponent();
-            BindingContext = new RegisterViewModel();
         }
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new LoginPage());
+            await Navigation.PushAsync(new RegisterPage());
         }
-
-        
     }
 }

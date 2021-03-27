@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using PizzaIllico.Mobile.Dtos;
@@ -22,19 +23,23 @@ namespace PizzaIllico.Mobile.ViewModels
         public string PhoneNumber { get; set; }
         public string Message { get; set; }
 
+
+
         public ICommand RegisterCommand
         {
+
             get
             {
                 return new Command(async() =>
-                {
-                    var isSuccess = await _apiService.RegisterAsync(Email, Password, UserFirstName, UserLastName, PhoneNumber);
-
+                {             
+                    
+                    var isSuccess = await _apiService.RegisterAsync(Email, Password, UserFirstName, UserLastName, PhoneNumber);                  
                     if (isSuccess.IsSuccess)
                         Message = "Register successfully";
                     else {
                         Message = "Register failed, Retry please";
                     }
+                   
                 }); 
             }
         }

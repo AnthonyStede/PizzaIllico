@@ -6,6 +6,8 @@ using Xamarin.Forms;
 using PizzaIllico.Mobile.Dtos.Accounts;
 using System.Net.Http.Headers;
 using System.Collections.Generic;
+using System.Diagnostics;
+using PizzaIllico.Mobile.Dtos.Authentications.Credentials;
 
 namespace PizzaIllico.Mobile.Services
 {
@@ -84,12 +86,28 @@ namespace PizzaIllico.Mobile.Services
 
         public async Task LoginAsync (string login, string password)
         {
-            var keyValues = new List<KeyValuePair<string, string>>
-            {
-                new KeyValuePair<string, string>("login",login),
-                new KeyValuePair<string, string>("password",password)
 
+            var client = new HttpClient();
+
+            var LoginModel = new LoginWithCredentialsRequest
+            {
+                Login = login,
+                Password = password,
+                ClientId = "MOBILE",
+                ClientSecret = "UNIV"
             };
+            var json = JsonConvert.SerializeObject(LoginModel);
+
+            HttpContent content = new StringContent(json);
+
+            content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+            var response = await client.PostAsync("https://pizza.julienmialon.ovh/api/v1/authentication/credentials", content);
+
+            var jsonResponse = await response.Content.ReadAsStringAsync();
+
+            Debug.WriteLine(content);
+
 
         }
     }

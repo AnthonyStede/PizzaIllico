@@ -24,15 +24,19 @@
                Placeholder="user last name"/>
         <Entry Text="{Binding PhoneNumber}"
                Placeholder="phone number"/>
-        
+
         <Button Command="{Binding RegisterCommand}"
                 Text="Register"
                 TextColor="White"
                 FontSize="30"
-                BackgroundColor="DeepSkyBlue"/>
+                BackgroundColor="DeepSkyBlue"
+               />
 
-        <Label Text="{Binding Message}"/>
-        
+        <Label Text="{Binding Message, Mode=TwoWay}" TextColor="Black"/>
+
+        <Button Text="Go back to Login Page"
+                Clicked="Button_Clicked"/>
+
     </StackLayout>
 </ContentPage>
 
