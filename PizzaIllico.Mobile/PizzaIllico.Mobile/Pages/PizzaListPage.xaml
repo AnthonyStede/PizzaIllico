@@ -9,11 +9,13 @@
                        x:DataType="viewModels:PizzaListViewModel"
                        Title="Pizzas">
     <StackLayout>
-
+        
         <Label Margin ="0,30,0,0" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Text="NOM DU RESTAURANT" Font="Bold,20" TextColor="Black"/>
-        <Label Margin ="0,30,0,30" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Text="ADDRESSE DU RESTAURANT" Font="13" TextColor="Black"/>
-        <ListView HasUnevenRows="True" ItemsSource="{Binding Pizzas}"
+        <Label Margin ="0,30,0,10" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Text="ADDRESSE DU RESTAURANT" Font="13" TextColor="Black"/>
+        <Button Text="Voir le panier" HorizontalOptions="FillAndExpand"/>
+        <ListView HasUnevenRows="True" ItemsSource="{Binding Pizzas} "
                   SelectionMode="None"
+                  BackgroundColor="White"
                   >
             <ListView.Behaviors>
                 <extensions:ListViewItemTappedBehavior Command="{Binding SelectedCommand}"/>
@@ -29,9 +31,16 @@
                                     <ColumnDefinition Width="5*"/>
                                     <ColumnDefinition Width="3*"/>
                                 </Grid.ColumnDefinitions>
-                                <Label Text="{Binding Description}" HorizontalOptions="StartAndExpand" Grid.Column="0"
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Label Text="{Binding Description}" HorizontalOptions="StartAndExpand" Grid.Column="0" Grid.Row="0"
                                    />
-                                <Button Text="Ajouter au panier" HeightRequest="80" HorizontalOptions="EndAndExpand" Grid.Column="1"/>
+                                <Label Text="{Binding Price,StringFormat='Prix : {0:F0} €'}" Grid.Column="0" Grid.Row="1"
+                                   />
+                                <Button x:DataType="viewModels:PizzaListViewModel" Text="Ajouter au panier" HeightRequest="80" HorizontalOptions="EndAndExpand" Grid.Column="1"
+                                        Clicked="AddPizzaPanier"/>
                             </Grid>
                         </StackLayout>
                     </ViewCell>
