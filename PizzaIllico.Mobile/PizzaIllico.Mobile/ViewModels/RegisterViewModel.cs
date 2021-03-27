@@ -30,7 +30,7 @@ namespace PizzaIllico.Mobile.ViewModels
                 {
                     var isSuccess = await _apiService.RegisterAsync(Email, Password, UserFirstName, UserLastName, PhoneNumber);
 
-                    if (isSuccess)
+                    if (isSuccess.IsSuccess)
                         Message = "Register successfully";
                     else {
                         Message = "Register failed, Retry please";

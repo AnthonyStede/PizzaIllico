@@ -4,6 +4,8 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Xamarin.Forms;
 using PizzaIllico.Mobile.Dtos.Accounts;
+using System.Net.Http.Headers;
+using System.Collections.Generic;
 
 namespace PizzaIllico.Mobile.Services
 {
@@ -15,6 +17,13 @@ namespace PizzaIllico.Mobile.Services
     {
         string ClientId { get; }
         string ClientSecret { get; }
+    }
+
+    public class CreateUserCommandParameter : ILoginCommandParameter
+    {
+        public CreateUserRequest Data { get; set; }
+        public string ClientId => Data.ClientId;
+        public string ClientSecret => Data.ClientSecret;
     }
 
     public class ApiService : IApiService
@@ -33,12 +42,25 @@ namespace PizzaIllico.Mobile.Services
 	        return JsonConvert.DeserializeObject<TResponse>(content);
         }
 
-        public async Task <bool> RegisterAsync(string email, string password, string userFirstName, string userLastName, string phoneNumber)
+        
+
+        public async Task <ResponseBody> RegisterAsync(string email, string password, string userFirstName, string userLastName, string phoneNumber)
         {
             var client = new HttpClient();
 
-            var model = new CreateUserRequest { 
-                Email= email,
+            /*IUserService userService = Services.GetService<IUserService>();
+            User existingAccount = await userService.GetUser(parameter.Data.Email);
+
+            if (existingAccount is { })
+            {
+                throw new DomainException(Errors.EMAIL_ALREADY_EXISTS, "This email is already used by another account");
+            }*/
+
+
+            var model = new CreateUserRequest {
+                ClientId = "MOBILE",
+                ClientSecret = "UNIV",
+                Email = email,
                 Password = password,
                 FirstName = userFirstName,
                 LastName = userLastName,
@@ -49,9 +71,26 @@ namespace PizzaIllico.Mobile.Services
 
             HttpContent content = new StringContent(json);
 
-            var response = await client.PostAsync("https://pizza.julienmialon.ovh/api/v1/accounts/register",content);
+            content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
 
-            return response.IsSuccessStatusCode;
+            var response = await client.PostAsync("https://pizza.julienmialon.ovh/api/v1/accounts/register", content);
+
+            string jsonResponse = await response.Content.ReadAsStringAsync();
+
+            ResponseBody responseBody = JsonConvert.DeserializeObject<ResponseBody>(jsonResponse);
+
+            return responseBody;
+        }
+
+        public async Task LoginAsync (string login, string password)
+        {
+            var keyValues = new List<KeyValuePair<string, string>>
+            {
+                new KeyValuePair<string, string>("login",login),
+                new KeyValuePair<string, string>("password",password)
+
+            };
+
         }
     }
 }

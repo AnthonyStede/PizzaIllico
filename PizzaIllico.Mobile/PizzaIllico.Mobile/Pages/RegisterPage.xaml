@@ -8,7 +8,11 @@
         <vm:RegisterViewModel/>
     </ContentPage.BindingContext>
 
-    <StackLayout Orientation="Vertical">
+    <StackLayout Orientation="Vertical"
+                 VerticalOptions="Center"
+                 Spacing="20"
+                 Padding="20">
+        
         <Entry Text="{Binding Email}"
                Placeholder="email"/>
         <Entry Text="{Binding Password}"
@@ -20,8 +24,15 @@
                Placeholder="user last name"/>
         <Entry Text="{Binding PhoneNumber}"
                Placeholder="phone number"/>
+        
         <Button Command="{Binding RegisterCommand}"
-                Text="Register"/>
+                Text="Register"
+                TextColor="White"
+                FontSize="30"
+                BackgroundColor="DeepSkyBlue"/>
+
+        <Label Text="{Binding Message}"/>
+        
     </StackLayout>
 </ContentPage>
 
