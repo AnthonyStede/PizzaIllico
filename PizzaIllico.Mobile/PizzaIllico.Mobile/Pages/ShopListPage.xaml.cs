@@ -20,6 +20,15 @@ namespace PizzaIllico.Mobile.Pages
             BindingContext = new ShopListViewModel();
             InitializeComponent();
         }
+        async void GoToCommandes(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new OrderListPage());
+        }
+        async void GoToProfil(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new ProfilPage());
+        }
+
         async void CheckShop(object sender, System.EventArgs e)
         {
             Button btn = (Button)sender;

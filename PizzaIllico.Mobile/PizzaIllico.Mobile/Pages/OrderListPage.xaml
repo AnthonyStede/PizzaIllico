@@ -5,16 +5,13 @@
                        xmlns:viewModels="clr-namespace:PizzaIllico.Mobile.ViewModels;assembly=PizzaIllico.Mobile"
                        xmlns:pizzas="clr-namespace:PizzaIllico.Mobile.Dtos.Pizzas;assembly=PizzaIllico.Mobile"
                        xmlns:extensions="clr-namespace:PizzaIllico.Mobile.Extensions;assembly=PizzaIllico.Mobile"
-                       x:Class="PizzaIllico.Mobile.Pages.PanierPage"
-                       x:DataType="viewModels:PanierViewModel"
-                       Title="Panier">
+                       x:Class="PizzaIllico.Mobile.Pages.OrderListPage"
+                       x:DataType="viewModels:OrderListViewModel"
+                       Title="Commandes">
     <StackLayout>
 
-        <Label x:Name="nomRestaurantLabel" Margin ="0,30,0,0" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Font="Bold,20" TextColor="Black"/>
-        <Label x:Name="addresseRestaurantLabel" Margin ="0,30,0,10" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Font="13" TextColor="Black"/>
-        <Label x:Name="prixLabel" Margin ="0,30,0,10" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Font="13" TextColor="Black"/>
-        <Button Text="Passer la commande" HorizontalOptions="FillAndExpand" Command="{Binding CommanderCommand}" Clicked="ValiderCommande"/>
-        <ListView HasUnevenRows="True" ItemsSource="{Binding PizzasFinal} "
+        <Label Text="Anciennes commandes" Margin ="0,30,0,0" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Font="Bold,20" TextColor="Black"/>
+        <ListView HasUnevenRows="True" ItemsSource="{Binding Orders} "
                   BackgroundColor="White"
                   SelectionMode="None"
                   >
@@ -23,9 +20,9 @@
             </ListView.Behaviors>
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <ViewCell x:DataType="pizzas:PizzaItem">
+                    <ViewCell x:DataType="pizzas:OrderItem">
                         <StackLayout Orientation="Vertical">
-                            <Label Padding="5,0,0,0" Text="{Binding Name}" Font="15" TextColor="Black"
+                            <Label Padding="5,0,0,0" Text="{Binding Shop.Name}" Font="15" TextColor="Black"
                                     />
                             <Grid Margin ="0,0,0,20" Grid.Column="0" Padding="5,0,0,0" ColumnSpacing="0">
                                 <Grid.ColumnDefinitions>
@@ -36,9 +33,9 @@
                                     <RowDefinition Height="Auto"/>
                                     <RowDefinition Height="Auto"/>
                                 </Grid.RowDefinitions>
-                                <Label Text="{Binding Description}" HorizontalOptions="StartAndExpand" Grid.Column="0" Grid.Row="0"
+                                <Label Text="{Binding Date}" HorizontalOptions="StartAndExpand" Grid.Column="0" Grid.Row="0"
                                    />
-                                <Label Text="{Binding Price,StringFormat='Prix : {0:F0} €'}" Grid.Column="0" Grid.Row="1"
+                                <Label Text="{Binding Amount,StringFormat='Prix : {0:F0} €'}" Grid.Column="0" Grid.Row="1"
                                    />
                             </Grid>
                         </StackLayout>

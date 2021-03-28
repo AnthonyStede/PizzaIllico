@@ -10,6 +10,20 @@
                        x:DataType="viewModels:ShopListViewModel"
                        Title="Shops">
     <StackLayout>
+        
+        <Label Text="Liste des shops" Margin ="0,30,0,0" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Font="Bold,20" TextColor="Black"/>
+        <Grid Margin ="0,0,0,20" Grid.Column="0" Padding="5,0,0,0" ColumnSpacing="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+            <Button Text="Voir commandes" HeightRequest="80" HorizontalOptions="StartAndExpand" Grid.Column="0"
+                                        Clicked="GoToCommandes"/>
+            
+            <Button Text="Voir le profil" HeightRequest="80" HorizontalOptions="EndAndExpand" Grid.Column="1"
+                                        Clicked="GoToProfil"/>
+        </Grid>
+        
         <ListView HasUnevenRows="True" ItemsSource="{Binding Shops} "
                   SelectionMode="None"
                   BackgroundColor="White"
