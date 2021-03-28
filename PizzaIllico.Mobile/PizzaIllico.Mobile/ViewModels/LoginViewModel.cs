@@ -18,14 +18,16 @@ namespace PizzaIllico.Mobile.ViewModels
         public string Password { get; set; }
         public string AccessToken { get; set; }
         public string Message { get; set; }
-
+        
         public event PropertyChangedEventHandler PropertyChanged;
 
+     
 
         protected virtual void OnPropertyChanged(PropertyChangedEventArgs e)
         {
             var eventHandler = PropertyChanged;
             eventHandler?.Invoke(this, e);
+            
         }
 
         public ICommand LoginCommand
@@ -42,6 +44,7 @@ namespace PizzaIllico.Mobile.ViewModels
                         OnPropertyChanged(new PropertyChangedEventArgs(nameof(Message)));
                         await Application.Current.MainPage.Navigation.PushAsync(new ShopListPage());
                         AccessToken = isSuccess.Data.AccessToken;
+                        OnPropertyChanged(new PropertyChangedEventArgs(nameof(AccessToken)));
                     }
                     else
                     {
@@ -50,6 +53,9 @@ namespace PizzaIllico.Mobile.ViewModels
                     }
                 });
             }
+           
         }
+
+       
     }
 }

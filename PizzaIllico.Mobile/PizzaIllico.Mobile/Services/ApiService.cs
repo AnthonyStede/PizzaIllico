@@ -114,7 +114,7 @@ namespace PizzaIllico.Mobile.Services
             return responseBody;
         }
 
-        public async Task<Response> UserProfilAsync (String AccessToken)
+        public async Task<Response<UserProfileResponse>> UserProfilAsync (String AccessToken)
         {
             var client = new HttpClient();
 
@@ -124,7 +124,7 @@ namespace PizzaIllico.Mobile.Services
 
             string content = await response.Content.ReadAsStringAsync();
 
-            return JsonConvert.DeserializeObject<Response>(content);
+            return JsonConvert.DeserializeObject<Response<UserProfileResponse>>(content);
            
         }
     }

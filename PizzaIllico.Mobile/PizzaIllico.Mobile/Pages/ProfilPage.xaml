@@ -9,6 +9,19 @@
     <ContentPage.BindingContext>
         <vm:ProfilViewModel/>
     </ContentPage.BindingContext>
-    
-    
+
+    <StackLayout Orientation="Vertical"
+                 VerticalOptions="Center"
+                 Spacing="20"
+                 Padding="20">
+
+        <Label Text="{Binding Email}" TextColor="Red"/>
+
+        <Label Text="{Binding UserFirstName}" TextColor="Red"/>
+
+        <Label Text="{Binding UserLastName}" TextColor="Red"/>
+
+        <Label Text="{Binding PhoneNumber}" TextColor="Red"/>
+        
+    </StackLayout>
 </ContentPage>

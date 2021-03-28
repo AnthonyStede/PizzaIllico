@@ -25,6 +25,2934 @@ namespace PizzaIllico.Mobile.Android
 		
 		public static void UpdateIdValues()
 		{
+			global::MvvmCross.Resource.Animation.abc_fade_in = global::PizzaIllico.Mobile.Android.Resource.Animation.abc_fade_in;
+			global::MvvmCross.Resource.Animation.abc_fade_out = global::PizzaIllico.Mobile.Android.Resource.Animation.abc_fade_out;
+			global::MvvmCross.Resource.Animation.abc_grow_fade_in_from_bottom = global::PizzaIllico.Mobile.Android.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::MvvmCross.Resource.Animation.abc_popup_enter = global::PizzaIllico.Mobile.Android.Resource.Animation.abc_popup_enter;
+			global::MvvmCross.Resource.Animation.abc_popup_exit = global::PizzaIllico.Mobile.Android.Resource.Animation.abc_popup_exit;
+			global::MvvmCross.Resource.Animation.abc_shrink_fade_out_from_bottom = global::PizzaIllico.Mobile.Android.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::MvvmCross.Resource.Animation.abc_slide_in_bottom = global::PizzaIllico.Mobile.Android.Resource.Animation.abc_slide_in_bottom;
+			global::MvvmCross.Resource.Animation.abc_slide_in_top = global::PizzaIllico.Mobile.Android.Resource.Animation.abc_slide_in_top;
+			global::MvvmCross.Resource.Animation.abc_slide_out_bottom = global::PizzaIllico.Mobile.Android.Resource.Animation.abc_slide_out_bottom;
+			global::MvvmCross.Resource.Animation.abc_slide_out_top = global::PizzaIllico.Mobile.Android.Resource.Animation.abc_slide_out_top;
+			global::MvvmCross.Resource.Animation.abc_tooltip_enter = global::PizzaIllico.Mobile.Android.Resource.Animation.abc_tooltip_enter;
+			global::MvvmCross.Resource.Animation.abc_tooltip_exit = global::PizzaIllico.Mobile.Android.Resource.Animation.abc_tooltip_exit;
+			global::MvvmCross.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::PizzaIllico.Mobile.Android.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::MvvmCross.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::PizzaIllico.Mobile.Android.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::MvvmCross.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::PizzaIllico.Mobile.Android.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::MvvmCross.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::PizzaIllico.Mobile.Android.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::MvvmCross.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::PizzaIllico.Mobile.Android.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::MvvmCross.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::PizzaIllico.Mobile.Android.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::MvvmCross.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::PizzaIllico.Mobile.Android.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::MvvmCross.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::PizzaIllico.Mobile.Android.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::MvvmCross.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::PizzaIllico.Mobile.Android.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::MvvmCross.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::PizzaIllico.Mobile.Android.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::MvvmCross.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::PizzaIllico.Mobile.Android.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::MvvmCross.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::PizzaIllico.Mobile.Android.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::MvvmCross.Resource.Animation.design_bottom_sheet_slide_in = global::PizzaIllico.Mobile.Android.Resource.Animation.design_bottom_sheet_slide_in;
+			global::MvvmCross.Resource.Animation.design_bottom_sheet_slide_out = global::PizzaIllico.Mobile.Android.Resource.Animation.design_bottom_sheet_slide_out;
+			global::MvvmCross.Resource.Animation.design_snackbar_in = global::PizzaIllico.Mobile.Android.Resource.Animation.design_snackbar_in;
+			global::MvvmCross.Resource.Animation.design_snackbar_out = global::PizzaIllico.Mobile.Android.Resource.Animation.design_snackbar_out;
+			global::MvvmCross.Resource.Animation.fragment_close_enter = global::PizzaIllico.Mobile.Android.Resource.Animation.fragment_close_enter;
+			global::MvvmCross.Resource.Animation.fragment_close_exit = global::PizzaIllico.Mobile.Android.Resource.Animation.fragment_close_exit;
+			global::MvvmCross.Resource.Animation.fragment_fade_enter = global::PizzaIllico.Mobile.Android.Resource.Animation.fragment_fade_enter;
+			global::MvvmCross.Resource.Animation.fragment_fade_exit = global::PizzaIllico.Mobile.Android.Resource.Animation.fragment_fade_exit;
+			global::MvvmCross.Resource.Animation.fragment_fast_out_extra_slow_in = global::PizzaIllico.Mobile.Android.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::MvvmCross.Resource.Animation.fragment_open_enter = global::PizzaIllico.Mobile.Android.Resource.Animation.fragment_open_enter;
+			global::MvvmCross.Resource.Animation.fragment_open_exit = global::PizzaIllico.Mobile.Android.Resource.Animation.fragment_open_exit;
+			global::MvvmCross.Resource.Animator.design_appbar_state_list_animator = global::PizzaIllico.Mobile.Android.Resource.Animator.design_appbar_state_list_animator;
+			global::MvvmCross.Resource.Animator.design_fab_hide_motion_spec = global::PizzaIllico.Mobile.Android.Resource.Animator.design_fab_hide_motion_spec;
+			global::MvvmCross.Resource.Animator.design_fab_show_motion_spec = global::PizzaIllico.Mobile.Android.Resource.Animator.design_fab_show_motion_spec;
+			global::MvvmCross.Resource.Animator.mtrl_btn_state_list_anim = global::PizzaIllico.Mobile.Android.Resource.Animator.mtrl_btn_state_list_anim;
+			global::MvvmCross.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::PizzaIllico.Mobile.Android.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::MvvmCross.Resource.Animator.mtrl_chip_state_list_anim = global::PizzaIllico.Mobile.Android.Resource.Animator.mtrl_chip_state_list_anim;
+			global::MvvmCross.Resource.Animator.mtrl_fab_hide_motion_spec = global::PizzaIllico.Mobile.Android.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::MvvmCross.Resource.Animator.mtrl_fab_show_motion_spec = global::PizzaIllico.Mobile.Android.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::MvvmCross.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::PizzaIllico.Mobile.Android.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::MvvmCross.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::PizzaIllico.Mobile.Android.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::MvvmCross.Resource.Attribute.actionBarDivider = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionBarDivider;
+			global::MvvmCross.Resource.Attribute.actionBarItemBackground = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionBarItemBackground;
+			global::MvvmCross.Resource.Attribute.actionBarPopupTheme = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionBarPopupTheme;
+			global::MvvmCross.Resource.Attribute.actionBarSize = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionBarSize;
+			global::MvvmCross.Resource.Attribute.actionBarSplitStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionBarSplitStyle;
+			global::MvvmCross.Resource.Attribute.actionBarStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionBarStyle;
+			global::MvvmCross.Resource.Attribute.actionBarTabBarStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionBarTabBarStyle;
+			global::MvvmCross.Resource.Attribute.actionBarTabStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionBarTabStyle;
+			global::MvvmCross.Resource.Attribute.actionBarTabTextStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionBarTabTextStyle;
+			global::MvvmCross.Resource.Attribute.actionBarTheme = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionBarTheme;
+			global::MvvmCross.Resource.Attribute.actionBarWidgetTheme = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionBarWidgetTheme;
+			global::MvvmCross.Resource.Attribute.actionButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionButtonStyle;
+			global::MvvmCross.Resource.Attribute.actionDropDownStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionDropDownStyle;
+			global::MvvmCross.Resource.Attribute.actionLayout = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionLayout;
+			global::MvvmCross.Resource.Attribute.actionMenuTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionMenuTextAppearance;
+			global::MvvmCross.Resource.Attribute.actionMenuTextColor = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionMenuTextColor;
+			global::MvvmCross.Resource.Attribute.actionModeBackground = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionModeBackground;
+			global::MvvmCross.Resource.Attribute.actionModeCloseButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionModeCloseButtonStyle;
+			global::MvvmCross.Resource.Attribute.actionModeCloseDrawable = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionModeCloseDrawable;
+			global::MvvmCross.Resource.Attribute.actionModeCopyDrawable = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionModeCopyDrawable;
+			global::MvvmCross.Resource.Attribute.actionModeCutDrawable = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionModeCutDrawable;
+			global::MvvmCross.Resource.Attribute.actionModeFindDrawable = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionModeFindDrawable;
+			global::MvvmCross.Resource.Attribute.actionModePasteDrawable = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionModePasteDrawable;
+			global::MvvmCross.Resource.Attribute.actionModePopupWindowStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionModePopupWindowStyle;
+			global::MvvmCross.Resource.Attribute.actionModeSelectAllDrawable = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionModeSelectAllDrawable;
+			global::MvvmCross.Resource.Attribute.actionModeShareDrawable = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionModeShareDrawable;
+			global::MvvmCross.Resource.Attribute.actionModeSplitBackground = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionModeSplitBackground;
+			global::MvvmCross.Resource.Attribute.actionModeStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionModeStyle;
+			global::MvvmCross.Resource.Attribute.actionModeWebSearchDrawable = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionModeWebSearchDrawable;
+			global::MvvmCross.Resource.Attribute.actionOverflowButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionOverflowButtonStyle;
+			global::MvvmCross.Resource.Attribute.actionOverflowMenuStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionOverflowMenuStyle;
+			global::MvvmCross.Resource.Attribute.actionProviderClass = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionProviderClass;
+			global::MvvmCross.Resource.Attribute.actionViewClass = global::PizzaIllico.Mobile.Android.Resource.Attribute.actionViewClass;
+			global::MvvmCross.Resource.Attribute.activityChooserViewStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.activityChooserViewStyle;
+			global::MvvmCross.Resource.Attribute.adjustable = global::PizzaIllico.Mobile.Android.Resource.Attribute.adjustable;
+			global::MvvmCross.Resource.Attribute.alertDialogButtonGroupStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::MvvmCross.Resource.Attribute.alertDialogCenterButtons = global::PizzaIllico.Mobile.Android.Resource.Attribute.alertDialogCenterButtons;
+			global::MvvmCross.Resource.Attribute.alertDialogStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.alertDialogStyle;
+			global::MvvmCross.Resource.Attribute.alertDialogTheme = global::PizzaIllico.Mobile.Android.Resource.Attribute.alertDialogTheme;
+			global::MvvmCross.Resource.Attribute.allowDividerAbove = global::PizzaIllico.Mobile.Android.Resource.Attribute.allowDividerAbove;
+			global::MvvmCross.Resource.Attribute.allowDividerAfterLastItem = global::PizzaIllico.Mobile.Android.Resource.Attribute.allowDividerAfterLastItem;
+			global::MvvmCross.Resource.Attribute.allowDividerBelow = global::PizzaIllico.Mobile.Android.Resource.Attribute.allowDividerBelow;
+			global::MvvmCross.Resource.Attribute.allowStacking = global::PizzaIllico.Mobile.Android.Resource.Attribute.allowStacking;
+			global::MvvmCross.Resource.Attribute.alpha = global::PizzaIllico.Mobile.Android.Resource.Attribute.alpha;
+			global::MvvmCross.Resource.Attribute.alphabeticModifiers = global::PizzaIllico.Mobile.Android.Resource.Attribute.alphabeticModifiers;
+			global::MvvmCross.Resource.Attribute.arrowHeadLength = global::PizzaIllico.Mobile.Android.Resource.Attribute.arrowHeadLength;
+			global::MvvmCross.Resource.Attribute.arrowShaftLength = global::PizzaIllico.Mobile.Android.Resource.Attribute.arrowShaftLength;
+			global::MvvmCross.Resource.Attribute.autoCompleteTextViewStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.autoCompleteTextViewStyle;
+			global::MvvmCross.Resource.Attribute.autoSizeMaxTextSize = global::PizzaIllico.Mobile.Android.Resource.Attribute.autoSizeMaxTextSize;
+			global::MvvmCross.Resource.Attribute.autoSizeMinTextSize = global::PizzaIllico.Mobile.Android.Resource.Attribute.autoSizeMinTextSize;
+			global::MvvmCross.Resource.Attribute.autoSizePresetSizes = global::PizzaIllico.Mobile.Android.Resource.Attribute.autoSizePresetSizes;
+			global::MvvmCross.Resource.Attribute.autoSizeStepGranularity = global::PizzaIllico.Mobile.Android.Resource.Attribute.autoSizeStepGranularity;
+			global::MvvmCross.Resource.Attribute.autoSizeTextType = global::PizzaIllico.Mobile.Android.Resource.Attribute.autoSizeTextType;
+			global::MvvmCross.Resource.Attribute.background = global::PizzaIllico.Mobile.Android.Resource.Attribute.background;
+			global::MvvmCross.Resource.Attribute.backgroundSplit = global::PizzaIllico.Mobile.Android.Resource.Attribute.backgroundSplit;
+			global::MvvmCross.Resource.Attribute.backgroundStacked = global::PizzaIllico.Mobile.Android.Resource.Attribute.backgroundStacked;
+			global::MvvmCross.Resource.Attribute.backgroundTint = global::PizzaIllico.Mobile.Android.Resource.Attribute.backgroundTint;
+			global::MvvmCross.Resource.Attribute.backgroundTintMode = global::PizzaIllico.Mobile.Android.Resource.Attribute.backgroundTintMode;
+			global::MvvmCross.Resource.Attribute.barLength = global::PizzaIllico.Mobile.Android.Resource.Attribute.barLength;
+			global::MvvmCross.Resource.Attribute.behavior_autoHide = global::PizzaIllico.Mobile.Android.Resource.Attribute.behavior_autoHide;
+			global::MvvmCross.Resource.Attribute.behavior_fitToContents = global::PizzaIllico.Mobile.Android.Resource.Attribute.behavior_fitToContents;
+			global::MvvmCross.Resource.Attribute.behavior_hideable = global::PizzaIllico.Mobile.Android.Resource.Attribute.behavior_hideable;
+			global::MvvmCross.Resource.Attribute.behavior_overlapTop = global::PizzaIllico.Mobile.Android.Resource.Attribute.behavior_overlapTop;
+			global::MvvmCross.Resource.Attribute.behavior_peekHeight = global::PizzaIllico.Mobile.Android.Resource.Attribute.behavior_peekHeight;
+			global::MvvmCross.Resource.Attribute.behavior_skipCollapsed = global::PizzaIllico.Mobile.Android.Resource.Attribute.behavior_skipCollapsed;
+			global::MvvmCross.Resource.Attribute.borderlessButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.borderlessButtonStyle;
+			global::MvvmCross.Resource.Attribute.borderWidth = global::PizzaIllico.Mobile.Android.Resource.Attribute.borderWidth;
+			global::MvvmCross.Resource.Attribute.bottomAppBarStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.bottomAppBarStyle;
+			global::MvvmCross.Resource.Attribute.bottomNavigationStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.bottomNavigationStyle;
+			global::MvvmCross.Resource.Attribute.bottomSheetDialogTheme = global::PizzaIllico.Mobile.Android.Resource.Attribute.bottomSheetDialogTheme;
+			global::MvvmCross.Resource.Attribute.bottomSheetStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.bottomSheetStyle;
+			global::MvvmCross.Resource.Attribute.boxBackgroundColor = global::PizzaIllico.Mobile.Android.Resource.Attribute.boxBackgroundColor;
+			global::MvvmCross.Resource.Attribute.boxBackgroundMode = global::PizzaIllico.Mobile.Android.Resource.Attribute.boxBackgroundMode;
+			global::MvvmCross.Resource.Attribute.boxCollapsedPaddingTop = global::PizzaIllico.Mobile.Android.Resource.Attribute.boxCollapsedPaddingTop;
+			global::MvvmCross.Resource.Attribute.boxCornerRadiusBottomEnd = global::PizzaIllico.Mobile.Android.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::MvvmCross.Resource.Attribute.boxCornerRadiusBottomStart = global::PizzaIllico.Mobile.Android.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::MvvmCross.Resource.Attribute.boxCornerRadiusTopEnd = global::PizzaIllico.Mobile.Android.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::MvvmCross.Resource.Attribute.boxCornerRadiusTopStart = global::PizzaIllico.Mobile.Android.Resource.Attribute.boxCornerRadiusTopStart;
+			global::MvvmCross.Resource.Attribute.boxStrokeColor = global::PizzaIllico.Mobile.Android.Resource.Attribute.boxStrokeColor;
+			global::MvvmCross.Resource.Attribute.boxStrokeWidth = global::PizzaIllico.Mobile.Android.Resource.Attribute.boxStrokeWidth;
+			global::MvvmCross.Resource.Attribute.buttonBarButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.buttonBarButtonStyle;
+			global::MvvmCross.Resource.Attribute.buttonBarNegativeButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::MvvmCross.Resource.Attribute.buttonBarNeutralButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::MvvmCross.Resource.Attribute.buttonBarPositiveButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::MvvmCross.Resource.Attribute.buttonBarStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.buttonBarStyle;
+			global::MvvmCross.Resource.Attribute.buttonCompat = global::PizzaIllico.Mobile.Android.Resource.Attribute.buttonCompat;
+			global::MvvmCross.Resource.Attribute.buttonGravity = global::PizzaIllico.Mobile.Android.Resource.Attribute.buttonGravity;
+			global::MvvmCross.Resource.Attribute.buttonIconDimen = global::PizzaIllico.Mobile.Android.Resource.Attribute.buttonIconDimen;
+			global::MvvmCross.Resource.Attribute.buttonPanelSideLayout = global::PizzaIllico.Mobile.Android.Resource.Attribute.buttonPanelSideLayout;
+			global::MvvmCross.Resource.Attribute.buttonStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.buttonStyle;
+			global::MvvmCross.Resource.Attribute.buttonStyleSmall = global::PizzaIllico.Mobile.Android.Resource.Attribute.buttonStyleSmall;
+			global::MvvmCross.Resource.Attribute.buttonTint = global::PizzaIllico.Mobile.Android.Resource.Attribute.buttonTint;
+			global::MvvmCross.Resource.Attribute.buttonTintMode = global::PizzaIllico.Mobile.Android.Resource.Attribute.buttonTintMode;
+			global::MvvmCross.Resource.Attribute.cardBackgroundColor = global::PizzaIllico.Mobile.Android.Resource.Attribute.cardBackgroundColor;
+			global::MvvmCross.Resource.Attribute.cardCornerRadius = global::PizzaIllico.Mobile.Android.Resource.Attribute.cardCornerRadius;
+			global::MvvmCross.Resource.Attribute.cardElevation = global::PizzaIllico.Mobile.Android.Resource.Attribute.cardElevation;
+			global::MvvmCross.Resource.Attribute.cardMaxElevation = global::PizzaIllico.Mobile.Android.Resource.Attribute.cardMaxElevation;
+			global::MvvmCross.Resource.Attribute.cardPreventCornerOverlap = global::PizzaIllico.Mobile.Android.Resource.Attribute.cardPreventCornerOverlap;
+			global::MvvmCross.Resource.Attribute.cardUseCompatPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.cardUseCompatPadding;
+			global::MvvmCross.Resource.Attribute.cardViewStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.cardViewStyle;
+			global::MvvmCross.Resource.Attribute.checkBoxPreferenceStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.checkBoxPreferenceStyle;
+			global::MvvmCross.Resource.Attribute.checkboxStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.checkboxStyle;
+			global::MvvmCross.Resource.Attribute.checkedChip = global::PizzaIllico.Mobile.Android.Resource.Attribute.checkedChip;
+			global::MvvmCross.Resource.Attribute.checkedIcon = global::PizzaIllico.Mobile.Android.Resource.Attribute.checkedIcon;
+			global::MvvmCross.Resource.Attribute.checkedIconEnabled = global::PizzaIllico.Mobile.Android.Resource.Attribute.checkedIconEnabled;
+			global::MvvmCross.Resource.Attribute.checkedIconVisible = global::PizzaIllico.Mobile.Android.Resource.Attribute.checkedIconVisible;
+			global::MvvmCross.Resource.Attribute.checkedTextViewStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.checkedTextViewStyle;
+			global::MvvmCross.Resource.Attribute.chipBackgroundColor = global::PizzaIllico.Mobile.Android.Resource.Attribute.chipBackgroundColor;
+			global::MvvmCross.Resource.Attribute.chipCornerRadius = global::PizzaIllico.Mobile.Android.Resource.Attribute.chipCornerRadius;
+			global::MvvmCross.Resource.Attribute.chipEndPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.chipEndPadding;
+			global::MvvmCross.Resource.Attribute.chipGroupStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.chipGroupStyle;
+			global::MvvmCross.Resource.Attribute.chipIcon = global::PizzaIllico.Mobile.Android.Resource.Attribute.chipIcon;
+			global::MvvmCross.Resource.Attribute.chipIconEnabled = global::PizzaIllico.Mobile.Android.Resource.Attribute.chipIconEnabled;
+			global::MvvmCross.Resource.Attribute.chipIconSize = global::PizzaIllico.Mobile.Android.Resource.Attribute.chipIconSize;
+			global::MvvmCross.Resource.Attribute.chipIconTint = global::PizzaIllico.Mobile.Android.Resource.Attribute.chipIconTint;
+			global::MvvmCross.Resource.Attribute.chipIconVisible = global::PizzaIllico.Mobile.Android.Resource.Attribute.chipIconVisible;
+			global::MvvmCross.Resource.Attribute.chipMinHeight = global::PizzaIllico.Mobile.Android.Resource.Attribute.chipMinHeight;
+			global::MvvmCross.Resource.Attribute.chipSpacing = global::PizzaIllico.Mobile.Android.Resource.Attribute.chipSpacing;
+			global::MvvmCross.Resource.Attribute.chipSpacingHorizontal = global::PizzaIllico.Mobile.Android.Resource.Attribute.chipSpacingHorizontal;
+			global::MvvmCross.Resource.Attribute.chipSpacingVertical = global::PizzaIllico.Mobile.Android.Resource.Attribute.chipSpacingVertical;
+			global::MvvmCross.Resource.Attribute.chipStandaloneStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.chipStandaloneStyle;
+			global::MvvmCross.Resource.Attribute.chipStartPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.chipStartPadding;
+			global::MvvmCross.Resource.Attribute.chipStrokeColor = global::PizzaIllico.Mobile.Android.Resource.Attribute.chipStrokeColor;
+			global::MvvmCross.Resource.Attribute.chipStrokeWidth = global::PizzaIllico.Mobile.Android.Resource.Attribute.chipStrokeWidth;
+			global::MvvmCross.Resource.Attribute.chipStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.chipStyle;
+			global::MvvmCross.Resource.Attribute.closeIcon = global::PizzaIllico.Mobile.Android.Resource.Attribute.closeIcon;
+			global::MvvmCross.Resource.Attribute.closeIconEnabled = global::PizzaIllico.Mobile.Android.Resource.Attribute.closeIconEnabled;
+			global::MvvmCross.Resource.Attribute.closeIconEndPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.closeIconEndPadding;
+			global::MvvmCross.Resource.Attribute.closeIconSize = global::PizzaIllico.Mobile.Android.Resource.Attribute.closeIconSize;
+			global::MvvmCross.Resource.Attribute.closeIconStartPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.closeIconStartPadding;
+			global::MvvmCross.Resource.Attribute.closeIconTint = global::PizzaIllico.Mobile.Android.Resource.Attribute.closeIconTint;
+			global::MvvmCross.Resource.Attribute.closeIconVisible = global::PizzaIllico.Mobile.Android.Resource.Attribute.closeIconVisible;
+			global::MvvmCross.Resource.Attribute.closeItemLayout = global::PizzaIllico.Mobile.Android.Resource.Attribute.closeItemLayout;
+			global::MvvmCross.Resource.Attribute.collapseContentDescription = global::PizzaIllico.Mobile.Android.Resource.Attribute.collapseContentDescription;
+			global::MvvmCross.Resource.Attribute.collapsedTitleGravity = global::PizzaIllico.Mobile.Android.Resource.Attribute.collapsedTitleGravity;
+			global::MvvmCross.Resource.Attribute.collapsedTitleTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Attribute.collapsedTitleTextAppearance;
+			global::MvvmCross.Resource.Attribute.collapseIcon = global::PizzaIllico.Mobile.Android.Resource.Attribute.collapseIcon;
+			global::MvvmCross.Resource.Attribute.color = global::PizzaIllico.Mobile.Android.Resource.Attribute.color;
+			global::MvvmCross.Resource.Attribute.colorAccent = global::PizzaIllico.Mobile.Android.Resource.Attribute.colorAccent;
+			global::MvvmCross.Resource.Attribute.colorBackgroundFloating = global::PizzaIllico.Mobile.Android.Resource.Attribute.colorBackgroundFloating;
+			global::MvvmCross.Resource.Attribute.colorButtonNormal = global::PizzaIllico.Mobile.Android.Resource.Attribute.colorButtonNormal;
+			global::MvvmCross.Resource.Attribute.colorControlActivated = global::PizzaIllico.Mobile.Android.Resource.Attribute.colorControlActivated;
+			global::MvvmCross.Resource.Attribute.colorControlHighlight = global::PizzaIllico.Mobile.Android.Resource.Attribute.colorControlHighlight;
+			global::MvvmCross.Resource.Attribute.colorControlNormal = global::PizzaIllico.Mobile.Android.Resource.Attribute.colorControlNormal;
+			global::MvvmCross.Resource.Attribute.colorError = global::PizzaIllico.Mobile.Android.Resource.Attribute.colorError;
+			global::MvvmCross.Resource.Attribute.colorPrimary = global::PizzaIllico.Mobile.Android.Resource.Attribute.colorPrimary;
+			global::MvvmCross.Resource.Attribute.colorPrimaryDark = global::PizzaIllico.Mobile.Android.Resource.Attribute.colorPrimaryDark;
+			global::MvvmCross.Resource.Attribute.colorSecondary = global::PizzaIllico.Mobile.Android.Resource.Attribute.colorSecondary;
+			global::MvvmCross.Resource.Attribute.colorSwitchThumbNormal = global::PizzaIllico.Mobile.Android.Resource.Attribute.colorSwitchThumbNormal;
+			global::MvvmCross.Resource.Attribute.commitIcon = global::PizzaIllico.Mobile.Android.Resource.Attribute.commitIcon;
+			global::MvvmCross.Resource.Attribute.contentDescription = global::PizzaIllico.Mobile.Android.Resource.Attribute.contentDescription;
+			global::MvvmCross.Resource.Attribute.contentInsetEnd = global::PizzaIllico.Mobile.Android.Resource.Attribute.contentInsetEnd;
+			global::MvvmCross.Resource.Attribute.contentInsetEndWithActions = global::PizzaIllico.Mobile.Android.Resource.Attribute.contentInsetEndWithActions;
+			global::MvvmCross.Resource.Attribute.contentInsetLeft = global::PizzaIllico.Mobile.Android.Resource.Attribute.contentInsetLeft;
+			global::MvvmCross.Resource.Attribute.contentInsetRight = global::PizzaIllico.Mobile.Android.Resource.Attribute.contentInsetRight;
+			global::MvvmCross.Resource.Attribute.contentInsetStart = global::PizzaIllico.Mobile.Android.Resource.Attribute.contentInsetStart;
+			global::MvvmCross.Resource.Attribute.contentInsetStartWithNavigation = global::PizzaIllico.Mobile.Android.Resource.Attribute.contentInsetStartWithNavigation;
+			global::MvvmCross.Resource.Attribute.contentPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.contentPadding;
+			global::MvvmCross.Resource.Attribute.contentPaddingBottom = global::PizzaIllico.Mobile.Android.Resource.Attribute.contentPaddingBottom;
+			global::MvvmCross.Resource.Attribute.contentPaddingLeft = global::PizzaIllico.Mobile.Android.Resource.Attribute.contentPaddingLeft;
+			global::MvvmCross.Resource.Attribute.contentPaddingRight = global::PizzaIllico.Mobile.Android.Resource.Attribute.contentPaddingRight;
+			global::MvvmCross.Resource.Attribute.contentPaddingTop = global::PizzaIllico.Mobile.Android.Resource.Attribute.contentPaddingTop;
+			global::MvvmCross.Resource.Attribute.contentScrim = global::PizzaIllico.Mobile.Android.Resource.Attribute.contentScrim;
+			global::MvvmCross.Resource.Attribute.controlBackground = global::PizzaIllico.Mobile.Android.Resource.Attribute.controlBackground;
+			global::MvvmCross.Resource.Attribute.coordinatorLayoutStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.coordinatorLayoutStyle;
+			global::MvvmCross.Resource.Attribute.cornerRadius = global::PizzaIllico.Mobile.Android.Resource.Attribute.cornerRadius;
+			global::MvvmCross.Resource.Attribute.counterEnabled = global::PizzaIllico.Mobile.Android.Resource.Attribute.counterEnabled;
+			global::MvvmCross.Resource.Attribute.counterMaxLength = global::PizzaIllico.Mobile.Android.Resource.Attribute.counterMaxLength;
+			global::MvvmCross.Resource.Attribute.counterOverflowTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Attribute.counterOverflowTextAppearance;
+			global::MvvmCross.Resource.Attribute.counterTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Attribute.counterTextAppearance;
+			global::MvvmCross.Resource.Attribute.customNavigationLayout = global::PizzaIllico.Mobile.Android.Resource.Attribute.customNavigationLayout;
+			global::MvvmCross.Resource.Attribute.defaultQueryHint = global::PizzaIllico.Mobile.Android.Resource.Attribute.defaultQueryHint;
+			global::MvvmCross.Resource.Attribute.defaultValue = global::PizzaIllico.Mobile.Android.Resource.Attribute.defaultValue;
+			global::MvvmCross.Resource.Attribute.dependency = global::PizzaIllico.Mobile.Android.Resource.Attribute.dependency;
+			global::MvvmCross.Resource.Attribute.dialogCornerRadius = global::PizzaIllico.Mobile.Android.Resource.Attribute.dialogCornerRadius;
+			global::MvvmCross.Resource.Attribute.dialogIcon = global::PizzaIllico.Mobile.Android.Resource.Attribute.dialogIcon;
+			global::MvvmCross.Resource.Attribute.dialogLayout = global::PizzaIllico.Mobile.Android.Resource.Attribute.dialogLayout;
+			global::MvvmCross.Resource.Attribute.dialogMessage = global::PizzaIllico.Mobile.Android.Resource.Attribute.dialogMessage;
+			global::MvvmCross.Resource.Attribute.dialogPreferenceStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.dialogPreferenceStyle;
+			global::MvvmCross.Resource.Attribute.dialogPreferredPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.dialogPreferredPadding;
+			global::MvvmCross.Resource.Attribute.dialogTheme = global::PizzaIllico.Mobile.Android.Resource.Attribute.dialogTheme;
+			global::MvvmCross.Resource.Attribute.dialogTitle = global::PizzaIllico.Mobile.Android.Resource.Attribute.dialogTitle;
+			global::MvvmCross.Resource.Attribute.disableDependentsState = global::PizzaIllico.Mobile.Android.Resource.Attribute.disableDependentsState;
+			global::MvvmCross.Resource.Attribute.displayOptions = global::PizzaIllico.Mobile.Android.Resource.Attribute.displayOptions;
+			global::MvvmCross.Resource.Attribute.divider = global::PizzaIllico.Mobile.Android.Resource.Attribute.divider;
+			global::MvvmCross.Resource.Attribute.dividerHorizontal = global::PizzaIllico.Mobile.Android.Resource.Attribute.dividerHorizontal;
+			global::MvvmCross.Resource.Attribute.dividerPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.dividerPadding;
+			global::MvvmCross.Resource.Attribute.dividerVertical = global::PizzaIllico.Mobile.Android.Resource.Attribute.dividerVertical;
+			global::MvvmCross.Resource.Attribute.drawableBottomCompat = global::PizzaIllico.Mobile.Android.Resource.Attribute.drawableBottomCompat;
+			global::MvvmCross.Resource.Attribute.drawableEndCompat = global::PizzaIllico.Mobile.Android.Resource.Attribute.drawableEndCompat;
+			global::MvvmCross.Resource.Attribute.drawableLeftCompat = global::PizzaIllico.Mobile.Android.Resource.Attribute.drawableLeftCompat;
+			global::MvvmCross.Resource.Attribute.drawableRightCompat = global::PizzaIllico.Mobile.Android.Resource.Attribute.drawableRightCompat;
+			global::MvvmCross.Resource.Attribute.drawableSize = global::PizzaIllico.Mobile.Android.Resource.Attribute.drawableSize;
+			global::MvvmCross.Resource.Attribute.drawableStartCompat = global::PizzaIllico.Mobile.Android.Resource.Attribute.drawableStartCompat;
+			global::MvvmCross.Resource.Attribute.drawableTint = global::PizzaIllico.Mobile.Android.Resource.Attribute.drawableTint;
+			global::MvvmCross.Resource.Attribute.drawableTintMode = global::PizzaIllico.Mobile.Android.Resource.Attribute.drawableTintMode;
+			global::MvvmCross.Resource.Attribute.drawableTopCompat = global::PizzaIllico.Mobile.Android.Resource.Attribute.drawableTopCompat;
+			global::MvvmCross.Resource.Attribute.drawerArrowStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.drawerArrowStyle;
+			global::MvvmCross.Resource.Attribute.dropdownListPreferredItemHeight = global::PizzaIllico.Mobile.Android.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::MvvmCross.Resource.Attribute.dropDownListViewStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.dropDownListViewStyle;
+			global::MvvmCross.Resource.Attribute.dropdownPreferenceStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.dropdownPreferenceStyle;
+			global::MvvmCross.Resource.Attribute.editTextBackground = global::PizzaIllico.Mobile.Android.Resource.Attribute.editTextBackground;
+			global::MvvmCross.Resource.Attribute.editTextColor = global::PizzaIllico.Mobile.Android.Resource.Attribute.editTextColor;
+			global::MvvmCross.Resource.Attribute.editTextPreferenceStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.editTextPreferenceStyle;
+			global::MvvmCross.Resource.Attribute.editTextStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.editTextStyle;
+			global::MvvmCross.Resource.Attribute.elevation = global::PizzaIllico.Mobile.Android.Resource.Attribute.elevation;
+			global::MvvmCross.Resource.Attribute.enableCopying = global::PizzaIllico.Mobile.Android.Resource.Attribute.enableCopying;
+			global::MvvmCross.Resource.Attribute.enabled = global::PizzaIllico.Mobile.Android.Resource.Attribute.enabled;
+			global::MvvmCross.Resource.Attribute.enforceMaterialTheme = global::PizzaIllico.Mobile.Android.Resource.Attribute.enforceMaterialTheme;
+			global::MvvmCross.Resource.Attribute.enforceTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Attribute.enforceTextAppearance;
+			global::MvvmCross.Resource.Attribute.entries = global::PizzaIllico.Mobile.Android.Resource.Attribute.entries;
+			global::MvvmCross.Resource.Attribute.entryValues = global::PizzaIllico.Mobile.Android.Resource.Attribute.entryValues;
+			global::MvvmCross.Resource.Attribute.errorEnabled = global::PizzaIllico.Mobile.Android.Resource.Attribute.errorEnabled;
+			global::MvvmCross.Resource.Attribute.errorTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Attribute.errorTextAppearance;
+			global::MvvmCross.Resource.Attribute.expandActivityOverflowButtonDrawable = global::PizzaIllico.Mobile.Android.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::MvvmCross.Resource.Attribute.expanded = global::PizzaIllico.Mobile.Android.Resource.Attribute.expanded;
+			global::MvvmCross.Resource.Attribute.expandedTitleGravity = global::PizzaIllico.Mobile.Android.Resource.Attribute.expandedTitleGravity;
+			global::MvvmCross.Resource.Attribute.expandedTitleMargin = global::PizzaIllico.Mobile.Android.Resource.Attribute.expandedTitleMargin;
+			global::MvvmCross.Resource.Attribute.expandedTitleMarginBottom = global::PizzaIllico.Mobile.Android.Resource.Attribute.expandedTitleMarginBottom;
+			global::MvvmCross.Resource.Attribute.expandedTitleMarginEnd = global::PizzaIllico.Mobile.Android.Resource.Attribute.expandedTitleMarginEnd;
+			global::MvvmCross.Resource.Attribute.expandedTitleMarginStart = global::PizzaIllico.Mobile.Android.Resource.Attribute.expandedTitleMarginStart;
+			global::MvvmCross.Resource.Attribute.expandedTitleMarginTop = global::PizzaIllico.Mobile.Android.Resource.Attribute.expandedTitleMarginTop;
+			global::MvvmCross.Resource.Attribute.expandedTitleTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Attribute.expandedTitleTextAppearance;
+			global::MvvmCross.Resource.Attribute.fabAlignmentMode = global::PizzaIllico.Mobile.Android.Resource.Attribute.fabAlignmentMode;
+			global::MvvmCross.Resource.Attribute.fabCradleMargin = global::PizzaIllico.Mobile.Android.Resource.Attribute.fabCradleMargin;
+			global::MvvmCross.Resource.Attribute.fabCradleRoundedCornerRadius = global::PizzaIllico.Mobile.Android.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::MvvmCross.Resource.Attribute.fabCradleVerticalOffset = global::PizzaIllico.Mobile.Android.Resource.Attribute.fabCradleVerticalOffset;
+			global::MvvmCross.Resource.Attribute.fabCustomSize = global::PizzaIllico.Mobile.Android.Resource.Attribute.fabCustomSize;
+			global::MvvmCross.Resource.Attribute.fabSize = global::PizzaIllico.Mobile.Android.Resource.Attribute.fabSize;
+			global::MvvmCross.Resource.Attribute.fastScrollEnabled = global::PizzaIllico.Mobile.Android.Resource.Attribute.fastScrollEnabled;
+			global::MvvmCross.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::PizzaIllico.Mobile.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::MvvmCross.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::PizzaIllico.Mobile.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::MvvmCross.Resource.Attribute.fastScrollVerticalThumbDrawable = global::PizzaIllico.Mobile.Android.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::MvvmCross.Resource.Attribute.fastScrollVerticalTrackDrawable = global::PizzaIllico.Mobile.Android.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::MvvmCross.Resource.Attribute.firstBaselineToTopHeight = global::PizzaIllico.Mobile.Android.Resource.Attribute.firstBaselineToTopHeight;
+			global::MvvmCross.Resource.Attribute.floatingActionButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.floatingActionButtonStyle;
+			global::MvvmCross.Resource.Attribute.font = global::PizzaIllico.Mobile.Android.Resource.Attribute.font;
+			global::MvvmCross.Resource.Attribute.fontFamily = global::PizzaIllico.Mobile.Android.Resource.Attribute.fontFamily;
+			global::MvvmCross.Resource.Attribute.fontProviderAuthority = global::PizzaIllico.Mobile.Android.Resource.Attribute.fontProviderAuthority;
+			global::MvvmCross.Resource.Attribute.fontProviderCerts = global::PizzaIllico.Mobile.Android.Resource.Attribute.fontProviderCerts;
+			global::MvvmCross.Resource.Attribute.fontProviderFetchStrategy = global::PizzaIllico.Mobile.Android.Resource.Attribute.fontProviderFetchStrategy;
+			global::MvvmCross.Resource.Attribute.fontProviderFetchTimeout = global::PizzaIllico.Mobile.Android.Resource.Attribute.fontProviderFetchTimeout;
+			global::MvvmCross.Resource.Attribute.fontProviderPackage = global::PizzaIllico.Mobile.Android.Resource.Attribute.fontProviderPackage;
+			global::MvvmCross.Resource.Attribute.fontProviderQuery = global::PizzaIllico.Mobile.Android.Resource.Attribute.fontProviderQuery;
+			global::MvvmCross.Resource.Attribute.fontStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.fontStyle;
+			global::MvvmCross.Resource.Attribute.fontVariationSettings = global::PizzaIllico.Mobile.Android.Resource.Attribute.fontVariationSettings;
+			global::MvvmCross.Resource.Attribute.fontWeight = global::PizzaIllico.Mobile.Android.Resource.Attribute.fontWeight;
+			global::MvvmCross.Resource.Attribute.foregroundInsidePadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.foregroundInsidePadding;
+			global::MvvmCross.Resource.Attribute.fragment = global::PizzaIllico.Mobile.Android.Resource.Attribute.fragment;
+			global::MvvmCross.Resource.Attribute.gapBetweenBars = global::PizzaIllico.Mobile.Android.Resource.Attribute.gapBetweenBars;
+			global::MvvmCross.Resource.Attribute.goIcon = global::PizzaIllico.Mobile.Android.Resource.Attribute.goIcon;
+			global::MvvmCross.Resource.Attribute.headerLayout = global::PizzaIllico.Mobile.Android.Resource.Attribute.headerLayout;
+			global::MvvmCross.Resource.Attribute.height = global::PizzaIllico.Mobile.Android.Resource.Attribute.height;
+			global::MvvmCross.Resource.Attribute.helperText = global::PizzaIllico.Mobile.Android.Resource.Attribute.helperText;
+			global::MvvmCross.Resource.Attribute.helperTextEnabled = global::PizzaIllico.Mobile.Android.Resource.Attribute.helperTextEnabled;
+			global::MvvmCross.Resource.Attribute.helperTextTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Attribute.helperTextTextAppearance;
+			global::MvvmCross.Resource.Attribute.hideMotionSpec = global::PizzaIllico.Mobile.Android.Resource.Attribute.hideMotionSpec;
+			global::MvvmCross.Resource.Attribute.hideOnContentScroll = global::PizzaIllico.Mobile.Android.Resource.Attribute.hideOnContentScroll;
+			global::MvvmCross.Resource.Attribute.hideOnScroll = global::PizzaIllico.Mobile.Android.Resource.Attribute.hideOnScroll;
+			global::MvvmCross.Resource.Attribute.hintAnimationEnabled = global::PizzaIllico.Mobile.Android.Resource.Attribute.hintAnimationEnabled;
+			global::MvvmCross.Resource.Attribute.hintEnabled = global::PizzaIllico.Mobile.Android.Resource.Attribute.hintEnabled;
+			global::MvvmCross.Resource.Attribute.hintTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Attribute.hintTextAppearance;
+			global::MvvmCross.Resource.Attribute.homeAsUpIndicator = global::PizzaIllico.Mobile.Android.Resource.Attribute.homeAsUpIndicator;
+			global::MvvmCross.Resource.Attribute.homeLayout = global::PizzaIllico.Mobile.Android.Resource.Attribute.homeLayout;
+			global::MvvmCross.Resource.Attribute.hoveredFocusedTranslationZ = global::PizzaIllico.Mobile.Android.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::MvvmCross.Resource.Attribute.icon = global::PizzaIllico.Mobile.Android.Resource.Attribute.icon;
+			global::MvvmCross.Resource.Attribute.iconEndPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.iconEndPadding;
+			global::MvvmCross.Resource.Attribute.iconGravity = global::PizzaIllico.Mobile.Android.Resource.Attribute.iconGravity;
+			global::MvvmCross.Resource.Attribute.iconifiedByDefault = global::PizzaIllico.Mobile.Android.Resource.Attribute.iconifiedByDefault;
+			global::MvvmCross.Resource.Attribute.iconPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.iconPadding;
+			global::MvvmCross.Resource.Attribute.iconSize = global::PizzaIllico.Mobile.Android.Resource.Attribute.iconSize;
+			global::MvvmCross.Resource.Attribute.iconSpaceReserved = global::PizzaIllico.Mobile.Android.Resource.Attribute.iconSpaceReserved;
+			global::MvvmCross.Resource.Attribute.iconStartPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.iconStartPadding;
+			global::MvvmCross.Resource.Attribute.iconTint = global::PizzaIllico.Mobile.Android.Resource.Attribute.iconTint;
+			global::MvvmCross.Resource.Attribute.iconTintMode = global::PizzaIllico.Mobile.Android.Resource.Attribute.iconTintMode;
+			global::MvvmCross.Resource.Attribute.imageButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.imageButtonStyle;
+			global::MvvmCross.Resource.Attribute.indeterminateProgressStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.indeterminateProgressStyle;
+			global::MvvmCross.Resource.Attribute.initialActivityCount = global::PizzaIllico.Mobile.Android.Resource.Attribute.initialActivityCount;
+			global::MvvmCross.Resource.Attribute.initialExpandedChildrenCount = global::PizzaIllico.Mobile.Android.Resource.Attribute.initialExpandedChildrenCount;
+			global::MvvmCross.Resource.Attribute.insetForeground = global::PizzaIllico.Mobile.Android.Resource.Attribute.insetForeground;
+			global::MvvmCross.Resource.Attribute.isLightTheme = global::PizzaIllico.Mobile.Android.Resource.Attribute.isLightTheme;
+			global::MvvmCross.Resource.Attribute.isPreferenceVisible = global::PizzaIllico.Mobile.Android.Resource.Attribute.isPreferenceVisible;
+			global::MvvmCross.Resource.Attribute.itemBackground = global::PizzaIllico.Mobile.Android.Resource.Attribute.itemBackground;
+			global::MvvmCross.Resource.Attribute.itemHorizontalPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.itemHorizontalPadding;
+			global::MvvmCross.Resource.Attribute.itemHorizontalTranslationEnabled = global::PizzaIllico.Mobile.Android.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::MvvmCross.Resource.Attribute.itemIconPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.itemIconPadding;
+			global::MvvmCross.Resource.Attribute.itemIconSize = global::PizzaIllico.Mobile.Android.Resource.Attribute.itemIconSize;
+			global::MvvmCross.Resource.Attribute.itemIconTint = global::PizzaIllico.Mobile.Android.Resource.Attribute.itemIconTint;
+			global::MvvmCross.Resource.Attribute.itemPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.itemPadding;
+			global::MvvmCross.Resource.Attribute.itemSpacing = global::PizzaIllico.Mobile.Android.Resource.Attribute.itemSpacing;
+			global::MvvmCross.Resource.Attribute.itemTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Attribute.itemTextAppearance;
+			global::MvvmCross.Resource.Attribute.itemTextAppearanceActive = global::PizzaIllico.Mobile.Android.Resource.Attribute.itemTextAppearanceActive;
+			global::MvvmCross.Resource.Attribute.itemTextAppearanceInactive = global::PizzaIllico.Mobile.Android.Resource.Attribute.itemTextAppearanceInactive;
+			global::MvvmCross.Resource.Attribute.itemTextColor = global::PizzaIllico.Mobile.Android.Resource.Attribute.itemTextColor;
+			global::MvvmCross.Resource.Attribute.key = global::PizzaIllico.Mobile.Android.Resource.Attribute.key;
+			global::MvvmCross.Resource.Attribute.keylines = global::PizzaIllico.Mobile.Android.Resource.Attribute.keylines;
+			global::MvvmCross.Resource.Attribute.labelVisibilityMode = global::PizzaIllico.Mobile.Android.Resource.Attribute.labelVisibilityMode;
+			global::MvvmCross.Resource.Attribute.lastBaselineToBottomHeight = global::PizzaIllico.Mobile.Android.Resource.Attribute.lastBaselineToBottomHeight;
+			global::MvvmCross.Resource.Attribute.layout = global::PizzaIllico.Mobile.Android.Resource.Attribute.layout;
+			global::MvvmCross.Resource.Attribute.layoutManager = global::PizzaIllico.Mobile.Android.Resource.Attribute.layoutManager;
+			global::MvvmCross.Resource.Attribute.layout_anchor = global::PizzaIllico.Mobile.Android.Resource.Attribute.layout_anchor;
+			global::MvvmCross.Resource.Attribute.layout_anchorGravity = global::PizzaIllico.Mobile.Android.Resource.Attribute.layout_anchorGravity;
+			global::MvvmCross.Resource.Attribute.layout_behavior = global::PizzaIllico.Mobile.Android.Resource.Attribute.layout_behavior;
+			global::MvvmCross.Resource.Attribute.layout_collapseMode = global::PizzaIllico.Mobile.Android.Resource.Attribute.layout_collapseMode;
+			global::MvvmCross.Resource.Attribute.layout_collapseParallaxMultiplier = global::PizzaIllico.Mobile.Android.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::MvvmCross.Resource.Attribute.layout_dodgeInsetEdges = global::PizzaIllico.Mobile.Android.Resource.Attribute.layout_dodgeInsetEdges;
+			global::MvvmCross.Resource.Attribute.layout_insetEdge = global::PizzaIllico.Mobile.Android.Resource.Attribute.layout_insetEdge;
+			global::MvvmCross.Resource.Attribute.layout_keyline = global::PizzaIllico.Mobile.Android.Resource.Attribute.layout_keyline;
+			global::MvvmCross.Resource.Attribute.layout_scrollFlags = global::PizzaIllico.Mobile.Android.Resource.Attribute.layout_scrollFlags;
+			global::MvvmCross.Resource.Attribute.layout_scrollInterpolator = global::PizzaIllico.Mobile.Android.Resource.Attribute.layout_scrollInterpolator;
+			global::MvvmCross.Resource.Attribute.liftOnScroll = global::PizzaIllico.Mobile.Android.Resource.Attribute.liftOnScroll;
+			global::MvvmCross.Resource.Attribute.lineHeight = global::PizzaIllico.Mobile.Android.Resource.Attribute.lineHeight;
+			global::MvvmCross.Resource.Attribute.lineSpacing = global::PizzaIllico.Mobile.Android.Resource.Attribute.lineSpacing;
+			global::MvvmCross.Resource.Attribute.listChoiceBackgroundIndicator = global::PizzaIllico.Mobile.Android.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::MvvmCross.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::PizzaIllico.Mobile.Android.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::MvvmCross.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::PizzaIllico.Mobile.Android.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::MvvmCross.Resource.Attribute.listDividerAlertDialog = global::PizzaIllico.Mobile.Android.Resource.Attribute.listDividerAlertDialog;
+			global::MvvmCross.Resource.Attribute.listItemLayout = global::PizzaIllico.Mobile.Android.Resource.Attribute.listItemLayout;
+			global::MvvmCross.Resource.Attribute.listLayout = global::PizzaIllico.Mobile.Android.Resource.Attribute.listLayout;
+			global::MvvmCross.Resource.Attribute.listMenuViewStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.listMenuViewStyle;
+			global::MvvmCross.Resource.Attribute.listPopupWindowStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.listPopupWindowStyle;
+			global::MvvmCross.Resource.Attribute.listPreferredItemHeight = global::PizzaIllico.Mobile.Android.Resource.Attribute.listPreferredItemHeight;
+			global::MvvmCross.Resource.Attribute.listPreferredItemHeightLarge = global::PizzaIllico.Mobile.Android.Resource.Attribute.listPreferredItemHeightLarge;
+			global::MvvmCross.Resource.Attribute.listPreferredItemHeightSmall = global::PizzaIllico.Mobile.Android.Resource.Attribute.listPreferredItemHeightSmall;
+			global::MvvmCross.Resource.Attribute.listPreferredItemPaddingEnd = global::PizzaIllico.Mobile.Android.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::MvvmCross.Resource.Attribute.listPreferredItemPaddingLeft = global::PizzaIllico.Mobile.Android.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::MvvmCross.Resource.Attribute.listPreferredItemPaddingRight = global::PizzaIllico.Mobile.Android.Resource.Attribute.listPreferredItemPaddingRight;
+			global::MvvmCross.Resource.Attribute.listPreferredItemPaddingStart = global::PizzaIllico.Mobile.Android.Resource.Attribute.listPreferredItemPaddingStart;
+			global::MvvmCross.Resource.Attribute.logo = global::PizzaIllico.Mobile.Android.Resource.Attribute.logo;
+			global::MvvmCross.Resource.Attribute.logoDescription = global::PizzaIllico.Mobile.Android.Resource.Attribute.logoDescription;
+			global::MvvmCross.Resource.Attribute.materialButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.materialButtonStyle;
+			global::MvvmCross.Resource.Attribute.materialCardViewStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.materialCardViewStyle;
+			global::MvvmCross.Resource.Attribute.maxActionInlineWidth = global::PizzaIllico.Mobile.Android.Resource.Attribute.maxActionInlineWidth;
+			global::MvvmCross.Resource.Attribute.maxButtonHeight = global::PizzaIllico.Mobile.Android.Resource.Attribute.maxButtonHeight;
+			global::MvvmCross.Resource.Attribute.maxHeight = global::PizzaIllico.Mobile.Android.Resource.Attribute.maxHeight;
+			global::MvvmCross.Resource.Attribute.maxImageSize = global::PizzaIllico.Mobile.Android.Resource.Attribute.maxImageSize;
+			global::MvvmCross.Resource.Attribute.maxWidth = global::PizzaIllico.Mobile.Android.Resource.Attribute.maxWidth;
+			global::MvvmCross.Resource.Attribute.measureWithLargestChild = global::PizzaIllico.Mobile.Android.Resource.Attribute.measureWithLargestChild;
+			global::MvvmCross.Resource.Attribute.menu = global::PizzaIllico.Mobile.Android.Resource.Attribute.menu;
+			global::MvvmCross.Resource.Attribute.min = global::PizzaIllico.Mobile.Android.Resource.Attribute.min;
+			global::MvvmCross.Resource.Attribute.multiChoiceItemLayout = global::PizzaIllico.Mobile.Android.Resource.Attribute.multiChoiceItemLayout;
+			global::MvvmCross.Resource.Attribute.MvxBind = global::PizzaIllico.Mobile.Android.Resource.Attribute.MvxBind;
+			global::MvvmCross.Resource.Attribute.MvxDropDownItemTemplate = global::PizzaIllico.Mobile.Android.Resource.Attribute.MvxDropDownItemTemplate;
+			global::MvvmCross.Resource.Attribute.MvxGroupItemTemplate = global::PizzaIllico.Mobile.Android.Resource.Attribute.MvxGroupItemTemplate;
+			global::MvvmCross.Resource.Attribute.MvxItemTemplate = global::PizzaIllico.Mobile.Android.Resource.Attribute.MvxItemTemplate;
+			global::MvvmCross.Resource.Attribute.MvxLang = global::PizzaIllico.Mobile.Android.Resource.Attribute.MvxLang;
+			global::MvvmCross.Resource.Attribute.MvxTemplate = global::PizzaIllico.Mobile.Android.Resource.Attribute.MvxTemplate;
+			global::MvvmCross.Resource.Attribute.navigationContentDescription = global::PizzaIllico.Mobile.Android.Resource.Attribute.navigationContentDescription;
+			global::MvvmCross.Resource.Attribute.navigationIcon = global::PizzaIllico.Mobile.Android.Resource.Attribute.navigationIcon;
+			global::MvvmCross.Resource.Attribute.navigationMode = global::PizzaIllico.Mobile.Android.Resource.Attribute.navigationMode;
+			global::MvvmCross.Resource.Attribute.navigationViewStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.navigationViewStyle;
+			global::MvvmCross.Resource.Attribute.negativeButtonText = global::PizzaIllico.Mobile.Android.Resource.Attribute.negativeButtonText;
+			global::MvvmCross.Resource.Attribute.numericModifiers = global::PizzaIllico.Mobile.Android.Resource.Attribute.numericModifiers;
+			global::MvvmCross.Resource.Attribute.order = global::PizzaIllico.Mobile.Android.Resource.Attribute.order;
+			global::MvvmCross.Resource.Attribute.orderingFromXml = global::PizzaIllico.Mobile.Android.Resource.Attribute.orderingFromXml;
+			global::MvvmCross.Resource.Attribute.overlapAnchor = global::PizzaIllico.Mobile.Android.Resource.Attribute.overlapAnchor;
+			global::MvvmCross.Resource.Attribute.paddingBottomNoButtons = global::PizzaIllico.Mobile.Android.Resource.Attribute.paddingBottomNoButtons;
+			global::MvvmCross.Resource.Attribute.paddingEnd = global::PizzaIllico.Mobile.Android.Resource.Attribute.paddingEnd;
+			global::MvvmCross.Resource.Attribute.paddingStart = global::PizzaIllico.Mobile.Android.Resource.Attribute.paddingStart;
+			global::MvvmCross.Resource.Attribute.paddingTopNoTitle = global::PizzaIllico.Mobile.Android.Resource.Attribute.paddingTopNoTitle;
+			global::MvvmCross.Resource.Attribute.panelBackground = global::PizzaIllico.Mobile.Android.Resource.Attribute.panelBackground;
+			global::MvvmCross.Resource.Attribute.panelMenuListTheme = global::PizzaIllico.Mobile.Android.Resource.Attribute.panelMenuListTheme;
+			global::MvvmCross.Resource.Attribute.panelMenuListWidth = global::PizzaIllico.Mobile.Android.Resource.Attribute.panelMenuListWidth;
+			global::MvvmCross.Resource.Attribute.passwordToggleContentDescription = global::PizzaIllico.Mobile.Android.Resource.Attribute.passwordToggleContentDescription;
+			global::MvvmCross.Resource.Attribute.passwordToggleDrawable = global::PizzaIllico.Mobile.Android.Resource.Attribute.passwordToggleDrawable;
+			global::MvvmCross.Resource.Attribute.passwordToggleEnabled = global::PizzaIllico.Mobile.Android.Resource.Attribute.passwordToggleEnabled;
+			global::MvvmCross.Resource.Attribute.passwordToggleTint = global::PizzaIllico.Mobile.Android.Resource.Attribute.passwordToggleTint;
+			global::MvvmCross.Resource.Attribute.passwordToggleTintMode = global::PizzaIllico.Mobile.Android.Resource.Attribute.passwordToggleTintMode;
+			global::MvvmCross.Resource.Attribute.persistent = global::PizzaIllico.Mobile.Android.Resource.Attribute.persistent;
+			global::MvvmCross.Resource.Attribute.popupMenuStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.popupMenuStyle;
+			global::MvvmCross.Resource.Attribute.popupTheme = global::PizzaIllico.Mobile.Android.Resource.Attribute.popupTheme;
+			global::MvvmCross.Resource.Attribute.popupWindowStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.popupWindowStyle;
+			global::MvvmCross.Resource.Attribute.positiveButtonText = global::PizzaIllico.Mobile.Android.Resource.Attribute.positiveButtonText;
+			global::MvvmCross.Resource.Attribute.preferenceCategoryStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.preferenceCategoryStyle;
+			global::MvvmCross.Resource.Attribute.preferenceCategoryTitleTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Attribute.preferenceCategoryTitleTextAppearance;
+			global::MvvmCross.Resource.Attribute.preferenceFragmentCompatStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.preferenceFragmentCompatStyle;
+			global::MvvmCross.Resource.Attribute.preferenceFragmentListStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.preferenceFragmentListStyle;
+			global::MvvmCross.Resource.Attribute.preferenceFragmentStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.preferenceFragmentStyle;
+			global::MvvmCross.Resource.Attribute.preferenceInformationStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.preferenceInformationStyle;
+			global::MvvmCross.Resource.Attribute.preferenceScreenStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.preferenceScreenStyle;
+			global::MvvmCross.Resource.Attribute.preferenceStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.preferenceStyle;
+			global::MvvmCross.Resource.Attribute.preferenceTheme = global::PizzaIllico.Mobile.Android.Resource.Attribute.preferenceTheme;
+			global::MvvmCross.Resource.Attribute.preserveIconSpacing = global::PizzaIllico.Mobile.Android.Resource.Attribute.preserveIconSpacing;
+			global::MvvmCross.Resource.Attribute.pressedTranslationZ = global::PizzaIllico.Mobile.Android.Resource.Attribute.pressedTranslationZ;
+			global::MvvmCross.Resource.Attribute.progressBarPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.progressBarPadding;
+			global::MvvmCross.Resource.Attribute.progressBarStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.progressBarStyle;
+			global::MvvmCross.Resource.Attribute.queryBackground = global::PizzaIllico.Mobile.Android.Resource.Attribute.queryBackground;
+			global::MvvmCross.Resource.Attribute.queryHint = global::PizzaIllico.Mobile.Android.Resource.Attribute.queryHint;
+			global::MvvmCross.Resource.Attribute.radioButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.radioButtonStyle;
+			global::MvvmCross.Resource.Attribute.ratingBarStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.ratingBarStyle;
+			global::MvvmCross.Resource.Attribute.ratingBarStyleIndicator = global::PizzaIllico.Mobile.Android.Resource.Attribute.ratingBarStyleIndicator;
+			global::MvvmCross.Resource.Attribute.ratingBarStyleSmall = global::PizzaIllico.Mobile.Android.Resource.Attribute.ratingBarStyleSmall;
+			global::MvvmCross.Resource.Attribute.recyclerViewStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.recyclerViewStyle;
+			global::MvvmCross.Resource.Attribute.reverseLayout = global::PizzaIllico.Mobile.Android.Resource.Attribute.reverseLayout;
+			global::MvvmCross.Resource.Attribute.rippleColor = global::PizzaIllico.Mobile.Android.Resource.Attribute.rippleColor;
+			global::MvvmCross.Resource.Attribute.scrimAnimationDuration = global::PizzaIllico.Mobile.Android.Resource.Attribute.scrimAnimationDuration;
+			global::MvvmCross.Resource.Attribute.scrimBackground = global::PizzaIllico.Mobile.Android.Resource.Attribute.scrimBackground;
+			global::MvvmCross.Resource.Attribute.scrimVisibleHeightTrigger = global::PizzaIllico.Mobile.Android.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::MvvmCross.Resource.Attribute.searchHintIcon = global::PizzaIllico.Mobile.Android.Resource.Attribute.searchHintIcon;
+			global::MvvmCross.Resource.Attribute.searchIcon = global::PizzaIllico.Mobile.Android.Resource.Attribute.searchIcon;
+			global::MvvmCross.Resource.Attribute.searchViewStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.searchViewStyle;
+			global::MvvmCross.Resource.Attribute.seekBarIncrement = global::PizzaIllico.Mobile.Android.Resource.Attribute.seekBarIncrement;
+			global::MvvmCross.Resource.Attribute.seekBarPreferenceStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.seekBarPreferenceStyle;
+			global::MvvmCross.Resource.Attribute.seekBarStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.seekBarStyle;
+			global::MvvmCross.Resource.Attribute.selectable = global::PizzaIllico.Mobile.Android.Resource.Attribute.selectable;
+			global::MvvmCross.Resource.Attribute.selectableItemBackground = global::PizzaIllico.Mobile.Android.Resource.Attribute.selectableItemBackground;
+			global::MvvmCross.Resource.Attribute.selectableItemBackgroundBorderless = global::PizzaIllico.Mobile.Android.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::MvvmCross.Resource.Attribute.shouldDisableView = global::PizzaIllico.Mobile.Android.Resource.Attribute.shouldDisableView;
+			global::MvvmCross.Resource.Attribute.showAsAction = global::PizzaIllico.Mobile.Android.Resource.Attribute.showAsAction;
+			global::MvvmCross.Resource.Attribute.showDividers = global::PizzaIllico.Mobile.Android.Resource.Attribute.showDividers;
+			global::MvvmCross.Resource.Attribute.showMotionSpec = global::PizzaIllico.Mobile.Android.Resource.Attribute.showMotionSpec;
+			global::MvvmCross.Resource.Attribute.showSeekBarValue = global::PizzaIllico.Mobile.Android.Resource.Attribute.showSeekBarValue;
+			global::MvvmCross.Resource.Attribute.showText = global::PizzaIllico.Mobile.Android.Resource.Attribute.showText;
+			global::MvvmCross.Resource.Attribute.showTitle = global::PizzaIllico.Mobile.Android.Resource.Attribute.showTitle;
+			global::MvvmCross.Resource.Attribute.singleChoiceItemLayout = global::PizzaIllico.Mobile.Android.Resource.Attribute.singleChoiceItemLayout;
+			global::MvvmCross.Resource.Attribute.singleLine = global::PizzaIllico.Mobile.Android.Resource.Attribute.singleLine;
+			global::MvvmCross.Resource.Attribute.singleLineTitle = global::PizzaIllico.Mobile.Android.Resource.Attribute.singleLineTitle;
+			global::MvvmCross.Resource.Attribute.singleSelection = global::PizzaIllico.Mobile.Android.Resource.Attribute.singleSelection;
+			global::MvvmCross.Resource.Attribute.snackbarButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.snackbarButtonStyle;
+			global::MvvmCross.Resource.Attribute.snackbarStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.snackbarStyle;
+			global::MvvmCross.Resource.Attribute.spanCount = global::PizzaIllico.Mobile.Android.Resource.Attribute.spanCount;
+			global::MvvmCross.Resource.Attribute.spinBars = global::PizzaIllico.Mobile.Android.Resource.Attribute.spinBars;
+			global::MvvmCross.Resource.Attribute.spinnerDropDownItemStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.spinnerDropDownItemStyle;
+			global::MvvmCross.Resource.Attribute.spinnerStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.spinnerStyle;
+			global::MvvmCross.Resource.Attribute.splitTrack = global::PizzaIllico.Mobile.Android.Resource.Attribute.splitTrack;
+			global::MvvmCross.Resource.Attribute.srcCompat = global::PizzaIllico.Mobile.Android.Resource.Attribute.srcCompat;
+			global::MvvmCross.Resource.Attribute.stackFromEnd = global::PizzaIllico.Mobile.Android.Resource.Attribute.stackFromEnd;
+			global::MvvmCross.Resource.Attribute.state_above_anchor = global::PizzaIllico.Mobile.Android.Resource.Attribute.state_above_anchor;
+			global::MvvmCross.Resource.Attribute.state_collapsed = global::PizzaIllico.Mobile.Android.Resource.Attribute.state_collapsed;
+			global::MvvmCross.Resource.Attribute.state_collapsible = global::PizzaIllico.Mobile.Android.Resource.Attribute.state_collapsible;
+			global::MvvmCross.Resource.Attribute.state_liftable = global::PizzaIllico.Mobile.Android.Resource.Attribute.state_liftable;
+			global::MvvmCross.Resource.Attribute.state_lifted = global::PizzaIllico.Mobile.Android.Resource.Attribute.state_lifted;
+			global::MvvmCross.Resource.Attribute.statusBarBackground = global::PizzaIllico.Mobile.Android.Resource.Attribute.statusBarBackground;
+			global::MvvmCross.Resource.Attribute.statusBarScrim = global::PizzaIllico.Mobile.Android.Resource.Attribute.statusBarScrim;
+			global::MvvmCross.Resource.Attribute.strokeColor = global::PizzaIllico.Mobile.Android.Resource.Attribute.strokeColor;
+			global::MvvmCross.Resource.Attribute.strokeWidth = global::PizzaIllico.Mobile.Android.Resource.Attribute.strokeWidth;
+			global::MvvmCross.Resource.Attribute.subMenuArrow = global::PizzaIllico.Mobile.Android.Resource.Attribute.subMenuArrow;
+			global::MvvmCross.Resource.Attribute.submitBackground = global::PizzaIllico.Mobile.Android.Resource.Attribute.submitBackground;
+			global::MvvmCross.Resource.Attribute.subtitle = global::PizzaIllico.Mobile.Android.Resource.Attribute.subtitle;
+			global::MvvmCross.Resource.Attribute.subtitleTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Attribute.subtitleTextAppearance;
+			global::MvvmCross.Resource.Attribute.subtitleTextColor = global::PizzaIllico.Mobile.Android.Resource.Attribute.subtitleTextColor;
+			global::MvvmCross.Resource.Attribute.subtitleTextStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.subtitleTextStyle;
+			global::MvvmCross.Resource.Attribute.suggestionRowLayout = global::PizzaIllico.Mobile.Android.Resource.Attribute.suggestionRowLayout;
+			global::MvvmCross.Resource.Attribute.summary = global::PizzaIllico.Mobile.Android.Resource.Attribute.summary;
+			global::MvvmCross.Resource.Attribute.summaryOff = global::PizzaIllico.Mobile.Android.Resource.Attribute.summaryOff;
+			global::MvvmCross.Resource.Attribute.summaryOn = global::PizzaIllico.Mobile.Android.Resource.Attribute.summaryOn;
+			global::MvvmCross.Resource.Attribute.switchMinWidth = global::PizzaIllico.Mobile.Android.Resource.Attribute.switchMinWidth;
+			global::MvvmCross.Resource.Attribute.switchPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.switchPadding;
+			global::MvvmCross.Resource.Attribute.switchPreferenceCompatStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.switchPreferenceCompatStyle;
+			global::MvvmCross.Resource.Attribute.switchPreferenceStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.switchPreferenceStyle;
+			global::MvvmCross.Resource.Attribute.switchStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.switchStyle;
+			global::MvvmCross.Resource.Attribute.switchTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Attribute.switchTextAppearance;
+			global::MvvmCross.Resource.Attribute.switchTextOff = global::PizzaIllico.Mobile.Android.Resource.Attribute.switchTextOff;
+			global::MvvmCross.Resource.Attribute.switchTextOn = global::PizzaIllico.Mobile.Android.Resource.Attribute.switchTextOn;
+			global::MvvmCross.Resource.Attribute.tabBackground = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabBackground;
+			global::MvvmCross.Resource.Attribute.tabContentStart = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabContentStart;
+			global::MvvmCross.Resource.Attribute.tabGravity = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabGravity;
+			global::MvvmCross.Resource.Attribute.tabIconTint = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabIconTint;
+			global::MvvmCross.Resource.Attribute.tabIconTintMode = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabIconTintMode;
+			global::MvvmCross.Resource.Attribute.tabIndicator = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabIndicator;
+			global::MvvmCross.Resource.Attribute.tabIndicatorAnimationDuration = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::MvvmCross.Resource.Attribute.tabIndicatorColor = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabIndicatorColor;
+			global::MvvmCross.Resource.Attribute.tabIndicatorFullWidth = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabIndicatorFullWidth;
+			global::MvvmCross.Resource.Attribute.tabIndicatorGravity = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabIndicatorGravity;
+			global::MvvmCross.Resource.Attribute.tabIndicatorHeight = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabIndicatorHeight;
+			global::MvvmCross.Resource.Attribute.tabInlineLabel = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabInlineLabel;
+			global::MvvmCross.Resource.Attribute.tabMaxWidth = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabMaxWidth;
+			global::MvvmCross.Resource.Attribute.tabMinWidth = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabMinWidth;
+			global::MvvmCross.Resource.Attribute.tabMode = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabMode;
+			global::MvvmCross.Resource.Attribute.tabPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabPadding;
+			global::MvvmCross.Resource.Attribute.tabPaddingBottom = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabPaddingBottom;
+			global::MvvmCross.Resource.Attribute.tabPaddingEnd = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabPaddingEnd;
+			global::MvvmCross.Resource.Attribute.tabPaddingStart = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabPaddingStart;
+			global::MvvmCross.Resource.Attribute.tabPaddingTop = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabPaddingTop;
+			global::MvvmCross.Resource.Attribute.tabRippleColor = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabRippleColor;
+			global::MvvmCross.Resource.Attribute.tabSelectedTextColor = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabSelectedTextColor;
+			global::MvvmCross.Resource.Attribute.tabStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabStyle;
+			global::MvvmCross.Resource.Attribute.tabTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabTextAppearance;
+			global::MvvmCross.Resource.Attribute.tabTextColor = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabTextColor;
+			global::MvvmCross.Resource.Attribute.tabUnboundedRipple = global::PizzaIllico.Mobile.Android.Resource.Attribute.tabUnboundedRipple;
+			global::MvvmCross.Resource.Attribute.textAllCaps = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAllCaps;
+			global::MvvmCross.Resource.Attribute.textAppearanceBody1 = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceBody1;
+			global::MvvmCross.Resource.Attribute.textAppearanceBody2 = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceBody2;
+			global::MvvmCross.Resource.Attribute.textAppearanceButton = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceButton;
+			global::MvvmCross.Resource.Attribute.textAppearanceCaption = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceCaption;
+			global::MvvmCross.Resource.Attribute.textAppearanceHeadline1 = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceHeadline1;
+			global::MvvmCross.Resource.Attribute.textAppearanceHeadline2 = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceHeadline2;
+			global::MvvmCross.Resource.Attribute.textAppearanceHeadline3 = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceHeadline3;
+			global::MvvmCross.Resource.Attribute.textAppearanceHeadline4 = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceHeadline4;
+			global::MvvmCross.Resource.Attribute.textAppearanceHeadline5 = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceHeadline5;
+			global::MvvmCross.Resource.Attribute.textAppearanceHeadline6 = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceHeadline6;
+			global::MvvmCross.Resource.Attribute.textAppearanceLargePopupMenu = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::MvvmCross.Resource.Attribute.textAppearanceListItem = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceListItem;
+			global::MvvmCross.Resource.Attribute.textAppearanceListItemSecondary = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceListItemSecondary;
+			global::MvvmCross.Resource.Attribute.textAppearanceListItemSmall = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceListItemSmall;
+			global::MvvmCross.Resource.Attribute.textAppearanceOverline = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceOverline;
+			global::MvvmCross.Resource.Attribute.textAppearancePopupMenuHeader = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::MvvmCross.Resource.Attribute.textAppearanceSearchResultSubtitle = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::MvvmCross.Resource.Attribute.textAppearanceSearchResultTitle = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::MvvmCross.Resource.Attribute.textAppearanceSmallPopupMenu = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::MvvmCross.Resource.Attribute.textAppearanceSubtitle1 = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceSubtitle1;
+			global::MvvmCross.Resource.Attribute.textAppearanceSubtitle2 = global::PizzaIllico.Mobile.Android.Resource.Attribute.textAppearanceSubtitle2;
+			global::MvvmCross.Resource.Attribute.textColorAlertDialogListItem = global::PizzaIllico.Mobile.Android.Resource.Attribute.textColorAlertDialogListItem;
+			global::MvvmCross.Resource.Attribute.textColorSearchUrl = global::PizzaIllico.Mobile.Android.Resource.Attribute.textColorSearchUrl;
+			global::MvvmCross.Resource.Attribute.textEndPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.textEndPadding;
+			global::MvvmCross.Resource.Attribute.textInputStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.textInputStyle;
+			global::MvvmCross.Resource.Attribute.textLocale = global::PizzaIllico.Mobile.Android.Resource.Attribute.textLocale;
+			global::MvvmCross.Resource.Attribute.textStartPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.textStartPadding;
+			global::MvvmCross.Resource.Attribute.theme = global::PizzaIllico.Mobile.Android.Resource.Attribute.theme;
+			global::MvvmCross.Resource.Attribute.thickness = global::PizzaIllico.Mobile.Android.Resource.Attribute.thickness;
+			global::MvvmCross.Resource.Attribute.thumbTextPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.thumbTextPadding;
+			global::MvvmCross.Resource.Attribute.thumbTint = global::PizzaIllico.Mobile.Android.Resource.Attribute.thumbTint;
+			global::MvvmCross.Resource.Attribute.thumbTintMode = global::PizzaIllico.Mobile.Android.Resource.Attribute.thumbTintMode;
+			global::MvvmCross.Resource.Attribute.tickMark = global::PizzaIllico.Mobile.Android.Resource.Attribute.tickMark;
+			global::MvvmCross.Resource.Attribute.tickMarkTint = global::PizzaIllico.Mobile.Android.Resource.Attribute.tickMarkTint;
+			global::MvvmCross.Resource.Attribute.tickMarkTintMode = global::PizzaIllico.Mobile.Android.Resource.Attribute.tickMarkTintMode;
+			global::MvvmCross.Resource.Attribute.tint = global::PizzaIllico.Mobile.Android.Resource.Attribute.tint;
+			global::MvvmCross.Resource.Attribute.tintMode = global::PizzaIllico.Mobile.Android.Resource.Attribute.tintMode;
+			global::MvvmCross.Resource.Attribute.title = global::PizzaIllico.Mobile.Android.Resource.Attribute.title;
+			global::MvvmCross.Resource.Attribute.titleEnabled = global::PizzaIllico.Mobile.Android.Resource.Attribute.titleEnabled;
+			global::MvvmCross.Resource.Attribute.titleMargin = global::PizzaIllico.Mobile.Android.Resource.Attribute.titleMargin;
+			global::MvvmCross.Resource.Attribute.titleMarginBottom = global::PizzaIllico.Mobile.Android.Resource.Attribute.titleMarginBottom;
+			global::MvvmCross.Resource.Attribute.titleMarginEnd = global::PizzaIllico.Mobile.Android.Resource.Attribute.titleMarginEnd;
+			global::MvvmCross.Resource.Attribute.titleMargins = global::PizzaIllico.Mobile.Android.Resource.Attribute.titleMargins;
+			global::MvvmCross.Resource.Attribute.titleMarginStart = global::PizzaIllico.Mobile.Android.Resource.Attribute.titleMarginStart;
+			global::MvvmCross.Resource.Attribute.titleMarginTop = global::PizzaIllico.Mobile.Android.Resource.Attribute.titleMarginTop;
+			global::MvvmCross.Resource.Attribute.titleTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Attribute.titleTextAppearance;
+			global::MvvmCross.Resource.Attribute.titleTextColor = global::PizzaIllico.Mobile.Android.Resource.Attribute.titleTextColor;
+			global::MvvmCross.Resource.Attribute.titleTextStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.titleTextStyle;
+			global::MvvmCross.Resource.Attribute.toolbarId = global::PizzaIllico.Mobile.Android.Resource.Attribute.toolbarId;
+			global::MvvmCross.Resource.Attribute.toolbarNavigationButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::MvvmCross.Resource.Attribute.toolbarStyle = global::PizzaIllico.Mobile.Android.Resource.Attribute.toolbarStyle;
+			global::MvvmCross.Resource.Attribute.tooltipForegroundColor = global::PizzaIllico.Mobile.Android.Resource.Attribute.tooltipForegroundColor;
+			global::MvvmCross.Resource.Attribute.tooltipFrameBackground = global::PizzaIllico.Mobile.Android.Resource.Attribute.tooltipFrameBackground;
+			global::MvvmCross.Resource.Attribute.tooltipText = global::PizzaIllico.Mobile.Android.Resource.Attribute.tooltipText;
+			global::MvvmCross.Resource.Attribute.track = global::PizzaIllico.Mobile.Android.Resource.Attribute.track;
+			global::MvvmCross.Resource.Attribute.trackTint = global::PizzaIllico.Mobile.Android.Resource.Attribute.trackTint;
+			global::MvvmCross.Resource.Attribute.trackTintMode = global::PizzaIllico.Mobile.Android.Resource.Attribute.trackTintMode;
+			global::MvvmCross.Resource.Attribute.ttcIndex = global::PizzaIllico.Mobile.Android.Resource.Attribute.ttcIndex;
+			global::MvvmCross.Resource.Attribute.updatesContinuously = global::PizzaIllico.Mobile.Android.Resource.Attribute.updatesContinuously;
+			global::MvvmCross.Resource.Attribute.useCompatPadding = global::PizzaIllico.Mobile.Android.Resource.Attribute.useCompatPadding;
+			global::MvvmCross.Resource.Attribute.useSimpleSummaryProvider = global::PizzaIllico.Mobile.Android.Resource.Attribute.useSimpleSummaryProvider;
+			global::MvvmCross.Resource.Attribute.viewInflaterClass = global::PizzaIllico.Mobile.Android.Resource.Attribute.viewInflaterClass;
+			global::MvvmCross.Resource.Attribute.voiceIcon = global::PizzaIllico.Mobile.Android.Resource.Attribute.voiceIcon;
+			global::MvvmCross.Resource.Attribute.widgetLayout = global::PizzaIllico.Mobile.Android.Resource.Attribute.widgetLayout;
+			global::MvvmCross.Resource.Attribute.windowActionBar = global::PizzaIllico.Mobile.Android.Resource.Attribute.windowActionBar;
+			global::MvvmCross.Resource.Attribute.windowActionBarOverlay = global::PizzaIllico.Mobile.Android.Resource.Attribute.windowActionBarOverlay;
+			global::MvvmCross.Resource.Attribute.windowActionModeOverlay = global::PizzaIllico.Mobile.Android.Resource.Attribute.windowActionModeOverlay;
+			global::MvvmCross.Resource.Attribute.windowFixedHeightMajor = global::PizzaIllico.Mobile.Android.Resource.Attribute.windowFixedHeightMajor;
+			global::MvvmCross.Resource.Attribute.windowFixedHeightMinor = global::PizzaIllico.Mobile.Android.Resource.Attribute.windowFixedHeightMinor;
+			global::MvvmCross.Resource.Attribute.windowFixedWidthMajor = global::PizzaIllico.Mobile.Android.Resource.Attribute.windowFixedWidthMajor;
+			global::MvvmCross.Resource.Attribute.windowFixedWidthMinor = global::PizzaIllico.Mobile.Android.Resource.Attribute.windowFixedWidthMinor;
+			global::MvvmCross.Resource.Attribute.windowMinWidthMajor = global::PizzaIllico.Mobile.Android.Resource.Attribute.windowMinWidthMajor;
+			global::MvvmCross.Resource.Attribute.windowMinWidthMinor = global::PizzaIllico.Mobile.Android.Resource.Attribute.windowMinWidthMinor;
+			global::MvvmCross.Resource.Attribute.windowNoTitle = global::PizzaIllico.Mobile.Android.Resource.Attribute.windowNoTitle;
+			global::MvvmCross.Resource.Boolean.abc_action_bar_embed_tabs = global::PizzaIllico.Mobile.Android.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::MvvmCross.Resource.Boolean.abc_allow_stacked_button_bar = global::PizzaIllico.Mobile.Android.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::MvvmCross.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::PizzaIllico.Mobile.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::MvvmCross.Resource.Boolean.config_materialPreferenceIconSpaceReserved = global::PizzaIllico.Mobile.Android.Resource.Boolean.config_materialPreferenceIconSpaceReserved;
+			global::MvvmCross.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::PizzaIllico.Mobile.Android.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::MvvmCross.Resource.Color.abc_background_cache_hint_selector_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::MvvmCross.Resource.Color.abc_background_cache_hint_selector_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::MvvmCross.Resource.Color.abc_btn_colored_borderless_text_material = global::PizzaIllico.Mobile.Android.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::MvvmCross.Resource.Color.abc_btn_colored_text_material = global::PizzaIllico.Mobile.Android.Resource.Color.abc_btn_colored_text_material;
+			global::MvvmCross.Resource.Color.abc_color_highlight_material = global::PizzaIllico.Mobile.Android.Resource.Color.abc_color_highlight_material;
+			global::MvvmCross.Resource.Color.abc_decor_view_status_guard = global::PizzaIllico.Mobile.Android.Resource.Color.abc_decor_view_status_guard;
+			global::MvvmCross.Resource.Color.abc_decor_view_status_guard_light = global::PizzaIllico.Mobile.Android.Resource.Color.abc_decor_view_status_guard_light;
+			global::MvvmCross.Resource.Color.abc_hint_foreground_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.abc_hint_foreground_material_dark;
+			global::MvvmCross.Resource.Color.abc_hint_foreground_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.abc_hint_foreground_material_light;
+			global::MvvmCross.Resource.Color.abc_primary_text_disable_only_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::MvvmCross.Resource.Color.abc_primary_text_disable_only_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::MvvmCross.Resource.Color.abc_primary_text_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.abc_primary_text_material_dark;
+			global::MvvmCross.Resource.Color.abc_primary_text_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.abc_primary_text_material_light;
+			global::MvvmCross.Resource.Color.abc_search_url_text = global::PizzaIllico.Mobile.Android.Resource.Color.abc_search_url_text;
+			global::MvvmCross.Resource.Color.abc_search_url_text_normal = global::PizzaIllico.Mobile.Android.Resource.Color.abc_search_url_text_normal;
+			global::MvvmCross.Resource.Color.abc_search_url_text_pressed = global::PizzaIllico.Mobile.Android.Resource.Color.abc_search_url_text_pressed;
+			global::MvvmCross.Resource.Color.abc_search_url_text_selected = global::PizzaIllico.Mobile.Android.Resource.Color.abc_search_url_text_selected;
+			global::MvvmCross.Resource.Color.abc_secondary_text_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.abc_secondary_text_material_dark;
+			global::MvvmCross.Resource.Color.abc_secondary_text_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.abc_secondary_text_material_light;
+			global::MvvmCross.Resource.Color.abc_tint_btn_checkable = global::PizzaIllico.Mobile.Android.Resource.Color.abc_tint_btn_checkable;
+			global::MvvmCross.Resource.Color.abc_tint_default = global::PizzaIllico.Mobile.Android.Resource.Color.abc_tint_default;
+			global::MvvmCross.Resource.Color.abc_tint_edittext = global::PizzaIllico.Mobile.Android.Resource.Color.abc_tint_edittext;
+			global::MvvmCross.Resource.Color.abc_tint_seek_thumb = global::PizzaIllico.Mobile.Android.Resource.Color.abc_tint_seek_thumb;
+			global::MvvmCross.Resource.Color.abc_tint_spinner = global::PizzaIllico.Mobile.Android.Resource.Color.abc_tint_spinner;
+			global::MvvmCross.Resource.Color.abc_tint_switch_track = global::PizzaIllico.Mobile.Android.Resource.Color.abc_tint_switch_track;
+			global::MvvmCross.Resource.Color.accent_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.accent_material_dark;
+			global::MvvmCross.Resource.Color.accent_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.accent_material_light;
+			global::MvvmCross.Resource.Color.androidx_core_ripple_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.androidx_core_ripple_material_light;
+			global::MvvmCross.Resource.Color.androidx_core_secondary_text_default_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.androidx_core_secondary_text_default_material_light;
+			global::MvvmCross.Resource.Color.background_floating_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.background_floating_material_dark;
+			global::MvvmCross.Resource.Color.background_floating_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.background_floating_material_light;
+			global::MvvmCross.Resource.Color.background_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.background_material_dark;
+			global::MvvmCross.Resource.Color.background_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.background_material_light;
+			global::MvvmCross.Resource.Color.bright_foreground_disabled_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.bright_foreground_disabled_material_dark;
+			global::MvvmCross.Resource.Color.bright_foreground_disabled_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.bright_foreground_disabled_material_light;
+			global::MvvmCross.Resource.Color.bright_foreground_inverse_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.bright_foreground_inverse_material_dark;
+			global::MvvmCross.Resource.Color.bright_foreground_inverse_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.bright_foreground_inverse_material_light;
+			global::MvvmCross.Resource.Color.bright_foreground_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.bright_foreground_material_dark;
+			global::MvvmCross.Resource.Color.bright_foreground_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.bright_foreground_material_light;
+			global::MvvmCross.Resource.Color.button_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.button_material_dark;
+			global::MvvmCross.Resource.Color.button_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.button_material_light;
+			global::MvvmCross.Resource.Color.cardview_dark_background = global::PizzaIllico.Mobile.Android.Resource.Color.cardview_dark_background;
+			global::MvvmCross.Resource.Color.cardview_light_background = global::PizzaIllico.Mobile.Android.Resource.Color.cardview_light_background;
+			global::MvvmCross.Resource.Color.cardview_shadow_end_color = global::PizzaIllico.Mobile.Android.Resource.Color.cardview_shadow_end_color;
+			global::MvvmCross.Resource.Color.cardview_shadow_start_color = global::PizzaIllico.Mobile.Android.Resource.Color.cardview_shadow_start_color;
+			global::MvvmCross.Resource.Color.design_bottom_navigation_shadow_color = global::PizzaIllico.Mobile.Android.Resource.Color.design_bottom_navigation_shadow_color;
+			global::MvvmCross.Resource.Color.design_default_color_primary = global::PizzaIllico.Mobile.Android.Resource.Color.design_default_color_primary;
+			global::MvvmCross.Resource.Color.design_default_color_primary_dark = global::PizzaIllico.Mobile.Android.Resource.Color.design_default_color_primary_dark;
+			global::MvvmCross.Resource.Color.design_error = global::PizzaIllico.Mobile.Android.Resource.Color.design_error;
+			global::MvvmCross.Resource.Color.design_fab_shadow_end_color = global::PizzaIllico.Mobile.Android.Resource.Color.design_fab_shadow_end_color;
+			global::MvvmCross.Resource.Color.design_fab_shadow_mid_color = global::PizzaIllico.Mobile.Android.Resource.Color.design_fab_shadow_mid_color;
+			global::MvvmCross.Resource.Color.design_fab_shadow_start_color = global::PizzaIllico.Mobile.Android.Resource.Color.design_fab_shadow_start_color;
+			global::MvvmCross.Resource.Color.design_fab_stroke_end_inner_color = global::PizzaIllico.Mobile.Android.Resource.Color.design_fab_stroke_end_inner_color;
+			global::MvvmCross.Resource.Color.design_fab_stroke_end_outer_color = global::PizzaIllico.Mobile.Android.Resource.Color.design_fab_stroke_end_outer_color;
+			global::MvvmCross.Resource.Color.design_fab_stroke_top_inner_color = global::PizzaIllico.Mobile.Android.Resource.Color.design_fab_stroke_top_inner_color;
+			global::MvvmCross.Resource.Color.design_fab_stroke_top_outer_color = global::PizzaIllico.Mobile.Android.Resource.Color.design_fab_stroke_top_outer_color;
+			global::MvvmCross.Resource.Color.design_snackbar_background_color = global::PizzaIllico.Mobile.Android.Resource.Color.design_snackbar_background_color;
+			global::MvvmCross.Resource.Color.design_tint_password_toggle = global::PizzaIllico.Mobile.Android.Resource.Color.design_tint_password_toggle;
+			global::MvvmCross.Resource.Color.dim_foreground_disabled_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.dim_foreground_disabled_material_dark;
+			global::MvvmCross.Resource.Color.dim_foreground_disabled_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.dim_foreground_disabled_material_light;
+			global::MvvmCross.Resource.Color.dim_foreground_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.dim_foreground_material_dark;
+			global::MvvmCross.Resource.Color.dim_foreground_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.dim_foreground_material_light;
+			global::MvvmCross.Resource.Color.error_color_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.error_color_material_dark;
+			global::MvvmCross.Resource.Color.error_color_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.error_color_material_light;
+			global::MvvmCross.Resource.Color.foreground_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.foreground_material_dark;
+			global::MvvmCross.Resource.Color.foreground_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.foreground_material_light;
+			global::MvvmCross.Resource.Color.highlighted_text_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.highlighted_text_material_dark;
+			global::MvvmCross.Resource.Color.highlighted_text_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.highlighted_text_material_light;
+			global::MvvmCross.Resource.Color.material_blue_grey_800 = global::PizzaIllico.Mobile.Android.Resource.Color.material_blue_grey_800;
+			global::MvvmCross.Resource.Color.material_blue_grey_900 = global::PizzaIllico.Mobile.Android.Resource.Color.material_blue_grey_900;
+			global::MvvmCross.Resource.Color.material_blue_grey_950 = global::PizzaIllico.Mobile.Android.Resource.Color.material_blue_grey_950;
+			global::MvvmCross.Resource.Color.material_deep_teal_200 = global::PizzaIllico.Mobile.Android.Resource.Color.material_deep_teal_200;
+			global::MvvmCross.Resource.Color.material_deep_teal_500 = global::PizzaIllico.Mobile.Android.Resource.Color.material_deep_teal_500;
+			global::MvvmCross.Resource.Color.material_grey_100 = global::PizzaIllico.Mobile.Android.Resource.Color.material_grey_100;
+			global::MvvmCross.Resource.Color.material_grey_300 = global::PizzaIllico.Mobile.Android.Resource.Color.material_grey_300;
+			global::MvvmCross.Resource.Color.material_grey_50 = global::PizzaIllico.Mobile.Android.Resource.Color.material_grey_50;
+			global::MvvmCross.Resource.Color.material_grey_600 = global::PizzaIllico.Mobile.Android.Resource.Color.material_grey_600;
+			global::MvvmCross.Resource.Color.material_grey_800 = global::PizzaIllico.Mobile.Android.Resource.Color.material_grey_800;
+			global::MvvmCross.Resource.Color.material_grey_850 = global::PizzaIllico.Mobile.Android.Resource.Color.material_grey_850;
+			global::MvvmCross.Resource.Color.material_grey_900 = global::PizzaIllico.Mobile.Android.Resource.Color.material_grey_900;
+			global::MvvmCross.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::MvvmCross.Resource.Color.mtrl_bottom_nav_item_tint = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::MvvmCross.Resource.Color.mtrl_btn_bg_color_disabled = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::MvvmCross.Resource.Color.mtrl_btn_bg_color_selector = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_btn_bg_color_selector;
+			global::MvvmCross.Resource.Color.mtrl_btn_ripple_color = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_btn_ripple_color;
+			global::MvvmCross.Resource.Color.mtrl_btn_stroke_color_selector = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::MvvmCross.Resource.Color.mtrl_btn_text_btn_ripple_color = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::MvvmCross.Resource.Color.mtrl_btn_text_color_disabled = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_btn_text_color_disabled;
+			global::MvvmCross.Resource.Color.mtrl_btn_text_color_selector = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_btn_text_color_selector;
+			global::MvvmCross.Resource.Color.mtrl_btn_transparent_bg_color = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::MvvmCross.Resource.Color.mtrl_chip_background_color = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_chip_background_color;
+			global::MvvmCross.Resource.Color.mtrl_chip_close_icon_tint = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_chip_close_icon_tint;
+			global::MvvmCross.Resource.Color.mtrl_chip_ripple_color = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_chip_ripple_color;
+			global::MvvmCross.Resource.Color.mtrl_chip_text_color = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_chip_text_color;
+			global::MvvmCross.Resource.Color.mtrl_fab_ripple_color = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_fab_ripple_color;
+			global::MvvmCross.Resource.Color.mtrl_scrim_color = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_scrim_color;
+			global::MvvmCross.Resource.Color.mtrl_tabs_colored_ripple_color = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::MvvmCross.Resource.Color.mtrl_tabs_icon_color_selector = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::MvvmCross.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::MvvmCross.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::MvvmCross.Resource.Color.mtrl_tabs_ripple_color = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_tabs_ripple_color;
+			global::MvvmCross.Resource.Color.mtrl_textinput_default_box_stroke_color = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::MvvmCross.Resource.Color.mtrl_textinput_disabled_color = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_textinput_disabled_color;
+			global::MvvmCross.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::MvvmCross.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::MvvmCross.Resource.Color.mtrl_text_btn_text_color_selector = global::PizzaIllico.Mobile.Android.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::MvvmCross.Resource.Color.notification_action_color_filter = global::PizzaIllico.Mobile.Android.Resource.Color.notification_action_color_filter;
+			global::MvvmCross.Resource.Color.notification_icon_bg_color = global::PizzaIllico.Mobile.Android.Resource.Color.notification_icon_bg_color;
+			global::MvvmCross.Resource.Color.preference_fallback_accent_color = global::PizzaIllico.Mobile.Android.Resource.Color.preference_fallback_accent_color;
+			global::MvvmCross.Resource.Color.primary_dark_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.primary_dark_material_dark;
+			global::MvvmCross.Resource.Color.primary_dark_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.primary_dark_material_light;
+			global::MvvmCross.Resource.Color.primary_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.primary_material_dark;
+			global::MvvmCross.Resource.Color.primary_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.primary_material_light;
+			global::MvvmCross.Resource.Color.primary_text_default_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.primary_text_default_material_dark;
+			global::MvvmCross.Resource.Color.primary_text_default_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.primary_text_default_material_light;
+			global::MvvmCross.Resource.Color.primary_text_disabled_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.primary_text_disabled_material_dark;
+			global::MvvmCross.Resource.Color.primary_text_disabled_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.primary_text_disabled_material_light;
+			global::MvvmCross.Resource.Color.ripple_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.ripple_material_dark;
+			global::MvvmCross.Resource.Color.ripple_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.ripple_material_light;
+			global::MvvmCross.Resource.Color.secondary_text_default_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.secondary_text_default_material_dark;
+			global::MvvmCross.Resource.Color.secondary_text_default_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.secondary_text_default_material_light;
+			global::MvvmCross.Resource.Color.secondary_text_disabled_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.secondary_text_disabled_material_dark;
+			global::MvvmCross.Resource.Color.secondary_text_disabled_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.secondary_text_disabled_material_light;
+			global::MvvmCross.Resource.Color.switch_thumb_disabled_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.switch_thumb_disabled_material_dark;
+			global::MvvmCross.Resource.Color.switch_thumb_disabled_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.switch_thumb_disabled_material_light;
+			global::MvvmCross.Resource.Color.switch_thumb_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.switch_thumb_material_dark;
+			global::MvvmCross.Resource.Color.switch_thumb_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.switch_thumb_material_light;
+			global::MvvmCross.Resource.Color.switch_thumb_normal_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.switch_thumb_normal_material_dark;
+			global::MvvmCross.Resource.Color.switch_thumb_normal_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.switch_thumb_normal_material_light;
+			global::MvvmCross.Resource.Color.tooltip_background_dark = global::PizzaIllico.Mobile.Android.Resource.Color.tooltip_background_dark;
+			global::MvvmCross.Resource.Color.tooltip_background_light = global::PizzaIllico.Mobile.Android.Resource.Color.tooltip_background_light;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_content_inset_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_default_height_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_action_bar_default_height_material;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_default_padding_end_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_default_padding_start_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_elevation_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_action_bar_elevation_material;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_stacked_max_height = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::MvvmCross.Resource.Dimension.abc_action_button_min_height_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_action_button_min_height_material;
+			global::MvvmCross.Resource.Dimension.abc_action_button_min_width_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_action_button_min_width_material;
+			global::MvvmCross.Resource.Dimension.abc_action_button_min_width_overflow_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::MvvmCross.Resource.Dimension.abc_alert_dialog_button_bar_height = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::MvvmCross.Resource.Dimension.abc_alert_dialog_button_dimen = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::MvvmCross.Resource.Dimension.abc_button_inset_horizontal_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::MvvmCross.Resource.Dimension.abc_button_inset_vertical_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_button_inset_vertical_material;
+			global::MvvmCross.Resource.Dimension.abc_button_padding_horizontal_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::MvvmCross.Resource.Dimension.abc_button_padding_vertical_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_button_padding_vertical_material;
+			global::MvvmCross.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::MvvmCross.Resource.Dimension.abc_config_prefDialogWidth = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_config_prefDialogWidth;
+			global::MvvmCross.Resource.Dimension.abc_control_corner_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_control_corner_material;
+			global::MvvmCross.Resource.Dimension.abc_control_inset_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_control_inset_material;
+			global::MvvmCross.Resource.Dimension.abc_control_padding_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_control_padding_material;
+			global::MvvmCross.Resource.Dimension.abc_dialog_corner_radius_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::MvvmCross.Resource.Dimension.abc_dialog_fixed_height_major = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::MvvmCross.Resource.Dimension.abc_dialog_fixed_height_minor = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::MvvmCross.Resource.Dimension.abc_dialog_fixed_width_major = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::MvvmCross.Resource.Dimension.abc_dialog_fixed_width_minor = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::MvvmCross.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::MvvmCross.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::MvvmCross.Resource.Dimension.abc_dialog_min_width_major = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_dialog_min_width_major;
+			global::MvvmCross.Resource.Dimension.abc_dialog_min_width_minor = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_dialog_min_width_minor;
+			global::MvvmCross.Resource.Dimension.abc_dialog_padding_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_dialog_padding_material;
+			global::MvvmCross.Resource.Dimension.abc_dialog_padding_top_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_dialog_padding_top_material;
+			global::MvvmCross.Resource.Dimension.abc_dialog_title_divider_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_dialog_title_divider_material;
+			global::MvvmCross.Resource.Dimension.abc_disabled_alpha_material_dark = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::MvvmCross.Resource.Dimension.abc_disabled_alpha_material_light = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::MvvmCross.Resource.Dimension.abc_dropdownitem_icon_width = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::MvvmCross.Resource.Dimension.abc_dropdownitem_text_padding_left = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::MvvmCross.Resource.Dimension.abc_dropdownitem_text_padding_right = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::MvvmCross.Resource.Dimension.abc_edit_text_inset_bottom_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::MvvmCross.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::MvvmCross.Resource.Dimension.abc_edit_text_inset_top_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::MvvmCross.Resource.Dimension.abc_floating_window_z = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_floating_window_z;
+			global::MvvmCross.Resource.Dimension.abc_list_item_height_large_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_list_item_height_large_material;
+			global::MvvmCross.Resource.Dimension.abc_list_item_height_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_list_item_height_material;
+			global::MvvmCross.Resource.Dimension.abc_list_item_height_small_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_list_item_height_small_material;
+			global::MvvmCross.Resource.Dimension.abc_list_item_padding_horizontal_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::MvvmCross.Resource.Dimension.abc_panel_menu_list_width = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_panel_menu_list_width;
+			global::MvvmCross.Resource.Dimension.abc_progress_bar_height_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_progress_bar_height_material;
+			global::MvvmCross.Resource.Dimension.abc_search_view_preferred_height = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_search_view_preferred_height;
+			global::MvvmCross.Resource.Dimension.abc_search_view_preferred_width = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_search_view_preferred_width;
+			global::MvvmCross.Resource.Dimension.abc_seekbar_track_background_height_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::MvvmCross.Resource.Dimension.abc_seekbar_track_progress_height_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::MvvmCross.Resource.Dimension.abc_select_dialog_padding_start_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::MvvmCross.Resource.Dimension.abc_switch_padding = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_switch_padding;
+			global::MvvmCross.Resource.Dimension.abc_text_size_body_1_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_text_size_body_1_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_body_2_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_text_size_body_2_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_button_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_text_size_button_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_caption_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_text_size_caption_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_display_1_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_text_size_display_1_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_display_2_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_text_size_display_2_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_display_3_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_text_size_display_3_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_display_4_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_text_size_display_4_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_headline_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_text_size_headline_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_large_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_text_size_large_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_medium_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_text_size_medium_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_menu_header_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_text_size_menu_header_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_menu_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_text_size_menu_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_small_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_text_size_small_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_subhead_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_text_size_subhead_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::MvvmCross.Resource.Dimension.abc_text_size_title_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_text_size_title_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_title_material_toolbar = global::PizzaIllico.Mobile.Android.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::MvvmCross.Resource.Dimension.cardview_compat_inset_shadow = global::PizzaIllico.Mobile.Android.Resource.Dimension.cardview_compat_inset_shadow;
+			global::MvvmCross.Resource.Dimension.cardview_default_elevation = global::PizzaIllico.Mobile.Android.Resource.Dimension.cardview_default_elevation;
+			global::MvvmCross.Resource.Dimension.cardview_default_radius = global::PizzaIllico.Mobile.Android.Resource.Dimension.cardview_default_radius;
+			global::MvvmCross.Resource.Dimension.compat_button_inset_horizontal_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::MvvmCross.Resource.Dimension.compat_button_inset_vertical_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.compat_button_inset_vertical_material;
+			global::MvvmCross.Resource.Dimension.compat_button_padding_horizontal_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::MvvmCross.Resource.Dimension.compat_button_padding_vertical_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.compat_button_padding_vertical_material;
+			global::MvvmCross.Resource.Dimension.compat_control_corner_material = global::PizzaIllico.Mobile.Android.Resource.Dimension.compat_control_corner_material;
+			global::MvvmCross.Resource.Dimension.compat_notification_large_icon_max_height = global::PizzaIllico.Mobile.Android.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::MvvmCross.Resource.Dimension.compat_notification_large_icon_max_width = global::PizzaIllico.Mobile.Android.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::MvvmCross.Resource.Dimension.design_appbar_elevation = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_appbar_elevation;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_active_text_size = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_elevation = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_bottom_navigation_elevation;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_height = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_bottom_navigation_height;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_icon_size = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_item_max_width = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_item_min_width = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_margin = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_bottom_navigation_margin;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_shadow_height = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_text_size = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_bottom_navigation_text_size;
+			global::MvvmCross.Resource.Dimension.design_bottom_sheet_modal_elevation = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::MvvmCross.Resource.Dimension.design_bottom_sheet_peek_height_min = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::MvvmCross.Resource.Dimension.design_fab_border_width = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_fab_border_width;
+			global::MvvmCross.Resource.Dimension.design_fab_elevation = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_fab_elevation;
+			global::MvvmCross.Resource.Dimension.design_fab_image_size = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_fab_image_size;
+			global::MvvmCross.Resource.Dimension.design_fab_size_mini = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_fab_size_mini;
+			global::MvvmCross.Resource.Dimension.design_fab_size_normal = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_fab_size_normal;
+			global::MvvmCross.Resource.Dimension.design_fab_translation_z_hovered_focused = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::MvvmCross.Resource.Dimension.design_fab_translation_z_pressed = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_fab_translation_z_pressed;
+			global::MvvmCross.Resource.Dimension.design_navigation_elevation = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_navigation_elevation;
+			global::MvvmCross.Resource.Dimension.design_navigation_icon_padding = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_navigation_icon_padding;
+			global::MvvmCross.Resource.Dimension.design_navigation_icon_size = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_navigation_icon_size;
+			global::MvvmCross.Resource.Dimension.design_navigation_item_horizontal_padding = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::MvvmCross.Resource.Dimension.design_navigation_item_icon_padding = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_navigation_item_icon_padding;
+			global::MvvmCross.Resource.Dimension.design_navigation_max_width = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_navigation_max_width;
+			global::MvvmCross.Resource.Dimension.design_navigation_padding_bottom = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_navigation_padding_bottom;
+			global::MvvmCross.Resource.Dimension.design_navigation_separator_vertical_padding = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::MvvmCross.Resource.Dimension.design_snackbar_action_inline_max_width = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::MvvmCross.Resource.Dimension.design_snackbar_background_corner_radius = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::MvvmCross.Resource.Dimension.design_snackbar_elevation = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_snackbar_elevation;
+			global::MvvmCross.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::MvvmCross.Resource.Dimension.design_snackbar_max_width = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_snackbar_max_width;
+			global::MvvmCross.Resource.Dimension.design_snackbar_min_width = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_snackbar_min_width;
+			global::MvvmCross.Resource.Dimension.design_snackbar_padding_horizontal = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::MvvmCross.Resource.Dimension.design_snackbar_padding_vertical = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_snackbar_padding_vertical;
+			global::MvvmCross.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::MvvmCross.Resource.Dimension.design_snackbar_text_size = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_snackbar_text_size;
+			global::MvvmCross.Resource.Dimension.design_tab_max_width = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_tab_max_width;
+			global::MvvmCross.Resource.Dimension.design_tab_scrollable_min_width = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_tab_scrollable_min_width;
+			global::MvvmCross.Resource.Dimension.design_tab_text_size = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_tab_text_size;
+			global::MvvmCross.Resource.Dimension.design_tab_text_size_2line = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_tab_text_size_2line;
+			global::MvvmCross.Resource.Dimension.design_textinput_caption_translate_y = global::PizzaIllico.Mobile.Android.Resource.Dimension.design_textinput_caption_translate_y;
+			global::MvvmCross.Resource.Dimension.disabled_alpha_material_dark = global::PizzaIllico.Mobile.Android.Resource.Dimension.disabled_alpha_material_dark;
+			global::MvvmCross.Resource.Dimension.disabled_alpha_material_light = global::PizzaIllico.Mobile.Android.Resource.Dimension.disabled_alpha_material_light;
+			global::MvvmCross.Resource.Dimension.fastscroll_default_thickness = global::PizzaIllico.Mobile.Android.Resource.Dimension.fastscroll_default_thickness;
+			global::MvvmCross.Resource.Dimension.fastscroll_margin = global::PizzaIllico.Mobile.Android.Resource.Dimension.fastscroll_margin;
+			global::MvvmCross.Resource.Dimension.fastscroll_minimum_range = global::PizzaIllico.Mobile.Android.Resource.Dimension.fastscroll_minimum_range;
+			global::MvvmCross.Resource.Dimension.highlight_alpha_material_colored = global::PizzaIllico.Mobile.Android.Resource.Dimension.highlight_alpha_material_colored;
+			global::MvvmCross.Resource.Dimension.highlight_alpha_material_dark = global::PizzaIllico.Mobile.Android.Resource.Dimension.highlight_alpha_material_dark;
+			global::MvvmCross.Resource.Dimension.highlight_alpha_material_light = global::PizzaIllico.Mobile.Android.Resource.Dimension.highlight_alpha_material_light;
+			global::MvvmCross.Resource.Dimension.hint_alpha_material_dark = global::PizzaIllico.Mobile.Android.Resource.Dimension.hint_alpha_material_dark;
+			global::MvvmCross.Resource.Dimension.hint_alpha_material_light = global::PizzaIllico.Mobile.Android.Resource.Dimension.hint_alpha_material_light;
+			global::MvvmCross.Resource.Dimension.hint_pressed_alpha_material_dark = global::PizzaIllico.Mobile.Android.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::MvvmCross.Resource.Dimension.hint_pressed_alpha_material_light = global::PizzaIllico.Mobile.Android.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::MvvmCross.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::PizzaIllico.Mobile.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::MvvmCross.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::PizzaIllico.Mobile.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::MvvmCross.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::PizzaIllico.Mobile.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::MvvmCross.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::MvvmCross.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::MvvmCross.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::MvvmCross.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::MvvmCross.Resource.Dimension.mtrl_bottomappbar_height = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_bottomappbar_height;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_corner_radius = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_corner_radius;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_disabled_elevation = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_disabled_z = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_disabled_z;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_elevation = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_elevation;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_focused_z = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_focused_z;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_hovered_z = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_hovered_z;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_icon_padding = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_icon_padding;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_inset = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_inset;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_letter_spacing = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_padding_bottom = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_padding_left = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_padding_left;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_padding_right = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_padding_right;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_padding_top = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_padding_top;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_pressed_z = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_pressed_z;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_stroke_size = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_stroke_size;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_text_size = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_text_size;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_z = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_btn_z;
+			global::MvvmCross.Resource.Dimension.mtrl_card_elevation = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_card_elevation;
+			global::MvvmCross.Resource.Dimension.mtrl_card_spacing = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_card_spacing;
+			global::MvvmCross.Resource.Dimension.mtrl_chip_pressed_translation_z = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::MvvmCross.Resource.Dimension.mtrl_chip_text_size = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_chip_text_size;
+			global::MvvmCross.Resource.Dimension.mtrl_fab_elevation = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_fab_elevation;
+			global::MvvmCross.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::MvvmCross.Resource.Dimension.mtrl_fab_translation_z_pressed = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::MvvmCross.Resource.Dimension.mtrl_navigation_elevation = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_navigation_elevation;
+			global::MvvmCross.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::MvvmCross.Resource.Dimension.mtrl_navigation_item_icon_padding = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::MvvmCross.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::MvvmCross.Resource.Dimension.mtrl_snackbar_margin = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_snackbar_margin;
+			global::MvvmCross.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::MvvmCross.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::MvvmCross.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::MvvmCross.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::MvvmCross.Resource.Dimension.mtrl_textinput_box_padding_end = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::MvvmCross.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::MvvmCross.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::MvvmCross.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::MvvmCross.Resource.Dimension.mtrl_toolbar_default_height = global::PizzaIllico.Mobile.Android.Resource.Dimension.mtrl_toolbar_default_height;
+			global::MvvmCross.Resource.Dimension.notification_action_icon_size = global::PizzaIllico.Mobile.Android.Resource.Dimension.notification_action_icon_size;
+			global::MvvmCross.Resource.Dimension.notification_action_text_size = global::PizzaIllico.Mobile.Android.Resource.Dimension.notification_action_text_size;
+			global::MvvmCross.Resource.Dimension.notification_big_circle_margin = global::PizzaIllico.Mobile.Android.Resource.Dimension.notification_big_circle_margin;
+			global::MvvmCross.Resource.Dimension.notification_content_margin_start = global::PizzaIllico.Mobile.Android.Resource.Dimension.notification_content_margin_start;
+			global::MvvmCross.Resource.Dimension.notification_large_icon_height = global::PizzaIllico.Mobile.Android.Resource.Dimension.notification_large_icon_height;
+			global::MvvmCross.Resource.Dimension.notification_large_icon_width = global::PizzaIllico.Mobile.Android.Resource.Dimension.notification_large_icon_width;
+			global::MvvmCross.Resource.Dimension.notification_main_column_padding_top = global::PizzaIllico.Mobile.Android.Resource.Dimension.notification_main_column_padding_top;
+			global::MvvmCross.Resource.Dimension.notification_media_narrow_margin = global::PizzaIllico.Mobile.Android.Resource.Dimension.notification_media_narrow_margin;
+			global::MvvmCross.Resource.Dimension.notification_right_icon_size = global::PizzaIllico.Mobile.Android.Resource.Dimension.notification_right_icon_size;
+			global::MvvmCross.Resource.Dimension.notification_right_side_padding_top = global::PizzaIllico.Mobile.Android.Resource.Dimension.notification_right_side_padding_top;
+			global::MvvmCross.Resource.Dimension.notification_small_icon_background_padding = global::PizzaIllico.Mobile.Android.Resource.Dimension.notification_small_icon_background_padding;
+			global::MvvmCross.Resource.Dimension.notification_small_icon_size_as_large = global::PizzaIllico.Mobile.Android.Resource.Dimension.notification_small_icon_size_as_large;
+			global::MvvmCross.Resource.Dimension.notification_subtext_size = global::PizzaIllico.Mobile.Android.Resource.Dimension.notification_subtext_size;
+			global::MvvmCross.Resource.Dimension.notification_top_pad = global::PizzaIllico.Mobile.Android.Resource.Dimension.notification_top_pad;
+			global::MvvmCross.Resource.Dimension.notification_top_pad_large_text = global::PizzaIllico.Mobile.Android.Resource.Dimension.notification_top_pad_large_text;
+			global::MvvmCross.Resource.Dimension.preference_dropdown_padding_start = global::PizzaIllico.Mobile.Android.Resource.Dimension.preference_dropdown_padding_start;
+			global::MvvmCross.Resource.Dimension.preference_icon_minWidth = global::PizzaIllico.Mobile.Android.Resource.Dimension.preference_icon_minWidth;
+			global::MvvmCross.Resource.Dimension.preference_seekbar_padding_horizontal = global::PizzaIllico.Mobile.Android.Resource.Dimension.preference_seekbar_padding_horizontal;
+			global::MvvmCross.Resource.Dimension.preference_seekbar_padding_vertical = global::PizzaIllico.Mobile.Android.Resource.Dimension.preference_seekbar_padding_vertical;
+			global::MvvmCross.Resource.Dimension.preference_seekbar_value_minWidth = global::PizzaIllico.Mobile.Android.Resource.Dimension.preference_seekbar_value_minWidth;
+			global::MvvmCross.Resource.Dimension.tooltip_corner_radius = global::PizzaIllico.Mobile.Android.Resource.Dimension.tooltip_corner_radius;
+			global::MvvmCross.Resource.Dimension.tooltip_horizontal_padding = global::PizzaIllico.Mobile.Android.Resource.Dimension.tooltip_horizontal_padding;
+			global::MvvmCross.Resource.Dimension.tooltip_margin = global::PizzaIllico.Mobile.Android.Resource.Dimension.tooltip_margin;
+			global::MvvmCross.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::PizzaIllico.Mobile.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::MvvmCross.Resource.Dimension.tooltip_precise_anchor_threshold = global::PizzaIllico.Mobile.Android.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::MvvmCross.Resource.Dimension.tooltip_vertical_padding = global::PizzaIllico.Mobile.Android.Resource.Dimension.tooltip_vertical_padding;
+			global::MvvmCross.Resource.Dimension.tooltip_y_offset_non_touch = global::PizzaIllico.Mobile.Android.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::MvvmCross.Resource.Dimension.tooltip_y_offset_touch = global::PizzaIllico.Mobile.Android.Resource.Dimension.tooltip_y_offset_touch;
+			global::MvvmCross.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_action_bar_item_background_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_action_bar_item_background_material;
+			global::MvvmCross.Resource.Drawable.abc_btn_borderless_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_btn_borderless_material;
+			global::MvvmCross.Resource.Drawable.abc_btn_check_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_btn_check_material;
+			global::MvvmCross.Resource.Drawable.abc_btn_check_material_anim = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_btn_check_material_anim;
+			global::MvvmCross.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::MvvmCross.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::MvvmCross.Resource.Drawable.abc_btn_colored_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_btn_colored_material;
+			global::MvvmCross.Resource.Drawable.abc_btn_default_mtrl_shape = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::MvvmCross.Resource.Drawable.abc_btn_radio_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_btn_radio_material;
+			global::MvvmCross.Resource.Drawable.abc_btn_radio_material_anim = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_btn_radio_material_anim;
+			global::MvvmCross.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::MvvmCross.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::MvvmCross.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::MvvmCross.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::MvvmCross.Resource.Drawable.abc_cab_background_internal_bg = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_cab_background_internal_bg;
+			global::MvvmCross.Resource.Drawable.abc_cab_background_top_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_cab_background_top_material;
+			global::MvvmCross.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_control_background_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_control_background_material;
+			global::MvvmCross.Resource.Drawable.abc_dialog_material_background = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_dialog_material_background;
+			global::MvvmCross.Resource.Drawable.abc_edit_text_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_edit_text_material;
+			global::MvvmCross.Resource.Drawable.abc_ic_ab_back_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ic_ab_back_material;
+			global::MvvmCross.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::MvvmCross.Resource.Drawable.abc_ic_clear_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ic_clear_material;
+			global::MvvmCross.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_ic_go_search_api_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ic_go_search_api_material;
+			global::MvvmCross.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::MvvmCross.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_ic_menu_overflow_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::MvvmCross.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::MvvmCross.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_ic_search_api_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ic_search_api_material;
+			global::MvvmCross.Resource.Drawable.abc_ic_star_black_16dp = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ic_star_black_16dp;
+			global::MvvmCross.Resource.Drawable.abc_ic_star_black_36dp = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ic_star_black_36dp;
+			global::MvvmCross.Resource.Drawable.abc_ic_star_black_48dp = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ic_star_black_48dp;
+			global::MvvmCross.Resource.Drawable.abc_ic_star_half_black_16dp = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::MvvmCross.Resource.Drawable.abc_ic_star_half_black_36dp = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::MvvmCross.Resource.Drawable.abc_ic_star_half_black_48dp = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::MvvmCross.Resource.Drawable.abc_ic_voice_search_api_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::MvvmCross.Resource.Drawable.abc_item_background_holo_dark = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_item_background_holo_dark;
+			global::MvvmCross.Resource.Drawable.abc_item_background_holo_light = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_item_background_holo_light;
+			global::MvvmCross.Resource.Drawable.abc_list_divider_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_list_divider_material;
+			global::MvvmCross.Resource.Drawable.abc_list_divider_mtrl_alpha = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_list_focused_holo = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_list_focused_holo;
+			global::MvvmCross.Resource.Drawable.abc_list_longpressed_holo = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_list_longpressed_holo;
+			global::MvvmCross.Resource.Drawable.abc_list_pressed_holo_dark = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::MvvmCross.Resource.Drawable.abc_list_pressed_holo_light = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_list_pressed_holo_light;
+			global::MvvmCross.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::MvvmCross.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::MvvmCross.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::MvvmCross.Resource.Drawable.abc_list_selector_disabled_holo_light = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::MvvmCross.Resource.Drawable.abc_list_selector_holo_dark = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_list_selector_holo_dark;
+			global::MvvmCross.Resource.Drawable.abc_list_selector_holo_light = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_list_selector_holo_light;
+			global::MvvmCross.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::MvvmCross.Resource.Drawable.abc_popup_background_mtrl_mult = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::MvvmCross.Resource.Drawable.abc_ratingbar_indicator_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::MvvmCross.Resource.Drawable.abc_ratingbar_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ratingbar_material;
+			global::MvvmCross.Resource.Drawable.abc_ratingbar_small_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_ratingbar_small_material;
+			global::MvvmCross.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::MvvmCross.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::MvvmCross.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_seekbar_thumb_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_seekbar_thumb_material;
+			global::MvvmCross.Resource.Drawable.abc_seekbar_tick_mark_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::MvvmCross.Resource.Drawable.abc_seekbar_track_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_seekbar_track_material;
+			global::MvvmCross.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::MvvmCross.Resource.Drawable.abc_spinner_textfield_background_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::MvvmCross.Resource.Drawable.abc_switch_thumb_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_switch_thumb_material;
+			global::MvvmCross.Resource.Drawable.abc_switch_track_mtrl_alpha = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_tab_indicator_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_tab_indicator_material;
+			global::MvvmCross.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_textfield_search_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_textfield_search_material;
+			global::MvvmCross.Resource.Drawable.abc_text_cursor_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_text_cursor_material;
+			global::MvvmCross.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::MvvmCross.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::MvvmCross.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::MvvmCross.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::MvvmCross.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::MvvmCross.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::MvvmCross.Resource.Drawable.abc_vector_test = global::PizzaIllico.Mobile.Android.Resource.Drawable.abc_vector_test;
+			global::MvvmCross.Resource.Drawable.avd_hide_password = global::PizzaIllico.Mobile.Android.Resource.Drawable.avd_hide_password;
+			global::MvvmCross.Resource.Drawable.avd_show_password = global::PizzaIllico.Mobile.Android.Resource.Drawable.avd_show_password;
+			global::MvvmCross.Resource.Drawable.btn_checkbox_checked_mtrl = global::PizzaIllico.Mobile.Android.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::MvvmCross.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::PizzaIllico.Mobile.Android.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::MvvmCross.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::PizzaIllico.Mobile.Android.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::MvvmCross.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::PizzaIllico.Mobile.Android.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::MvvmCross.Resource.Drawable.btn_radio_off_mtrl = global::PizzaIllico.Mobile.Android.Resource.Drawable.btn_radio_off_mtrl;
+			global::MvvmCross.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::PizzaIllico.Mobile.Android.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::MvvmCross.Resource.Drawable.btn_radio_on_mtrl = global::PizzaIllico.Mobile.Android.Resource.Drawable.btn_radio_on_mtrl;
+			global::MvvmCross.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::PizzaIllico.Mobile.Android.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::MvvmCross.Resource.Drawable.design_bottom_navigation_item_background = global::PizzaIllico.Mobile.Android.Resource.Drawable.design_bottom_navigation_item_background;
+			global::MvvmCross.Resource.Drawable.design_fab_background = global::PizzaIllico.Mobile.Android.Resource.Drawable.design_fab_background;
+			global::MvvmCross.Resource.Drawable.design_ic_visibility = global::PizzaIllico.Mobile.Android.Resource.Drawable.design_ic_visibility;
+			global::MvvmCross.Resource.Drawable.design_ic_visibility_off = global::PizzaIllico.Mobile.Android.Resource.Drawable.design_ic_visibility_off;
+			global::MvvmCross.Resource.Drawable.design_password_eye = global::PizzaIllico.Mobile.Android.Resource.Drawable.design_password_eye;
+			global::MvvmCross.Resource.Drawable.design_snackbar_background = global::PizzaIllico.Mobile.Android.Resource.Drawable.design_snackbar_background;
+			global::MvvmCross.Resource.Drawable.ic_arrow_down_24dp = global::PizzaIllico.Mobile.Android.Resource.Drawable.ic_arrow_down_24dp;
+			global::MvvmCross.Resource.Drawable.ic_mtrl_chip_checked_black = global::PizzaIllico.Mobile.Android.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::MvvmCross.Resource.Drawable.ic_mtrl_chip_checked_circle = global::PizzaIllico.Mobile.Android.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::MvvmCross.Resource.Drawable.ic_mtrl_chip_close_circle = global::PizzaIllico.Mobile.Android.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::MvvmCross.Resource.Drawable.mtrl_snackbar_background = global::PizzaIllico.Mobile.Android.Resource.Drawable.mtrl_snackbar_background;
+			global::MvvmCross.Resource.Drawable.mtrl_tabs_default_indicator = global::PizzaIllico.Mobile.Android.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::MvvmCross.Resource.Drawable.navigation_empty_icon = global::PizzaIllico.Mobile.Android.Resource.Drawable.navigation_empty_icon;
+			global::MvvmCross.Resource.Drawable.notification_action_background = global::PizzaIllico.Mobile.Android.Resource.Drawable.notification_action_background;
+			global::MvvmCross.Resource.Drawable.notification_bg = global::PizzaIllico.Mobile.Android.Resource.Drawable.notification_bg;
+			global::MvvmCross.Resource.Drawable.notification_bg_low = global::PizzaIllico.Mobile.Android.Resource.Drawable.notification_bg_low;
+			global::MvvmCross.Resource.Drawable.notification_bg_low_normal = global::PizzaIllico.Mobile.Android.Resource.Drawable.notification_bg_low_normal;
+			global::MvvmCross.Resource.Drawable.notification_bg_low_pressed = global::PizzaIllico.Mobile.Android.Resource.Drawable.notification_bg_low_pressed;
+			global::MvvmCross.Resource.Drawable.notification_bg_normal = global::PizzaIllico.Mobile.Android.Resource.Drawable.notification_bg_normal;
+			global::MvvmCross.Resource.Drawable.notification_bg_normal_pressed = global::PizzaIllico.Mobile.Android.Resource.Drawable.notification_bg_normal_pressed;
+			global::MvvmCross.Resource.Drawable.notification_icon_background = global::PizzaIllico.Mobile.Android.Resource.Drawable.notification_icon_background;
+			global::MvvmCross.Resource.Drawable.notification_template_icon_bg = global::PizzaIllico.Mobile.Android.Resource.Drawable.notification_template_icon_bg;
+			global::MvvmCross.Resource.Drawable.notification_template_icon_low_bg = global::PizzaIllico.Mobile.Android.Resource.Drawable.notification_template_icon_low_bg;
+			global::MvvmCross.Resource.Drawable.notification_tile_bg = global::PizzaIllico.Mobile.Android.Resource.Drawable.notification_tile_bg;
+			global::MvvmCross.Resource.Drawable.notify_panel_notification_icon_bg = global::PizzaIllico.Mobile.Android.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::MvvmCross.Resource.Drawable.preference_list_divider_material = global::PizzaIllico.Mobile.Android.Resource.Drawable.preference_list_divider_material;
+			global::MvvmCross.Resource.Drawable.tooltip_frame_dark = global::PizzaIllico.Mobile.Android.Resource.Drawable.tooltip_frame_dark;
+			global::MvvmCross.Resource.Drawable.tooltip_frame_light = global::PizzaIllico.Mobile.Android.Resource.Drawable.tooltip_frame_light;
+			global::MvvmCross.Resource.Id.accessibility_action_clickable_span = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_action_clickable_span;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_0 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_0;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_1 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_1;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_10 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_10;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_11 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_11;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_12 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_12;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_13 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_13;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_14 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_14;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_15 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_15;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_16 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_16;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_17 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_17;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_18 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_18;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_19 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_19;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_2 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_2;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_20 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_20;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_21 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_21;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_22 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_22;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_23 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_23;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_24 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_24;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_25 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_25;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_26 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_26;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_27 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_27;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_28 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_28;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_29 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_29;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_3 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_3;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_30 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_30;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_31 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_31;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_4 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_4;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_5 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_5;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_6 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_6;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_7 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_7;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_8 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_8;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_9 = global::PizzaIllico.Mobile.Android.Resource.Id.accessibility_custom_action_9;
+			global::MvvmCross.Resource.Id.actions = global::PizzaIllico.Mobile.Android.Resource.Id.actions;
+			global::MvvmCross.Resource.Id.action_bar = global::PizzaIllico.Mobile.Android.Resource.Id.action_bar;
+			global::MvvmCross.Resource.Id.action_bar_activity_content = global::PizzaIllico.Mobile.Android.Resource.Id.action_bar_activity_content;
+			global::MvvmCross.Resource.Id.action_bar_container = global::PizzaIllico.Mobile.Android.Resource.Id.action_bar_container;
+			global::MvvmCross.Resource.Id.action_bar_root = global::PizzaIllico.Mobile.Android.Resource.Id.action_bar_root;
+			global::MvvmCross.Resource.Id.action_bar_spinner = global::PizzaIllico.Mobile.Android.Resource.Id.action_bar_spinner;
+			global::MvvmCross.Resource.Id.action_bar_subtitle = global::PizzaIllico.Mobile.Android.Resource.Id.action_bar_subtitle;
+			global::MvvmCross.Resource.Id.action_bar_title = global::PizzaIllico.Mobile.Android.Resource.Id.action_bar_title;
+			global::MvvmCross.Resource.Id.action_container = global::PizzaIllico.Mobile.Android.Resource.Id.action_container;
+			global::MvvmCross.Resource.Id.action_context_bar = global::PizzaIllico.Mobile.Android.Resource.Id.action_context_bar;
+			global::MvvmCross.Resource.Id.action_divider = global::PizzaIllico.Mobile.Android.Resource.Id.action_divider;
+			global::MvvmCross.Resource.Id.action_image = global::PizzaIllico.Mobile.Android.Resource.Id.action_image;
+			global::MvvmCross.Resource.Id.action_menu_divider = global::PizzaIllico.Mobile.Android.Resource.Id.action_menu_divider;
+			global::MvvmCross.Resource.Id.action_menu_presenter = global::PizzaIllico.Mobile.Android.Resource.Id.action_menu_presenter;
+			global::MvvmCross.Resource.Id.action_mode_bar = global::PizzaIllico.Mobile.Android.Resource.Id.action_mode_bar;
+			global::MvvmCross.Resource.Id.action_mode_bar_stub = global::PizzaIllico.Mobile.Android.Resource.Id.action_mode_bar_stub;
+			global::MvvmCross.Resource.Id.action_mode_close_button = global::PizzaIllico.Mobile.Android.Resource.Id.action_mode_close_button;
+			global::MvvmCross.Resource.Id.action_text = global::PizzaIllico.Mobile.Android.Resource.Id.action_text;
+			global::MvvmCross.Resource.Id.activity_chooser_view_content = global::PizzaIllico.Mobile.Android.Resource.Id.activity_chooser_view_content;
+			global::MvvmCross.Resource.Id.add = global::PizzaIllico.Mobile.Android.Resource.Id.add;
+			global::MvvmCross.Resource.Id.alertTitle = global::PizzaIllico.Mobile.Android.Resource.Id.alertTitle;
+			global::MvvmCross.Resource.Id.all = global::PizzaIllico.Mobile.Android.Resource.Id.all;
+			global::MvvmCross.Resource.Id.ALT = global::PizzaIllico.Mobile.Android.Resource.Id.ALT;
+			global::MvvmCross.Resource.Id.always = global::PizzaIllico.Mobile.Android.Resource.Id.always;
+			global::MvvmCross.Resource.Id.async = global::PizzaIllico.Mobile.Android.Resource.Id.async;
+			global::MvvmCross.Resource.Id.auto = global::PizzaIllico.Mobile.Android.Resource.Id.auto;
+			global::MvvmCross.Resource.Id.beginning = global::PizzaIllico.Mobile.Android.Resource.Id.beginning;
+			global::MvvmCross.Resource.Id.blocking = global::PizzaIllico.Mobile.Android.Resource.Id.blocking;
+			global::MvvmCross.Resource.Id.bottom = global::PizzaIllico.Mobile.Android.Resource.Id.bottom;
+			global::MvvmCross.Resource.Id.buttonPanel = global::PizzaIllico.Mobile.Android.Resource.Id.buttonPanel;
+			global::MvvmCross.Resource.Id.center = global::PizzaIllico.Mobile.Android.Resource.Id.center;
+			global::MvvmCross.Resource.Id.center_horizontal = global::PizzaIllico.Mobile.Android.Resource.Id.center_horizontal;
+			global::MvvmCross.Resource.Id.center_vertical = global::PizzaIllico.Mobile.Android.Resource.Id.center_vertical;
+			global::MvvmCross.Resource.Id.checkbox = global::PizzaIllico.Mobile.Android.Resource.Id.checkbox;
+			global::MvvmCross.Resource.Id.@checked = global::PizzaIllico.Mobile.Android.Resource.Id.@checked;
+			global::MvvmCross.Resource.Id.chronometer = global::PizzaIllico.Mobile.Android.Resource.Id.chronometer;
+			global::MvvmCross.Resource.Id.clip_horizontal = global::PizzaIllico.Mobile.Android.Resource.Id.clip_horizontal;
+			global::MvvmCross.Resource.Id.clip_vertical = global::PizzaIllico.Mobile.Android.Resource.Id.clip_vertical;
+			global::MvvmCross.Resource.Id.collapseActionView = global::PizzaIllico.Mobile.Android.Resource.Id.collapseActionView;
+			global::MvvmCross.Resource.Id.container = global::PizzaIllico.Mobile.Android.Resource.Id.container;
+			global::MvvmCross.Resource.Id.content = global::PizzaIllico.Mobile.Android.Resource.Id.content;
+			global::MvvmCross.Resource.Id.contentPanel = global::PizzaIllico.Mobile.Android.Resource.Id.contentPanel;
+			global::MvvmCross.Resource.Id.coordinator = global::PizzaIllico.Mobile.Android.Resource.Id.coordinator;
+			global::MvvmCross.Resource.Id.CTRL = global::PizzaIllico.Mobile.Android.Resource.Id.CTRL;
+			global::MvvmCross.Resource.Id.custom = global::PizzaIllico.Mobile.Android.Resource.Id.custom;
+			global::MvvmCross.Resource.Id.customPanel = global::PizzaIllico.Mobile.Android.Resource.Id.customPanel;
+			global::MvvmCross.Resource.Id.decor_content_parent = global::PizzaIllico.Mobile.Android.Resource.Id.decor_content_parent;
+			global::MvvmCross.Resource.Id.default_activity_button = global::PizzaIllico.Mobile.Android.Resource.Id.default_activity_button;
+			global::MvvmCross.Resource.Id.design_bottom_sheet = global::PizzaIllico.Mobile.Android.Resource.Id.design_bottom_sheet;
+			global::MvvmCross.Resource.Id.design_menu_item_action_area = global::PizzaIllico.Mobile.Android.Resource.Id.design_menu_item_action_area;
+			global::MvvmCross.Resource.Id.design_menu_item_action_area_stub = global::PizzaIllico.Mobile.Android.Resource.Id.design_menu_item_action_area_stub;
+			global::MvvmCross.Resource.Id.design_menu_item_text = global::PizzaIllico.Mobile.Android.Resource.Id.design_menu_item_text;
+			global::MvvmCross.Resource.Id.design_navigation_view = global::PizzaIllico.Mobile.Android.Resource.Id.design_navigation_view;
+			global::MvvmCross.Resource.Id.dialog_button = global::PizzaIllico.Mobile.Android.Resource.Id.dialog_button;
+			global::MvvmCross.Resource.Id.disableHome = global::PizzaIllico.Mobile.Android.Resource.Id.disableHome;
+			global::MvvmCross.Resource.Id.edit_query = global::PizzaIllico.Mobile.Android.Resource.Id.edit_query;
+			global::MvvmCross.Resource.Id.end = global::PizzaIllico.Mobile.Android.Resource.Id.end;
+			global::MvvmCross.Resource.Id.enterAlways = global::PizzaIllico.Mobile.Android.Resource.Id.enterAlways;
+			global::MvvmCross.Resource.Id.enterAlwaysCollapsed = global::PizzaIllico.Mobile.Android.Resource.Id.enterAlwaysCollapsed;
+			global::MvvmCross.Resource.Id.exitUntilCollapsed = global::PizzaIllico.Mobile.Android.Resource.Id.exitUntilCollapsed;
+			global::MvvmCross.Resource.Id.expanded_menu = global::PizzaIllico.Mobile.Android.Resource.Id.expanded_menu;
+			global::MvvmCross.Resource.Id.expand_activities_button = global::PizzaIllico.Mobile.Android.Resource.Id.expand_activities_button;
+			global::MvvmCross.Resource.Id.fill = global::PizzaIllico.Mobile.Android.Resource.Id.fill;
+			global::MvvmCross.Resource.Id.filled = global::PizzaIllico.Mobile.Android.Resource.Id.filled;
+			global::MvvmCross.Resource.Id.fill_horizontal = global::PizzaIllico.Mobile.Android.Resource.Id.fill_horizontal;
+			global::MvvmCross.Resource.Id.fill_vertical = global::PizzaIllico.Mobile.Android.Resource.Id.fill_vertical;
+			global::MvvmCross.Resource.Id.@fixed = global::PizzaIllico.Mobile.Android.Resource.Id.@fixed;
+			global::MvvmCross.Resource.Id.forever = global::PizzaIllico.Mobile.Android.Resource.Id.forever;
+			global::MvvmCross.Resource.Id.fragment_container_view_tag = global::PizzaIllico.Mobile.Android.Resource.Id.fragment_container_view_tag;
+			global::MvvmCross.Resource.Id.FUNCTION = global::PizzaIllico.Mobile.Android.Resource.Id.FUNCTION;
+			global::MvvmCross.Resource.Id.ghost_view = global::PizzaIllico.Mobile.Android.Resource.Id.ghost_view;
+			global::MvvmCross.Resource.Id.ghost_view_holder = global::PizzaIllico.Mobile.Android.Resource.Id.ghost_view_holder;
+			global::MvvmCross.Resource.Id.group_divider = global::PizzaIllico.Mobile.Android.Resource.Id.group_divider;
+			global::MvvmCross.Resource.Id.home = global::PizzaIllico.Mobile.Android.Resource.Id.home;
+			global::MvvmCross.Resource.Id.homeAsUp = global::PizzaIllico.Mobile.Android.Resource.Id.homeAsUp;
+			global::MvvmCross.Resource.Id.icon = global::PizzaIllico.Mobile.Android.Resource.Id.icon;
+			global::MvvmCross.Resource.Id.icon_frame = global::PizzaIllico.Mobile.Android.Resource.Id.icon_frame;
+			global::MvvmCross.Resource.Id.icon_group = global::PizzaIllico.Mobile.Android.Resource.Id.icon_group;
+			global::MvvmCross.Resource.Id.ifRoom = global::PizzaIllico.Mobile.Android.Resource.Id.ifRoom;
+			global::MvvmCross.Resource.Id.image = global::PizzaIllico.Mobile.Android.Resource.Id.image;
+			global::MvvmCross.Resource.Id.info = global::PizzaIllico.Mobile.Android.Resource.Id.info;
+			global::MvvmCross.Resource.Id.italic = global::PizzaIllico.Mobile.Android.Resource.Id.italic;
+			global::MvvmCross.Resource.Id.item_touch_helper_previous_elevation = global::PizzaIllico.Mobile.Android.Resource.Id.item_touch_helper_previous_elevation;
+			global::MvvmCross.Resource.Id.labeled = global::PizzaIllico.Mobile.Android.Resource.Id.labeled;
+			global::MvvmCross.Resource.Id.largeLabel = global::PizzaIllico.Mobile.Android.Resource.Id.largeLabel;
+			global::MvvmCross.Resource.Id.left = global::PizzaIllico.Mobile.Android.Resource.Id.left;
+			global::MvvmCross.Resource.Id.line1 = global::PizzaIllico.Mobile.Android.Resource.Id.line1;
+			global::MvvmCross.Resource.Id.line3 = global::PizzaIllico.Mobile.Android.Resource.Id.line3;
+			global::MvvmCross.Resource.Id.listMode = global::PizzaIllico.Mobile.Android.Resource.Id.listMode;
+			global::MvvmCross.Resource.Id.list_item = global::PizzaIllico.Mobile.Android.Resource.Id.list_item;
+			global::MvvmCross.Resource.Id.masked = global::PizzaIllico.Mobile.Android.Resource.Id.masked;
+			global::MvvmCross.Resource.Id.message = global::PizzaIllico.Mobile.Android.Resource.Id.message;
+			global::MvvmCross.Resource.Id.META = global::PizzaIllico.Mobile.Android.Resource.Id.META;
+			global::MvvmCross.Resource.Id.middle = global::PizzaIllico.Mobile.Android.Resource.Id.middle;
+			global::MvvmCross.Resource.Id.mini = global::PizzaIllico.Mobile.Android.Resource.Id.mini;
+			global::MvvmCross.Resource.Id.mtrl_child_content_container = global::PizzaIllico.Mobile.Android.Resource.Id.mtrl_child_content_container;
+			global::MvvmCross.Resource.Id.mtrl_internal_children_alpha_tag = global::PizzaIllico.Mobile.Android.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::MvvmCross.Resource.Id.multiply = global::PizzaIllico.Mobile.Android.Resource.Id.multiply;
+			global::MvvmCross.Resource.Id.MvvmCrossTagId = global::PizzaIllico.Mobile.Android.Resource.Id.MvvmCrossTagId;
+			global::MvvmCross.Resource.Id.MvxBindingTagUnique = global::PizzaIllico.Mobile.Android.Resource.Id.MvxBindingTagUnique;
+			global::MvvmCross.Resource.Id.navigation_header_container = global::PizzaIllico.Mobile.Android.Resource.Id.navigation_header_container;
+			global::MvvmCross.Resource.Id.never = global::PizzaIllico.Mobile.Android.Resource.Id.never;
+			global::MvvmCross.Resource.Id.none = global::PizzaIllico.Mobile.Android.Resource.Id.none;
+			global::MvvmCross.Resource.Id.normal = global::PizzaIllico.Mobile.Android.Resource.Id.normal;
+			global::MvvmCross.Resource.Id.notification_background = global::PizzaIllico.Mobile.Android.Resource.Id.notification_background;
+			global::MvvmCross.Resource.Id.notification_main_column = global::PizzaIllico.Mobile.Android.Resource.Id.notification_main_column;
+			global::MvvmCross.Resource.Id.notification_main_column_container = global::PizzaIllico.Mobile.Android.Resource.Id.notification_main_column_container;
+			global::MvvmCross.Resource.Id.off = global::PizzaIllico.Mobile.Android.Resource.Id.off;
+			global::MvvmCross.Resource.Id.on = global::PizzaIllico.Mobile.Android.Resource.Id.on;
+			global::MvvmCross.Resource.Id.outline = global::PizzaIllico.Mobile.Android.Resource.Id.outline;
+			global::MvvmCross.Resource.Id.parallax = global::PizzaIllico.Mobile.Android.Resource.Id.parallax;
+			global::MvvmCross.Resource.Id.parentPanel = global::PizzaIllico.Mobile.Android.Resource.Id.parentPanel;
+			global::MvvmCross.Resource.Id.parent_matrix = global::PizzaIllico.Mobile.Android.Resource.Id.parent_matrix;
+			global::MvvmCross.Resource.Id.pin = global::PizzaIllico.Mobile.Android.Resource.Id.pin;
+			global::MvvmCross.Resource.Id.progress_circular = global::PizzaIllico.Mobile.Android.Resource.Id.progress_circular;
+			global::MvvmCross.Resource.Id.progress_horizontal = global::PizzaIllico.Mobile.Android.Resource.Id.progress_horizontal;
+			global::MvvmCross.Resource.Id.radio = global::PizzaIllico.Mobile.Android.Resource.Id.radio;
+			global::MvvmCross.Resource.Id.recycler_view = global::PizzaIllico.Mobile.Android.Resource.Id.recycler_view;
+			global::MvvmCross.Resource.Id.right = global::PizzaIllico.Mobile.Android.Resource.Id.right;
+			global::MvvmCross.Resource.Id.right_icon = global::PizzaIllico.Mobile.Android.Resource.Id.right_icon;
+			global::MvvmCross.Resource.Id.right_side = global::PizzaIllico.Mobile.Android.Resource.Id.right_side;
+			global::MvvmCross.Resource.Id.save_non_transition_alpha = global::PizzaIllico.Mobile.Android.Resource.Id.save_non_transition_alpha;
+			global::MvvmCross.Resource.Id.save_overlay_view = global::PizzaIllico.Mobile.Android.Resource.Id.save_overlay_view;
+			global::MvvmCross.Resource.Id.screen = global::PizzaIllico.Mobile.Android.Resource.Id.screen;
+			global::MvvmCross.Resource.Id.scroll = global::PizzaIllico.Mobile.Android.Resource.Id.scroll;
+			global::MvvmCross.Resource.Id.scrollable = global::PizzaIllico.Mobile.Android.Resource.Id.scrollable;
+			global::MvvmCross.Resource.Id.scrollIndicatorDown = global::PizzaIllico.Mobile.Android.Resource.Id.scrollIndicatorDown;
+			global::MvvmCross.Resource.Id.scrollIndicatorUp = global::PizzaIllico.Mobile.Android.Resource.Id.scrollIndicatorUp;
+			global::MvvmCross.Resource.Id.scrollView = global::PizzaIllico.Mobile.Android.Resource.Id.scrollView;
+			global::MvvmCross.Resource.Id.search_badge = global::PizzaIllico.Mobile.Android.Resource.Id.search_badge;
+			global::MvvmCross.Resource.Id.search_bar = global::PizzaIllico.Mobile.Android.Resource.Id.search_bar;
+			global::MvvmCross.Resource.Id.search_button = global::PizzaIllico.Mobile.Android.Resource.Id.search_button;
+			global::MvvmCross.Resource.Id.search_close_btn = global::PizzaIllico.Mobile.Android.Resource.Id.search_close_btn;
+			global::MvvmCross.Resource.Id.search_edit_frame = global::PizzaIllico.Mobile.Android.Resource.Id.search_edit_frame;
+			global::MvvmCross.Resource.Id.search_go_btn = global::PizzaIllico.Mobile.Android.Resource.Id.search_go_btn;
+			global::MvvmCross.Resource.Id.search_mag_icon = global::PizzaIllico.Mobile.Android.Resource.Id.search_mag_icon;
+			global::MvvmCross.Resource.Id.search_plate = global::PizzaIllico.Mobile.Android.Resource.Id.search_plate;
+			global::MvvmCross.Resource.Id.search_src_text = global::PizzaIllico.Mobile.Android.Resource.Id.search_src_text;
+			global::MvvmCross.Resource.Id.search_voice_btn = global::PizzaIllico.Mobile.Android.Resource.Id.search_voice_btn;
+			global::MvvmCross.Resource.Id.seekbar = global::PizzaIllico.Mobile.Android.Resource.Id.seekbar;
+			global::MvvmCross.Resource.Id.seekbar_value = global::PizzaIllico.Mobile.Android.Resource.Id.seekbar_value;
+			global::MvvmCross.Resource.Id.selected = global::PizzaIllico.Mobile.Android.Resource.Id.selected;
+			global::MvvmCross.Resource.Id.select_dialog_listview = global::PizzaIllico.Mobile.Android.Resource.Id.select_dialog_listview;
+			global::MvvmCross.Resource.Id.SHIFT = global::PizzaIllico.Mobile.Android.Resource.Id.SHIFT;
+			global::MvvmCross.Resource.Id.shortcut = global::PizzaIllico.Mobile.Android.Resource.Id.shortcut;
+			global::MvvmCross.Resource.Id.showCustom = global::PizzaIllico.Mobile.Android.Resource.Id.showCustom;
+			global::MvvmCross.Resource.Id.showHome = global::PizzaIllico.Mobile.Android.Resource.Id.showHome;
+			global::MvvmCross.Resource.Id.showTitle = global::PizzaIllico.Mobile.Android.Resource.Id.showTitle;
+			global::MvvmCross.Resource.Id.smallLabel = global::PizzaIllico.Mobile.Android.Resource.Id.smallLabel;
+			global::MvvmCross.Resource.Id.snackbar_action = global::PizzaIllico.Mobile.Android.Resource.Id.snackbar_action;
+			global::MvvmCross.Resource.Id.snackbar_text = global::PizzaIllico.Mobile.Android.Resource.Id.snackbar_text;
+			global::MvvmCross.Resource.Id.snap = global::PizzaIllico.Mobile.Android.Resource.Id.snap;
+			global::MvvmCross.Resource.Id.snapMargins = global::PizzaIllico.Mobile.Android.Resource.Id.snapMargins;
+			global::MvvmCross.Resource.Id.spacer = global::PizzaIllico.Mobile.Android.Resource.Id.spacer;
+			global::MvvmCross.Resource.Id.spinner = global::PizzaIllico.Mobile.Android.Resource.Id.spinner;
+			global::MvvmCross.Resource.Id.split_action_bar = global::PizzaIllico.Mobile.Android.Resource.Id.split_action_bar;
+			global::MvvmCross.Resource.Id.src_atop = global::PizzaIllico.Mobile.Android.Resource.Id.src_atop;
+			global::MvvmCross.Resource.Id.src_in = global::PizzaIllico.Mobile.Android.Resource.Id.src_in;
+			global::MvvmCross.Resource.Id.src_over = global::PizzaIllico.Mobile.Android.Resource.Id.src_over;
+			global::MvvmCross.Resource.Id.start = global::PizzaIllico.Mobile.Android.Resource.Id.start;
+			global::MvvmCross.Resource.Id.stretch = global::PizzaIllico.Mobile.Android.Resource.Id.stretch;
+			global::MvvmCross.Resource.Id.submenuarrow = global::PizzaIllico.Mobile.Android.Resource.Id.submenuarrow;
+			global::MvvmCross.Resource.Id.submit_area = global::PizzaIllico.Mobile.Android.Resource.Id.submit_area;
+			global::MvvmCross.Resource.Id.switchWidget = global::PizzaIllico.Mobile.Android.Resource.Id.switchWidget;
+			global::MvvmCross.Resource.Id.SYM = global::PizzaIllico.Mobile.Android.Resource.Id.SYM;
+			global::MvvmCross.Resource.Id.tabMode = global::PizzaIllico.Mobile.Android.Resource.Id.tabMode;
+			global::MvvmCross.Resource.Id.tag_accessibility_actions = global::PizzaIllico.Mobile.Android.Resource.Id.tag_accessibility_actions;
+			global::MvvmCross.Resource.Id.tag_accessibility_clickable_spans = global::PizzaIllico.Mobile.Android.Resource.Id.tag_accessibility_clickable_spans;
+			global::MvvmCross.Resource.Id.tag_accessibility_heading = global::PizzaIllico.Mobile.Android.Resource.Id.tag_accessibility_heading;
+			global::MvvmCross.Resource.Id.tag_accessibility_pane_title = global::PizzaIllico.Mobile.Android.Resource.Id.tag_accessibility_pane_title;
+			global::MvvmCross.Resource.Id.tag_screen_reader_focusable = global::PizzaIllico.Mobile.Android.Resource.Id.tag_screen_reader_focusable;
+			global::MvvmCross.Resource.Id.tag_transition_group = global::PizzaIllico.Mobile.Android.Resource.Id.tag_transition_group;
+			global::MvvmCross.Resource.Id.tag_unhandled_key_event_manager = global::PizzaIllico.Mobile.Android.Resource.Id.tag_unhandled_key_event_manager;
+			global::MvvmCross.Resource.Id.tag_unhandled_key_listeners = global::PizzaIllico.Mobile.Android.Resource.Id.tag_unhandled_key_listeners;
+			global::MvvmCross.Resource.Id.text = global::PizzaIllico.Mobile.Android.Resource.Id.text;
+			global::MvvmCross.Resource.Id.text2 = global::PizzaIllico.Mobile.Android.Resource.Id.text2;
+			global::MvvmCross.Resource.Id.textinput_counter = global::PizzaIllico.Mobile.Android.Resource.Id.textinput_counter;
+			global::MvvmCross.Resource.Id.textinput_error = global::PizzaIllico.Mobile.Android.Resource.Id.textinput_error;
+			global::MvvmCross.Resource.Id.textinput_helper_text = global::PizzaIllico.Mobile.Android.Resource.Id.textinput_helper_text;
+			global::MvvmCross.Resource.Id.textSpacerNoButtons = global::PizzaIllico.Mobile.Android.Resource.Id.textSpacerNoButtons;
+			global::MvvmCross.Resource.Id.textSpacerNoTitle = global::PizzaIllico.Mobile.Android.Resource.Id.textSpacerNoTitle;
+			global::MvvmCross.Resource.Id.textStart = global::PizzaIllico.Mobile.Android.Resource.Id.textStart;
+			global::MvvmCross.Resource.Id.text_input_password_toggle = global::PizzaIllico.Mobile.Android.Resource.Id.text_input_password_toggle;
+			global::MvvmCross.Resource.Id.time = global::PizzaIllico.Mobile.Android.Resource.Id.time;
+			global::MvvmCross.Resource.Id.title = global::PizzaIllico.Mobile.Android.Resource.Id.title;
+			global::MvvmCross.Resource.Id.titleDividerNoCustom = global::PizzaIllico.Mobile.Android.Resource.Id.titleDividerNoCustom;
+			global::MvvmCross.Resource.Id.title_template = global::PizzaIllico.Mobile.Android.Resource.Id.title_template;
+			global::MvvmCross.Resource.Id.top = global::PizzaIllico.Mobile.Android.Resource.Id.top;
+			global::MvvmCross.Resource.Id.topPanel = global::PizzaIllico.Mobile.Android.Resource.Id.topPanel;
+			global::MvvmCross.Resource.Id.touch_outside = global::PizzaIllico.Mobile.Android.Resource.Id.touch_outside;
+			global::MvvmCross.Resource.Id.transition_current_scene = global::PizzaIllico.Mobile.Android.Resource.Id.transition_current_scene;
+			global::MvvmCross.Resource.Id.transition_layout_save = global::PizzaIllico.Mobile.Android.Resource.Id.transition_layout_save;
+			global::MvvmCross.Resource.Id.transition_position = global::PizzaIllico.Mobile.Android.Resource.Id.transition_position;
+			global::MvvmCross.Resource.Id.transition_scene_layoutid_cache = global::PizzaIllico.Mobile.Android.Resource.Id.transition_scene_layoutid_cache;
+			global::MvvmCross.Resource.Id.transition_transform = global::PizzaIllico.Mobile.Android.Resource.Id.transition_transform;
+			global::MvvmCross.Resource.Id.@unchecked = global::PizzaIllico.Mobile.Android.Resource.Id.@unchecked;
+			global::MvvmCross.Resource.Id.uniform = global::PizzaIllico.Mobile.Android.Resource.Id.uniform;
+			global::MvvmCross.Resource.Id.unlabeled = global::PizzaIllico.Mobile.Android.Resource.Id.unlabeled;
+			global::MvvmCross.Resource.Id.up = global::PizzaIllico.Mobile.Android.Resource.Id.up;
+			global::MvvmCross.Resource.Id.useLogo = global::PizzaIllico.Mobile.Android.Resource.Id.useLogo;
+			global::MvvmCross.Resource.Id.view_offset_helper = global::PizzaIllico.Mobile.Android.Resource.Id.view_offset_helper;
+			global::MvvmCross.Resource.Id.view_tree_saved_state_registry_owner = global::PizzaIllico.Mobile.Android.Resource.Id.view_tree_saved_state_registry_owner;
+			global::MvvmCross.Resource.Id.visible = global::PizzaIllico.Mobile.Android.Resource.Id.visible;
+			global::MvvmCross.Resource.Id.visible_removing_fragment_view_tag = global::PizzaIllico.Mobile.Android.Resource.Id.visible_removing_fragment_view_tag;
+			global::MvvmCross.Resource.Id.withText = global::PizzaIllico.Mobile.Android.Resource.Id.withText;
+			global::MvvmCross.Resource.Id.wrap_content = global::PizzaIllico.Mobile.Android.Resource.Id.wrap_content;
+			global::MvvmCross.Resource.Integer.abc_config_activityDefaultDur = global::PizzaIllico.Mobile.Android.Resource.Integer.abc_config_activityDefaultDur;
+			global::MvvmCross.Resource.Integer.abc_config_activityShortDur = global::PizzaIllico.Mobile.Android.Resource.Integer.abc_config_activityShortDur;
+			global::MvvmCross.Resource.Integer.app_bar_elevation_anim_duration = global::PizzaIllico.Mobile.Android.Resource.Integer.app_bar_elevation_anim_duration;
+			global::MvvmCross.Resource.Integer.bottom_sheet_slide_duration = global::PizzaIllico.Mobile.Android.Resource.Integer.bottom_sheet_slide_duration;
+			global::MvvmCross.Resource.Integer.cancel_button_image_alpha = global::PizzaIllico.Mobile.Android.Resource.Integer.cancel_button_image_alpha;
+			global::MvvmCross.Resource.Integer.config_tooltipAnimTime = global::PizzaIllico.Mobile.Android.Resource.Integer.config_tooltipAnimTime;
+			global::MvvmCross.Resource.Integer.design_snackbar_text_max_lines = global::PizzaIllico.Mobile.Android.Resource.Integer.design_snackbar_text_max_lines;
+			global::MvvmCross.Resource.Integer.design_tab_indicator_anim_duration_ms = global::PizzaIllico.Mobile.Android.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::MvvmCross.Resource.Integer.hide_password_duration = global::PizzaIllico.Mobile.Android.Resource.Integer.hide_password_duration;
+			global::MvvmCross.Resource.Integer.mtrl_btn_anim_delay_ms = global::PizzaIllico.Mobile.Android.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::MvvmCross.Resource.Integer.mtrl_btn_anim_duration_ms = global::PizzaIllico.Mobile.Android.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::MvvmCross.Resource.Integer.mtrl_chip_anim_duration = global::PizzaIllico.Mobile.Android.Resource.Integer.mtrl_chip_anim_duration;
+			global::MvvmCross.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::PizzaIllico.Mobile.Android.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::MvvmCross.Resource.Integer.show_password_duration = global::PizzaIllico.Mobile.Android.Resource.Integer.show_password_duration;
+			global::MvvmCross.Resource.Integer.status_bar_notification_info_maxnum = global::PizzaIllico.Mobile.Android.Resource.Integer.status_bar_notification_info_maxnum;
+			global::MvvmCross.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::PizzaIllico.Mobile.Android.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::MvvmCross.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::PizzaIllico.Mobile.Android.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::MvvmCross.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::PizzaIllico.Mobile.Android.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::MvvmCross.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::PizzaIllico.Mobile.Android.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::MvvmCross.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::PizzaIllico.Mobile.Android.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::MvvmCross.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::PizzaIllico.Mobile.Android.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::MvvmCross.Resource.Interpolator.fast_out_slow_in = global::PizzaIllico.Mobile.Android.Resource.Interpolator.fast_out_slow_in;
+			global::MvvmCross.Resource.Interpolator.mtrl_fast_out_linear_in = global::PizzaIllico.Mobile.Android.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::MvvmCross.Resource.Interpolator.mtrl_fast_out_slow_in = global::PizzaIllico.Mobile.Android.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::MvvmCross.Resource.Interpolator.mtrl_linear = global::PizzaIllico.Mobile.Android.Resource.Interpolator.mtrl_linear;
+			global::MvvmCross.Resource.Interpolator.mtrl_linear_out_slow_in = global::PizzaIllico.Mobile.Android.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::MvvmCross.Resource.Layout.abc_action_bar_title_item = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_action_bar_title_item;
+			global::MvvmCross.Resource.Layout.abc_action_bar_up_container = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_action_bar_up_container;
+			global::MvvmCross.Resource.Layout.abc_action_menu_item_layout = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_action_menu_item_layout;
+			global::MvvmCross.Resource.Layout.abc_action_menu_layout = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_action_menu_layout;
+			global::MvvmCross.Resource.Layout.abc_action_mode_bar = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_action_mode_bar;
+			global::MvvmCross.Resource.Layout.abc_action_mode_close_item_material = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_action_mode_close_item_material;
+			global::MvvmCross.Resource.Layout.abc_activity_chooser_view = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_activity_chooser_view;
+			global::MvvmCross.Resource.Layout.abc_activity_chooser_view_list_item = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::MvvmCross.Resource.Layout.abc_alert_dialog_button_bar_material = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::MvvmCross.Resource.Layout.abc_alert_dialog_material = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_alert_dialog_material;
+			global::MvvmCross.Resource.Layout.abc_alert_dialog_title_material = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_alert_dialog_title_material;
+			global::MvvmCross.Resource.Layout.abc_cascading_menu_item_layout = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_cascading_menu_item_layout;
+			global::MvvmCross.Resource.Layout.abc_dialog_title_material = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_dialog_title_material;
+			global::MvvmCross.Resource.Layout.abc_expanded_menu_layout = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_expanded_menu_layout;
+			global::MvvmCross.Resource.Layout.abc_list_menu_item_checkbox = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_list_menu_item_checkbox;
+			global::MvvmCross.Resource.Layout.abc_list_menu_item_icon = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_list_menu_item_icon;
+			global::MvvmCross.Resource.Layout.abc_list_menu_item_layout = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_list_menu_item_layout;
+			global::MvvmCross.Resource.Layout.abc_list_menu_item_radio = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_list_menu_item_radio;
+			global::MvvmCross.Resource.Layout.abc_popup_menu_header_item_layout = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::MvvmCross.Resource.Layout.abc_popup_menu_item_layout = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_popup_menu_item_layout;
+			global::MvvmCross.Resource.Layout.abc_screen_content_include = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_screen_content_include;
+			global::MvvmCross.Resource.Layout.abc_screen_simple = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_screen_simple;
+			global::MvvmCross.Resource.Layout.abc_screen_simple_overlay_action_mode = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::MvvmCross.Resource.Layout.abc_screen_toolbar = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_screen_toolbar;
+			global::MvvmCross.Resource.Layout.abc_search_dropdown_item_icons_2line = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::MvvmCross.Resource.Layout.abc_search_view = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_search_view;
+			global::MvvmCross.Resource.Layout.abc_select_dialog_material = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_select_dialog_material;
+			global::MvvmCross.Resource.Layout.abc_tooltip = global::PizzaIllico.Mobile.Android.Resource.Layout.abc_tooltip;
+			global::MvvmCross.Resource.Layout.custom_dialog = global::PizzaIllico.Mobile.Android.Resource.Layout.custom_dialog;
+			global::MvvmCross.Resource.Layout.design_bottom_navigation_item = global::PizzaIllico.Mobile.Android.Resource.Layout.design_bottom_navigation_item;
+			global::MvvmCross.Resource.Layout.design_bottom_sheet_dialog = global::PizzaIllico.Mobile.Android.Resource.Layout.design_bottom_sheet_dialog;
+			global::MvvmCross.Resource.Layout.design_layout_snackbar = global::PizzaIllico.Mobile.Android.Resource.Layout.design_layout_snackbar;
+			global::MvvmCross.Resource.Layout.design_layout_snackbar_include = global::PizzaIllico.Mobile.Android.Resource.Layout.design_layout_snackbar_include;
+			global::MvvmCross.Resource.Layout.design_layout_tab_icon = global::PizzaIllico.Mobile.Android.Resource.Layout.design_layout_tab_icon;
+			global::MvvmCross.Resource.Layout.design_layout_tab_text = global::PizzaIllico.Mobile.Android.Resource.Layout.design_layout_tab_text;
+			global::MvvmCross.Resource.Layout.design_menu_item_action_area = global::PizzaIllico.Mobile.Android.Resource.Layout.design_menu_item_action_area;
+			global::MvvmCross.Resource.Layout.design_navigation_item = global::PizzaIllico.Mobile.Android.Resource.Layout.design_navigation_item;
+			global::MvvmCross.Resource.Layout.design_navigation_item_header = global::PizzaIllico.Mobile.Android.Resource.Layout.design_navigation_item_header;
+			global::MvvmCross.Resource.Layout.design_navigation_item_separator = global::PizzaIllico.Mobile.Android.Resource.Layout.design_navigation_item_separator;
+			global::MvvmCross.Resource.Layout.design_navigation_item_subheader = global::PizzaIllico.Mobile.Android.Resource.Layout.design_navigation_item_subheader;
+			global::MvvmCross.Resource.Layout.design_navigation_menu = global::PizzaIllico.Mobile.Android.Resource.Layout.design_navigation_menu;
+			global::MvvmCross.Resource.Layout.design_navigation_menu_item = global::PizzaIllico.Mobile.Android.Resource.Layout.design_navigation_menu_item;
+			global::MvvmCross.Resource.Layout.design_text_input_password_icon = global::PizzaIllico.Mobile.Android.Resource.Layout.design_text_input_password_icon;
+			global::MvvmCross.Resource.Layout.expand_button = global::PizzaIllico.Mobile.Android.Resource.Layout.expand_button;
+			global::MvvmCross.Resource.Layout.image_frame = global::PizzaIllico.Mobile.Android.Resource.Layout.image_frame;
+			global::MvvmCross.Resource.Layout.mtrl_layout_snackbar = global::PizzaIllico.Mobile.Android.Resource.Layout.mtrl_layout_snackbar;
+			global::MvvmCross.Resource.Layout.mtrl_layout_snackbar_include = global::PizzaIllico.Mobile.Android.Resource.Layout.mtrl_layout_snackbar_include;
+			global::MvvmCross.Resource.Layout.notification_action = global::PizzaIllico.Mobile.Android.Resource.Layout.notification_action;
+			global::MvvmCross.Resource.Layout.notification_action_tombstone = global::PizzaIllico.Mobile.Android.Resource.Layout.notification_action_tombstone;
+			global::MvvmCross.Resource.Layout.notification_template_custom_big = global::PizzaIllico.Mobile.Android.Resource.Layout.notification_template_custom_big;
+			global::MvvmCross.Resource.Layout.notification_template_icon_group = global::PizzaIllico.Mobile.Android.Resource.Layout.notification_template_icon_group;
+			global::MvvmCross.Resource.Layout.notification_template_part_chronometer = global::PizzaIllico.Mobile.Android.Resource.Layout.notification_template_part_chronometer;
+			global::MvvmCross.Resource.Layout.notification_template_part_time = global::PizzaIllico.Mobile.Android.Resource.Layout.notification_template_part_time;
+			global::MvvmCross.Resource.Layout.preference = global::PizzaIllico.Mobile.Android.Resource.Layout.preference;
+			global::MvvmCross.Resource.Layout.preference_category = global::PizzaIllico.Mobile.Android.Resource.Layout.preference_category;
+			global::MvvmCross.Resource.Layout.preference_category_material = global::PizzaIllico.Mobile.Android.Resource.Layout.preference_category_material;
+			global::MvvmCross.Resource.Layout.preference_dialog_edittext = global::PizzaIllico.Mobile.Android.Resource.Layout.preference_dialog_edittext;
+			global::MvvmCross.Resource.Layout.preference_dropdown = global::PizzaIllico.Mobile.Android.Resource.Layout.preference_dropdown;
+			global::MvvmCross.Resource.Layout.preference_dropdown_material = global::PizzaIllico.Mobile.Android.Resource.Layout.preference_dropdown_material;
+			global::MvvmCross.Resource.Layout.preference_information = global::PizzaIllico.Mobile.Android.Resource.Layout.preference_information;
+			global::MvvmCross.Resource.Layout.preference_information_material = global::PizzaIllico.Mobile.Android.Resource.Layout.preference_information_material;
+			global::MvvmCross.Resource.Layout.preference_list_fragment = global::PizzaIllico.Mobile.Android.Resource.Layout.preference_list_fragment;
+			global::MvvmCross.Resource.Layout.preference_material = global::PizzaIllico.Mobile.Android.Resource.Layout.preference_material;
+			global::MvvmCross.Resource.Layout.preference_recyclerview = global::PizzaIllico.Mobile.Android.Resource.Layout.preference_recyclerview;
+			global::MvvmCross.Resource.Layout.preference_widget_checkbox = global::PizzaIllico.Mobile.Android.Resource.Layout.preference_widget_checkbox;
+			global::MvvmCross.Resource.Layout.preference_widget_seekbar = global::PizzaIllico.Mobile.Android.Resource.Layout.preference_widget_seekbar;
+			global::MvvmCross.Resource.Layout.preference_widget_seekbar_material = global::PizzaIllico.Mobile.Android.Resource.Layout.preference_widget_seekbar_material;
+			global::MvvmCross.Resource.Layout.preference_widget_switch = global::PizzaIllico.Mobile.Android.Resource.Layout.preference_widget_switch;
+			global::MvvmCross.Resource.Layout.preference_widget_switch_compat = global::PizzaIllico.Mobile.Android.Resource.Layout.preference_widget_switch_compat;
+			global::MvvmCross.Resource.Layout.select_dialog_item_material = global::PizzaIllico.Mobile.Android.Resource.Layout.select_dialog_item_material;
+			global::MvvmCross.Resource.Layout.select_dialog_multichoice_material = global::PizzaIllico.Mobile.Android.Resource.Layout.select_dialog_multichoice_material;
+			global::MvvmCross.Resource.Layout.select_dialog_singlechoice_material = global::PizzaIllico.Mobile.Android.Resource.Layout.select_dialog_singlechoice_material;
+			global::MvvmCross.Resource.Layout.support_simple_spinner_dropdown_item = global::PizzaIllico.Mobile.Android.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::MvvmCross.Resource.String.abc_action_bar_home_description = global::PizzaIllico.Mobile.Android.Resource.String.abc_action_bar_home_description;
+			global::MvvmCross.Resource.String.abc_action_bar_up_description = global::PizzaIllico.Mobile.Android.Resource.String.abc_action_bar_up_description;
+			global::MvvmCross.Resource.String.abc_action_menu_overflow_description = global::PizzaIllico.Mobile.Android.Resource.String.abc_action_menu_overflow_description;
+			global::MvvmCross.Resource.String.abc_action_mode_done = global::PizzaIllico.Mobile.Android.Resource.String.abc_action_mode_done;
+			global::MvvmCross.Resource.String.abc_activitychooserview_choose_application = global::PizzaIllico.Mobile.Android.Resource.String.abc_activitychooserview_choose_application;
+			global::MvvmCross.Resource.String.abc_activity_chooser_view_see_all = global::PizzaIllico.Mobile.Android.Resource.String.abc_activity_chooser_view_see_all;
+			global::MvvmCross.Resource.String.abc_capital_off = global::PizzaIllico.Mobile.Android.Resource.String.abc_capital_off;
+			global::MvvmCross.Resource.String.abc_capital_on = global::PizzaIllico.Mobile.Android.Resource.String.abc_capital_on;
+			global::MvvmCross.Resource.String.abc_menu_alt_shortcut_label = global::PizzaIllico.Mobile.Android.Resource.String.abc_menu_alt_shortcut_label;
+			global::MvvmCross.Resource.String.abc_menu_ctrl_shortcut_label = global::PizzaIllico.Mobile.Android.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::MvvmCross.Resource.String.abc_menu_delete_shortcut_label = global::PizzaIllico.Mobile.Android.Resource.String.abc_menu_delete_shortcut_label;
+			global::MvvmCross.Resource.String.abc_menu_enter_shortcut_label = global::PizzaIllico.Mobile.Android.Resource.String.abc_menu_enter_shortcut_label;
+			global::MvvmCross.Resource.String.abc_menu_function_shortcut_label = global::PizzaIllico.Mobile.Android.Resource.String.abc_menu_function_shortcut_label;
+			global::MvvmCross.Resource.String.abc_menu_meta_shortcut_label = global::PizzaIllico.Mobile.Android.Resource.String.abc_menu_meta_shortcut_label;
+			global::MvvmCross.Resource.String.abc_menu_shift_shortcut_label = global::PizzaIllico.Mobile.Android.Resource.String.abc_menu_shift_shortcut_label;
+			global::MvvmCross.Resource.String.abc_menu_space_shortcut_label = global::PizzaIllico.Mobile.Android.Resource.String.abc_menu_space_shortcut_label;
+			global::MvvmCross.Resource.String.abc_menu_sym_shortcut_label = global::PizzaIllico.Mobile.Android.Resource.String.abc_menu_sym_shortcut_label;
+			global::MvvmCross.Resource.String.abc_prepend_shortcut_label = global::PizzaIllico.Mobile.Android.Resource.String.abc_prepend_shortcut_label;
+			global::MvvmCross.Resource.String.abc_searchview_description_clear = global::PizzaIllico.Mobile.Android.Resource.String.abc_searchview_description_clear;
+			global::MvvmCross.Resource.String.abc_searchview_description_query = global::PizzaIllico.Mobile.Android.Resource.String.abc_searchview_description_query;
+			global::MvvmCross.Resource.String.abc_searchview_description_search = global::PizzaIllico.Mobile.Android.Resource.String.abc_searchview_description_search;
+			global::MvvmCross.Resource.String.abc_searchview_description_submit = global::PizzaIllico.Mobile.Android.Resource.String.abc_searchview_description_submit;
+			global::MvvmCross.Resource.String.abc_searchview_description_voice = global::PizzaIllico.Mobile.Android.Resource.String.abc_searchview_description_voice;
+			global::MvvmCross.Resource.String.abc_search_hint = global::PizzaIllico.Mobile.Android.Resource.String.abc_search_hint;
+			global::MvvmCross.Resource.String.abc_shareactionprovider_share_with = global::PizzaIllico.Mobile.Android.Resource.String.abc_shareactionprovider_share_with;
+			global::MvvmCross.Resource.String.abc_shareactionprovider_share_with_application = global::PizzaIllico.Mobile.Android.Resource.String.abc_shareactionprovider_share_with_application;
+			global::MvvmCross.Resource.String.abc_toolbar_collapse_description = global::PizzaIllico.Mobile.Android.Resource.String.abc_toolbar_collapse_description;
+			global::MvvmCross.Resource.String.appbar_scrolling_view_behavior = global::PizzaIllico.Mobile.Android.Resource.String.appbar_scrolling_view_behavior;
+			global::MvvmCross.Resource.String.bottom_sheet_behavior = global::PizzaIllico.Mobile.Android.Resource.String.bottom_sheet_behavior;
+			global::MvvmCross.Resource.String.character_counter_content_description = global::PizzaIllico.Mobile.Android.Resource.String.character_counter_content_description;
+			global::MvvmCross.Resource.String.character_counter_pattern = global::PizzaIllico.Mobile.Android.Resource.String.character_counter_pattern;
+			global::MvvmCross.Resource.String.copy = global::PizzaIllico.Mobile.Android.Resource.String.copy;
+			global::MvvmCross.Resource.String.expand_button_title = global::PizzaIllico.Mobile.Android.Resource.String.expand_button_title;
+			global::MvvmCross.Resource.String.fab_transformation_scrim_behavior = global::PizzaIllico.Mobile.Android.Resource.String.fab_transformation_scrim_behavior;
+			global::MvvmCross.Resource.String.fab_transformation_sheet_behavior = global::PizzaIllico.Mobile.Android.Resource.String.fab_transformation_sheet_behavior;
+			global::MvvmCross.Resource.String.hide_bottom_view_on_scroll_behavior = global::PizzaIllico.Mobile.Android.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::MvvmCross.Resource.String.mtrl_chip_close_icon_content_description = global::PizzaIllico.Mobile.Android.Resource.String.mtrl_chip_close_icon_content_description;
+			global::MvvmCross.Resource.String.not_set = global::PizzaIllico.Mobile.Android.Resource.String.not_set;
+			global::MvvmCross.Resource.String.password_toggle_content_description = global::PizzaIllico.Mobile.Android.Resource.String.password_toggle_content_description;
+			global::MvvmCross.Resource.String.path_password_eye = global::PizzaIllico.Mobile.Android.Resource.String.path_password_eye;
+			global::MvvmCross.Resource.String.path_password_eye_mask_strike_through = global::PizzaIllico.Mobile.Android.Resource.String.path_password_eye_mask_strike_through;
+			global::MvvmCross.Resource.String.path_password_eye_mask_visible = global::PizzaIllico.Mobile.Android.Resource.String.path_password_eye_mask_visible;
+			global::MvvmCross.Resource.String.path_password_strike_through = global::PizzaIllico.Mobile.Android.Resource.String.path_password_strike_through;
+			global::MvvmCross.Resource.String.preference_copied = global::PizzaIllico.Mobile.Android.Resource.String.preference_copied;
+			global::MvvmCross.Resource.String.search_menu_title = global::PizzaIllico.Mobile.Android.Resource.String.search_menu_title;
+			global::MvvmCross.Resource.String.status_bar_notification_info_overflow = global::PizzaIllico.Mobile.Android.Resource.String.status_bar_notification_info_overflow;
+			global::MvvmCross.Resource.String.summary_collapsed_preference_list = global::PizzaIllico.Mobile.Android.Resource.String.summary_collapsed_preference_list;
+			global::MvvmCross.Resource.String.v7_preference_off = global::PizzaIllico.Mobile.Android.Resource.String.v7_preference_off;
+			global::MvvmCross.Resource.String.v7_preference_on = global::PizzaIllico.Mobile.Android.Resource.String.v7_preference_on;
+			global::MvvmCross.Resource.Style.AlertDialog_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.AlertDialog_AppCompat;
+			global::MvvmCross.Resource.Style.AlertDialog_AppCompat_Light = global::PizzaIllico.Mobile.Android.Resource.Style.AlertDialog_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Animation_AppCompat_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Animation_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.Animation_AppCompat_DropDownUp = global::PizzaIllico.Mobile.Android.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::MvvmCross.Resource.Style.Animation_AppCompat_Tooltip = global::PizzaIllico.Mobile.Android.Resource.Style.Animation_AppCompat_Tooltip;
+			global::MvvmCross.Resource.Style.Animation_Design_BottomSheetDialog = global::PizzaIllico.Mobile.Android.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::MvvmCross.Resource.Style.Base_AlertDialog_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.Base_AlertDialog_AppCompat;
+			global::MvvmCross.Resource.Style.Base_AlertDialog_AppCompat_Light = global::PizzaIllico.Mobile.Android.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Base_Animation_AppCompat_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::MvvmCross.Resource.Style.Base_Animation_AppCompat_Tooltip = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::MvvmCross.Resource.Style.Base_CardView = global::PizzaIllico.Mobile.Android.Resource.Style.Base_CardView;
+			global::MvvmCross.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::MvvmCross.Resource.Style.Base_DialogWindowTitle_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Button = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Large = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Small = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Title = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::PizzaIllico.Mobile.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::MvvmCross.Resource.Style.Base_ThemeOverlay_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::MvvmCross.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::MvvmCross.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::PizzaIllico.Mobile.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::MvvmCross.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::PizzaIllico.Mobile.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::PizzaIllico.Mobile.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::PizzaIllico.Mobile.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_AppCompat;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Light = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_MaterialComponents;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Light = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::MvvmCross.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Base_V14_Theme_MaterialComponents = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::MvvmCross.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::MvvmCross.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::MvvmCross.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::MvvmCross.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.Base_V21_Theme_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V21_Theme_AppCompat;
+			global::MvvmCross.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.Base_V21_Theme_AppCompat_Light = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Resource.Style.Base_V22_Theme_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V22_Theme_AppCompat;
+			global::MvvmCross.Resource.Style.Base_V22_Theme_AppCompat_Light = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Base_V23_Theme_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V23_Theme_AppCompat;
+			global::MvvmCross.Resource.Style.Base_V23_Theme_AppCompat_Light = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Base_V26_Theme_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V26_Theme_AppCompat;
+			global::MvvmCross.Resource.Style.Base_V26_Theme_AppCompat_Light = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::MvvmCross.Resource.Style.Base_V28_Theme_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V28_Theme_AppCompat;
+			global::MvvmCross.Resource.Style.Base_V28_Theme_AppCompat_Light = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.Base_V7_Theme_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V7_Theme_AppCompat;
+			global::MvvmCross.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.Base_V7_Theme_AppCompat_Light = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::MvvmCross.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::PizzaIllico.Mobile.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActionButton = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActionMode = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Button = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_Button;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Button_Small = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_EditText = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ImageButton = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ListView = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_RatingBar = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_SearchView = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_SeekBar = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Spinner = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_TextView = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Toolbar = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::MvvmCross.Resource.Style.Base_Widget_Design_TabLayout = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_Design_TabLayout;
+			global::MvvmCross.Resource.Style.Base_Widget_MaterialComponents_Chip = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::MvvmCross.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::MvvmCross.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::PizzaIllico.Mobile.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::MvvmCross.Resource.Style.CardView = global::PizzaIllico.Mobile.Android.Resource.Style.CardView;
+			global::MvvmCross.Resource.Style.CardView_Dark = global::PizzaIllico.Mobile.Android.Resource.Style.CardView_Dark;
+			global::MvvmCross.Resource.Style.CardView_Light = global::PizzaIllico.Mobile.Android.Resource.Style.CardView_Light;
+			global::MvvmCross.Resource.Style.Platform_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.Platform_AppCompat;
+			global::MvvmCross.Resource.Style.Platform_AppCompat_Light = global::PizzaIllico.Mobile.Android.Resource.Style.Platform_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Platform_MaterialComponents = global::PizzaIllico.Mobile.Android.Resource.Style.Platform_MaterialComponents;
+			global::MvvmCross.Resource.Style.Platform_MaterialComponents_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::MvvmCross.Resource.Style.Platform_MaterialComponents_Light = global::PizzaIllico.Mobile.Android.Resource.Style.Platform_MaterialComponents_Light;
+			global::MvvmCross.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Resource.Style.Platform_ThemeOverlay_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::MvvmCross.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::PizzaIllico.Mobile.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::PizzaIllico.Mobile.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Platform_V21_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.Platform_V21_AppCompat;
+			global::MvvmCross.Resource.Style.Platform_V21_AppCompat_Light = global::PizzaIllico.Mobile.Android.Resource.Style.Platform_V21_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Platform_V25_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.Platform_V25_AppCompat;
+			global::MvvmCross.Resource.Style.Platform_V25_AppCompat_Light = global::PizzaIllico.Mobile.Android.Resource.Style.Platform_V25_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Platform_Widget_AppCompat_Spinner = global::PizzaIllico.Mobile.Android.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::MvvmCross.Resource.Style.Preference = global::PizzaIllico.Mobile.Android.Resource.Style.Preference;
+			global::MvvmCross.Resource.Style.PreferenceCategoryTitleTextStyle = global::PizzaIllico.Mobile.Android.Resource.Style.PreferenceCategoryTitleTextStyle;
+			global::MvvmCross.Resource.Style.PreferenceFragment = global::PizzaIllico.Mobile.Android.Resource.Style.PreferenceFragment;
+			global::MvvmCross.Resource.Style.PreferenceFragmentList = global::PizzaIllico.Mobile.Android.Resource.Style.PreferenceFragmentList;
+			global::MvvmCross.Resource.Style.PreferenceFragmentList_Material = global::PizzaIllico.Mobile.Android.Resource.Style.PreferenceFragmentList_Material;
+			global::MvvmCross.Resource.Style.PreferenceFragment_Material = global::PizzaIllico.Mobile.Android.Resource.Style.PreferenceFragment_Material;
+			global::MvvmCross.Resource.Style.PreferenceSummaryTextStyle = global::PizzaIllico.Mobile.Android.Resource.Style.PreferenceSummaryTextStyle;
+			global::MvvmCross.Resource.Style.PreferenceThemeOverlay = global::PizzaIllico.Mobile.Android.Resource.Style.PreferenceThemeOverlay;
+			global::MvvmCross.Resource.Style.PreferenceThemeOverlay_v14 = global::PizzaIllico.Mobile.Android.Resource.Style.PreferenceThemeOverlay_v14;
+			global::MvvmCross.Resource.Style.PreferenceThemeOverlay_v14_Material = global::PizzaIllico.Mobile.Android.Resource.Style.PreferenceThemeOverlay_v14_Material;
+			global::MvvmCross.Resource.Style.Preference_Category = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_Category;
+			global::MvvmCross.Resource.Style.Preference_Category_Material = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_Category_Material;
+			global::MvvmCross.Resource.Style.Preference_CheckBoxPreference = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_CheckBoxPreference;
+			global::MvvmCross.Resource.Style.Preference_CheckBoxPreference_Material = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_CheckBoxPreference_Material;
+			global::MvvmCross.Resource.Style.Preference_DialogPreference = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_DialogPreference;
+			global::MvvmCross.Resource.Style.Preference_DialogPreference_EditTextPreference = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_DialogPreference_EditTextPreference;
+			global::MvvmCross.Resource.Style.Preference_DialogPreference_EditTextPreference_Material = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_DialogPreference_EditTextPreference_Material;
+			global::MvvmCross.Resource.Style.Preference_DialogPreference_Material = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_DialogPreference_Material;
+			global::MvvmCross.Resource.Style.Preference_DropDown = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_DropDown;
+			global::MvvmCross.Resource.Style.Preference_DropDown_Material = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_DropDown_Material;
+			global::MvvmCross.Resource.Style.Preference_Information = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_Information;
+			global::MvvmCross.Resource.Style.Preference_Information_Material = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_Information_Material;
+			global::MvvmCross.Resource.Style.Preference_Material = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_Material;
+			global::MvvmCross.Resource.Style.Preference_PreferenceScreen = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_PreferenceScreen;
+			global::MvvmCross.Resource.Style.Preference_PreferenceScreen_Material = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_PreferenceScreen_Material;
+			global::MvvmCross.Resource.Style.Preference_SeekBarPreference = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_SeekBarPreference;
+			global::MvvmCross.Resource.Style.Preference_SeekBarPreference_Material = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_SeekBarPreference_Material;
+			global::MvvmCross.Resource.Style.Preference_SwitchPreference = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_SwitchPreference;
+			global::MvvmCross.Resource.Style.Preference_SwitchPreferenceCompat = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_SwitchPreferenceCompat;
+			global::MvvmCross.Resource.Style.Preference_SwitchPreferenceCompat_Material = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_SwitchPreferenceCompat_Material;
+			global::MvvmCross.Resource.Style.Preference_SwitchPreference_Material = global::PizzaIllico.Mobile.Android.Resource.Style.Preference_SwitchPreference_Material;
+			global::MvvmCross.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::PizzaIllico.Mobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::PizzaIllico.Mobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::PizzaIllico.Mobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::PizzaIllico.Mobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::PizzaIllico.Mobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::PizzaIllico.Mobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::PizzaIllico.Mobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::PizzaIllico.Mobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::PizzaIllico.Mobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::PizzaIllico.Mobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::PizzaIllico.Mobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::PizzaIllico.Mobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::PizzaIllico.Mobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::PizzaIllico.Mobile.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::MvvmCross.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::PizzaIllico.Mobile.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::MvvmCross.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::PizzaIllico.Mobile.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Body1 = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Body2 = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Button = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Button;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Caption = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Display1 = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Display2 = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Display3 = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Display4 = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Headline = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Large = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Large;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Medium = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Menu = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Small = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Small;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Subhead = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Title = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Title;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Tooltip = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::MvvmCross.Resource.Style.TextAppearance_Compat_Notification = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_Compat_Notification;
+			global::MvvmCross.Resource.Style.TextAppearance_Compat_Notification_Info = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::MvvmCross.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::MvvmCross.Resource.Style.TextAppearance_Compat_Notification_Time = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::MvvmCross.Resource.Style.TextAppearance_Compat_Notification_Title = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::MvvmCross.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::MvvmCross.Resource.Style.TextAppearance_Design_Counter = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_Design_Counter;
+			global::MvvmCross.Resource.Style.TextAppearance_Design_Counter_Overflow = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::MvvmCross.Resource.Style.TextAppearance_Design_Error = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_Design_Error;
+			global::MvvmCross.Resource.Style.TextAppearance_Design_HelperText = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_Design_HelperText;
+			global::MvvmCross.Resource.Style.TextAppearance_Design_Hint = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_Design_Hint;
+			global::MvvmCross.Resource.Style.TextAppearance_Design_Snackbar_Message = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::MvvmCross.Resource.Style.TextAppearance_Design_Tab = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_Design_Tab;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Button = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Caption = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Chip = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Overline = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Tab = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::MvvmCross.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::MvvmCross.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::MvvmCross.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::PizzaIllico.Mobile.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::MvvmCross.Resource.Style.ThemeOverlay_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_AppCompat;
+			global::MvvmCross.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::MvvmCross.Resource.Style.ThemeOverlay_AppCompat_Dark = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::MvvmCross.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::MvvmCross.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::MvvmCross.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::MvvmCross.Resource.Style.ThemeOverlay_AppCompat_Light = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::PizzaIllico.Mobile.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::MvvmCross.Resource.Style.Theme_AppCompat = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_CompactMenu = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_DayNight = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_DayNight;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Dialog_Alert = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Empty = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_Empty;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Light = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Light_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_NoActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::MvvmCross.Resource.Style.Theme_Design = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_Design;
+			global::MvvmCross.Resource.Style.Theme_Design_BottomSheetDialog = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::MvvmCross.Resource.Style.Theme_Design_Light = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_Design_Light;
+			global::MvvmCross.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::MvvmCross.Resource.Style.Theme_Design_Light_NoActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::MvvmCross.Resource.Style.Theme_Design_NoActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_Design_NoActionBar;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Bridge = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_CompactMenu = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_Light;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_NoActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::PizzaIllico.Mobile.Android.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ActionBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActionButton = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ActionButton;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActionMode = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ActionMode;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActivityChooserView = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Button = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Button;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ButtonBar = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Button_Borderless = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Button_Colored = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Button_Small = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Button_Small;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_EditText = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_EditText;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ImageButton = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ImageButton;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionButton = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_SearchView = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ListMenuView = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ListPopupWindow = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ListView = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ListView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ListView_DropDown = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ListView_Menu = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_PopupMenu = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_PopupWindow = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ProgressBar = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_RatingBar = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_RatingBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_RatingBar_Small = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_SearchView = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_SearchView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_SeekBar = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_SeekBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Spinner = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Spinner;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_TextView = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_TextView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Toolbar = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Toolbar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::MvvmCross.Resource.Style.Widget_Compat_NotificationActionContainer = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::MvvmCross.Resource.Style.Widget_Compat_NotificationActionText = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_Compat_NotificationActionText;
+			global::MvvmCross.Resource.Style.Widget_Design_AppBarLayout = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_Design_AppBarLayout;
+			global::MvvmCross.Resource.Style.Widget_Design_BottomNavigationView = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_Design_BottomNavigationView;
+			global::MvvmCross.Resource.Style.Widget_Design_BottomSheet_Modal = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::MvvmCross.Resource.Style.Widget_Design_CollapsingToolbar = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::MvvmCross.Resource.Style.Widget_Design_FloatingActionButton = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_Design_FloatingActionButton;
+			global::MvvmCross.Resource.Style.Widget_Design_NavigationView = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_Design_NavigationView;
+			global::MvvmCross.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::MvvmCross.Resource.Style.Widget_Design_Snackbar = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_Design_Snackbar;
+			global::MvvmCross.Resource.Style.Widget_Design_TabLayout = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_Design_TabLayout;
+			global::MvvmCross.Resource.Style.Widget_Design_TextInputLayout = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_Design_TextInputLayout;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_Button;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button_Icon = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_CardView = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_CardView;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_ChipGroup = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Chip_Action = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_NavigationView = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Snackbar = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TabLayout = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Toolbar = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::MvvmCross.Resource.Style.Widget_Support_CoordinatorLayout = global::PizzaIllico.Mobile.Android.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::MvvmCross.Resource.Styleable.ActionBar = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar;
+			global::MvvmCross.Resource.Styleable.ActionBarLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBarLayout;
+			global::MvvmCross.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::MvvmCross.Resource.Styleable.ActionBar_background = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_background;
+			global::MvvmCross.Resource.Styleable.ActionBar_backgroundSplit = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_backgroundSplit;
+			global::MvvmCross.Resource.Styleable.ActionBar_backgroundStacked = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_backgroundStacked;
+			global::MvvmCross.Resource.Styleable.ActionBar_contentInsetEnd = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::MvvmCross.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::MvvmCross.Resource.Styleable.ActionBar_contentInsetLeft = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::MvvmCross.Resource.Styleable.ActionBar_contentInsetRight = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_contentInsetRight;
+			global::MvvmCross.Resource.Styleable.ActionBar_contentInsetStart = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_contentInsetStart;
+			global::MvvmCross.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::MvvmCross.Resource.Styleable.ActionBar_customNavigationLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::MvvmCross.Resource.Styleable.ActionBar_displayOptions = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_displayOptions;
+			global::MvvmCross.Resource.Styleable.ActionBar_divider = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_divider;
+			global::MvvmCross.Resource.Styleable.ActionBar_elevation = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_elevation;
+			global::MvvmCross.Resource.Styleable.ActionBar_height = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_height;
+			global::MvvmCross.Resource.Styleable.ActionBar_hideOnContentScroll = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::MvvmCross.Resource.Styleable.ActionBar_homeAsUpIndicator = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::MvvmCross.Resource.Styleable.ActionBar_homeLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_homeLayout;
+			global::MvvmCross.Resource.Styleable.ActionBar_icon = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_icon;
+			global::MvvmCross.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::MvvmCross.Resource.Styleable.ActionBar_itemPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_itemPadding;
+			global::MvvmCross.Resource.Styleable.ActionBar_logo = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_logo;
+			global::MvvmCross.Resource.Styleable.ActionBar_navigationMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_navigationMode;
+			global::MvvmCross.Resource.Styleable.ActionBar_popupTheme = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_popupTheme;
+			global::MvvmCross.Resource.Styleable.ActionBar_progressBarPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_progressBarPadding;
+			global::MvvmCross.Resource.Styleable.ActionBar_progressBarStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_progressBarStyle;
+			global::MvvmCross.Resource.Styleable.ActionBar_subtitle = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_subtitle;
+			global::MvvmCross.Resource.Styleable.ActionBar_subtitleTextStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::MvvmCross.Resource.Styleable.ActionBar_title = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_title;
+			global::MvvmCross.Resource.Styleable.ActionBar_titleTextStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionBar_titleTextStyle;
+			global::MvvmCross.Resource.Styleable.ActionMenuItemView = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionMenuItemView;
+			global::MvvmCross.Resource.Styleable.ActionMenuItemView_android_minWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::MvvmCross.Resource.Styleable.ActionMenuView = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionMenuView;
+			global::MvvmCross.Resource.Styleable.ActionMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionMode;
+			global::MvvmCross.Resource.Styleable.ActionMode_background = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionMode_background;
+			global::MvvmCross.Resource.Styleable.ActionMode_backgroundSplit = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionMode_backgroundSplit;
+			global::MvvmCross.Resource.Styleable.ActionMode_closeItemLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionMode_closeItemLayout;
+			global::MvvmCross.Resource.Styleable.ActionMode_height = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionMode_height;
+			global::MvvmCross.Resource.Styleable.ActionMode_subtitleTextStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::MvvmCross.Resource.Styleable.ActionMode_titleTextStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActionMode_titleTextStyle;
+			global::MvvmCross.Resource.Styleable.ActivityChooserView = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActivityChooserView;
+			global::MvvmCross.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::MvvmCross.Resource.Styleable.ActivityChooserView_initialActivityCount = global::PizzaIllico.Mobile.Android.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::MvvmCross.Resource.Styleable.AlertDialog = global::PizzaIllico.Mobile.Android.Resource.Styleable.AlertDialog;
+			global::MvvmCross.Resource.Styleable.AlertDialog_android_layout = global::PizzaIllico.Mobile.Android.Resource.Styleable.AlertDialog_android_layout;
+			global::MvvmCross.Resource.Styleable.AlertDialog_buttonIconDimen = global::PizzaIllico.Mobile.Android.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::MvvmCross.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::MvvmCross.Resource.Styleable.AlertDialog_listItemLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.AlertDialog_listItemLayout;
+			global::MvvmCross.Resource.Styleable.AlertDialog_listLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.AlertDialog_listLayout;
+			global::MvvmCross.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::MvvmCross.Resource.Styleable.AlertDialog_showTitle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AlertDialog_showTitle;
+			global::MvvmCross.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableCompat = global::PizzaIllico.Mobile.Android.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::PizzaIllico.Mobile.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::PizzaIllico.Mobile.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::PizzaIllico.Mobile.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::PizzaIllico.Mobile.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::PizzaIllico.Mobile.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableItem = global::PizzaIllico.Mobile.Android.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::PizzaIllico.Mobile.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::PizzaIllico.Mobile.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableTransition = global::PizzaIllico.Mobile.Android.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::PizzaIllico.Mobile.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::PizzaIllico.Mobile.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::PizzaIllico.Mobile.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::PizzaIllico.Mobile.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::MvvmCross.Resource.Styleable.AppBarLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppBarLayout;
+			global::MvvmCross.Resource.Styleable.AppBarLayoutStates = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppBarLayoutStates;
+			global::MvvmCross.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::MvvmCross.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::MvvmCross.Resource.Styleable.AppBarLayoutStates_state_liftable = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::MvvmCross.Resource.Styleable.AppBarLayoutStates_state_lifted = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::MvvmCross.Resource.Styleable.AppBarLayout_android_background = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppBarLayout_android_background;
+			global::MvvmCross.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::MvvmCross.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::MvvmCross.Resource.Styleable.AppBarLayout_elevation = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppBarLayout_elevation;
+			global::MvvmCross.Resource.Styleable.AppBarLayout_expanded = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppBarLayout_expanded;
+			global::MvvmCross.Resource.Styleable.AppBarLayout_Layout = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppBarLayout_Layout;
+			global::MvvmCross.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::MvvmCross.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::MvvmCross.Resource.Styleable.AppBarLayout_liftOnScroll = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::MvvmCross.Resource.Styleable.AppCompatImageView = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatImageView;
+			global::MvvmCross.Resource.Styleable.AppCompatImageView_android_src = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatImageView_android_src;
+			global::MvvmCross.Resource.Styleable.AppCompatImageView_srcCompat = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::MvvmCross.Resource.Styleable.AppCompatImageView_tint = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatImageView_tint;
+			global::MvvmCross.Resource.Styleable.AppCompatImageView_tintMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatImageView_tintMode;
+			global::MvvmCross.Resource.Styleable.AppCompatSeekBar = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatSeekBar;
+			global::MvvmCross.Resource.Styleable.AppCompatSeekBar_android_thumb = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::MvvmCross.Resource.Styleable.AppCompatSeekBar_tickMark = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::MvvmCross.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::MvvmCross.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::MvvmCross.Resource.Styleable.AppCompatTextHelper = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextHelper;
+			global::MvvmCross.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::MvvmCross.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::MvvmCross.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::MvvmCross.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::MvvmCross.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::MvvmCross.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::MvvmCross.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_android_textAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_drawableTint = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_drawableTintMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_fontFamily = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_lineHeight = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_textAllCaps = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_textLocale = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTextView_textLocale;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarDivider = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarSize = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarTheme = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_buttonStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_checkboxStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorAccent = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorControlActivated = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorControlNormal = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorError = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_colorError;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorPrimary = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_controlBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_dialogTheme = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_dividerVertical = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_editTextBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_editTextColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_editTextStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_panelBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_searchViewStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_seekBarStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_spinnerStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_switchStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_toolbarStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowActionBar = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowNoTitle = global::PizzaIllico.Mobile.Android.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::MvvmCross.Resource.Styleable.BackgroundStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.BackgroundStyle;
+			global::MvvmCross.Resource.Styleable.BackgroundStyle_android_selectableItemBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.BackgroundStyle_android_selectableItemBackground;
+			global::MvvmCross.Resource.Styleable.BackgroundStyle_selectableItemBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.BackgroundStyle_selectableItemBackground;
+			global::MvvmCross.Resource.Styleable.BottomAppBar = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomAppBar;
+			global::MvvmCross.Resource.Styleable.BottomAppBar_backgroundTint = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::MvvmCross.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::MvvmCross.Resource.Styleable.BottomAppBar_fabCradleMargin = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::MvvmCross.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::MvvmCross.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::MvvmCross.Resource.Styleable.BottomAppBar_hideOnScroll = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomNavigationView;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_elevation = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomNavigationView_elevation;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_itemBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_itemIconSize = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_itemIconTint = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_itemTextColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_menu = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomNavigationView_menu;
+			global::MvvmCross.Resource.Styleable.BottomSheetBehavior_Layout = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::MvvmCross.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::MvvmCross.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::MvvmCross.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::MvvmCross.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::PizzaIllico.Mobile.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::MvvmCross.Resource.Styleable.ButtonBarLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.ButtonBarLayout;
+			global::MvvmCross.Resource.Styleable.ButtonBarLayout_allowStacking = global::PizzaIllico.Mobile.Android.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::MvvmCross.Resource.Styleable.CardView = global::PizzaIllico.Mobile.Android.Resource.Styleable.CardView;
+			global::MvvmCross.Resource.Styleable.CardView_android_minHeight = global::PizzaIllico.Mobile.Android.Resource.Styleable.CardView_android_minHeight;
+			global::MvvmCross.Resource.Styleable.CardView_android_minWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.CardView_android_minWidth;
+			global::MvvmCross.Resource.Styleable.CardView_cardBackgroundColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.CardView_cardBackgroundColor;
+			global::MvvmCross.Resource.Styleable.CardView_cardCornerRadius = global::PizzaIllico.Mobile.Android.Resource.Styleable.CardView_cardCornerRadius;
+			global::MvvmCross.Resource.Styleable.CardView_cardElevation = global::PizzaIllico.Mobile.Android.Resource.Styleable.CardView_cardElevation;
+			global::MvvmCross.Resource.Styleable.CardView_cardMaxElevation = global::PizzaIllico.Mobile.Android.Resource.Styleable.CardView_cardMaxElevation;
+			global::MvvmCross.Resource.Styleable.CardView_cardPreventCornerOverlap = global::PizzaIllico.Mobile.Android.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::MvvmCross.Resource.Styleable.CardView_cardUseCompatPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::MvvmCross.Resource.Styleable.CardView_contentPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.CardView_contentPadding;
+			global::MvvmCross.Resource.Styleable.CardView_contentPaddingBottom = global::PizzaIllico.Mobile.Android.Resource.Styleable.CardView_contentPaddingBottom;
+			global::MvvmCross.Resource.Styleable.CardView_contentPaddingLeft = global::PizzaIllico.Mobile.Android.Resource.Styleable.CardView_contentPaddingLeft;
+			global::MvvmCross.Resource.Styleable.CardView_contentPaddingRight = global::PizzaIllico.Mobile.Android.Resource.Styleable.CardView_contentPaddingRight;
+			global::MvvmCross.Resource.Styleable.CardView_contentPaddingTop = global::PizzaIllico.Mobile.Android.Resource.Styleable.CardView_contentPaddingTop;
+			global::MvvmCross.Resource.Styleable.CheckBoxPreference = global::PizzaIllico.Mobile.Android.Resource.Styleable.CheckBoxPreference;
+			global::MvvmCross.Resource.Styleable.CheckBoxPreference_android_disableDependentsState = global::PizzaIllico.Mobile.Android.Resource.Styleable.CheckBoxPreference_android_disableDependentsState;
+			global::MvvmCross.Resource.Styleable.CheckBoxPreference_android_summaryOff = global::PizzaIllico.Mobile.Android.Resource.Styleable.CheckBoxPreference_android_summaryOff;
+			global::MvvmCross.Resource.Styleable.CheckBoxPreference_android_summaryOn = global::PizzaIllico.Mobile.Android.Resource.Styleable.CheckBoxPreference_android_summaryOn;
+			global::MvvmCross.Resource.Styleable.CheckBoxPreference_disableDependentsState = global::PizzaIllico.Mobile.Android.Resource.Styleable.CheckBoxPreference_disableDependentsState;
+			global::MvvmCross.Resource.Styleable.CheckBoxPreference_summaryOff = global::PizzaIllico.Mobile.Android.Resource.Styleable.CheckBoxPreference_summaryOff;
+			global::MvvmCross.Resource.Styleable.CheckBoxPreference_summaryOn = global::PizzaIllico.Mobile.Android.Resource.Styleable.CheckBoxPreference_summaryOn;
+			global::MvvmCross.Resource.Styleable.Chip = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip;
+			global::MvvmCross.Resource.Styleable.ChipGroup = global::PizzaIllico.Mobile.Android.Resource.Styleable.ChipGroup;
+			global::MvvmCross.Resource.Styleable.ChipGroup_checkedChip = global::PizzaIllico.Mobile.Android.Resource.Styleable.ChipGroup_checkedChip;
+			global::MvvmCross.Resource.Styleable.ChipGroup_chipSpacing = global::PizzaIllico.Mobile.Android.Resource.Styleable.ChipGroup_chipSpacing;
+			global::MvvmCross.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::PizzaIllico.Mobile.Android.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::MvvmCross.Resource.Styleable.ChipGroup_chipSpacingVertical = global::PizzaIllico.Mobile.Android.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::MvvmCross.Resource.Styleable.ChipGroup_singleLine = global::PizzaIllico.Mobile.Android.Resource.Styleable.ChipGroup_singleLine;
+			global::MvvmCross.Resource.Styleable.ChipGroup_singleSelection = global::PizzaIllico.Mobile.Android.Resource.Styleable.ChipGroup_singleSelection;
+			global::MvvmCross.Resource.Styleable.Chip_android_checkable = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_android_checkable;
+			global::MvvmCross.Resource.Styleable.Chip_android_ellipsize = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_android_ellipsize;
+			global::MvvmCross.Resource.Styleable.Chip_android_maxWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_android_maxWidth;
+			global::MvvmCross.Resource.Styleable.Chip_android_text = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_android_text;
+			global::MvvmCross.Resource.Styleable.Chip_android_textAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_android_textAppearance;
+			global::MvvmCross.Resource.Styleable.Chip_checkedIcon = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_checkedIcon;
+			global::MvvmCross.Resource.Styleable.Chip_checkedIconEnabled = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_checkedIconEnabled;
+			global::MvvmCross.Resource.Styleable.Chip_checkedIconVisible = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_checkedIconVisible;
+			global::MvvmCross.Resource.Styleable.Chip_chipBackgroundColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_chipBackgroundColor;
+			global::MvvmCross.Resource.Styleable.Chip_chipCornerRadius = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_chipCornerRadius;
+			global::MvvmCross.Resource.Styleable.Chip_chipEndPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_chipEndPadding;
+			global::MvvmCross.Resource.Styleable.Chip_chipIcon = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_chipIcon;
+			global::MvvmCross.Resource.Styleable.Chip_chipIconEnabled = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_chipIconEnabled;
+			global::MvvmCross.Resource.Styleable.Chip_chipIconSize = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_chipIconSize;
+			global::MvvmCross.Resource.Styleable.Chip_chipIconTint = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_chipIconTint;
+			global::MvvmCross.Resource.Styleable.Chip_chipIconVisible = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_chipIconVisible;
+			global::MvvmCross.Resource.Styleable.Chip_chipMinHeight = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_chipMinHeight;
+			global::MvvmCross.Resource.Styleable.Chip_chipStartPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_chipStartPadding;
+			global::MvvmCross.Resource.Styleable.Chip_chipStrokeColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_chipStrokeColor;
+			global::MvvmCross.Resource.Styleable.Chip_chipStrokeWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_chipStrokeWidth;
+			global::MvvmCross.Resource.Styleable.Chip_closeIcon = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_closeIcon;
+			global::MvvmCross.Resource.Styleable.Chip_closeIconEnabled = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_closeIconEnabled;
+			global::MvvmCross.Resource.Styleable.Chip_closeIconEndPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_closeIconEndPadding;
+			global::MvvmCross.Resource.Styleable.Chip_closeIconSize = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_closeIconSize;
+			global::MvvmCross.Resource.Styleable.Chip_closeIconStartPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_closeIconStartPadding;
+			global::MvvmCross.Resource.Styleable.Chip_closeIconTint = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_closeIconTint;
+			global::MvvmCross.Resource.Styleable.Chip_closeIconVisible = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_closeIconVisible;
+			global::MvvmCross.Resource.Styleable.Chip_hideMotionSpec = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_hideMotionSpec;
+			global::MvvmCross.Resource.Styleable.Chip_iconEndPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_iconEndPadding;
+			global::MvvmCross.Resource.Styleable.Chip_iconStartPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_iconStartPadding;
+			global::MvvmCross.Resource.Styleable.Chip_rippleColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_rippleColor;
+			global::MvvmCross.Resource.Styleable.Chip_showMotionSpec = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_showMotionSpec;
+			global::MvvmCross.Resource.Styleable.Chip_textEndPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_textEndPadding;
+			global::MvvmCross.Resource.Styleable.Chip_textStartPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.Chip_textStartPadding;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_Layout = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_title = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::PizzaIllico.Mobile.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::MvvmCross.Resource.Styleable.ColorStateListItem = global::PizzaIllico.Mobile.Android.Resource.Styleable.ColorStateListItem;
+			global::MvvmCross.Resource.Styleable.ColorStateListItem_alpha = global::PizzaIllico.Mobile.Android.Resource.Styleable.ColorStateListItem_alpha;
+			global::MvvmCross.Resource.Styleable.ColorStateListItem_android_alpha = global::PizzaIllico.Mobile.Android.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::MvvmCross.Resource.Styleable.ColorStateListItem_android_color = global::PizzaIllico.Mobile.Android.Resource.Styleable.ColorStateListItem_android_color;
+			global::MvvmCross.Resource.Styleable.CompoundButton = global::PizzaIllico.Mobile.Android.Resource.Styleable.CompoundButton;
+			global::MvvmCross.Resource.Styleable.CompoundButton_android_button = global::PizzaIllico.Mobile.Android.Resource.Styleable.CompoundButton_android_button;
+			global::MvvmCross.Resource.Styleable.CompoundButton_buttonCompat = global::PizzaIllico.Mobile.Android.Resource.Styleable.CompoundButton_buttonCompat;
+			global::MvvmCross.Resource.Styleable.CompoundButton_buttonTint = global::PizzaIllico.Mobile.Android.Resource.Styleable.CompoundButton_buttonTint;
+			global::MvvmCross.Resource.Styleable.CompoundButton_buttonTintMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.CoordinatorLayout;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_keylines = global::PizzaIllico.Mobile.Android.Resource.Styleable.CoordinatorLayout_keylines;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_Layout = global::PizzaIllico.Mobile.Android.Resource.Styleable.CoordinatorLayout_Layout;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::PizzaIllico.Mobile.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::PizzaIllico.Mobile.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::PizzaIllico.Mobile.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::PizzaIllico.Mobile.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::PizzaIllico.Mobile.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::PizzaIllico.Mobile.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::PizzaIllico.Mobile.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::MvvmCross.Resource.Styleable.DesignTheme = global::PizzaIllico.Mobile.Android.Resource.Styleable.DesignTheme;
+			global::MvvmCross.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::PizzaIllico.Mobile.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::MvvmCross.Resource.Styleable.DesignTheme_bottomSheetStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::MvvmCross.Resource.Styleable.DialogPreference = global::PizzaIllico.Mobile.Android.Resource.Styleable.DialogPreference;
+			global::MvvmCross.Resource.Styleable.DialogPreference_android_dialogIcon = global::PizzaIllico.Mobile.Android.Resource.Styleable.DialogPreference_android_dialogIcon;
+			global::MvvmCross.Resource.Styleable.DialogPreference_android_dialogLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.DialogPreference_android_dialogLayout;
+			global::MvvmCross.Resource.Styleable.DialogPreference_android_dialogMessage = global::PizzaIllico.Mobile.Android.Resource.Styleable.DialogPreference_android_dialogMessage;
+			global::MvvmCross.Resource.Styleable.DialogPreference_android_dialogTitle = global::PizzaIllico.Mobile.Android.Resource.Styleable.DialogPreference_android_dialogTitle;
+			global::MvvmCross.Resource.Styleable.DialogPreference_android_negativeButtonText = global::PizzaIllico.Mobile.Android.Resource.Styleable.DialogPreference_android_negativeButtonText;
+			global::MvvmCross.Resource.Styleable.DialogPreference_android_positiveButtonText = global::PizzaIllico.Mobile.Android.Resource.Styleable.DialogPreference_android_positiveButtonText;
+			global::MvvmCross.Resource.Styleable.DialogPreference_dialogIcon = global::PizzaIllico.Mobile.Android.Resource.Styleable.DialogPreference_dialogIcon;
+			global::MvvmCross.Resource.Styleable.DialogPreference_dialogLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.DialogPreference_dialogLayout;
+			global::MvvmCross.Resource.Styleable.DialogPreference_dialogMessage = global::PizzaIllico.Mobile.Android.Resource.Styleable.DialogPreference_dialogMessage;
+			global::MvvmCross.Resource.Styleable.DialogPreference_dialogTitle = global::PizzaIllico.Mobile.Android.Resource.Styleable.DialogPreference_dialogTitle;
+			global::MvvmCross.Resource.Styleable.DialogPreference_negativeButtonText = global::PizzaIllico.Mobile.Android.Resource.Styleable.DialogPreference_negativeButtonText;
+			global::MvvmCross.Resource.Styleable.DialogPreference_positiveButtonText = global::PizzaIllico.Mobile.Android.Resource.Styleable.DialogPreference_positiveButtonText;
+			global::MvvmCross.Resource.Styleable.DrawerArrowToggle = global::PizzaIllico.Mobile.Android.Resource.Styleable.DrawerArrowToggle;
+			global::MvvmCross.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::PizzaIllico.Mobile.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::MvvmCross.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::PizzaIllico.Mobile.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::MvvmCross.Resource.Styleable.DrawerArrowToggle_barLength = global::PizzaIllico.Mobile.Android.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::MvvmCross.Resource.Styleable.DrawerArrowToggle_color = global::PizzaIllico.Mobile.Android.Resource.Styleable.DrawerArrowToggle_color;
+			global::MvvmCross.Resource.Styleable.DrawerArrowToggle_drawableSize = global::PizzaIllico.Mobile.Android.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::MvvmCross.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::PizzaIllico.Mobile.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::MvvmCross.Resource.Styleable.DrawerArrowToggle_spinBars = global::PizzaIllico.Mobile.Android.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::MvvmCross.Resource.Styleable.DrawerArrowToggle_thickness = global::PizzaIllico.Mobile.Android.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::MvvmCross.Resource.Styleable.EditTextPreference = global::PizzaIllico.Mobile.Android.Resource.Styleable.EditTextPreference;
+			global::MvvmCross.Resource.Styleable.EditTextPreference_useSimpleSummaryProvider = global::PizzaIllico.Mobile.Android.Resource.Styleable.EditTextPreference_useSimpleSummaryProvider;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton = global::PizzaIllico.Mobile.Android.Resource.Styleable.FloatingActionButton;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_backgroundTint = global::PizzaIllico.Mobile.Android.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::PizzaIllico.Mobile.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::PizzaIllico.Mobile.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_borderWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_elevation = global::PizzaIllico.Mobile.Android.Resource.Styleable.FloatingActionButton_elevation;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_fabCustomSize = global::PizzaIllico.Mobile.Android.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_fabSize = global::PizzaIllico.Mobile.Android.Resource.Styleable.FloatingActionButton_fabSize;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::PizzaIllico.Mobile.Android.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::PizzaIllico.Mobile.Android.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_maxImageSize = global::PizzaIllico.Mobile.Android.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::PizzaIllico.Mobile.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_rippleColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_showMotionSpec = global::PizzaIllico.Mobile.Android.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_useCompatPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::MvvmCross.Resource.Styleable.FlowLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.FlowLayout;
+			global::MvvmCross.Resource.Styleable.FlowLayout_itemSpacing = global::PizzaIllico.Mobile.Android.Resource.Styleable.FlowLayout_itemSpacing;
+			global::MvvmCross.Resource.Styleable.FlowLayout_lineSpacing = global::PizzaIllico.Mobile.Android.Resource.Styleable.FlowLayout_lineSpacing;
+			global::MvvmCross.Resource.Styleable.FontFamily = global::PizzaIllico.Mobile.Android.Resource.Styleable.FontFamily;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont = global::PizzaIllico.Mobile.Android.Resource.Styleable.FontFamilyFont;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_android_font = global::PizzaIllico.Mobile.Android.Resource.Styleable.FontFamilyFont_android_font;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_android_fontStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::PizzaIllico.Mobile.Android.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_android_fontWeight = global::PizzaIllico.Mobile.Android.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::PizzaIllico.Mobile.Android.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_font = global::PizzaIllico.Mobile.Android.Resource.Styleable.FontFamilyFont_font;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_fontStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::PizzaIllico.Mobile.Android.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_fontWeight = global::PizzaIllico.Mobile.Android.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_ttcIndex = global::PizzaIllico.Mobile.Android.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::MvvmCross.Resource.Styleable.FontFamily_fontProviderAuthority = global::PizzaIllico.Mobile.Android.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::MvvmCross.Resource.Styleable.FontFamily_fontProviderCerts = global::PizzaIllico.Mobile.Android.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::MvvmCross.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::PizzaIllico.Mobile.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::MvvmCross.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::PizzaIllico.Mobile.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::MvvmCross.Resource.Styleable.FontFamily_fontProviderPackage = global::PizzaIllico.Mobile.Android.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::MvvmCross.Resource.Styleable.FontFamily_fontProviderQuery = global::PizzaIllico.Mobile.Android.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::MvvmCross.Resource.Styleable.ForegroundLinearLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.ForegroundLinearLayout;
+			global::MvvmCross.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::PizzaIllico.Mobile.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::MvvmCross.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::PizzaIllico.Mobile.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::MvvmCross.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::MvvmCross.Resource.Styleable.Fragment = global::PizzaIllico.Mobile.Android.Resource.Styleable.Fragment;
+			global::MvvmCross.Resource.Styleable.FragmentContainerView = global::PizzaIllico.Mobile.Android.Resource.Styleable.FragmentContainerView;
+			global::MvvmCross.Resource.Styleable.FragmentContainerView_android_name = global::PizzaIllico.Mobile.Android.Resource.Styleable.FragmentContainerView_android_name;
+			global::MvvmCross.Resource.Styleable.FragmentContainerView_android_tag = global::PizzaIllico.Mobile.Android.Resource.Styleable.FragmentContainerView_android_tag;
+			global::MvvmCross.Resource.Styleable.Fragment_android_id = global::PizzaIllico.Mobile.Android.Resource.Styleable.Fragment_android_id;
+			global::MvvmCross.Resource.Styleable.Fragment_android_name = global::PizzaIllico.Mobile.Android.Resource.Styleable.Fragment_android_name;
+			global::MvvmCross.Resource.Styleable.Fragment_android_tag = global::PizzaIllico.Mobile.Android.Resource.Styleable.Fragment_android_tag;
+			global::MvvmCross.Resource.Styleable.GradientColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.GradientColor;
+			global::MvvmCross.Resource.Styleable.GradientColorItem = global::PizzaIllico.Mobile.Android.Resource.Styleable.GradientColorItem;
+			global::MvvmCross.Resource.Styleable.GradientColorItem_android_color = global::PizzaIllico.Mobile.Android.Resource.Styleable.GradientColorItem_android_color;
+			global::MvvmCross.Resource.Styleable.GradientColorItem_android_offset = global::PizzaIllico.Mobile.Android.Resource.Styleable.GradientColorItem_android_offset;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_centerColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.GradientColor_android_centerColor;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_centerX = global::PizzaIllico.Mobile.Android.Resource.Styleable.GradientColor_android_centerX;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_centerY = global::PizzaIllico.Mobile.Android.Resource.Styleable.GradientColor_android_centerY;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_endColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.GradientColor_android_endColor;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_endX = global::PizzaIllico.Mobile.Android.Resource.Styleable.GradientColor_android_endX;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_endY = global::PizzaIllico.Mobile.Android.Resource.Styleable.GradientColor_android_endY;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_gradientRadius = global::PizzaIllico.Mobile.Android.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_startColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.GradientColor_android_startColor;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_startX = global::PizzaIllico.Mobile.Android.Resource.Styleable.GradientColor_android_startX;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_startY = global::PizzaIllico.Mobile.Android.Resource.Styleable.GradientColor_android_startY;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_tileMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.GradientColor_android_tileMode;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_type = global::PizzaIllico.Mobile.Android.Resource.Styleable.GradientColor_android_type;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat = global::PizzaIllico.Mobile.Android.Resource.Styleable.LinearLayoutCompat;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::PizzaIllico.Mobile.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::PizzaIllico.Mobile.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_android_gravity = global::PizzaIllico.Mobile.Android.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_android_orientation = global::PizzaIllico.Mobile.Android.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::PizzaIllico.Mobile.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_divider = global::PizzaIllico.Mobile.Android.Resource.Styleable.LinearLayoutCompat_divider;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_Layout = global::PizzaIllico.Mobile.Android.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::PizzaIllico.Mobile.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::PizzaIllico.Mobile.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::PizzaIllico.Mobile.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::PizzaIllico.Mobile.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::PizzaIllico.Mobile.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_showDividers = global::PizzaIllico.Mobile.Android.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::MvvmCross.Resource.Styleable.ListPopupWindow = global::PizzaIllico.Mobile.Android.Resource.Styleable.ListPopupWindow;
+			global::MvvmCross.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::PizzaIllico.Mobile.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::MvvmCross.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::PizzaIllico.Mobile.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::MvvmCross.Resource.Styleable.ListPreference = global::PizzaIllico.Mobile.Android.Resource.Styleable.ListPreference;
+			global::MvvmCross.Resource.Styleable.ListPreference_android_entries = global::PizzaIllico.Mobile.Android.Resource.Styleable.ListPreference_android_entries;
+			global::MvvmCross.Resource.Styleable.ListPreference_android_entryValues = global::PizzaIllico.Mobile.Android.Resource.Styleable.ListPreference_android_entryValues;
+			global::MvvmCross.Resource.Styleable.ListPreference_entries = global::PizzaIllico.Mobile.Android.Resource.Styleable.ListPreference_entries;
+			global::MvvmCross.Resource.Styleable.ListPreference_entryValues = global::PizzaIllico.Mobile.Android.Resource.Styleable.ListPreference_entryValues;
+			global::MvvmCross.Resource.Styleable.ListPreference_useSimpleSummaryProvider = global::PizzaIllico.Mobile.Android.Resource.Styleable.ListPreference_useSimpleSummaryProvider;
+			global::MvvmCross.Resource.Styleable.MaterialButton = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialButton;
+			global::MvvmCross.Resource.Styleable.MaterialButton_android_insetBottom = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::MvvmCross.Resource.Styleable.MaterialButton_android_insetLeft = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::MvvmCross.Resource.Styleable.MaterialButton_android_insetRight = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialButton_android_insetRight;
+			global::MvvmCross.Resource.Styleable.MaterialButton_android_insetTop = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialButton_android_insetTop;
+			global::MvvmCross.Resource.Styleable.MaterialButton_backgroundTint = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialButton_backgroundTint;
+			global::MvvmCross.Resource.Styleable.MaterialButton_backgroundTintMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::MvvmCross.Resource.Styleable.MaterialButton_cornerRadius = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialButton_cornerRadius;
+			global::MvvmCross.Resource.Styleable.MaterialButton_icon = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialButton_icon;
+			global::MvvmCross.Resource.Styleable.MaterialButton_iconGravity = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialButton_iconGravity;
+			global::MvvmCross.Resource.Styleable.MaterialButton_iconPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialButton_iconPadding;
+			global::MvvmCross.Resource.Styleable.MaterialButton_iconSize = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialButton_iconSize;
+			global::MvvmCross.Resource.Styleable.MaterialButton_iconTint = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialButton_iconTint;
+			global::MvvmCross.Resource.Styleable.MaterialButton_iconTintMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialButton_iconTintMode;
+			global::MvvmCross.Resource.Styleable.MaterialButton_rippleColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialButton_rippleColor;
+			global::MvvmCross.Resource.Styleable.MaterialButton_strokeColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialButton_strokeColor;
+			global::MvvmCross.Resource.Styleable.MaterialButton_strokeWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialButton_strokeWidth;
+			global::MvvmCross.Resource.Styleable.MaterialCardView = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialCardView;
+			global::MvvmCross.Resource.Styleable.MaterialCardView_strokeColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialCardView_strokeColor;
+			global::MvvmCross.Resource.Styleable.MaterialCardView_strokeWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::MvvmCross.Resource.Styleable.MenuGroup = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuGroup;
+			global::MvvmCross.Resource.Styleable.MenuGroup_android_checkableBehavior = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::MvvmCross.Resource.Styleable.MenuGroup_android_enabled = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuGroup_android_enabled;
+			global::MvvmCross.Resource.Styleable.MenuGroup_android_id = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuGroup_android_id;
+			global::MvvmCross.Resource.Styleable.MenuGroup_android_menuCategory = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::MvvmCross.Resource.Styleable.MenuGroup_android_orderInCategory = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::MvvmCross.Resource.Styleable.MenuGroup_android_visible = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuGroup_android_visible;
+			global::MvvmCross.Resource.Styleable.MenuItem = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem;
+			global::MvvmCross.Resource.Styleable.MenuItem_actionLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_actionLayout;
+			global::MvvmCross.Resource.Styleable.MenuItem_actionProviderClass = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_actionProviderClass;
+			global::MvvmCross.Resource.Styleable.MenuItem_actionViewClass = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_actionViewClass;
+			global::MvvmCross.Resource.Styleable.MenuItem_alphabeticModifiers = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_checkable = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_android_checkable;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_checked = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_android_checked;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_enabled = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_android_enabled;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_icon = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_android_icon;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_id = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_android_id;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_menuCategory = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_android_menuCategory;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_numericShortcut = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_onClick = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_android_onClick;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_orderInCategory = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_title = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_android_title;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_titleCondensed = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_visible = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_android_visible;
+			global::MvvmCross.Resource.Styleable.MenuItem_contentDescription = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_contentDescription;
+			global::MvvmCross.Resource.Styleable.MenuItem_iconTint = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_iconTint;
+			global::MvvmCross.Resource.Styleable.MenuItem_iconTintMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_iconTintMode;
+			global::MvvmCross.Resource.Styleable.MenuItem_numericModifiers = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_numericModifiers;
+			global::MvvmCross.Resource.Styleable.MenuItem_showAsAction = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_showAsAction;
+			global::MvvmCross.Resource.Styleable.MenuItem_tooltipText = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuItem_tooltipText;
+			global::MvvmCross.Resource.Styleable.MenuView = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuView;
+			global::MvvmCross.Resource.Styleable.MenuView_android_headerBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuView_android_headerBackground;
+			global::MvvmCross.Resource.Styleable.MenuView_android_horizontalDivider = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::MvvmCross.Resource.Styleable.MenuView_android_itemBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuView_android_itemBackground;
+			global::MvvmCross.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::MvvmCross.Resource.Styleable.MenuView_android_itemTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::MvvmCross.Resource.Styleable.MenuView_android_verticalDivider = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuView_android_verticalDivider;
+			global::MvvmCross.Resource.Styleable.MenuView_android_windowAnimationStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::MvvmCross.Resource.Styleable.MenuView_preserveIconSpacing = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::MvvmCross.Resource.Styleable.MenuView_subMenuArrow = global::PizzaIllico.Mobile.Android.Resource.Styleable.MenuView_subMenuArrow;
+			global::MvvmCross.Resource.Styleable.MultiSelectListPreference = global::PizzaIllico.Mobile.Android.Resource.Styleable.MultiSelectListPreference;
+			global::MvvmCross.Resource.Styleable.MultiSelectListPreference_android_entries = global::PizzaIllico.Mobile.Android.Resource.Styleable.MultiSelectListPreference_android_entries;
+			global::MvvmCross.Resource.Styleable.MultiSelectListPreference_android_entryValues = global::PizzaIllico.Mobile.Android.Resource.Styleable.MultiSelectListPreference_android_entryValues;
+			global::MvvmCross.Resource.Styleable.MultiSelectListPreference_entries = global::PizzaIllico.Mobile.Android.Resource.Styleable.MultiSelectListPreference_entries;
+			global::MvvmCross.Resource.Styleable.MultiSelectListPreference_entryValues = global::PizzaIllico.Mobile.Android.Resource.Styleable.MultiSelectListPreference_entryValues;
+			global::MvvmCross.Resource.Styleable.MvxBinding = global::PizzaIllico.Mobile.Android.Resource.Styleable.MvxBinding;
+			global::MvvmCross.Resource.Styleable.MvxBinding_MvxBind = global::PizzaIllico.Mobile.Android.Resource.Styleable.MvxBinding_MvxBind;
+			global::MvvmCross.Resource.Styleable.MvxBinding_MvxLang = global::PizzaIllico.Mobile.Android.Resource.Styleable.MvxBinding_MvxLang;
+			global::MvvmCross.Resource.Styleable.MvxControl = global::PizzaIllico.Mobile.Android.Resource.Styleable.MvxControl;
+			global::MvvmCross.Resource.Styleable.MvxControl_MvxTemplate = global::PizzaIllico.Mobile.Android.Resource.Styleable.MvxControl_MvxTemplate;
+			global::MvvmCross.Resource.Styleable.MvxExpandableListView = global::PizzaIllico.Mobile.Android.Resource.Styleable.MvxExpandableListView;
+			global::MvvmCross.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::PizzaIllico.Mobile.Android.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::MvvmCross.Resource.Styleable.MvxListView = global::PizzaIllico.Mobile.Android.Resource.Styleable.MvxListView;
+			global::MvvmCross.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::PizzaIllico.Mobile.Android.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::MvvmCross.Resource.Styleable.MvxListView_MvxItemTemplate = global::PizzaIllico.Mobile.Android.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.Resource.Styleable.NavigationView = global::PizzaIllico.Mobile.Android.Resource.Styleable.NavigationView;
+			global::MvvmCross.Resource.Styleable.NavigationView_android_background = global::PizzaIllico.Mobile.Android.Resource.Styleable.NavigationView_android_background;
+			global::MvvmCross.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::PizzaIllico.Mobile.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::MvvmCross.Resource.Styleable.NavigationView_android_maxWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.NavigationView_android_maxWidth;
+			global::MvvmCross.Resource.Styleable.NavigationView_elevation = global::PizzaIllico.Mobile.Android.Resource.Styleable.NavigationView_elevation;
+			global::MvvmCross.Resource.Styleable.NavigationView_headerLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.NavigationView_headerLayout;
+			global::MvvmCross.Resource.Styleable.NavigationView_itemBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.NavigationView_itemBackground;
+			global::MvvmCross.Resource.Styleable.NavigationView_itemHorizontalPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::MvvmCross.Resource.Styleable.NavigationView_itemIconPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.NavigationView_itemIconPadding;
+			global::MvvmCross.Resource.Styleable.NavigationView_itemIconTint = global::PizzaIllico.Mobile.Android.Resource.Styleable.NavigationView_itemIconTint;
+			global::MvvmCross.Resource.Styleable.NavigationView_itemTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::MvvmCross.Resource.Styleable.NavigationView_itemTextColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.NavigationView_itemTextColor;
+			global::MvvmCross.Resource.Styleable.NavigationView_menu = global::PizzaIllico.Mobile.Android.Resource.Styleable.NavigationView_menu;
+			global::MvvmCross.Resource.Styleable.PopupWindow = global::PizzaIllico.Mobile.Android.Resource.Styleable.PopupWindow;
+			global::MvvmCross.Resource.Styleable.PopupWindowBackgroundState = global::PizzaIllico.Mobile.Android.Resource.Styleable.PopupWindowBackgroundState;
+			global::MvvmCross.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::PizzaIllico.Mobile.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::MvvmCross.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::MvvmCross.Resource.Styleable.PopupWindow_android_popupBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::MvvmCross.Resource.Styleable.PopupWindow_overlapAnchor = global::PizzaIllico.Mobile.Android.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::MvvmCross.Resource.Styleable.Preference = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference;
+			global::MvvmCross.Resource.Styleable.PreferenceFragment = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceFragment;
+			global::MvvmCross.Resource.Styleable.PreferenceFragmentCompat = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceFragmentCompat;
+			global::MvvmCross.Resource.Styleable.PreferenceFragmentCompat_allowDividerAfterLastItem = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceFragmentCompat_allowDividerAfterLastItem;
+			global::MvvmCross.Resource.Styleable.PreferenceFragmentCompat_android_divider = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceFragmentCompat_android_divider;
+			global::MvvmCross.Resource.Styleable.PreferenceFragmentCompat_android_dividerHeight = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceFragmentCompat_android_dividerHeight;
+			global::MvvmCross.Resource.Styleable.PreferenceFragmentCompat_android_layout = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceFragmentCompat_android_layout;
+			global::MvvmCross.Resource.Styleable.PreferenceFragment_allowDividerAfterLastItem = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceFragment_allowDividerAfterLastItem;
+			global::MvvmCross.Resource.Styleable.PreferenceFragment_android_divider = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceFragment_android_divider;
+			global::MvvmCross.Resource.Styleable.PreferenceFragment_android_dividerHeight = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceFragment_android_dividerHeight;
+			global::MvvmCross.Resource.Styleable.PreferenceFragment_android_layout = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceFragment_android_layout;
+			global::MvvmCross.Resource.Styleable.PreferenceGroup = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceGroup;
+			global::MvvmCross.Resource.Styleable.PreferenceGroup_android_orderingFromXml = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceGroup_android_orderingFromXml;
+			global::MvvmCross.Resource.Styleable.PreferenceGroup_initialExpandedChildrenCount = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceGroup_initialExpandedChildrenCount;
+			global::MvvmCross.Resource.Styleable.PreferenceGroup_orderingFromXml = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceGroup_orderingFromXml;
+			global::MvvmCross.Resource.Styleable.PreferenceImageView = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceImageView;
+			global::MvvmCross.Resource.Styleable.PreferenceImageView_android_maxHeight = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceImageView_android_maxHeight;
+			global::MvvmCross.Resource.Styleable.PreferenceImageView_android_maxWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceImageView_android_maxWidth;
+			global::MvvmCross.Resource.Styleable.PreferenceImageView_maxHeight = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceImageView_maxHeight;
+			global::MvvmCross.Resource.Styleable.PreferenceImageView_maxWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceImageView_maxWidth;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceTheme;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_checkBoxPreferenceStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceTheme_checkBoxPreferenceStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_dialogPreferenceStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceTheme_dialogPreferenceStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_dropdownPreferenceStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceTheme_dropdownPreferenceStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_editTextPreferenceStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceTheme_editTextPreferenceStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_preferenceCategoryStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceTheme_preferenceCategoryStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_preferenceCategoryTitleTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceTheme_preferenceCategoryTitleTextAppearance;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_preferenceFragmentCompatStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceTheme_preferenceFragmentCompatStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_preferenceFragmentListStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceTheme_preferenceFragmentListStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_preferenceFragmentStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceTheme_preferenceFragmentStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_preferenceInformationStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceTheme_preferenceInformationStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_preferenceScreenStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceTheme_preferenceScreenStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_preferenceStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceTheme_preferenceStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_preferenceTheme = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceTheme_preferenceTheme;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_seekBarPreferenceStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceTheme_seekBarPreferenceStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_switchPreferenceCompatStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceTheme_switchPreferenceCompatStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_switchPreferenceStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.PreferenceTheme_switchPreferenceStyle;
+			global::MvvmCross.Resource.Styleable.Preference_allowDividerAbove = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_allowDividerAbove;
+			global::MvvmCross.Resource.Styleable.Preference_allowDividerBelow = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_allowDividerBelow;
+			global::MvvmCross.Resource.Styleable.Preference_android_defaultValue = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_android_defaultValue;
+			global::MvvmCross.Resource.Styleable.Preference_android_dependency = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_android_dependency;
+			global::MvvmCross.Resource.Styleable.Preference_android_enabled = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_android_enabled;
+			global::MvvmCross.Resource.Styleable.Preference_android_fragment = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_android_fragment;
+			global::MvvmCross.Resource.Styleable.Preference_android_icon = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_android_icon;
+			global::MvvmCross.Resource.Styleable.Preference_android_iconSpaceReserved = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_android_iconSpaceReserved;
+			global::MvvmCross.Resource.Styleable.Preference_android_key = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_android_key;
+			global::MvvmCross.Resource.Styleable.Preference_android_layout = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_android_layout;
+			global::MvvmCross.Resource.Styleable.Preference_android_order = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_android_order;
+			global::MvvmCross.Resource.Styleable.Preference_android_persistent = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_android_persistent;
+			global::MvvmCross.Resource.Styleable.Preference_android_selectable = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_android_selectable;
+			global::MvvmCross.Resource.Styleable.Preference_android_shouldDisableView = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_android_shouldDisableView;
+			global::MvvmCross.Resource.Styleable.Preference_android_singleLineTitle = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_android_singleLineTitle;
+			global::MvvmCross.Resource.Styleable.Preference_android_summary = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_android_summary;
+			global::MvvmCross.Resource.Styleable.Preference_android_title = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_android_title;
+			global::MvvmCross.Resource.Styleable.Preference_android_widgetLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_android_widgetLayout;
+			global::MvvmCross.Resource.Styleable.Preference_defaultValue = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_defaultValue;
+			global::MvvmCross.Resource.Styleable.Preference_dependency = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_dependency;
+			global::MvvmCross.Resource.Styleable.Preference_enableCopying = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_enableCopying;
+			global::MvvmCross.Resource.Styleable.Preference_enabled = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_enabled;
+			global::MvvmCross.Resource.Styleable.Preference_fragment = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_fragment;
+			global::MvvmCross.Resource.Styleable.Preference_icon = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_icon;
+			global::MvvmCross.Resource.Styleable.Preference_iconSpaceReserved = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_iconSpaceReserved;
+			global::MvvmCross.Resource.Styleable.Preference_isPreferenceVisible = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_isPreferenceVisible;
+			global::MvvmCross.Resource.Styleable.Preference_key = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_key;
+			global::MvvmCross.Resource.Styleable.Preference_layout = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_layout;
+			global::MvvmCross.Resource.Styleable.Preference_order = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_order;
+			global::MvvmCross.Resource.Styleable.Preference_persistent = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_persistent;
+			global::MvvmCross.Resource.Styleable.Preference_selectable = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_selectable;
+			global::MvvmCross.Resource.Styleable.Preference_shouldDisableView = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_shouldDisableView;
+			global::MvvmCross.Resource.Styleable.Preference_singleLineTitle = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_singleLineTitle;
+			global::MvvmCross.Resource.Styleable.Preference_summary = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_summary;
+			global::MvvmCross.Resource.Styleable.Preference_title = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_title;
+			global::MvvmCross.Resource.Styleable.Preference_widgetLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.Preference_widgetLayout;
+			global::MvvmCross.Resource.Styleable.RecycleListView = global::PizzaIllico.Mobile.Android.Resource.Styleable.RecycleListView;
+			global::MvvmCross.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::PizzaIllico.Mobile.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::MvvmCross.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::PizzaIllico.Mobile.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::MvvmCross.Resource.Styleable.RecyclerView = global::PizzaIllico.Mobile.Android.Resource.Styleable.RecyclerView;
+			global::MvvmCross.Resource.Styleable.RecyclerView_android_clipToPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::MvvmCross.Resource.Styleable.RecyclerView_android_descendantFocusability = global::PizzaIllico.Mobile.Android.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::MvvmCross.Resource.Styleable.RecyclerView_android_orientation = global::PizzaIllico.Mobile.Android.Resource.Styleable.RecyclerView_android_orientation;
+			global::MvvmCross.Resource.Styleable.RecyclerView_fastScrollEnabled = global::PizzaIllico.Mobile.Android.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::MvvmCross.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::PizzaIllico.Mobile.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::MvvmCross.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::PizzaIllico.Mobile.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::MvvmCross.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::PizzaIllico.Mobile.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::MvvmCross.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::PizzaIllico.Mobile.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::MvvmCross.Resource.Styleable.RecyclerView_layoutManager = global::PizzaIllico.Mobile.Android.Resource.Styleable.RecyclerView_layoutManager;
+			global::MvvmCross.Resource.Styleable.RecyclerView_reverseLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.RecyclerView_reverseLayout;
+			global::MvvmCross.Resource.Styleable.RecyclerView_spanCount = global::PizzaIllico.Mobile.Android.Resource.Styleable.RecyclerView_spanCount;
+			global::MvvmCross.Resource.Styleable.RecyclerView_stackFromEnd = global::PizzaIllico.Mobile.Android.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::MvvmCross.Resource.Styleable.ScrimInsetsFrameLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::MvvmCross.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::PizzaIllico.Mobile.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::MvvmCross.Resource.Styleable.ScrollingViewBehavior_Layout = global::PizzaIllico.Mobile.Android.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::MvvmCross.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::PizzaIllico.Mobile.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::MvvmCross.Resource.Styleable.SearchView = global::PizzaIllico.Mobile.Android.Resource.Styleable.SearchView;
+			global::MvvmCross.Resource.Styleable.SearchView_android_focusable = global::PizzaIllico.Mobile.Android.Resource.Styleable.SearchView_android_focusable;
+			global::MvvmCross.Resource.Styleable.SearchView_android_imeOptions = global::PizzaIllico.Mobile.Android.Resource.Styleable.SearchView_android_imeOptions;
+			global::MvvmCross.Resource.Styleable.SearchView_android_inputType = global::PizzaIllico.Mobile.Android.Resource.Styleable.SearchView_android_inputType;
+			global::MvvmCross.Resource.Styleable.SearchView_android_maxWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.SearchView_android_maxWidth;
+			global::MvvmCross.Resource.Styleable.SearchView_closeIcon = global::PizzaIllico.Mobile.Android.Resource.Styleable.SearchView_closeIcon;
+			global::MvvmCross.Resource.Styleable.SearchView_commitIcon = global::PizzaIllico.Mobile.Android.Resource.Styleable.SearchView_commitIcon;
+			global::MvvmCross.Resource.Styleable.SearchView_defaultQueryHint = global::PizzaIllico.Mobile.Android.Resource.Styleable.SearchView_defaultQueryHint;
+			global::MvvmCross.Resource.Styleable.SearchView_goIcon = global::PizzaIllico.Mobile.Android.Resource.Styleable.SearchView_goIcon;
+			global::MvvmCross.Resource.Styleable.SearchView_iconifiedByDefault = global::PizzaIllico.Mobile.Android.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::MvvmCross.Resource.Styleable.SearchView_layout = global::PizzaIllico.Mobile.Android.Resource.Styleable.SearchView_layout;
+			global::MvvmCross.Resource.Styleable.SearchView_queryBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.SearchView_queryBackground;
+			global::MvvmCross.Resource.Styleable.SearchView_queryHint = global::PizzaIllico.Mobile.Android.Resource.Styleable.SearchView_queryHint;
+			global::MvvmCross.Resource.Styleable.SearchView_searchHintIcon = global::PizzaIllico.Mobile.Android.Resource.Styleable.SearchView_searchHintIcon;
+			global::MvvmCross.Resource.Styleable.SearchView_searchIcon = global::PizzaIllico.Mobile.Android.Resource.Styleable.SearchView_searchIcon;
+			global::MvvmCross.Resource.Styleable.SearchView_submitBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.SearchView_submitBackground;
+			global::MvvmCross.Resource.Styleable.SearchView_suggestionRowLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::MvvmCross.Resource.Styleable.SearchView_voiceIcon = global::PizzaIllico.Mobile.Android.Resource.Styleable.SearchView_voiceIcon;
+			global::MvvmCross.Resource.Styleable.SeekBarPreference = global::PizzaIllico.Mobile.Android.Resource.Styleable.SeekBarPreference;
+			global::MvvmCross.Resource.Styleable.SeekBarPreference_adjustable = global::PizzaIllico.Mobile.Android.Resource.Styleable.SeekBarPreference_adjustable;
+			global::MvvmCross.Resource.Styleable.SeekBarPreference_android_layout = global::PizzaIllico.Mobile.Android.Resource.Styleable.SeekBarPreference_android_layout;
+			global::MvvmCross.Resource.Styleable.SeekBarPreference_android_max = global::PizzaIllico.Mobile.Android.Resource.Styleable.SeekBarPreference_android_max;
+			global::MvvmCross.Resource.Styleable.SeekBarPreference_min = global::PizzaIllico.Mobile.Android.Resource.Styleable.SeekBarPreference_min;
+			global::MvvmCross.Resource.Styleable.SeekBarPreference_seekBarIncrement = global::PizzaIllico.Mobile.Android.Resource.Styleable.SeekBarPreference_seekBarIncrement;
+			global::MvvmCross.Resource.Styleable.SeekBarPreference_showSeekBarValue = global::PizzaIllico.Mobile.Android.Resource.Styleable.SeekBarPreference_showSeekBarValue;
+			global::MvvmCross.Resource.Styleable.SeekBarPreference_updatesContinuously = global::PizzaIllico.Mobile.Android.Resource.Styleable.SeekBarPreference_updatesContinuously;
+			global::MvvmCross.Resource.Styleable.Snackbar = global::PizzaIllico.Mobile.Android.Resource.Styleable.Snackbar;
+			global::MvvmCross.Resource.Styleable.SnackbarLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.SnackbarLayout;
+			global::MvvmCross.Resource.Styleable.SnackbarLayout_android_maxWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::MvvmCross.Resource.Styleable.SnackbarLayout_elevation = global::PizzaIllico.Mobile.Android.Resource.Styleable.SnackbarLayout_elevation;
+			global::MvvmCross.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::MvvmCross.Resource.Styleable.Snackbar_snackbarButtonStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::MvvmCross.Resource.Styleable.Snackbar_snackbarStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.Snackbar_snackbarStyle;
+			global::MvvmCross.Resource.Styleable.Spinner = global::PizzaIllico.Mobile.Android.Resource.Styleable.Spinner;
+			global::MvvmCross.Resource.Styleable.Spinner_android_dropDownWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::MvvmCross.Resource.Styleable.Spinner_android_entries = global::PizzaIllico.Mobile.Android.Resource.Styleable.Spinner_android_entries;
+			global::MvvmCross.Resource.Styleable.Spinner_android_popupBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.Spinner_android_popupBackground;
+			global::MvvmCross.Resource.Styleable.Spinner_android_prompt = global::PizzaIllico.Mobile.Android.Resource.Styleable.Spinner_android_prompt;
+			global::MvvmCross.Resource.Styleable.Spinner_popupTheme = global::PizzaIllico.Mobile.Android.Resource.Styleable.Spinner_popupTheme;
+			global::MvvmCross.Resource.Styleable.StateListDrawable = global::PizzaIllico.Mobile.Android.Resource.Styleable.StateListDrawable;
+			global::MvvmCross.Resource.Styleable.StateListDrawableItem = global::PizzaIllico.Mobile.Android.Resource.Styleable.StateListDrawableItem;
+			global::MvvmCross.Resource.Styleable.StateListDrawableItem_android_drawable = global::PizzaIllico.Mobile.Android.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::MvvmCross.Resource.Styleable.StateListDrawable_android_constantSize = global::PizzaIllico.Mobile.Android.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::MvvmCross.Resource.Styleable.StateListDrawable_android_dither = global::PizzaIllico.Mobile.Android.Resource.Styleable.StateListDrawable_android_dither;
+			global::MvvmCross.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::PizzaIllico.Mobile.Android.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::MvvmCross.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::PizzaIllico.Mobile.Android.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::MvvmCross.Resource.Styleable.StateListDrawable_android_variablePadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::MvvmCross.Resource.Styleable.StateListDrawable_android_visible = global::PizzaIllico.Mobile.Android.Resource.Styleable.StateListDrawable_android_visible;
+			global::MvvmCross.Resource.Styleable.SwitchCompat = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchCompat;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_android_textOff = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchCompat_android_textOff;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_android_textOn = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchCompat_android_textOn;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_android_thumb = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchCompat_android_thumb;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_showText = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchCompat_showText;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_splitTrack = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchCompat_splitTrack;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_switchMinWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_switchPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchCompat_switchPadding;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_switchTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_thumbTextPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_thumbTint = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchCompat_thumbTint;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_thumbTintMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_track = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchCompat_track;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_trackTint = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchCompat_trackTint;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_trackTintMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::MvvmCross.Resource.Styleable.SwitchPreference = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreference;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreferenceCompat;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_android_disableDependentsState = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreferenceCompat_android_disableDependentsState;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_android_summaryOff = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreferenceCompat_android_summaryOff;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_android_summaryOn = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreferenceCompat_android_summaryOn;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOff = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOff;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOn = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOn;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_disableDependentsState = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreferenceCompat_disableDependentsState;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_summaryOff = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreferenceCompat_summaryOff;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_summaryOn = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreferenceCompat_summaryOn;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_switchTextOff = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreferenceCompat_switchTextOff;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_switchTextOn = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreferenceCompat_switchTextOn;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_android_disableDependentsState = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreference_android_disableDependentsState;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_android_summaryOff = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreference_android_summaryOff;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_android_summaryOn = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreference_android_summaryOn;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_android_switchTextOff = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreference_android_switchTextOff;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_android_switchTextOn = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreference_android_switchTextOn;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_disableDependentsState = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreference_disableDependentsState;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_summaryOff = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreference_summaryOff;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_summaryOn = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreference_summaryOn;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_switchTextOff = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreference_switchTextOff;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_switchTextOn = global::PizzaIllico.Mobile.Android.Resource.Styleable.SwitchPreference_switchTextOn;
+			global::MvvmCross.Resource.Styleable.TabItem = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabItem;
+			global::MvvmCross.Resource.Styleable.TabItem_android_icon = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabItem_android_icon;
+			global::MvvmCross.Resource.Styleable.TabItem_android_layout = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabItem_android_layout;
+			global::MvvmCross.Resource.Styleable.TabItem_android_text = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabItem_android_text;
+			global::MvvmCross.Resource.Styleable.TabLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabBackground = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabBackground;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabContentStart = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabContentStart;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabGravity = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabGravity;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabIconTint = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabIconTint;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabIconTintMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabIndicator = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabIndicator;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabIndicatorColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabIndicatorGravity = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabIndicatorHeight = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabInlineLabel = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabMaxWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabMinWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabMinWidth;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabMode;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabPadding = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabPadding;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabPaddingBottom = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabPaddingEnd = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabPaddingStart = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabPaddingTop = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabRippleColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabRippleColor;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabSelectedTextColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabTextColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabTextColor;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabUnboundedRipple = global::PizzaIllico.Mobile.Android.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::MvvmCross.Resource.Styleable.TextAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextAppearance;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_fontFamily = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_shadowColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_shadowDx = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_shadowDy = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_shadowRadius = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_textColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextAppearance_android_textColor;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_textColorHint = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_textColorLink = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_textFontWeight = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_textSize = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextAppearance_android_textSize;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_textStyle = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextAppearance_android_textStyle;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_typeface = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextAppearance_android_typeface;
+			global::MvvmCross.Resource.Styleable.TextAppearance_fontFamily = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextAppearance_fontFamily;
+			global::MvvmCross.Resource.Styleable.TextAppearance_fontVariationSettings = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::MvvmCross.Resource.Styleable.TextAppearance_textAllCaps = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextAppearance_textAllCaps;
+			global::MvvmCross.Resource.Styleable.TextAppearance_textLocale = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextAppearance_textLocale;
+			global::MvvmCross.Resource.Styleable.TextInputLayout = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_android_hint = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_android_hint;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_android_textColorHint = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_boxStrokeColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_counterEnabled = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_counterMaxLength = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_counterTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_errorEnabled = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_errorTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_helperText = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_helperText;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_helperTextEnabled = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_hintEnabled = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_hintTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_passwordToggleTint = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::MvvmCross.Resource.Styleable.ThemeEnforcement = global::PizzaIllico.Mobile.Android.Resource.Styleable.ThemeEnforcement;
+			global::MvvmCross.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::MvvmCross.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::PizzaIllico.Mobile.Android.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::MvvmCross.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::MvvmCross.Resource.Styleable.Toolbar = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar;
+			global::MvvmCross.Resource.Styleable.Toolbar_android_gravity = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_android_gravity;
+			global::MvvmCross.Resource.Styleable.Toolbar_android_minHeight = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_android_minHeight;
+			global::MvvmCross.Resource.Styleable.Toolbar_buttonGravity = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_buttonGravity;
+			global::MvvmCross.Resource.Styleable.Toolbar_collapseContentDescription = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::MvvmCross.Resource.Styleable.Toolbar_collapseIcon = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_collapseIcon;
+			global::MvvmCross.Resource.Styleable.Toolbar_contentInsetEnd = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::MvvmCross.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::MvvmCross.Resource.Styleable.Toolbar_contentInsetLeft = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::MvvmCross.Resource.Styleable.Toolbar_contentInsetRight = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_contentInsetRight;
+			global::MvvmCross.Resource.Styleable.Toolbar_contentInsetStart = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_contentInsetStart;
+			global::MvvmCross.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::MvvmCross.Resource.Styleable.Toolbar_logo = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_logo;
+			global::MvvmCross.Resource.Styleable.Toolbar_logoDescription = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_logoDescription;
+			global::MvvmCross.Resource.Styleable.Toolbar_maxButtonHeight = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::MvvmCross.Resource.Styleable.Toolbar_menu = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_menu;
+			global::MvvmCross.Resource.Styleable.Toolbar_navigationContentDescription = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::MvvmCross.Resource.Styleable.Toolbar_navigationIcon = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_navigationIcon;
+			global::MvvmCross.Resource.Styleable.Toolbar_popupTheme = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_popupTheme;
+			global::MvvmCross.Resource.Styleable.Toolbar_subtitle = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_subtitle;
+			global::MvvmCross.Resource.Styleable.Toolbar_subtitleTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::MvvmCross.Resource.Styleable.Toolbar_subtitleTextColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::MvvmCross.Resource.Styleable.Toolbar_title = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_title;
+			global::MvvmCross.Resource.Styleable.Toolbar_titleMargin = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_titleMargin;
+			global::MvvmCross.Resource.Styleable.Toolbar_titleMarginBottom = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::MvvmCross.Resource.Styleable.Toolbar_titleMarginEnd = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::MvvmCross.Resource.Styleable.Toolbar_titleMargins = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_titleMargins;
+			global::MvvmCross.Resource.Styleable.Toolbar_titleMarginStart = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_titleMarginStart;
+			global::MvvmCross.Resource.Styleable.Toolbar_titleMarginTop = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_titleMarginTop;
+			global::MvvmCross.Resource.Styleable.Toolbar_titleTextAppearance = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::MvvmCross.Resource.Styleable.Toolbar_titleTextColor = global::PizzaIllico.Mobile.Android.Resource.Styleable.Toolbar_titleTextColor;
+			global::MvvmCross.Resource.Styleable.View = global::PizzaIllico.Mobile.Android.Resource.Styleable.View;
+			global::MvvmCross.Resource.Styleable.ViewBackgroundHelper = global::PizzaIllico.Mobile.Android.Resource.Styleable.ViewBackgroundHelper;
+			global::MvvmCross.Resource.Styleable.ViewBackgroundHelper_android_background = global::PizzaIllico.Mobile.Android.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::MvvmCross.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::PizzaIllico.Mobile.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::MvvmCross.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::PizzaIllico.Mobile.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::MvvmCross.Resource.Styleable.ViewStubCompat = global::PizzaIllico.Mobile.Android.Resource.Styleable.ViewStubCompat;
+			global::MvvmCross.Resource.Styleable.ViewStubCompat_android_id = global::PizzaIllico.Mobile.Android.Resource.Styleable.ViewStubCompat_android_id;
+			global::MvvmCross.Resource.Styleable.ViewStubCompat_android_inflatedId = global::PizzaIllico.Mobile.Android.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::MvvmCross.Resource.Styleable.ViewStubCompat_android_layout = global::PizzaIllico.Mobile.Android.Resource.Styleable.ViewStubCompat_android_layout;
+			global::MvvmCross.Resource.Styleable.View_android_focusable = global::PizzaIllico.Mobile.Android.Resource.Styleable.View_android_focusable;
+			global::MvvmCross.Resource.Styleable.View_android_theme = global::PizzaIllico.Mobile.Android.Resource.Styleable.View_android_theme;
+			global::MvvmCross.Resource.Styleable.View_paddingEnd = global::PizzaIllico.Mobile.Android.Resource.Styleable.View_paddingEnd;
+			global::MvvmCross.Resource.Styleable.View_paddingStart = global::PizzaIllico.Mobile.Android.Resource.Styleable.View_paddingStart;
+			global::MvvmCross.Resource.Styleable.View_theme = global::PizzaIllico.Mobile.Android.Resource.Styleable.View_theme;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::PizzaIllico.Mobile.Android.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::PizzaIllico.Mobile.Android.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::PizzaIllico.Mobile.Android.Resource.Attribute.fontProviderAuthority;
@@ -792,7 +3720,6 @@ namespace PizzaIllico.Mobile.Android
 			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_color_highlight_material = global::PizzaIllico.Mobile.Android.Resource.Color.abc_color_highlight_material;
 			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_hint_foreground_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.abc_hint_foreground_material_dark;
 			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_hint_foreground_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.abc_hint_foreground_material_light;
-			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_input_method_navigation_guard = global::PizzaIllico.Mobile.Android.Resource.Color.abc_input_method_navigation_guard;
 			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.abc_primary_text_disable_only_material_dark;
 			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.abc_primary_text_disable_only_material_light;
 			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_primary_text_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.abc_primary_text_material_dark;
@@ -3565,7 +6492,6 @@ namespace PizzaIllico.Mobile.Android
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_color_highlight_material = global::PizzaIllico.Mobile.Android.Resource.Color.abc_color_highlight_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_hint_foreground_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.abc_hint_foreground_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_hint_foreground_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.abc_hint_foreground_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_input_method_navigation_guard = global::PizzaIllico.Mobile.Android.Resource.Color.abc_input_method_navigation_guard;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.abc_primary_text_disable_only_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.abc_primary_text_disable_only_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_primary_text_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.abc_primary_text_material_dark;
@@ -6244,7 +9170,6 @@ namespace PizzaIllico.Mobile.Android
 			global::Xamarin.Forms.Platform.Resource.Color.abc_color_highlight_material = global::PizzaIllico.Mobile.Android.Resource.Color.abc_color_highlight_material;
 			global::Xamarin.Forms.Platform.Resource.Color.abc_hint_foreground_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.abc_hint_foreground_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.abc_hint_foreground_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.abc_hint_foreground_material_light;
-			global::Xamarin.Forms.Platform.Resource.Color.abc_input_method_navigation_guard = global::PizzaIllico.Mobile.Android.Resource.Color.abc_input_method_navigation_guard;
 			global::Xamarin.Forms.Platform.Resource.Color.abc_primary_text_disable_only_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.abc_primary_text_disable_only_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.abc_primary_text_disable_only_material_light = global::PizzaIllico.Mobile.Android.Resource.Color.abc_primary_text_disable_only_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.abc_primary_text_material_dark = global::PizzaIllico.Mobile.Android.Resource.Color.abc_primary_text_material_dark;
@@ -8477,6 +11402,27 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 0x7F01001F
 			public const int ExitToRight = 2130771999;
 			
+			// aapt resource value: 0x7F010020
+			public const int fragment_close_enter = 2130772000;
+			
+			// aapt resource value: 0x7F010021
+			public const int fragment_close_exit = 2130772001;
+			
+			// aapt resource value: 0x7F010022
+			public const int fragment_fade_enter = 2130772002;
+			
+			// aapt resource value: 0x7F010023
+			public const int fragment_fade_exit = 2130772003;
+			
+			// aapt resource value: 0x7F010024
+			public const int fragment_fast_out_extra_slow_in = 2130772004;
+			
+			// aapt resource value: 0x7F010025
+			public const int fragment_open_enter = 2130772005;
+			
+			// aapt resource value: 0x7F010026
+			public const int fragment_open_exit = 2130772006;
+			
 			static Animation()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -8533,1631 +11479,1820 @@ namespace PizzaIllico.Mobile.Android
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7F030000
-			public const int actionBarDivider = 2130903040;
-			
-			// aapt resource value: 0x7F030001
-			public const int actionBarItemBackground = 2130903041;
-			
-			// aapt resource value: 0x7F030002
-			public const int actionBarPopupTheme = 2130903042;
-			
-			// aapt resource value: 0x7F030003
-			public const int actionBarSize = 2130903043;
-			
-			// aapt resource value: 0x7F030004
-			public const int actionBarSplitStyle = 2130903044;
-			
-			// aapt resource value: 0x7F030005
-			public const int actionBarStyle = 2130903045;
-			
 			// aapt resource value: 0x7F030006
-			public const int actionBarTabBarStyle = 2130903046;
+			public const int actionBarDivider = 2130903046;
 			
 			// aapt resource value: 0x7F030007
-			public const int actionBarTabStyle = 2130903047;
+			public const int actionBarItemBackground = 2130903047;
 			
 			// aapt resource value: 0x7F030008
-			public const int actionBarTabTextStyle = 2130903048;
+			public const int actionBarPopupTheme = 2130903048;
 			
 			// aapt resource value: 0x7F030009
-			public const int actionBarTheme = 2130903049;
+			public const int actionBarSize = 2130903049;
 			
 			// aapt resource value: 0x7F03000A
-			public const int actionBarWidgetTheme = 2130903050;
+			public const int actionBarSplitStyle = 2130903050;
 			
 			// aapt resource value: 0x7F03000B
-			public const int actionButtonStyle = 2130903051;
+			public const int actionBarStyle = 2130903051;
 			
 			// aapt resource value: 0x7F03000C
-			public const int actionDropDownStyle = 2130903052;
+			public const int actionBarTabBarStyle = 2130903052;
 			
 			// aapt resource value: 0x7F03000D
-			public const int actionLayout = 2130903053;
+			public const int actionBarTabStyle = 2130903053;
 			
 			// aapt resource value: 0x7F03000E
-			public const int actionMenuTextAppearance = 2130903054;
+			public const int actionBarTabTextStyle = 2130903054;
 			
 			// aapt resource value: 0x7F03000F
-			public const int actionMenuTextColor = 2130903055;
+			public const int actionBarTheme = 2130903055;
 			
 			// aapt resource value: 0x7F030010
-			public const int actionModeBackground = 2130903056;
+			public const int actionBarWidgetTheme = 2130903056;
 			
 			// aapt resource value: 0x7F030011
-			public const int actionModeCloseButtonStyle = 2130903057;
+			public const int actionButtonStyle = 2130903057;
 			
 			// aapt resource value: 0x7F030012
-			public const int actionModeCloseDrawable = 2130903058;
+			public const int actionDropDownStyle = 2130903058;
 			
 			// aapt resource value: 0x7F030013
-			public const int actionModeCopyDrawable = 2130903059;
+			public const int actionLayout = 2130903059;
 			
 			// aapt resource value: 0x7F030014
-			public const int actionModeCutDrawable = 2130903060;
+			public const int actionMenuTextAppearance = 2130903060;
 			
 			// aapt resource value: 0x7F030015
-			public const int actionModeFindDrawable = 2130903061;
+			public const int actionMenuTextColor = 2130903061;
 			
 			// aapt resource value: 0x7F030016
-			public const int actionModePasteDrawable = 2130903062;
+			public const int actionModeBackground = 2130903062;
 			
 			// aapt resource value: 0x7F030017
-			public const int actionModePopupWindowStyle = 2130903063;
+			public const int actionModeCloseButtonStyle = 2130903063;
 			
 			// aapt resource value: 0x7F030018
-			public const int actionModeSelectAllDrawable = 2130903064;
+			public const int actionModeCloseDrawable = 2130903064;
 			
 			// aapt resource value: 0x7F030019
-			public const int actionModeShareDrawable = 2130903065;
+			public const int actionModeCopyDrawable = 2130903065;
 			
 			// aapt resource value: 0x7F03001A
-			public const int actionModeSplitBackground = 2130903066;
+			public const int actionModeCutDrawable = 2130903066;
 			
 			// aapt resource value: 0x7F03001B
-			public const int actionModeStyle = 2130903067;
+			public const int actionModeFindDrawable = 2130903067;
 			
 			// aapt resource value: 0x7F03001C
-			public const int actionModeWebSearchDrawable = 2130903068;
+			public const int actionModePasteDrawable = 2130903068;
 			
 			// aapt resource value: 0x7F03001D
-			public const int actionOverflowButtonStyle = 2130903069;
+			public const int actionModePopupWindowStyle = 2130903069;
 			
 			// aapt resource value: 0x7F03001E
-			public const int actionOverflowMenuStyle = 2130903070;
+			public const int actionModeSelectAllDrawable = 2130903070;
 			
 			// aapt resource value: 0x7F03001F
-			public const int actionProviderClass = 2130903071;
+			public const int actionModeShareDrawable = 2130903071;
 			
 			// aapt resource value: 0x7F030020
-			public const int actionViewClass = 2130903072;
+			public const int actionModeSplitBackground = 2130903072;
 			
 			// aapt resource value: 0x7F030021
-			public const int activityChooserViewStyle = 2130903073;
+			public const int actionModeStyle = 2130903073;
 			
 			// aapt resource value: 0x7F030022
-			public const int alertDialogButtonGroupStyle = 2130903074;
+			public const int actionModeWebSearchDrawable = 2130903074;
 			
 			// aapt resource value: 0x7F030023
-			public const int alertDialogCenterButtons = 2130903075;
+			public const int actionOverflowButtonStyle = 2130903075;
 			
 			// aapt resource value: 0x7F030024
-			public const int alertDialogStyle = 2130903076;
+			public const int actionOverflowMenuStyle = 2130903076;
 			
 			// aapt resource value: 0x7F030025
-			public const int alertDialogTheme = 2130903077;
+			public const int actionProviderClass = 2130903077;
 			
 			// aapt resource value: 0x7F030026
-			public const int allowStacking = 2130903078;
+			public const int actionViewClass = 2130903078;
 			
 			// aapt resource value: 0x7F030027
-			public const int alpha = 2130903079;
+			public const int activityChooserViewStyle = 2130903079;
 			
 			// aapt resource value: 0x7F030028
-			public const int alphabeticModifiers = 2130903080;
+			public const int adjustable = 2130903080;
 			
 			// aapt resource value: 0x7F030029
-			public const int ambientEnabled = 2130903081;
+			public const int alertDialogButtonGroupStyle = 2130903081;
 			
 			// aapt resource value: 0x7F03002A
-			public const int arrowHeadLength = 2130903082;
+			public const int alertDialogCenterButtons = 2130903082;
 			
 			// aapt resource value: 0x7F03002B
-			public const int arrowShaftLength = 2130903083;
+			public const int alertDialogStyle = 2130903083;
 			
 			// aapt resource value: 0x7F03002C
-			public const int autoCompleteTextViewStyle = 2130903084;
+			public const int alertDialogTheme = 2130903084;
 			
 			// aapt resource value: 0x7F03002D
-			public const int autoSizeMaxTextSize = 2130903085;
+			public const int allowDividerAbove = 2130903085;
 			
 			// aapt resource value: 0x7F03002E
-			public const int autoSizeMinTextSize = 2130903086;
+			public const int allowDividerAfterLastItem = 2130903086;
 			
 			// aapt resource value: 0x7F03002F
-			public const int autoSizePresetSizes = 2130903087;
+			public const int allowDividerBelow = 2130903087;
 			
 			// aapt resource value: 0x7F030030
-			public const int autoSizeStepGranularity = 2130903088;
+			public const int allowStacking = 2130903088;
 			
 			// aapt resource value: 0x7F030031
-			public const int autoSizeTextType = 2130903089;
+			public const int alpha = 2130903089;
 			
 			// aapt resource value: 0x7F030032
-			public const int background = 2130903090;
+			public const int alphabeticModifiers = 2130903090;
 			
 			// aapt resource value: 0x7F030033
-			public const int backgroundSplit = 2130903091;
+			public const int ambientEnabled = 2130903091;
 			
 			// aapt resource value: 0x7F030034
-			public const int backgroundStacked = 2130903092;
+			public const int arrowHeadLength = 2130903092;
 			
 			// aapt resource value: 0x7F030035
-			public const int backgroundTint = 2130903093;
+			public const int arrowShaftLength = 2130903093;
 			
 			// aapt resource value: 0x7F030036
-			public const int backgroundTintMode = 2130903094;
+			public const int autoCompleteTextViewStyle = 2130903094;
 			
 			// aapt resource value: 0x7F030037
-			public const int barLength = 2130903095;
+			public const int autoSizeMaxTextSize = 2130903095;
 			
 			// aapt resource value: 0x7F030038
-			public const int behavior_autoHide = 2130903096;
+			public const int autoSizeMinTextSize = 2130903096;
 			
 			// aapt resource value: 0x7F030039
-			public const int behavior_fitToContents = 2130903097;
+			public const int autoSizePresetSizes = 2130903097;
 			
 			// aapt resource value: 0x7F03003A
-			public const int behavior_hideable = 2130903098;
+			public const int autoSizeStepGranularity = 2130903098;
 			
 			// aapt resource value: 0x7F03003B
-			public const int behavior_overlapTop = 2130903099;
+			public const int autoSizeTextType = 2130903099;
 			
 			// aapt resource value: 0x7F03003C
-			public const int behavior_peekHeight = 2130903100;
+			public const int background = 2130903100;
 			
 			// aapt resource value: 0x7F03003D
-			public const int behavior_skipCollapsed = 2130903101;
-			
-			// aapt resource value: 0x7F03003F
-			public const int borderlessButtonStyle = 2130903103;
+			public const int backgroundSplit = 2130903101;
 			
 			// aapt resource value: 0x7F03003E
-			public const int borderWidth = 2130903102;
+			public const int backgroundStacked = 2130903102;
+			
+			// aapt resource value: 0x7F03003F
+			public const int backgroundTint = 2130903103;
 			
 			// aapt resource value: 0x7F030040
-			public const int bottomAppBarStyle = 2130903104;
+			public const int backgroundTintMode = 2130903104;
 			
 			// aapt resource value: 0x7F030041
-			public const int bottomNavigationStyle = 2130903105;
+			public const int barLength = 2130903105;
 			
 			// aapt resource value: 0x7F030042
-			public const int bottomSheetDialogTheme = 2130903106;
+			public const int behavior_autoHide = 2130903106;
 			
 			// aapt resource value: 0x7F030043
-			public const int bottomSheetStyle = 2130903107;
+			public const int behavior_fitToContents = 2130903107;
 			
 			// aapt resource value: 0x7F030044
-			public const int boxBackgroundColor = 2130903108;
+			public const int behavior_hideable = 2130903108;
 			
 			// aapt resource value: 0x7F030045
-			public const int boxBackgroundMode = 2130903109;
+			public const int behavior_overlapTop = 2130903109;
 			
 			// aapt resource value: 0x7F030046
-			public const int boxCollapsedPaddingTop = 2130903110;
+			public const int behavior_peekHeight = 2130903110;
 			
 			// aapt resource value: 0x7F030047
-			public const int boxCornerRadiusBottomEnd = 2130903111;
-			
-			// aapt resource value: 0x7F030048
-			public const int boxCornerRadiusBottomStart = 2130903112;
+			public const int behavior_skipCollapsed = 2130903111;
 			
 			// aapt resource value: 0x7F030049
-			public const int boxCornerRadiusTopEnd = 2130903113;
+			public const int borderlessButtonStyle = 2130903113;
+			
+			// aapt resource value: 0x7F030048
+			public const int borderWidth = 2130903112;
 			
 			// aapt resource value: 0x7F03004A
-			public const int boxCornerRadiusTopStart = 2130903114;
+			public const int bottomAppBarStyle = 2130903114;
 			
 			// aapt resource value: 0x7F03004B
-			public const int boxStrokeColor = 2130903115;
+			public const int bottomNavigationStyle = 2130903115;
 			
 			// aapt resource value: 0x7F03004C
-			public const int boxStrokeWidth = 2130903116;
+			public const int bottomSheetDialogTheme = 2130903116;
 			
 			// aapt resource value: 0x7F03004D
-			public const int buttonBarButtonStyle = 2130903117;
+			public const int bottomSheetStyle = 2130903117;
 			
 			// aapt resource value: 0x7F03004E
-			public const int buttonBarNegativeButtonStyle = 2130903118;
+			public const int boxBackgroundColor = 2130903118;
 			
 			// aapt resource value: 0x7F03004F
-			public const int buttonBarNeutralButtonStyle = 2130903119;
+			public const int boxBackgroundMode = 2130903119;
 			
 			// aapt resource value: 0x7F030050
-			public const int buttonBarPositiveButtonStyle = 2130903120;
+			public const int boxCollapsedPaddingTop = 2130903120;
 			
 			// aapt resource value: 0x7F030051
-			public const int buttonBarStyle = 2130903121;
+			public const int boxCornerRadiusBottomEnd = 2130903121;
 			
 			// aapt resource value: 0x7F030052
-			public const int buttonCompat = 2130903122;
+			public const int boxCornerRadiusBottomStart = 2130903122;
 			
 			// aapt resource value: 0x7F030053
-			public const int buttonGravity = 2130903123;
+			public const int boxCornerRadiusTopEnd = 2130903123;
 			
 			// aapt resource value: 0x7F030054
-			public const int buttonIconDimen = 2130903124;
+			public const int boxCornerRadiusTopStart = 2130903124;
 			
 			// aapt resource value: 0x7F030055
-			public const int buttonPanelSideLayout = 2130903125;
+			public const int boxStrokeColor = 2130903125;
 			
 			// aapt resource value: 0x7F030056
-			public const int buttonSize = 2130903126;
+			public const int boxStrokeWidth = 2130903126;
 			
 			// aapt resource value: 0x7F030057
-			public const int buttonStyle = 2130903127;
+			public const int buttonBarButtonStyle = 2130903127;
 			
 			// aapt resource value: 0x7F030058
-			public const int buttonStyleSmall = 2130903128;
+			public const int buttonBarNegativeButtonStyle = 2130903128;
 			
 			// aapt resource value: 0x7F030059
-			public const int buttonTint = 2130903129;
+			public const int buttonBarNeutralButtonStyle = 2130903129;
 			
 			// aapt resource value: 0x7F03005A
-			public const int buttonTintMode = 2130903130;
+			public const int buttonBarPositiveButtonStyle = 2130903130;
 			
 			// aapt resource value: 0x7F03005B
-			public const int cameraBearing = 2130903131;
+			public const int buttonBarStyle = 2130903131;
 			
 			// aapt resource value: 0x7F03005C
-			public const int cameraMaxZoomPreference = 2130903132;
+			public const int buttonCompat = 2130903132;
 			
 			// aapt resource value: 0x7F03005D
-			public const int cameraMinZoomPreference = 2130903133;
+			public const int buttonGravity = 2130903133;
 			
 			// aapt resource value: 0x7F03005E
-			public const int cameraTargetLat = 2130903134;
+			public const int buttonIconDimen = 2130903134;
 			
 			// aapt resource value: 0x7F03005F
-			public const int cameraTargetLng = 2130903135;
+			public const int buttonPanelSideLayout = 2130903135;
 			
 			// aapt resource value: 0x7F030060
-			public const int cameraTilt = 2130903136;
+			public const int buttonSize = 2130903136;
 			
 			// aapt resource value: 0x7F030061
-			public const int cameraZoom = 2130903137;
+			public const int buttonStyle = 2130903137;
 			
 			// aapt resource value: 0x7F030062
-			public const int cardBackgroundColor = 2130903138;
+			public const int buttonStyleSmall = 2130903138;
 			
 			// aapt resource value: 0x7F030063
-			public const int cardCornerRadius = 2130903139;
+			public const int buttonTint = 2130903139;
 			
 			// aapt resource value: 0x7F030064
-			public const int cardElevation = 2130903140;
+			public const int buttonTintMode = 2130903140;
 			
 			// aapt resource value: 0x7F030065
-			public const int cardMaxElevation = 2130903141;
+			public const int cameraBearing = 2130903141;
 			
 			// aapt resource value: 0x7F030066
-			public const int cardPreventCornerOverlap = 2130903142;
+			public const int cameraMaxZoomPreference = 2130903142;
 			
 			// aapt resource value: 0x7F030067
-			public const int cardUseCompatPadding = 2130903143;
+			public const int cameraMinZoomPreference = 2130903143;
 			
 			// aapt resource value: 0x7F030068
-			public const int cardViewStyle = 2130903144;
+			public const int cameraTargetLat = 2130903144;
 			
 			// aapt resource value: 0x7F030069
-			public const int checkboxStyle = 2130903145;
+			public const int cameraTargetLng = 2130903145;
 			
 			// aapt resource value: 0x7F03006A
-			public const int checkedChip = 2130903146;
+			public const int cameraTilt = 2130903146;
 			
 			// aapt resource value: 0x7F03006B
-			public const int checkedIcon = 2130903147;
+			public const int cameraZoom = 2130903147;
 			
 			// aapt resource value: 0x7F03006C
-			public const int checkedIconEnabled = 2130903148;
+			public const int cardBackgroundColor = 2130903148;
 			
 			// aapt resource value: 0x7F03006D
-			public const int checkedIconVisible = 2130903149;
+			public const int cardCornerRadius = 2130903149;
 			
 			// aapt resource value: 0x7F03006E
-			public const int checkedTextViewStyle = 2130903150;
+			public const int cardElevation = 2130903150;
 			
 			// aapt resource value: 0x7F03006F
-			public const int chipBackgroundColor = 2130903151;
+			public const int cardMaxElevation = 2130903151;
 			
 			// aapt resource value: 0x7F030070
-			public const int chipCornerRadius = 2130903152;
+			public const int cardPreventCornerOverlap = 2130903152;
 			
 			// aapt resource value: 0x7F030071
-			public const int chipEndPadding = 2130903153;
+			public const int cardUseCompatPadding = 2130903153;
 			
 			// aapt resource value: 0x7F030072
-			public const int chipGroupStyle = 2130903154;
+			public const int cardViewStyle = 2130903154;
 			
 			// aapt resource value: 0x7F030073
-			public const int chipIcon = 2130903155;
+			public const int checkBoxPreferenceStyle = 2130903155;
 			
 			// aapt resource value: 0x7F030074
-			public const int chipIconEnabled = 2130903156;
+			public const int checkboxStyle = 2130903156;
 			
 			// aapt resource value: 0x7F030075
-			public const int chipIconSize = 2130903157;
+			public const int checkedChip = 2130903157;
 			
 			// aapt resource value: 0x7F030076
-			public const int chipIconTint = 2130903158;
+			public const int checkedIcon = 2130903158;
 			
 			// aapt resource value: 0x7F030077
-			public const int chipIconVisible = 2130903159;
+			public const int checkedIconEnabled = 2130903159;
 			
 			// aapt resource value: 0x7F030078
-			public const int chipMinHeight = 2130903160;
+			public const int checkedIconVisible = 2130903160;
 			
 			// aapt resource value: 0x7F030079
-			public const int chipSpacing = 2130903161;
+			public const int checkedTextViewStyle = 2130903161;
 			
 			// aapt resource value: 0x7F03007A
-			public const int chipSpacingHorizontal = 2130903162;
+			public const int chipBackgroundColor = 2130903162;
 			
 			// aapt resource value: 0x7F03007B
-			public const int chipSpacingVertical = 2130903163;
+			public const int chipCornerRadius = 2130903163;
 			
 			// aapt resource value: 0x7F03007C
-			public const int chipStandaloneStyle = 2130903164;
+			public const int chipEndPadding = 2130903164;
 			
 			// aapt resource value: 0x7F03007D
-			public const int chipStartPadding = 2130903165;
+			public const int chipGroupStyle = 2130903165;
 			
 			// aapt resource value: 0x7F03007E
-			public const int chipStrokeColor = 2130903166;
+			public const int chipIcon = 2130903166;
 			
 			// aapt resource value: 0x7F03007F
-			public const int chipStrokeWidth = 2130903167;
+			public const int chipIconEnabled = 2130903167;
 			
 			// aapt resource value: 0x7F030080
-			public const int chipStyle = 2130903168;
+			public const int chipIconSize = 2130903168;
 			
 			// aapt resource value: 0x7F030081
-			public const int circleCrop = 2130903169;
+			public const int chipIconTint = 2130903169;
 			
 			// aapt resource value: 0x7F030082
-			public const int closeIcon = 2130903170;
+			public const int chipIconVisible = 2130903170;
 			
 			// aapt resource value: 0x7F030083
-			public const int closeIconEnabled = 2130903171;
+			public const int chipMinHeight = 2130903171;
 			
 			// aapt resource value: 0x7F030084
-			public const int closeIconEndPadding = 2130903172;
+			public const int chipSpacing = 2130903172;
 			
 			// aapt resource value: 0x7F030085
-			public const int closeIconSize = 2130903173;
+			public const int chipSpacingHorizontal = 2130903173;
 			
 			// aapt resource value: 0x7F030086
-			public const int closeIconStartPadding = 2130903174;
+			public const int chipSpacingVertical = 2130903174;
 			
 			// aapt resource value: 0x7F030087
-			public const int closeIconTint = 2130903175;
+			public const int chipStandaloneStyle = 2130903175;
 			
 			// aapt resource value: 0x7F030088
-			public const int closeIconVisible = 2130903176;
+			public const int chipStartPadding = 2130903176;
 			
 			// aapt resource value: 0x7F030089
-			public const int closeItemLayout = 2130903177;
+			public const int chipStrokeColor = 2130903177;
 			
 			// aapt resource value: 0x7F03008A
-			public const int collapseContentDescription = 2130903178;
-			
-			// aapt resource value: 0x7F03008C
-			public const int collapsedTitleGravity = 2130903180;
-			
-			// aapt resource value: 0x7F03008D
-			public const int collapsedTitleTextAppearance = 2130903181;
+			public const int chipStrokeWidth = 2130903178;
 			
 			// aapt resource value: 0x7F03008B
-			public const int collapseIcon = 2130903179;
+			public const int chipStyle = 2130903179;
+			
+			// aapt resource value: 0x7F03008C
+			public const int circleCrop = 2130903180;
+			
+			// aapt resource value: 0x7F03008D
+			public const int closeIcon = 2130903181;
 			
 			// aapt resource value: 0x7F03008E
-			public const int collectionViewStyle = 2130903182;
+			public const int closeIconEnabled = 2130903182;
 			
 			// aapt resource value: 0x7F03008F
-			public const int color = 2130903183;
+			public const int closeIconEndPadding = 2130903183;
 			
 			// aapt resource value: 0x7F030090
-			public const int colorAccent = 2130903184;
+			public const int closeIconSize = 2130903184;
 			
 			// aapt resource value: 0x7F030091
-			public const int colorBackgroundFloating = 2130903185;
+			public const int closeIconStartPadding = 2130903185;
 			
 			// aapt resource value: 0x7F030092
-			public const int colorButtonNormal = 2130903186;
+			public const int closeIconTint = 2130903186;
 			
 			// aapt resource value: 0x7F030093
-			public const int colorControlActivated = 2130903187;
+			public const int closeIconVisible = 2130903187;
 			
 			// aapt resource value: 0x7F030094
-			public const int colorControlHighlight = 2130903188;
+			public const int closeItemLayout = 2130903188;
 			
 			// aapt resource value: 0x7F030095
-			public const int colorControlNormal = 2130903189;
-			
-			// aapt resource value: 0x7F030096
-			public const int colorError = 2130903190;
+			public const int collapseContentDescription = 2130903189;
 			
 			// aapt resource value: 0x7F030097
-			public const int colorPrimary = 2130903191;
+			public const int collapsedTitleGravity = 2130903191;
 			
 			// aapt resource value: 0x7F030098
-			public const int colorPrimaryDark = 2130903192;
+			public const int collapsedTitleTextAppearance = 2130903192;
+			
+			// aapt resource value: 0x7F030096
+			public const int collapseIcon = 2130903190;
 			
 			// aapt resource value: 0x7F030099
-			public const int colorScheme = 2130903193;
+			public const int collectionViewStyle = 2130903193;
 			
 			// aapt resource value: 0x7F03009A
-			public const int colorSecondary = 2130903194;
+			public const int color = 2130903194;
 			
 			// aapt resource value: 0x7F03009B
-			public const int colorSwitchThumbNormal = 2130903195;
+			public const int colorAccent = 2130903195;
 			
 			// aapt resource value: 0x7F03009C
-			public const int commitIcon = 2130903196;
+			public const int colorBackgroundFloating = 2130903196;
 			
 			// aapt resource value: 0x7F03009D
-			public const int contentDescription = 2130903197;
+			public const int colorButtonNormal = 2130903197;
 			
 			// aapt resource value: 0x7F03009E
-			public const int contentInsetEnd = 2130903198;
+			public const int colorControlActivated = 2130903198;
 			
 			// aapt resource value: 0x7F03009F
-			public const int contentInsetEndWithActions = 2130903199;
+			public const int colorControlHighlight = 2130903199;
 			
 			// aapt resource value: 0x7F0300A0
-			public const int contentInsetLeft = 2130903200;
+			public const int colorControlNormal = 2130903200;
 			
 			// aapt resource value: 0x7F0300A1
-			public const int contentInsetRight = 2130903201;
+			public const int colorError = 2130903201;
 			
 			// aapt resource value: 0x7F0300A2
-			public const int contentInsetStart = 2130903202;
+			public const int colorPrimary = 2130903202;
 			
 			// aapt resource value: 0x7F0300A3
-			public const int contentInsetStartWithNavigation = 2130903203;
+			public const int colorPrimaryDark = 2130903203;
 			
 			// aapt resource value: 0x7F0300A4
-			public const int contentPadding = 2130903204;
+			public const int colorScheme = 2130903204;
 			
 			// aapt resource value: 0x7F0300A5
-			public const int contentPaddingBottom = 2130903205;
+			public const int colorSecondary = 2130903205;
 			
 			// aapt resource value: 0x7F0300A6
-			public const int contentPaddingLeft = 2130903206;
+			public const int colorSwitchThumbNormal = 2130903206;
 			
 			// aapt resource value: 0x7F0300A7
-			public const int contentPaddingRight = 2130903207;
+			public const int commitIcon = 2130903207;
 			
 			// aapt resource value: 0x7F0300A8
-			public const int contentPaddingTop = 2130903208;
+			public const int contentDescription = 2130903208;
 			
 			// aapt resource value: 0x7F0300A9
-			public const int contentScrim = 2130903209;
+			public const int contentInsetEnd = 2130903209;
 			
 			// aapt resource value: 0x7F0300AA
-			public const int controlBackground = 2130903210;
+			public const int contentInsetEndWithActions = 2130903210;
 			
 			// aapt resource value: 0x7F0300AB
-			public const int coordinatorLayoutStyle = 2130903211;
+			public const int contentInsetLeft = 2130903211;
 			
 			// aapt resource value: 0x7F0300AC
-			public const int cornerRadius = 2130903212;
+			public const int contentInsetRight = 2130903212;
 			
 			// aapt resource value: 0x7F0300AD
-			public const int counterEnabled = 2130903213;
+			public const int contentInsetStart = 2130903213;
 			
 			// aapt resource value: 0x7F0300AE
-			public const int counterMaxLength = 2130903214;
+			public const int contentInsetStartWithNavigation = 2130903214;
 			
 			// aapt resource value: 0x7F0300AF
-			public const int counterOverflowTextAppearance = 2130903215;
+			public const int contentPadding = 2130903215;
 			
 			// aapt resource value: 0x7F0300B0
-			public const int counterTextAppearance = 2130903216;
+			public const int contentPaddingBottom = 2130903216;
 			
 			// aapt resource value: 0x7F0300B1
-			public const int customNavigationLayout = 2130903217;
+			public const int contentPaddingLeft = 2130903217;
 			
 			// aapt resource value: 0x7F0300B2
-			public const int defaultQueryHint = 2130903218;
+			public const int contentPaddingRight = 2130903218;
 			
 			// aapt resource value: 0x7F0300B3
-			public const int dialogCornerRadius = 2130903219;
+			public const int contentPaddingTop = 2130903219;
 			
 			// aapt resource value: 0x7F0300B4
-			public const int dialogPreferredPadding = 2130903220;
+			public const int contentScrim = 2130903220;
 			
 			// aapt resource value: 0x7F0300B5
-			public const int dialogTheme = 2130903221;
+			public const int controlBackground = 2130903221;
 			
 			// aapt resource value: 0x7F0300B6
-			public const int displayOptions = 2130903222;
+			public const int coordinatorLayoutStyle = 2130903222;
 			
 			// aapt resource value: 0x7F0300B7
-			public const int divider = 2130903223;
+			public const int cornerRadius = 2130903223;
 			
 			// aapt resource value: 0x7F0300B8
-			public const int dividerHorizontal = 2130903224;
+			public const int counterEnabled = 2130903224;
 			
 			// aapt resource value: 0x7F0300B9
-			public const int dividerPadding = 2130903225;
+			public const int counterMaxLength = 2130903225;
 			
 			// aapt resource value: 0x7F0300BA
-			public const int dividerVertical = 2130903226;
+			public const int counterOverflowTextAppearance = 2130903226;
 			
 			// aapt resource value: 0x7F0300BB
-			public const int drawableBottomCompat = 2130903227;
+			public const int counterTextAppearance = 2130903227;
 			
 			// aapt resource value: 0x7F0300BC
-			public const int drawableEndCompat = 2130903228;
+			public const int customNavigationLayout = 2130903228;
 			
 			// aapt resource value: 0x7F0300BD
-			public const int drawableLeftCompat = 2130903229;
+			public const int defaultQueryHint = 2130903229;
 			
 			// aapt resource value: 0x7F0300BE
-			public const int drawableRightCompat = 2130903230;
+			public const int defaultValue = 2130903230;
 			
 			// aapt resource value: 0x7F0300BF
-			public const int drawableSize = 2130903231;
+			public const int dependency = 2130903231;
 			
 			// aapt resource value: 0x7F0300C0
-			public const int drawableStartCompat = 2130903232;
+			public const int dialogCornerRadius = 2130903232;
 			
 			// aapt resource value: 0x7F0300C1
-			public const int drawableTint = 2130903233;
+			public const int dialogIcon = 2130903233;
 			
 			// aapt resource value: 0x7F0300C2
-			public const int drawableTintMode = 2130903234;
+			public const int dialogLayout = 2130903234;
 			
 			// aapt resource value: 0x7F0300C3
-			public const int drawableTopCompat = 2130903235;
+			public const int dialogMessage = 2130903235;
 			
 			// aapt resource value: 0x7F0300C4
-			public const int drawerArrowStyle = 2130903236;
-			
-			// aapt resource value: 0x7F0300C6
-			public const int dropdownListPreferredItemHeight = 2130903238;
+			public const int dialogPreferenceStyle = 2130903236;
 			
 			// aapt resource value: 0x7F0300C5
-			public const int dropDownListViewStyle = 2130903237;
+			public const int dialogPreferredPadding = 2130903237;
+			
+			// aapt resource value: 0x7F0300C6
+			public const int dialogTheme = 2130903238;
 			
 			// aapt resource value: 0x7F0300C7
-			public const int editTextBackground = 2130903239;
+			public const int dialogTitle = 2130903239;
 			
 			// aapt resource value: 0x7F0300C8
-			public const int editTextColor = 2130903240;
+			public const int disableDependentsState = 2130903240;
 			
 			// aapt resource value: 0x7F0300C9
-			public const int editTextStyle = 2130903241;
+			public const int displayOptions = 2130903241;
 			
 			// aapt resource value: 0x7F0300CA
-			public const int elevation = 2130903242;
+			public const int divider = 2130903242;
 			
 			// aapt resource value: 0x7F0300CB
-			public const int enforceMaterialTheme = 2130903243;
+			public const int dividerHorizontal = 2130903243;
 			
 			// aapt resource value: 0x7F0300CC
-			public const int enforceTextAppearance = 2130903244;
+			public const int dividerPadding = 2130903244;
 			
 			// aapt resource value: 0x7F0300CD
-			public const int errorEnabled = 2130903245;
+			public const int dividerVertical = 2130903245;
 			
 			// aapt resource value: 0x7F0300CE
-			public const int errorTextAppearance = 2130903246;
+			public const int drawableBottomCompat = 2130903246;
 			
 			// aapt resource value: 0x7F0300CF
-			public const int expandActivityOverflowButtonDrawable = 2130903247;
+			public const int drawableEndCompat = 2130903247;
 			
 			// aapt resource value: 0x7F0300D0
-			public const int expanded = 2130903248;
+			public const int drawableLeftCompat = 2130903248;
 			
 			// aapt resource value: 0x7F0300D1
-			public const int expandedTitleGravity = 2130903249;
+			public const int drawableRightCompat = 2130903249;
 			
 			// aapt resource value: 0x7F0300D2
-			public const int expandedTitleMargin = 2130903250;
+			public const int drawableSize = 2130903250;
 			
 			// aapt resource value: 0x7F0300D3
-			public const int expandedTitleMarginBottom = 2130903251;
+			public const int drawableStartCompat = 2130903251;
 			
 			// aapt resource value: 0x7F0300D4
-			public const int expandedTitleMarginEnd = 2130903252;
+			public const int drawableTint = 2130903252;
 			
 			// aapt resource value: 0x7F0300D5
-			public const int expandedTitleMarginStart = 2130903253;
+			public const int drawableTintMode = 2130903253;
 			
 			// aapt resource value: 0x7F0300D6
-			public const int expandedTitleMarginTop = 2130903254;
+			public const int drawableTopCompat = 2130903254;
 			
 			// aapt resource value: 0x7F0300D7
-			public const int expandedTitleTextAppearance = 2130903255;
-			
-			// aapt resource value: 0x7F0300D8
-			public const int externalRouteEnabledDrawable = 2130903256;
+			public const int drawerArrowStyle = 2130903255;
 			
 			// aapt resource value: 0x7F0300D9
-			public const int externalRouteEnabledDrawableStatic = 2130903257;
+			public const int dropdownListPreferredItemHeight = 2130903257;
+			
+			// aapt resource value: 0x7F0300D8
+			public const int dropDownListViewStyle = 2130903256;
 			
 			// aapt resource value: 0x7F0300DA
-			public const int fabAlignmentMode = 2130903258;
+			public const int dropdownPreferenceStyle = 2130903258;
 			
 			// aapt resource value: 0x7F0300DB
-			public const int fabCradleMargin = 2130903259;
+			public const int editTextBackground = 2130903259;
 			
 			// aapt resource value: 0x7F0300DC
-			public const int fabCradleRoundedCornerRadius = 2130903260;
+			public const int editTextColor = 2130903260;
 			
 			// aapt resource value: 0x7F0300DD
-			public const int fabCradleVerticalOffset = 2130903261;
+			public const int editTextPreferenceStyle = 2130903261;
 			
 			// aapt resource value: 0x7F0300DE
-			public const int fabCustomSize = 2130903262;
+			public const int editTextStyle = 2130903262;
 			
 			// aapt resource value: 0x7F0300DF
-			public const int fabSize = 2130903263;
+			public const int elevation = 2130903263;
 			
 			// aapt resource value: 0x7F0300E0
-			public const int fastScrollEnabled = 2130903264;
+			public const int enableCopying = 2130903264;
 			
 			// aapt resource value: 0x7F0300E1
-			public const int fastScrollHorizontalThumbDrawable = 2130903265;
+			public const int enabled = 2130903265;
 			
 			// aapt resource value: 0x7F0300E2
-			public const int fastScrollHorizontalTrackDrawable = 2130903266;
+			public const int enforceMaterialTheme = 2130903266;
 			
 			// aapt resource value: 0x7F0300E3
-			public const int fastScrollVerticalThumbDrawable = 2130903267;
+			public const int enforceTextAppearance = 2130903267;
 			
 			// aapt resource value: 0x7F0300E4
-			public const int fastScrollVerticalTrackDrawable = 2130903268;
+			public const int entries = 2130903268;
 			
 			// aapt resource value: 0x7F0300E5
-			public const int firstBaselineToTopHeight = 2130903269;
+			public const int entryValues = 2130903269;
 			
 			// aapt resource value: 0x7F0300E6
-			public const int floatingActionButtonStyle = 2130903270;
+			public const int errorEnabled = 2130903270;
 			
 			// aapt resource value: 0x7F0300E7
-			public const int font = 2130903271;
+			public const int errorTextAppearance = 2130903271;
 			
 			// aapt resource value: 0x7F0300E8
-			public const int fontFamily = 2130903272;
+			public const int expandActivityOverflowButtonDrawable = 2130903272;
 			
 			// aapt resource value: 0x7F0300E9
-			public const int fontProviderAuthority = 2130903273;
+			public const int expanded = 2130903273;
 			
 			// aapt resource value: 0x7F0300EA
-			public const int fontProviderCerts = 2130903274;
+			public const int expandedTitleGravity = 2130903274;
 			
 			// aapt resource value: 0x7F0300EB
-			public const int fontProviderFetchStrategy = 2130903275;
+			public const int expandedTitleMargin = 2130903275;
 			
 			// aapt resource value: 0x7F0300EC
-			public const int fontProviderFetchTimeout = 2130903276;
+			public const int expandedTitleMarginBottom = 2130903276;
 			
 			// aapt resource value: 0x7F0300ED
-			public const int fontProviderPackage = 2130903277;
+			public const int expandedTitleMarginEnd = 2130903277;
 			
 			// aapt resource value: 0x7F0300EE
-			public const int fontProviderQuery = 2130903278;
+			public const int expandedTitleMarginStart = 2130903278;
 			
 			// aapt resource value: 0x7F0300EF
-			public const int fontStyle = 2130903279;
+			public const int expandedTitleMarginTop = 2130903279;
 			
 			// aapt resource value: 0x7F0300F0
-			public const int fontVariationSettings = 2130903280;
+			public const int expandedTitleTextAppearance = 2130903280;
 			
 			// aapt resource value: 0x7F0300F1
-			public const int fontWeight = 2130903281;
+			public const int externalRouteEnabledDrawable = 2130903281;
 			
 			// aapt resource value: 0x7F0300F2
-			public const int foregroundInsidePadding = 2130903282;
+			public const int externalRouteEnabledDrawableStatic = 2130903282;
 			
 			// aapt resource value: 0x7F0300F3
-			public const int gapBetweenBars = 2130903283;
+			public const int fabAlignmentMode = 2130903283;
 			
 			// aapt resource value: 0x7F0300F4
-			public const int goIcon = 2130903284;
+			public const int fabCradleMargin = 2130903284;
 			
 			// aapt resource value: 0x7F0300F5
-			public const int headerLayout = 2130903285;
+			public const int fabCradleRoundedCornerRadius = 2130903285;
 			
 			// aapt resource value: 0x7F0300F6
-			public const int height = 2130903286;
+			public const int fabCradleVerticalOffset = 2130903286;
 			
 			// aapt resource value: 0x7F0300F7
-			public const int helperText = 2130903287;
+			public const int fabCustomSize = 2130903287;
 			
 			// aapt resource value: 0x7F0300F8
-			public const int helperTextEnabled = 2130903288;
+			public const int fabSize = 2130903288;
 			
 			// aapt resource value: 0x7F0300F9
-			public const int helperTextTextAppearance = 2130903289;
+			public const int fastScrollEnabled = 2130903289;
 			
 			// aapt resource value: 0x7F0300FA
-			public const int hideMotionSpec = 2130903290;
+			public const int fastScrollHorizontalThumbDrawable = 2130903290;
 			
 			// aapt resource value: 0x7F0300FB
-			public const int hideOnContentScroll = 2130903291;
+			public const int fastScrollHorizontalTrackDrawable = 2130903291;
 			
 			// aapt resource value: 0x7F0300FC
-			public const int hideOnScroll = 2130903292;
+			public const int fastScrollVerticalThumbDrawable = 2130903292;
 			
 			// aapt resource value: 0x7F0300FD
-			public const int hintAnimationEnabled = 2130903293;
+			public const int fastScrollVerticalTrackDrawable = 2130903293;
 			
 			// aapt resource value: 0x7F0300FE
-			public const int hintEnabled = 2130903294;
+			public const int firstBaselineToTopHeight = 2130903294;
 			
 			// aapt resource value: 0x7F0300FF
-			public const int hintTextAppearance = 2130903295;
+			public const int floatingActionButtonStyle = 2130903295;
 			
 			// aapt resource value: 0x7F030100
-			public const int homeAsUpIndicator = 2130903296;
+			public const int font = 2130903296;
 			
 			// aapt resource value: 0x7F030101
-			public const int homeLayout = 2130903297;
+			public const int fontFamily = 2130903297;
 			
 			// aapt resource value: 0x7F030102
-			public const int hoveredFocusedTranslationZ = 2130903298;
+			public const int fontProviderAuthority = 2130903298;
 			
 			// aapt resource value: 0x7F030103
-			public const int icon = 2130903299;
+			public const int fontProviderCerts = 2130903299;
 			
 			// aapt resource value: 0x7F030104
-			public const int iconEndPadding = 2130903300;
+			public const int fontProviderFetchStrategy = 2130903300;
 			
 			// aapt resource value: 0x7F030105
-			public const int iconGravity = 2130903301;
-			
-			// aapt resource value: 0x7F03010B
-			public const int iconifiedByDefault = 2130903307;
+			public const int fontProviderFetchTimeout = 2130903301;
 			
 			// aapt resource value: 0x7F030106
-			public const int iconPadding = 2130903302;
+			public const int fontProviderPackage = 2130903302;
 			
 			// aapt resource value: 0x7F030107
-			public const int iconSize = 2130903303;
+			public const int fontProviderQuery = 2130903303;
 			
 			// aapt resource value: 0x7F030108
-			public const int iconStartPadding = 2130903304;
+			public const int fontStyle = 2130903304;
 			
 			// aapt resource value: 0x7F030109
-			public const int iconTint = 2130903305;
+			public const int fontVariationSettings = 2130903305;
 			
 			// aapt resource value: 0x7F03010A
-			public const int iconTintMode = 2130903306;
+			public const int fontWeight = 2130903306;
+			
+			// aapt resource value: 0x7F03010B
+			public const int foregroundInsidePadding = 2130903307;
 			
 			// aapt resource value: 0x7F03010C
-			public const int imageAspectRatio = 2130903308;
+			public const int fragment = 2130903308;
 			
 			// aapt resource value: 0x7F03010D
-			public const int imageAspectRatioAdjust = 2130903309;
+			public const int gapBetweenBars = 2130903309;
 			
 			// aapt resource value: 0x7F03010E
-			public const int imageButtonStyle = 2130903310;
+			public const int goIcon = 2130903310;
 			
 			// aapt resource value: 0x7F03010F
-			public const int indeterminateProgressStyle = 2130903311;
+			public const int headerLayout = 2130903311;
 			
 			// aapt resource value: 0x7F030110
-			public const int initialActivityCount = 2130903312;
+			public const int height = 2130903312;
 			
 			// aapt resource value: 0x7F030111
-			public const int insetForeground = 2130903313;
+			public const int helperText = 2130903313;
 			
 			// aapt resource value: 0x7F030112
-			public const int isLightTheme = 2130903314;
+			public const int helperTextEnabled = 2130903314;
 			
 			// aapt resource value: 0x7F030113
-			public const int itemBackground = 2130903315;
+			public const int helperTextTextAppearance = 2130903315;
 			
 			// aapt resource value: 0x7F030114
-			public const int itemHorizontalPadding = 2130903316;
+			public const int hideMotionSpec = 2130903316;
 			
 			// aapt resource value: 0x7F030115
-			public const int itemHorizontalTranslationEnabled = 2130903317;
+			public const int hideOnContentScroll = 2130903317;
 			
 			// aapt resource value: 0x7F030116
-			public const int itemIconPadding = 2130903318;
+			public const int hideOnScroll = 2130903318;
 			
 			// aapt resource value: 0x7F030117
-			public const int itemIconSize = 2130903319;
+			public const int hintAnimationEnabled = 2130903319;
 			
 			// aapt resource value: 0x7F030118
-			public const int itemIconTint = 2130903320;
+			public const int hintEnabled = 2130903320;
 			
 			// aapt resource value: 0x7F030119
-			public const int itemPadding = 2130903321;
+			public const int hintTextAppearance = 2130903321;
 			
 			// aapt resource value: 0x7F03011A
-			public const int itemSpacing = 2130903322;
+			public const int homeAsUpIndicator = 2130903322;
 			
 			// aapt resource value: 0x7F03011B
-			public const int itemTextAppearance = 2130903323;
+			public const int homeLayout = 2130903323;
 			
 			// aapt resource value: 0x7F03011C
-			public const int itemTextAppearanceActive = 2130903324;
+			public const int hoveredFocusedTranslationZ = 2130903324;
 			
 			// aapt resource value: 0x7F03011D
-			public const int itemTextAppearanceInactive = 2130903325;
+			public const int icon = 2130903325;
 			
 			// aapt resource value: 0x7F03011E
-			public const int itemTextColor = 2130903326;
+			public const int iconEndPadding = 2130903326;
 			
 			// aapt resource value: 0x7F03011F
-			public const int keylines = 2130903327;
-			
-			// aapt resource value: 0x7F030120
-			public const int labelVisibilityMode = 2130903328;
-			
-			// aapt resource value: 0x7F030121
-			public const int lastBaselineToBottomHeight = 2130903329;
-			
-			// aapt resource value: 0x7F030122
-			public const int latLngBoundsNorthEastLatitude = 2130903330;
-			
-			// aapt resource value: 0x7F030123
-			public const int latLngBoundsNorthEastLongitude = 2130903331;
-			
-			// aapt resource value: 0x7F030124
-			public const int latLngBoundsSouthWestLatitude = 2130903332;
-			
-			// aapt resource value: 0x7F030125
-			public const int latLngBoundsSouthWestLongitude = 2130903333;
+			public const int iconGravity = 2130903327;
 			
 			// aapt resource value: 0x7F030126
-			public const int layout = 2130903334;
+			public const int iconifiedByDefault = 2130903334;
+			
+			// aapt resource value: 0x7F030120
+			public const int iconPadding = 2130903328;
+			
+			// aapt resource value: 0x7F030121
+			public const int iconSize = 2130903329;
+			
+			// aapt resource value: 0x7F030122
+			public const int iconSpaceReserved = 2130903330;
+			
+			// aapt resource value: 0x7F030123
+			public const int iconStartPadding = 2130903331;
+			
+			// aapt resource value: 0x7F030124
+			public const int iconTint = 2130903332;
+			
+			// aapt resource value: 0x7F030125
+			public const int iconTintMode = 2130903333;
 			
 			// aapt resource value: 0x7F030127
-			public const int layoutManager = 2130903335;
+			public const int imageAspectRatio = 2130903335;
 			
 			// aapt resource value: 0x7F030128
-			public const int layout_anchor = 2130903336;
+			public const int imageAspectRatioAdjust = 2130903336;
 			
 			// aapt resource value: 0x7F030129
-			public const int layout_anchorGravity = 2130903337;
+			public const int imageButtonStyle = 2130903337;
 			
 			// aapt resource value: 0x7F03012A
-			public const int layout_behavior = 2130903338;
+			public const int indeterminateProgressStyle = 2130903338;
 			
 			// aapt resource value: 0x7F03012B
-			public const int layout_collapseMode = 2130903339;
+			public const int initialActivityCount = 2130903339;
 			
 			// aapt resource value: 0x7F03012C
-			public const int layout_collapseParallaxMultiplier = 2130903340;
+			public const int initialExpandedChildrenCount = 2130903340;
 			
 			// aapt resource value: 0x7F03012D
-			public const int layout_dodgeInsetEdges = 2130903341;
+			public const int insetForeground = 2130903341;
 			
 			// aapt resource value: 0x7F03012E
-			public const int layout_insetEdge = 2130903342;
+			public const int isLightTheme = 2130903342;
 			
 			// aapt resource value: 0x7F03012F
-			public const int layout_keyline = 2130903343;
+			public const int isPreferenceVisible = 2130903343;
 			
 			// aapt resource value: 0x7F030130
-			public const int layout_scrollFlags = 2130903344;
+			public const int itemBackground = 2130903344;
 			
 			// aapt resource value: 0x7F030131
-			public const int layout_scrollInterpolator = 2130903345;
+			public const int itemHorizontalPadding = 2130903345;
 			
 			// aapt resource value: 0x7F030132
-			public const int liftOnScroll = 2130903346;
+			public const int itemHorizontalTranslationEnabled = 2130903346;
 			
 			// aapt resource value: 0x7F030133
-			public const int lineHeight = 2130903347;
+			public const int itemIconPadding = 2130903347;
 			
 			// aapt resource value: 0x7F030134
-			public const int lineSpacing = 2130903348;
+			public const int itemIconSize = 2130903348;
 			
 			// aapt resource value: 0x7F030135
-			public const int listChoiceBackgroundIndicator = 2130903349;
+			public const int itemIconTint = 2130903349;
 			
 			// aapt resource value: 0x7F030136
-			public const int listChoiceIndicatorMultipleAnimated = 2130903350;
+			public const int itemPadding = 2130903350;
 			
 			// aapt resource value: 0x7F030137
-			public const int listChoiceIndicatorSingleAnimated = 2130903351;
+			public const int itemSpacing = 2130903351;
 			
 			// aapt resource value: 0x7F030138
-			public const int listDividerAlertDialog = 2130903352;
+			public const int itemTextAppearance = 2130903352;
 			
 			// aapt resource value: 0x7F030139
-			public const int listItemLayout = 2130903353;
+			public const int itemTextAppearanceActive = 2130903353;
 			
 			// aapt resource value: 0x7F03013A
-			public const int listLayout = 2130903354;
+			public const int itemTextAppearanceInactive = 2130903354;
 			
 			// aapt resource value: 0x7F03013B
-			public const int listMenuViewStyle = 2130903355;
+			public const int itemTextColor = 2130903355;
 			
 			// aapt resource value: 0x7F03013C
-			public const int listPopupWindowStyle = 2130903356;
+			public const int key = 2130903356;
 			
 			// aapt resource value: 0x7F03013D
-			public const int listPreferredItemHeight = 2130903357;
+			public const int keylines = 2130903357;
 			
 			// aapt resource value: 0x7F03013E
-			public const int listPreferredItemHeightLarge = 2130903358;
+			public const int labelVisibilityMode = 2130903358;
 			
 			// aapt resource value: 0x7F03013F
-			public const int listPreferredItemHeightSmall = 2130903359;
+			public const int lastBaselineToBottomHeight = 2130903359;
 			
 			// aapt resource value: 0x7F030140
-			public const int listPreferredItemPaddingEnd = 2130903360;
+			public const int latLngBoundsNorthEastLatitude = 2130903360;
 			
 			// aapt resource value: 0x7F030141
-			public const int listPreferredItemPaddingLeft = 2130903361;
+			public const int latLngBoundsNorthEastLongitude = 2130903361;
 			
 			// aapt resource value: 0x7F030142
-			public const int listPreferredItemPaddingRight = 2130903362;
+			public const int latLngBoundsSouthWestLatitude = 2130903362;
 			
 			// aapt resource value: 0x7F030143
-			public const int listPreferredItemPaddingStart = 2130903363;
+			public const int latLngBoundsSouthWestLongitude = 2130903363;
 			
 			// aapt resource value: 0x7F030144
-			public const int liteMode = 2130903364;
+			public const int layout = 2130903364;
 			
 			// aapt resource value: 0x7F030145
-			public const int logo = 2130903365;
+			public const int layoutManager = 2130903365;
 			
 			// aapt resource value: 0x7F030146
-			public const int logoDescription = 2130903366;
+			public const int layout_anchor = 2130903366;
 			
 			// aapt resource value: 0x7F030147
-			public const int mapType = 2130903367;
+			public const int layout_anchorGravity = 2130903367;
 			
 			// aapt resource value: 0x7F030148
-			public const int materialButtonStyle = 2130903368;
+			public const int layout_behavior = 2130903368;
 			
 			// aapt resource value: 0x7F030149
-			public const int materialCardViewStyle = 2130903369;
+			public const int layout_collapseMode = 2130903369;
 			
 			// aapt resource value: 0x7F03014A
-			public const int maxActionInlineWidth = 2130903370;
+			public const int layout_collapseParallaxMultiplier = 2130903370;
 			
 			// aapt resource value: 0x7F03014B
-			public const int maxButtonHeight = 2130903371;
+			public const int layout_dodgeInsetEdges = 2130903371;
 			
 			// aapt resource value: 0x7F03014C
-			public const int maxImageSize = 2130903372;
+			public const int layout_insetEdge = 2130903372;
 			
 			// aapt resource value: 0x7F03014D
-			public const int measureWithLargestChild = 2130903373;
+			public const int layout_keyline = 2130903373;
 			
 			// aapt resource value: 0x7F03014E
-			public const int mediaRouteAudioTrackDrawable = 2130903374;
+			public const int layout_scrollFlags = 2130903374;
 			
 			// aapt resource value: 0x7F03014F
-			public const int mediaRouteBodyTextAppearance = 2130903375;
+			public const int layout_scrollInterpolator = 2130903375;
 			
 			// aapt resource value: 0x7F030150
-			public const int mediaRouteButtonStyle = 2130903376;
+			public const int liftOnScroll = 2130903376;
 			
 			// aapt resource value: 0x7F030151
-			public const int mediaRouteButtonTint = 2130903377;
+			public const int lineHeight = 2130903377;
 			
 			// aapt resource value: 0x7F030152
-			public const int mediaRouteCloseDrawable = 2130903378;
+			public const int lineSpacing = 2130903378;
 			
 			// aapt resource value: 0x7F030153
-			public const int mediaRouteControlPanelThemeOverlay = 2130903379;
+			public const int listChoiceBackgroundIndicator = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int mediaRouteDefaultIconDrawable = 2130903380;
+			public const int listChoiceIndicatorMultipleAnimated = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int mediaRouteDividerColor = 2130903381;
+			public const int listChoiceIndicatorSingleAnimated = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int mediaRouteHeaderTextAppearance = 2130903382;
+			public const int listDividerAlertDialog = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int mediaRoutePauseDrawable = 2130903383;
+			public const int listItemLayout = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int mediaRoutePlayDrawable = 2130903384;
+			public const int listLayout = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int mediaRouteSpeakerGroupIconDrawable = 2130903385;
+			public const int listMenuViewStyle = 2130903385;
 			
 			// aapt resource value: 0x7F03015A
-			public const int mediaRouteSpeakerIconDrawable = 2130903386;
+			public const int listPopupWindowStyle = 2130903386;
 			
 			// aapt resource value: 0x7F03015B
-			public const int mediaRouteStopDrawable = 2130903387;
+			public const int listPreferredItemHeight = 2130903387;
 			
 			// aapt resource value: 0x7F03015C
-			public const int mediaRouteTheme = 2130903388;
+			public const int listPreferredItemHeightLarge = 2130903388;
 			
 			// aapt resource value: 0x7F03015D
-			public const int mediaRouteTvIconDrawable = 2130903389;
+			public const int listPreferredItemHeightSmall = 2130903389;
 			
 			// aapt resource value: 0x7F03015E
-			public const int menu = 2130903390;
+			public const int listPreferredItemPaddingEnd = 2130903390;
 			
 			// aapt resource value: 0x7F03015F
-			public const int multiChoiceItemLayout = 2130903391;
+			public const int listPreferredItemPaddingLeft = 2130903391;
 			
 			// aapt resource value: 0x7F030160
-			public const int navigationContentDescription = 2130903392;
+			public const int listPreferredItemPaddingRight = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int navigationIcon = 2130903393;
+			public const int listPreferredItemPaddingStart = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int navigationMode = 2130903394;
+			public const int liteMode = 2130903394;
 			
 			// aapt resource value: 0x7F030163
-			public const int navigationViewStyle = 2130903395;
+			public const int logo = 2130903395;
 			
 			// aapt resource value: 0x7F030164
-			public const int numericModifiers = 2130903396;
+			public const int logoDescription = 2130903396;
 			
 			// aapt resource value: 0x7F030165
-			public const int overlapAnchor = 2130903397;
+			public const int mapType = 2130903397;
 			
 			// aapt resource value: 0x7F030166
-			public const int paddingBottomNoButtons = 2130903398;
+			public const int materialButtonStyle = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int paddingEnd = 2130903399;
+			public const int materialCardViewStyle = 2130903399;
 			
 			// aapt resource value: 0x7F030168
-			public const int paddingStart = 2130903400;
+			public const int maxActionInlineWidth = 2130903400;
 			
 			// aapt resource value: 0x7F030169
-			public const int paddingTopNoTitle = 2130903401;
+			public const int maxButtonHeight = 2130903401;
 			
 			// aapt resource value: 0x7F03016A
-			public const int panelBackground = 2130903402;
+			public const int maxHeight = 2130903402;
 			
 			// aapt resource value: 0x7F03016B
-			public const int panelMenuListTheme = 2130903403;
+			public const int maxImageSize = 2130903403;
 			
 			// aapt resource value: 0x7F03016C
-			public const int panelMenuListWidth = 2130903404;
+			public const int maxWidth = 2130903404;
 			
 			// aapt resource value: 0x7F03016D
-			public const int passwordToggleContentDescription = 2130903405;
+			public const int measureWithLargestChild = 2130903405;
 			
 			// aapt resource value: 0x7F03016E
-			public const int passwordToggleDrawable = 2130903406;
+			public const int mediaRouteAudioTrackDrawable = 2130903406;
 			
 			// aapt resource value: 0x7F03016F
-			public const int passwordToggleEnabled = 2130903407;
+			public const int mediaRouteBodyTextAppearance = 2130903407;
 			
 			// aapt resource value: 0x7F030170
-			public const int passwordToggleTint = 2130903408;
+			public const int mediaRouteButtonStyle = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int passwordToggleTintMode = 2130903409;
+			public const int mediaRouteButtonTint = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int popupMenuStyle = 2130903410;
+			public const int mediaRouteCloseDrawable = 2130903410;
 			
 			// aapt resource value: 0x7F030173
-			public const int popupTheme = 2130903411;
+			public const int mediaRouteControlPanelThemeOverlay = 2130903411;
 			
 			// aapt resource value: 0x7F030174
-			public const int popupWindowStyle = 2130903412;
+			public const int mediaRouteDefaultIconDrawable = 2130903412;
 			
 			// aapt resource value: 0x7F030175
-			public const int preserveIconSpacing = 2130903413;
+			public const int mediaRouteDividerColor = 2130903413;
 			
 			// aapt resource value: 0x7F030176
-			public const int pressedTranslationZ = 2130903414;
+			public const int mediaRouteHeaderTextAppearance = 2130903414;
 			
 			// aapt resource value: 0x7F030177
-			public const int progressBarPadding = 2130903415;
+			public const int mediaRoutePauseDrawable = 2130903415;
 			
 			// aapt resource value: 0x7F030178
-			public const int progressBarStyle = 2130903416;
+			public const int mediaRoutePlayDrawable = 2130903416;
 			
 			// aapt resource value: 0x7F030179
-			public const int queryBackground = 2130903417;
+			public const int mediaRouteSpeakerGroupIconDrawable = 2130903417;
 			
 			// aapt resource value: 0x7F03017A
-			public const int queryHint = 2130903418;
+			public const int mediaRouteSpeakerIconDrawable = 2130903418;
 			
 			// aapt resource value: 0x7F03017B
-			public const int radioButtonStyle = 2130903419;
+			public const int mediaRouteStopDrawable = 2130903419;
 			
 			// aapt resource value: 0x7F03017C
-			public const int ratingBarStyle = 2130903420;
+			public const int mediaRouteTheme = 2130903420;
 			
 			// aapt resource value: 0x7F03017D
-			public const int ratingBarStyleIndicator = 2130903421;
+			public const int mediaRouteTvIconDrawable = 2130903421;
 			
 			// aapt resource value: 0x7F03017E
-			public const int ratingBarStyleSmall = 2130903422;
+			public const int menu = 2130903422;
 			
 			// aapt resource value: 0x7F03017F
-			public const int recyclerViewStyle = 2130903423;
+			public const int min = 2130903423;
 			
 			// aapt resource value: 0x7F030180
-			public const int reverseLayout = 2130903424;
+			public const int multiChoiceItemLayout = 2130903424;
+			
+			// aapt resource value: 0x7F030000
+			public const int MvxBind = 2130903040;
+			
+			// aapt resource value: 0x7F030001
+			public const int MvxDropDownItemTemplate = 2130903041;
+			
+			// aapt resource value: 0x7F030002
+			public const int MvxGroupItemTemplate = 2130903042;
+			
+			// aapt resource value: 0x7F030003
+			public const int MvxItemTemplate = 2130903043;
+			
+			// aapt resource value: 0x7F030004
+			public const int MvxLang = 2130903044;
+			
+			// aapt resource value: 0x7F030005
+			public const int MvxTemplate = 2130903045;
 			
 			// aapt resource value: 0x7F030181
-			public const int rippleColor = 2130903425;
+			public const int navigationContentDescription = 2130903425;
 			
 			// aapt resource value: 0x7F030182
-			public const int scopeUris = 2130903426;
+			public const int navigationIcon = 2130903426;
 			
 			// aapt resource value: 0x7F030183
-			public const int scrimAnimationDuration = 2130903427;
+			public const int navigationMode = 2130903427;
 			
 			// aapt resource value: 0x7F030184
-			public const int scrimBackground = 2130903428;
+			public const int navigationViewStyle = 2130903428;
 			
 			// aapt resource value: 0x7F030185
-			public const int scrimVisibleHeightTrigger = 2130903429;
+			public const int negativeButtonText = 2130903429;
 			
 			// aapt resource value: 0x7F030186
-			public const int scrollViewStyle = 2130903430;
+			public const int numericModifiers = 2130903430;
 			
 			// aapt resource value: 0x7F030187
-			public const int searchHintIcon = 2130903431;
+			public const int order = 2130903431;
 			
 			// aapt resource value: 0x7F030188
-			public const int searchIcon = 2130903432;
+			public const int orderingFromXml = 2130903432;
 			
 			// aapt resource value: 0x7F030189
-			public const int searchViewStyle = 2130903433;
+			public const int overlapAnchor = 2130903433;
 			
 			// aapt resource value: 0x7F03018A
-			public const int seekBarStyle = 2130903434;
+			public const int paddingBottomNoButtons = 2130903434;
 			
 			// aapt resource value: 0x7F03018B
-			public const int selectableItemBackground = 2130903435;
+			public const int paddingEnd = 2130903435;
 			
 			// aapt resource value: 0x7F03018C
-			public const int selectableItemBackgroundBorderless = 2130903436;
+			public const int paddingStart = 2130903436;
 			
 			// aapt resource value: 0x7F03018D
-			public const int showAsAction = 2130903437;
+			public const int paddingTopNoTitle = 2130903437;
 			
 			// aapt resource value: 0x7F03018E
-			public const int showDividers = 2130903438;
+			public const int panelBackground = 2130903438;
 			
 			// aapt resource value: 0x7F03018F
-			public const int showMotionSpec = 2130903439;
+			public const int panelMenuListTheme = 2130903439;
 			
 			// aapt resource value: 0x7F030190
-			public const int showText = 2130903440;
+			public const int panelMenuListWidth = 2130903440;
 			
 			// aapt resource value: 0x7F030191
-			public const int showTitle = 2130903441;
+			public const int passwordToggleContentDescription = 2130903441;
 			
 			// aapt resource value: 0x7F030192
-			public const int singleChoiceItemLayout = 2130903442;
+			public const int passwordToggleDrawable = 2130903442;
 			
 			// aapt resource value: 0x7F030193
-			public const int singleLine = 2130903443;
+			public const int passwordToggleEnabled = 2130903443;
 			
 			// aapt resource value: 0x7F030194
-			public const int singleSelection = 2130903444;
+			public const int passwordToggleTint = 2130903444;
 			
 			// aapt resource value: 0x7F030195
-			public const int snackbarButtonStyle = 2130903445;
+			public const int passwordToggleTintMode = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int snackbarStyle = 2130903446;
+			public const int persistent = 2130903446;
 			
 			// aapt resource value: 0x7F030197
-			public const int spanCount = 2130903447;
+			public const int popupMenuStyle = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int spinBars = 2130903448;
+			public const int popupTheme = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int spinnerDropDownItemStyle = 2130903449;
+			public const int popupWindowStyle = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int spinnerStyle = 2130903450;
+			public const int positiveButtonText = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int splitTrack = 2130903451;
+			public const int preferenceCategoryStyle = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int srcCompat = 2130903452;
+			public const int preferenceCategoryTitleTextAppearance = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int stackFromEnd = 2130903453;
+			public const int preferenceFragmentCompatStyle = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int state_above_anchor = 2130903454;
+			public const int preferenceFragmentListStyle = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int state_collapsed = 2130903455;
+			public const int preferenceFragmentStyle = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int state_collapsible = 2130903456;
+			public const int preferenceInformationStyle = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int state_liftable = 2130903457;
+			public const int preferenceScreenStyle = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int state_lifted = 2130903458;
+			public const int preferenceStyle = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int statusBarBackground = 2130903459;
+			public const int preferenceTheme = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int statusBarScrim = 2130903460;
+			public const int preserveIconSpacing = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int strokeColor = 2130903461;
+			public const int pressedTranslationZ = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int strokeWidth = 2130903462;
+			public const int progressBarPadding = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int subMenuArrow = 2130903463;
+			public const int progressBarStyle = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int submitBackground = 2130903464;
+			public const int queryBackground = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int subtitle = 2130903465;
+			public const int queryHint = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int subtitleTextAppearance = 2130903466;
+			public const int radioButtonStyle = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int subtitleTextColor = 2130903467;
+			public const int ratingBarStyle = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int subtitleTextStyle = 2130903468;
+			public const int ratingBarStyleIndicator = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int suggestionRowLayout = 2130903469;
+			public const int ratingBarStyleSmall = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int switchMinWidth = 2130903470;
+			public const int recyclerViewStyle = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int switchPadding = 2130903471;
+			public const int reverseLayout = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int switchStyle = 2130903472;
+			public const int rippleColor = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int switchTextAppearance = 2130903473;
+			public const int scopeUris = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int tabBackground = 2130903474;
+			public const int scrimAnimationDuration = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int tabContentStart = 2130903475;
+			public const int scrimBackground = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int tabGravity = 2130903476;
+			public const int scrimVisibleHeightTrigger = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int tabIconTint = 2130903477;
+			public const int scrollViewStyle = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int tabIconTintMode = 2130903478;
+			public const int searchHintIcon = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int tabIndicator = 2130903479;
+			public const int searchIcon = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int tabIndicatorAnimationDuration = 2130903480;
+			public const int searchViewStyle = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int tabIndicatorColor = 2130903481;
+			public const int seekBarIncrement = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int tabIndicatorFullWidth = 2130903482;
+			public const int seekBarPreferenceStyle = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int tabIndicatorGravity = 2130903483;
+			public const int seekBarStyle = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int tabIndicatorHeight = 2130903484;
+			public const int selectable = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int tabInlineLabel = 2130903485;
+			public const int selectableItemBackground = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int tabMaxWidth = 2130903486;
+			public const int selectableItemBackgroundBorderless = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int tabMinWidth = 2130903487;
+			public const int shouldDisableView = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int tabMode = 2130903488;
+			public const int showAsAction = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int tabPadding = 2130903489;
+			public const int showDividers = 2130903489;
 			
 			// aapt resource value: 0x7F0301C2
-			public const int tabPaddingBottom = 2130903490;
+			public const int showMotionSpec = 2130903490;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int tabPaddingEnd = 2130903491;
+			public const int showSeekBarValue = 2130903491;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int tabPaddingStart = 2130903492;
+			public const int showText = 2130903492;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int tabPaddingTop = 2130903493;
+			public const int showTitle = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int tabRippleColor = 2130903494;
+			public const int singleChoiceItemLayout = 2130903494;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int tabSelectedTextColor = 2130903495;
+			public const int singleLine = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int tabStyle = 2130903496;
+			public const int singleLineTitle = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int tabTextAppearance = 2130903497;
+			public const int singleSelection = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int tabTextColor = 2130903498;
+			public const int snackbarButtonStyle = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int tabUnboundedRipple = 2130903499;
+			public const int snackbarStyle = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int textAllCaps = 2130903500;
+			public const int spanCount = 2130903500;
 			
 			// aapt resource value: 0x7F0301CD
-			public const int textAppearanceBody1 = 2130903501;
+			public const int spinBars = 2130903501;
 			
 			// aapt resource value: 0x7F0301CE
-			public const int textAppearanceBody2 = 2130903502;
+			public const int spinnerDropDownItemStyle = 2130903502;
 			
 			// aapt resource value: 0x7F0301CF
-			public const int textAppearanceButton = 2130903503;
+			public const int spinnerStyle = 2130903503;
 			
 			// aapt resource value: 0x7F0301D0
-			public const int textAppearanceCaption = 2130903504;
+			public const int splitTrack = 2130903504;
 			
 			// aapt resource value: 0x7F0301D1
-			public const int textAppearanceHeadline1 = 2130903505;
+			public const int srcCompat = 2130903505;
 			
 			// aapt resource value: 0x7F0301D2
-			public const int textAppearanceHeadline2 = 2130903506;
+			public const int stackFromEnd = 2130903506;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int textAppearanceHeadline3 = 2130903507;
+			public const int state_above_anchor = 2130903507;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int textAppearanceHeadline4 = 2130903508;
+			public const int state_collapsed = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int textAppearanceHeadline5 = 2130903509;
+			public const int state_collapsible = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int textAppearanceHeadline6 = 2130903510;
+			public const int state_liftable = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int textAppearanceLargePopupMenu = 2130903511;
+			public const int state_lifted = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int textAppearanceListItem = 2130903512;
+			public const int statusBarBackground = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int textAppearanceListItemSecondary = 2130903513;
+			public const int statusBarScrim = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int textAppearanceListItemSmall = 2130903514;
+			public const int strokeColor = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int textAppearanceOverline = 2130903515;
+			public const int strokeWidth = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int textAppearancePopupMenuHeader = 2130903516;
+			public const int subMenuArrow = 2130903516;
 			
 			// aapt resource value: 0x7F0301DD
-			public const int textAppearanceSearchResultSubtitle = 2130903517;
+			public const int submitBackground = 2130903517;
 			
 			// aapt resource value: 0x7F0301DE
-			public const int textAppearanceSearchResultTitle = 2130903518;
+			public const int subtitle = 2130903518;
 			
 			// aapt resource value: 0x7F0301DF
-			public const int textAppearanceSmallPopupMenu = 2130903519;
+			public const int subtitleTextAppearance = 2130903519;
 			
 			// aapt resource value: 0x7F0301E0
-			public const int textAppearanceSubtitle1 = 2130903520;
+			public const int subtitleTextColor = 2130903520;
 			
 			// aapt resource value: 0x7F0301E1
-			public const int textAppearanceSubtitle2 = 2130903521;
+			public const int subtitleTextStyle = 2130903521;
 			
 			// aapt resource value: 0x7F0301E2
-			public const int textColorAlertDialogListItem = 2130903522;
+			public const int suggestionRowLayout = 2130903522;
 			
 			// aapt resource value: 0x7F0301E3
-			public const int textColorSearchUrl = 2130903523;
+			public const int summary = 2130903523;
 			
 			// aapt resource value: 0x7F0301E4
-			public const int textEndPadding = 2130903524;
+			public const int summaryOff = 2130903524;
 			
 			// aapt resource value: 0x7F0301E5
-			public const int textInputStyle = 2130903525;
+			public const int summaryOn = 2130903525;
 			
 			// aapt resource value: 0x7F0301E6
-			public const int textLocale = 2130903526;
+			public const int switchMinWidth = 2130903526;
 			
 			// aapt resource value: 0x7F0301E7
-			public const int textStartPadding = 2130903527;
+			public const int switchPadding = 2130903527;
 			
 			// aapt resource value: 0x7F0301E8
-			public const int theme = 2130903528;
+			public const int switchPreferenceCompatStyle = 2130903528;
 			
 			// aapt resource value: 0x7F0301E9
-			public const int thickness = 2130903529;
+			public const int switchPreferenceStyle = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int thumbTextPadding = 2130903530;
+			public const int switchStyle = 2130903530;
 			
 			// aapt resource value: 0x7F0301EB
-			public const int thumbTint = 2130903531;
+			public const int switchTextAppearance = 2130903531;
 			
 			// aapt resource value: 0x7F0301EC
-			public const int thumbTintMode = 2130903532;
+			public const int switchTextOff = 2130903532;
 			
 			// aapt resource value: 0x7F0301ED
-			public const int tickMark = 2130903533;
+			public const int switchTextOn = 2130903533;
 			
 			// aapt resource value: 0x7F0301EE
-			public const int tickMarkTint = 2130903534;
+			public const int tabBackground = 2130903534;
 			
 			// aapt resource value: 0x7F0301EF
-			public const int tickMarkTintMode = 2130903535;
+			public const int tabContentStart = 2130903535;
 			
 			// aapt resource value: 0x7F0301F0
-			public const int tint = 2130903536;
+			public const int tabGravity = 2130903536;
 			
 			// aapt resource value: 0x7F0301F1
-			public const int tintMode = 2130903537;
+			public const int tabIconTint = 2130903537;
 			
 			// aapt resource value: 0x7F0301F2
-			public const int title = 2130903538;
+			public const int tabIconTintMode = 2130903538;
 			
 			// aapt resource value: 0x7F0301F3
-			public const int titleEnabled = 2130903539;
+			public const int tabIndicator = 2130903539;
 			
 			// aapt resource value: 0x7F0301F4
-			public const int titleMargin = 2130903540;
+			public const int tabIndicatorAnimationDuration = 2130903540;
 			
 			// aapt resource value: 0x7F0301F5
-			public const int titleMarginBottom = 2130903541;
+			public const int tabIndicatorColor = 2130903541;
 			
 			// aapt resource value: 0x7F0301F6
-			public const int titleMarginEnd = 2130903542;
-			
-			// aapt resource value: 0x7F0301F9
-			public const int titleMargins = 2130903545;
+			public const int tabIndicatorFullWidth = 2130903542;
 			
 			// aapt resource value: 0x7F0301F7
-			public const int titleMarginStart = 2130903543;
+			public const int tabIndicatorGravity = 2130903543;
 			
 			// aapt resource value: 0x7F0301F8
-			public const int titleMarginTop = 2130903544;
+			public const int tabIndicatorHeight = 2130903544;
+			
+			// aapt resource value: 0x7F0301F9
+			public const int tabInlineLabel = 2130903545;
 			
 			// aapt resource value: 0x7F0301FA
-			public const int titleTextAppearance = 2130903546;
+			public const int tabMaxWidth = 2130903546;
 			
 			// aapt resource value: 0x7F0301FB
-			public const int titleTextColor = 2130903547;
+			public const int tabMinWidth = 2130903547;
 			
 			// aapt resource value: 0x7F0301FC
-			public const int titleTextStyle = 2130903548;
+			public const int tabMode = 2130903548;
 			
 			// aapt resource value: 0x7F0301FD
-			public const int toolbarId = 2130903549;
+			public const int tabPadding = 2130903549;
 			
 			// aapt resource value: 0x7F0301FE
-			public const int toolbarNavigationButtonStyle = 2130903550;
+			public const int tabPaddingBottom = 2130903550;
 			
 			// aapt resource value: 0x7F0301FF
-			public const int toolbarStyle = 2130903551;
+			public const int tabPaddingEnd = 2130903551;
 			
 			// aapt resource value: 0x7F030200
-			public const int tooltipForegroundColor = 2130903552;
+			public const int tabPaddingStart = 2130903552;
 			
 			// aapt resource value: 0x7F030201
-			public const int tooltipFrameBackground = 2130903553;
+			public const int tabPaddingTop = 2130903553;
 			
 			// aapt resource value: 0x7F030202
-			public const int tooltipText = 2130903554;
+			public const int tabRippleColor = 2130903554;
 			
 			// aapt resource value: 0x7F030203
-			public const int track = 2130903555;
+			public const int tabSelectedTextColor = 2130903555;
 			
 			// aapt resource value: 0x7F030204
-			public const int trackTint = 2130903556;
+			public const int tabStyle = 2130903556;
 			
 			// aapt resource value: 0x7F030205
-			public const int trackTintMode = 2130903557;
+			public const int tabTextAppearance = 2130903557;
 			
 			// aapt resource value: 0x7F030206
-			public const int ttcIndex = 2130903558;
+			public const int tabTextColor = 2130903558;
 			
 			// aapt resource value: 0x7F030207
-			public const int uiCompass = 2130903559;
+			public const int tabUnboundedRipple = 2130903559;
 			
 			// aapt resource value: 0x7F030208
-			public const int uiMapToolbar = 2130903560;
+			public const int textAllCaps = 2130903560;
 			
 			// aapt resource value: 0x7F030209
-			public const int uiRotateGestures = 2130903561;
+			public const int textAppearanceBody1 = 2130903561;
 			
 			// aapt resource value: 0x7F03020A
-			public const int uiScrollGestures = 2130903562;
+			public const int textAppearanceBody2 = 2130903562;
 			
 			// aapt resource value: 0x7F03020B
-			public const int uiScrollGesturesDuringRotateOrZoom = 2130903563;
+			public const int textAppearanceButton = 2130903563;
 			
 			// aapt resource value: 0x7F03020C
-			public const int uiTiltGestures = 2130903564;
+			public const int textAppearanceCaption = 2130903564;
 			
 			// aapt resource value: 0x7F03020D
-			public const int uiZoomControls = 2130903565;
+			public const int textAppearanceHeadline1 = 2130903565;
 			
 			// aapt resource value: 0x7F03020E
-			public const int uiZoomGestures = 2130903566;
+			public const int textAppearanceHeadline2 = 2130903566;
 			
 			// aapt resource value: 0x7F03020F
-			public const int useCompatPadding = 2130903567;
+			public const int textAppearanceHeadline3 = 2130903567;
 			
 			// aapt resource value: 0x7F030210
-			public const int useViewLifecycle = 2130903568;
+			public const int textAppearanceHeadline4 = 2130903568;
 			
 			// aapt resource value: 0x7F030211
-			public const int viewInflaterClass = 2130903569;
+			public const int textAppearanceHeadline5 = 2130903569;
 			
 			// aapt resource value: 0x7F030212
-			public const int voiceIcon = 2130903570;
+			public const int textAppearanceHeadline6 = 2130903570;
 			
 			// aapt resource value: 0x7F030213
-			public const int windowActionBar = 2130903571;
+			public const int textAppearanceLargePopupMenu = 2130903571;
 			
 			// aapt resource value: 0x7F030214
-			public const int windowActionBarOverlay = 2130903572;
+			public const int textAppearanceListItem = 2130903572;
 			
 			// aapt resource value: 0x7F030215
-			public const int windowActionModeOverlay = 2130903573;
+			public const int textAppearanceListItemSecondary = 2130903573;
 			
 			// aapt resource value: 0x7F030216
-			public const int windowFixedHeightMajor = 2130903574;
+			public const int textAppearanceListItemSmall = 2130903574;
 			
 			// aapt resource value: 0x7F030217
-			public const int windowFixedHeightMinor = 2130903575;
+			public const int textAppearanceOverline = 2130903575;
 			
 			// aapt resource value: 0x7F030218
-			public const int windowFixedWidthMajor = 2130903576;
+			public const int textAppearancePopupMenuHeader = 2130903576;
 			
 			// aapt resource value: 0x7F030219
-			public const int windowFixedWidthMinor = 2130903577;
+			public const int textAppearanceSearchResultSubtitle = 2130903577;
 			
 			// aapt resource value: 0x7F03021A
-			public const int windowMinWidthMajor = 2130903578;
+			public const int textAppearanceSearchResultTitle = 2130903578;
 			
 			// aapt resource value: 0x7F03021B
-			public const int windowMinWidthMinor = 2130903579;
+			public const int textAppearanceSmallPopupMenu = 2130903579;
 			
 			// aapt resource value: 0x7F03021C
-			public const int windowNoTitle = 2130903580;
+			public const int textAppearanceSubtitle1 = 2130903580;
 			
 			// aapt resource value: 0x7F03021D
-			public const int zOrderOnTop = 2130903581;
+			public const int textAppearanceSubtitle2 = 2130903581;
+			
+			// aapt resource value: 0x7F03021E
+			public const int textColorAlertDialogListItem = 2130903582;
+			
+			// aapt resource value: 0x7F03021F
+			public const int textColorSearchUrl = 2130903583;
+			
+			// aapt resource value: 0x7F030220
+			public const int textEndPadding = 2130903584;
+			
+			// aapt resource value: 0x7F030221
+			public const int textInputStyle = 2130903585;
+			
+			// aapt resource value: 0x7F030222
+			public const int textLocale = 2130903586;
+			
+			// aapt resource value: 0x7F030223
+			public const int textStartPadding = 2130903587;
+			
+			// aapt resource value: 0x7F030224
+			public const int theme = 2130903588;
+			
+			// aapt resource value: 0x7F030225
+			public const int thickness = 2130903589;
+			
+			// aapt resource value: 0x7F030226
+			public const int thumbTextPadding = 2130903590;
+			
+			// aapt resource value: 0x7F030227
+			public const int thumbTint = 2130903591;
+			
+			// aapt resource value: 0x7F030228
+			public const int thumbTintMode = 2130903592;
+			
+			// aapt resource value: 0x7F030229
+			public const int tickMark = 2130903593;
+			
+			// aapt resource value: 0x7F03022A
+			public const int tickMarkTint = 2130903594;
+			
+			// aapt resource value: 0x7F03022B
+			public const int tickMarkTintMode = 2130903595;
+			
+			// aapt resource value: 0x7F03022C
+			public const int tint = 2130903596;
+			
+			// aapt resource value: 0x7F03022D
+			public const int tintMode = 2130903597;
+			
+			// aapt resource value: 0x7F03022E
+			public const int title = 2130903598;
+			
+			// aapt resource value: 0x7F03022F
+			public const int titleEnabled = 2130903599;
+			
+			// aapt resource value: 0x7F030230
+			public const int titleMargin = 2130903600;
+			
+			// aapt resource value: 0x7F030231
+			public const int titleMarginBottom = 2130903601;
+			
+			// aapt resource value: 0x7F030232
+			public const int titleMarginEnd = 2130903602;
+			
+			// aapt resource value: 0x7F030235
+			public const int titleMargins = 2130903605;
+			
+			// aapt resource value: 0x7F030233
+			public const int titleMarginStart = 2130903603;
+			
+			// aapt resource value: 0x7F030234
+			public const int titleMarginTop = 2130903604;
+			
+			// aapt resource value: 0x7F030236
+			public const int titleTextAppearance = 2130903606;
+			
+			// aapt resource value: 0x7F030237
+			public const int titleTextColor = 2130903607;
+			
+			// aapt resource value: 0x7F030238
+			public const int titleTextStyle = 2130903608;
+			
+			// aapt resource value: 0x7F030239
+			public const int toolbarId = 2130903609;
+			
+			// aapt resource value: 0x7F03023A
+			public const int toolbarNavigationButtonStyle = 2130903610;
+			
+			// aapt resource value: 0x7F03023B
+			public const int toolbarStyle = 2130903611;
+			
+			// aapt resource value: 0x7F03023C
+			public const int tooltipForegroundColor = 2130903612;
+			
+			// aapt resource value: 0x7F03023D
+			public const int tooltipFrameBackground = 2130903613;
+			
+			// aapt resource value: 0x7F03023E
+			public const int tooltipText = 2130903614;
+			
+			// aapt resource value: 0x7F03023F
+			public const int track = 2130903615;
+			
+			// aapt resource value: 0x7F030240
+			public const int trackTint = 2130903616;
+			
+			// aapt resource value: 0x7F030241
+			public const int trackTintMode = 2130903617;
+			
+			// aapt resource value: 0x7F030242
+			public const int ttcIndex = 2130903618;
+			
+			// aapt resource value: 0x7F030243
+			public const int uiCompass = 2130903619;
+			
+			// aapt resource value: 0x7F030244
+			public const int uiMapToolbar = 2130903620;
+			
+			// aapt resource value: 0x7F030245
+			public const int uiRotateGestures = 2130903621;
+			
+			// aapt resource value: 0x7F030246
+			public const int uiScrollGestures = 2130903622;
+			
+			// aapt resource value: 0x7F030247
+			public const int uiScrollGesturesDuringRotateOrZoom = 2130903623;
+			
+			// aapt resource value: 0x7F030248
+			public const int uiTiltGestures = 2130903624;
+			
+			// aapt resource value: 0x7F030249
+			public const int uiZoomControls = 2130903625;
+			
+			// aapt resource value: 0x7F03024A
+			public const int uiZoomGestures = 2130903626;
+			
+			// aapt resource value: 0x7F03024B
+			public const int updatesContinuously = 2130903627;
+			
+			// aapt resource value: 0x7F03024C
+			public const int useCompatPadding = 2130903628;
+			
+			// aapt resource value: 0x7F03024D
+			public const int useSimpleSummaryProvider = 2130903629;
+			
+			// aapt resource value: 0x7F03024E
+			public const int useViewLifecycle = 2130903630;
+			
+			// aapt resource value: 0x7F03024F
+			public const int viewInflaterClass = 2130903631;
+			
+			// aapt resource value: 0x7F030250
+			public const int voiceIcon = 2130903632;
+			
+			// aapt resource value: 0x7F030251
+			public const int widgetLayout = 2130903633;
+			
+			// aapt resource value: 0x7F030252
+			public const int windowActionBar = 2130903634;
+			
+			// aapt resource value: 0x7F030253
+			public const int windowActionBarOverlay = 2130903635;
+			
+			// aapt resource value: 0x7F030254
+			public const int windowActionModeOverlay = 2130903636;
+			
+			// aapt resource value: 0x7F030255
+			public const int windowFixedHeightMajor = 2130903637;
+			
+			// aapt resource value: 0x7F030256
+			public const int windowFixedHeightMinor = 2130903638;
+			
+			// aapt resource value: 0x7F030257
+			public const int windowFixedWidthMajor = 2130903639;
+			
+			// aapt resource value: 0x7F030258
+			public const int windowFixedWidthMinor = 2130903640;
+			
+			// aapt resource value: 0x7F030259
+			public const int windowMinWidthMajor = 2130903641;
+			
+			// aapt resource value: 0x7F03025A
+			public const int windowMinWidthMinor = 2130903642;
+			
+			// aapt resource value: 0x7F03025B
+			public const int windowNoTitle = 2130903643;
+			
+			// aapt resource value: 0x7F03025C
+			public const int zOrderOnTop = 2130903644;
 			
 			static Attribute()
 			{
@@ -10182,10 +13317,13 @@ namespace PizzaIllico.Mobile.Android
 			public const int abc_config_actionMenuItemAllCaps = 2130968578;
 			
 			// aapt resource value: 0x7F040003
-			public const int is_tablet = 2130968579;
+			public const int config_materialPreferenceIconSpaceReserved = 2130968579;
 			
 			// aapt resource value: 0x7F040004
-			public const int mtrl_btn_textappearance_all_caps = 2130968580;
+			public const int is_tablet = 2130968580;
+			
+			// aapt resource value: 0x7F040005
+			public const int mtrl_btn_textappearance_all_caps = 2130968581;
 			
 			static Boolean()
 			{
@@ -10216,487 +13354,493 @@ namespace PizzaIllico.Mobile.Android
 			public const int abc_color_highlight_material = 2131034116;
 			
 			// aapt resource value: 0x7F050005
-			public const int abc_hint_foreground_material_dark = 2131034117;
+			public const int abc_decor_view_status_guard = 2131034117;
 			
 			// aapt resource value: 0x7F050006
-			public const int abc_hint_foreground_material_light = 2131034118;
+			public const int abc_decor_view_status_guard_light = 2131034118;
 			
 			// aapt resource value: 0x7F050007
-			public const int abc_input_method_navigation_guard = 2131034119;
+			public const int abc_hint_foreground_material_dark = 2131034119;
 			
 			// aapt resource value: 0x7F050008
-			public const int abc_primary_text_disable_only_material_dark = 2131034120;
+			public const int abc_hint_foreground_material_light = 2131034120;
 			
 			// aapt resource value: 0x7F050009
-			public const int abc_primary_text_disable_only_material_light = 2131034121;
+			public const int abc_primary_text_disable_only_material_dark = 2131034121;
 			
 			// aapt resource value: 0x7F05000A
-			public const int abc_primary_text_material_dark = 2131034122;
+			public const int abc_primary_text_disable_only_material_light = 2131034122;
 			
 			// aapt resource value: 0x7F05000B
-			public const int abc_primary_text_material_light = 2131034123;
+			public const int abc_primary_text_material_dark = 2131034123;
 			
 			// aapt resource value: 0x7F05000C
-			public const int abc_search_url_text = 2131034124;
+			public const int abc_primary_text_material_light = 2131034124;
 			
 			// aapt resource value: 0x7F05000D
-			public const int abc_search_url_text_normal = 2131034125;
+			public const int abc_search_url_text = 2131034125;
 			
 			// aapt resource value: 0x7F05000E
-			public const int abc_search_url_text_pressed = 2131034126;
+			public const int abc_search_url_text_normal = 2131034126;
 			
 			// aapt resource value: 0x7F05000F
-			public const int abc_search_url_text_selected = 2131034127;
+			public const int abc_search_url_text_pressed = 2131034127;
 			
 			// aapt resource value: 0x7F050010
-			public const int abc_secondary_text_material_dark = 2131034128;
+			public const int abc_search_url_text_selected = 2131034128;
 			
 			// aapt resource value: 0x7F050011
-			public const int abc_secondary_text_material_light = 2131034129;
+			public const int abc_secondary_text_material_dark = 2131034129;
 			
 			// aapt resource value: 0x7F050012
-			public const int abc_tint_btn_checkable = 2131034130;
+			public const int abc_secondary_text_material_light = 2131034130;
 			
 			// aapt resource value: 0x7F050013
-			public const int abc_tint_default = 2131034131;
+			public const int abc_tint_btn_checkable = 2131034131;
 			
 			// aapt resource value: 0x7F050014
-			public const int abc_tint_edittext = 2131034132;
+			public const int abc_tint_default = 2131034132;
 			
 			// aapt resource value: 0x7F050015
-			public const int abc_tint_seek_thumb = 2131034133;
+			public const int abc_tint_edittext = 2131034133;
 			
 			// aapt resource value: 0x7F050016
-			public const int abc_tint_spinner = 2131034134;
+			public const int abc_tint_seek_thumb = 2131034134;
 			
 			// aapt resource value: 0x7F050017
-			public const int abc_tint_switch_track = 2131034135;
+			public const int abc_tint_spinner = 2131034135;
 			
 			// aapt resource value: 0x7F050018
-			public const int accent_material_dark = 2131034136;
+			public const int abc_tint_switch_track = 2131034136;
 			
 			// aapt resource value: 0x7F050019
-			public const int accent_material_light = 2131034137;
+			public const int accent_material_dark = 2131034137;
 			
 			// aapt resource value: 0x7F05001A
-			public const int androidx_core_ripple_material_light = 2131034138;
+			public const int accent_material_light = 2131034138;
 			
 			// aapt resource value: 0x7F05001B
-			public const int androidx_core_secondary_text_default_material_light = 2131034139;
+			public const int androidx_core_ripple_material_light = 2131034139;
 			
 			// aapt resource value: 0x7F05001C
-			public const int background_floating_material_dark = 2131034140;
+			public const int androidx_core_secondary_text_default_material_light = 2131034140;
 			
 			// aapt resource value: 0x7F05001D
-			public const int background_floating_material_light = 2131034141;
+			public const int background_floating_material_dark = 2131034141;
 			
 			// aapt resource value: 0x7F05001E
-			public const int background_material_dark = 2131034142;
+			public const int background_floating_material_light = 2131034142;
 			
 			// aapt resource value: 0x7F05001F
-			public const int background_material_light = 2131034143;
+			public const int background_material_dark = 2131034143;
 			
 			// aapt resource value: 0x7F050020
-			public const int bright_foreground_disabled_material_dark = 2131034144;
+			public const int background_material_light = 2131034144;
 			
 			// aapt resource value: 0x7F050021
-			public const int bright_foreground_disabled_material_light = 2131034145;
+			public const int bright_foreground_disabled_material_dark = 2131034145;
 			
 			// aapt resource value: 0x7F050022
-			public const int bright_foreground_inverse_material_dark = 2131034146;
+			public const int bright_foreground_disabled_material_light = 2131034146;
 			
 			// aapt resource value: 0x7F050023
-			public const int bright_foreground_inverse_material_light = 2131034147;
+			public const int bright_foreground_inverse_material_dark = 2131034147;
 			
 			// aapt resource value: 0x7F050024
-			public const int bright_foreground_material_dark = 2131034148;
+			public const int bright_foreground_inverse_material_light = 2131034148;
 			
 			// aapt resource value: 0x7F050025
-			public const int bright_foreground_material_light = 2131034149;
+			public const int bright_foreground_material_dark = 2131034149;
 			
 			// aapt resource value: 0x7F050026
-			public const int browser_actions_bg_grey = 2131034150;
+			public const int bright_foreground_material_light = 2131034150;
 			
 			// aapt resource value: 0x7F050027
-			public const int browser_actions_divider_color = 2131034151;
+			public const int browser_actions_bg_grey = 2131034151;
 			
 			// aapt resource value: 0x7F050028
-			public const int browser_actions_text_color = 2131034152;
+			public const int browser_actions_divider_color = 2131034152;
 			
 			// aapt resource value: 0x7F050029
-			public const int browser_actions_title_color = 2131034153;
+			public const int browser_actions_text_color = 2131034153;
 			
 			// aapt resource value: 0x7F05002A
-			public const int button_material_dark = 2131034154;
+			public const int browser_actions_title_color = 2131034154;
 			
 			// aapt resource value: 0x7F05002B
-			public const int button_material_light = 2131034155;
+			public const int button_material_dark = 2131034155;
 			
 			// aapt resource value: 0x7F05002C
-			public const int cardview_dark_background = 2131034156;
+			public const int button_material_light = 2131034156;
 			
 			// aapt resource value: 0x7F05002D
-			public const int cardview_light_background = 2131034157;
+			public const int cardview_dark_background = 2131034157;
 			
 			// aapt resource value: 0x7F05002E
-			public const int cardview_shadow_end_color = 2131034158;
+			public const int cardview_light_background = 2131034158;
 			
 			// aapt resource value: 0x7F05002F
-			public const int cardview_shadow_start_color = 2131034159;
+			public const int cardview_shadow_end_color = 2131034159;
 			
 			// aapt resource value: 0x7F050030
-			public const int colorAccent = 2131034160;
+			public const int cardview_shadow_start_color = 2131034160;
 			
 			// aapt resource value: 0x7F050031
-			public const int colorPrimary = 2131034161;
+			public const int colorAccent = 2131034161;
 			
 			// aapt resource value: 0x7F050032
-			public const int colorPrimaryDark = 2131034162;
+			public const int colorPrimary = 2131034162;
 			
 			// aapt resource value: 0x7F050033
-			public const int common_google_signin_btn_text_dark = 2131034163;
+			public const int colorPrimaryDark = 2131034163;
 			
 			// aapt resource value: 0x7F050034
-			public const int common_google_signin_btn_text_dark_default = 2131034164;
+			public const int common_google_signin_btn_text_dark = 2131034164;
 			
 			// aapt resource value: 0x7F050035
-			public const int common_google_signin_btn_text_dark_disabled = 2131034165;
+			public const int common_google_signin_btn_text_dark_default = 2131034165;
 			
 			// aapt resource value: 0x7F050036
-			public const int common_google_signin_btn_text_dark_focused = 2131034166;
+			public const int common_google_signin_btn_text_dark_disabled = 2131034166;
 			
 			// aapt resource value: 0x7F050037
-			public const int common_google_signin_btn_text_dark_pressed = 2131034167;
+			public const int common_google_signin_btn_text_dark_focused = 2131034167;
 			
 			// aapt resource value: 0x7F050038
-			public const int common_google_signin_btn_text_light = 2131034168;
+			public const int common_google_signin_btn_text_dark_pressed = 2131034168;
 			
 			// aapt resource value: 0x7F050039
-			public const int common_google_signin_btn_text_light_default = 2131034169;
+			public const int common_google_signin_btn_text_light = 2131034169;
 			
 			// aapt resource value: 0x7F05003A
-			public const int common_google_signin_btn_text_light_disabled = 2131034170;
+			public const int common_google_signin_btn_text_light_default = 2131034170;
 			
 			// aapt resource value: 0x7F05003B
-			public const int common_google_signin_btn_text_light_focused = 2131034171;
+			public const int common_google_signin_btn_text_light_disabled = 2131034171;
 			
 			// aapt resource value: 0x7F05003C
-			public const int common_google_signin_btn_text_light_pressed = 2131034172;
+			public const int common_google_signin_btn_text_light_focused = 2131034172;
 			
 			// aapt resource value: 0x7F05003D
-			public const int common_google_signin_btn_tint = 2131034173;
+			public const int common_google_signin_btn_text_light_pressed = 2131034173;
 			
 			// aapt resource value: 0x7F05003E
-			public const int design_bottom_navigation_shadow_color = 2131034174;
+			public const int common_google_signin_btn_tint = 2131034174;
 			
 			// aapt resource value: 0x7F05003F
-			public const int design_default_color_primary = 2131034175;
+			public const int design_bottom_navigation_shadow_color = 2131034175;
 			
 			// aapt resource value: 0x7F050040
-			public const int design_default_color_primary_dark = 2131034176;
+			public const int design_default_color_primary = 2131034176;
 			
 			// aapt resource value: 0x7F050041
-			public const int design_error = 2131034177;
+			public const int design_default_color_primary_dark = 2131034177;
 			
 			// aapt resource value: 0x7F050042
-			public const int design_fab_shadow_end_color = 2131034178;
+			public const int design_error = 2131034178;
 			
 			// aapt resource value: 0x7F050043
-			public const int design_fab_shadow_mid_color = 2131034179;
+			public const int design_fab_shadow_end_color = 2131034179;
 			
 			// aapt resource value: 0x7F050044
-			public const int design_fab_shadow_start_color = 2131034180;
+			public const int design_fab_shadow_mid_color = 2131034180;
 			
 			// aapt resource value: 0x7F050045
-			public const int design_fab_stroke_end_inner_color = 2131034181;
+			public const int design_fab_shadow_start_color = 2131034181;
 			
 			// aapt resource value: 0x7F050046
-			public const int design_fab_stroke_end_outer_color = 2131034182;
+			public const int design_fab_stroke_end_inner_color = 2131034182;
 			
 			// aapt resource value: 0x7F050047
-			public const int design_fab_stroke_top_inner_color = 2131034183;
+			public const int design_fab_stroke_end_outer_color = 2131034183;
 			
 			// aapt resource value: 0x7F050048
-			public const int design_fab_stroke_top_outer_color = 2131034184;
+			public const int design_fab_stroke_top_inner_color = 2131034184;
 			
 			// aapt resource value: 0x7F050049
-			public const int design_snackbar_background_color = 2131034185;
+			public const int design_fab_stroke_top_outer_color = 2131034185;
 			
 			// aapt resource value: 0x7F05004A
-			public const int design_tint_password_toggle = 2131034186;
+			public const int design_snackbar_background_color = 2131034186;
 			
 			// aapt resource value: 0x7F05004B
-			public const int dim_foreground_disabled_material_dark = 2131034187;
+			public const int design_tint_password_toggle = 2131034187;
 			
 			// aapt resource value: 0x7F05004C
-			public const int dim_foreground_disabled_material_light = 2131034188;
+			public const int dim_foreground_disabled_material_dark = 2131034188;
 			
 			// aapt resource value: 0x7F05004D
-			public const int dim_foreground_material_dark = 2131034189;
+			public const int dim_foreground_disabled_material_light = 2131034189;
 			
 			// aapt resource value: 0x7F05004E
-			public const int dim_foreground_material_light = 2131034190;
+			public const int dim_foreground_material_dark = 2131034190;
 			
 			// aapt resource value: 0x7F05004F
-			public const int error_color_material_dark = 2131034191;
+			public const int dim_foreground_material_light = 2131034191;
 			
 			// aapt resource value: 0x7F050050
-			public const int error_color_material_light = 2131034192;
+			public const int error_color_material_dark = 2131034192;
 			
 			// aapt resource value: 0x7F050051
-			public const int foreground_material_dark = 2131034193;
+			public const int error_color_material_light = 2131034193;
 			
 			// aapt resource value: 0x7F050052
-			public const int foreground_material_light = 2131034194;
+			public const int foreground_material_dark = 2131034194;
 			
 			// aapt resource value: 0x7F050053
-			public const int highlighted_text_material_dark = 2131034195;
+			public const int foreground_material_light = 2131034195;
 			
 			// aapt resource value: 0x7F050054
-			public const int highlighted_text_material_light = 2131034196;
+			public const int highlighted_text_material_dark = 2131034196;
 			
 			// aapt resource value: 0x7F050055
-			public const int launcher_background = 2131034197;
+			public const int highlighted_text_material_light = 2131034197;
 			
 			// aapt resource value: 0x7F050056
-			public const int material_blue_grey_800 = 2131034198;
+			public const int launcher_background = 2131034198;
 			
 			// aapt resource value: 0x7F050057
-			public const int material_blue_grey_900 = 2131034199;
+			public const int material_blue_grey_800 = 2131034199;
 			
 			// aapt resource value: 0x7F050058
-			public const int material_blue_grey_950 = 2131034200;
+			public const int material_blue_grey_900 = 2131034200;
 			
 			// aapt resource value: 0x7F050059
-			public const int material_deep_teal_200 = 2131034201;
+			public const int material_blue_grey_950 = 2131034201;
 			
 			// aapt resource value: 0x7F05005A
-			public const int material_deep_teal_500 = 2131034202;
+			public const int material_deep_teal_200 = 2131034202;
 			
 			// aapt resource value: 0x7F05005B
-			public const int material_grey_100 = 2131034203;
+			public const int material_deep_teal_500 = 2131034203;
 			
 			// aapt resource value: 0x7F05005C
-			public const int material_grey_300 = 2131034204;
+			public const int material_grey_100 = 2131034204;
 			
 			// aapt resource value: 0x7F05005D
-			public const int material_grey_50 = 2131034205;
+			public const int material_grey_300 = 2131034205;
 			
 			// aapt resource value: 0x7F05005E
-			public const int material_grey_600 = 2131034206;
+			public const int material_grey_50 = 2131034206;
 			
 			// aapt resource value: 0x7F05005F
-			public const int material_grey_800 = 2131034207;
+			public const int material_grey_600 = 2131034207;
 			
 			// aapt resource value: 0x7F050060
-			public const int material_grey_850 = 2131034208;
+			public const int material_grey_800 = 2131034208;
 			
 			// aapt resource value: 0x7F050061
-			public const int material_grey_900 = 2131034209;
+			public const int material_grey_850 = 2131034209;
 			
 			// aapt resource value: 0x7F050062
-			public const int mr_cast_meta_black_scrim = 2131034210;
+			public const int material_grey_900 = 2131034210;
 			
 			// aapt resource value: 0x7F050063
-			public const int mr_cast_meta_default_background = 2131034211;
+			public const int mr_cast_meta_black_scrim = 2131034211;
 			
 			// aapt resource value: 0x7F050064
-			public const int mr_cast_meta_default_text_color = 2131034212;
+			public const int mr_cast_meta_default_background = 2131034212;
 			
 			// aapt resource value: 0x7F050065
-			public const int mr_cast_progressbar_background_dark = 2131034213;
+			public const int mr_cast_meta_default_text_color = 2131034213;
 			
 			// aapt resource value: 0x7F050066
-			public const int mr_cast_progressbar_background_light = 2131034214;
+			public const int mr_cast_progressbar_background_dark = 2131034214;
 			
 			// aapt resource value: 0x7F050067
-			public const int mr_cast_progressbar_progress_and_thumb_dark = 2131034215;
+			public const int mr_cast_progressbar_background_light = 2131034215;
 			
 			// aapt resource value: 0x7F050068
-			public const int mr_cast_progressbar_progress_and_thumb_light = 2131034216;
+			public const int mr_cast_progressbar_progress_and_thumb_dark = 2131034216;
 			
 			// aapt resource value: 0x7F050069
-			public const int mr_cast_route_divider_dark = 2131034217;
+			public const int mr_cast_progressbar_progress_and_thumb_light = 2131034217;
 			
 			// aapt resource value: 0x7F05006A
-			public const int mr_cast_route_divider_light = 2131034218;
+			public const int mr_cast_route_divider_dark = 2131034218;
 			
 			// aapt resource value: 0x7F05006B
-			public const int mr_dynamic_dialog_background_dark = 2131034219;
+			public const int mr_cast_route_divider_light = 2131034219;
 			
 			// aapt resource value: 0x7F05006C
-			public const int mr_dynamic_dialog_background_light = 2131034220;
+			public const int mr_dynamic_dialog_background_dark = 2131034220;
 			
 			// aapt resource value: 0x7F05006D
-			public const int mr_dynamic_dialog_header_text_color_dark = 2131034221;
+			public const int mr_dynamic_dialog_background_light = 2131034221;
 			
 			// aapt resource value: 0x7F05006E
-			public const int mr_dynamic_dialog_header_text_color_light = 2131034222;
+			public const int mr_dynamic_dialog_header_text_color_dark = 2131034222;
 			
 			// aapt resource value: 0x7F05006F
-			public const int mr_dynamic_dialog_icon_dark = 2131034223;
+			public const int mr_dynamic_dialog_header_text_color_light = 2131034223;
 			
 			// aapt resource value: 0x7F050070
-			public const int mr_dynamic_dialog_icon_light = 2131034224;
+			public const int mr_dynamic_dialog_icon_dark = 2131034224;
 			
 			// aapt resource value: 0x7F050071
-			public const int mr_dynamic_dialog_route_text_color_dark = 2131034225;
+			public const int mr_dynamic_dialog_icon_light = 2131034225;
 			
 			// aapt resource value: 0x7F050072
-			public const int mr_dynamic_dialog_route_text_color_light = 2131034226;
+			public const int mr_dynamic_dialog_route_text_color_dark = 2131034226;
 			
 			// aapt resource value: 0x7F050073
-			public const int mtrl_bottom_nav_colored_item_tint = 2131034227;
+			public const int mr_dynamic_dialog_route_text_color_light = 2131034227;
 			
 			// aapt resource value: 0x7F050074
-			public const int mtrl_bottom_nav_item_tint = 2131034228;
+			public const int mtrl_bottom_nav_colored_item_tint = 2131034228;
 			
 			// aapt resource value: 0x7F050075
-			public const int mtrl_btn_bg_color_disabled = 2131034229;
+			public const int mtrl_bottom_nav_item_tint = 2131034229;
 			
 			// aapt resource value: 0x7F050076
-			public const int mtrl_btn_bg_color_selector = 2131034230;
+			public const int mtrl_btn_bg_color_disabled = 2131034230;
 			
 			// aapt resource value: 0x7F050077
-			public const int mtrl_btn_ripple_color = 2131034231;
+			public const int mtrl_btn_bg_color_selector = 2131034231;
 			
 			// aapt resource value: 0x7F050078
-			public const int mtrl_btn_stroke_color_selector = 2131034232;
+			public const int mtrl_btn_ripple_color = 2131034232;
 			
 			// aapt resource value: 0x7F050079
-			public const int mtrl_btn_text_btn_ripple_color = 2131034233;
+			public const int mtrl_btn_stroke_color_selector = 2131034233;
 			
 			// aapt resource value: 0x7F05007A
-			public const int mtrl_btn_text_color_disabled = 2131034234;
+			public const int mtrl_btn_text_btn_ripple_color = 2131034234;
 			
 			// aapt resource value: 0x7F05007B
-			public const int mtrl_btn_text_color_selector = 2131034235;
+			public const int mtrl_btn_text_color_disabled = 2131034235;
 			
 			// aapt resource value: 0x7F05007C
-			public const int mtrl_btn_transparent_bg_color = 2131034236;
+			public const int mtrl_btn_text_color_selector = 2131034236;
 			
 			// aapt resource value: 0x7F05007D
-			public const int mtrl_chip_background_color = 2131034237;
+			public const int mtrl_btn_transparent_bg_color = 2131034237;
 			
 			// aapt resource value: 0x7F05007E
-			public const int mtrl_chip_close_icon_tint = 2131034238;
+			public const int mtrl_chip_background_color = 2131034238;
 			
 			// aapt resource value: 0x7F05007F
-			public const int mtrl_chip_ripple_color = 2131034239;
+			public const int mtrl_chip_close_icon_tint = 2131034239;
 			
 			// aapt resource value: 0x7F050080
-			public const int mtrl_chip_text_color = 2131034240;
+			public const int mtrl_chip_ripple_color = 2131034240;
 			
 			// aapt resource value: 0x7F050081
-			public const int mtrl_fab_ripple_color = 2131034241;
+			public const int mtrl_chip_text_color = 2131034241;
 			
 			// aapt resource value: 0x7F050082
-			public const int mtrl_scrim_color = 2131034242;
+			public const int mtrl_fab_ripple_color = 2131034242;
 			
 			// aapt resource value: 0x7F050083
-			public const int mtrl_tabs_colored_ripple_color = 2131034243;
+			public const int mtrl_scrim_color = 2131034243;
 			
 			// aapt resource value: 0x7F050084
-			public const int mtrl_tabs_icon_color_selector = 2131034244;
+			public const int mtrl_tabs_colored_ripple_color = 2131034244;
 			
 			// aapt resource value: 0x7F050085
-			public const int mtrl_tabs_icon_color_selector_colored = 2131034245;
+			public const int mtrl_tabs_icon_color_selector = 2131034245;
 			
 			// aapt resource value: 0x7F050086
-			public const int mtrl_tabs_legacy_text_color_selector = 2131034246;
+			public const int mtrl_tabs_icon_color_selector_colored = 2131034246;
 			
 			// aapt resource value: 0x7F050087
-			public const int mtrl_tabs_ripple_color = 2131034247;
-			
-			// aapt resource value: 0x7F050089
-			public const int mtrl_textinput_default_box_stroke_color = 2131034249;
-			
-			// aapt resource value: 0x7F05008A
-			public const int mtrl_textinput_disabled_color = 2131034250;
-			
-			// aapt resource value: 0x7F05008B
-			public const int mtrl_textinput_filled_box_default_background_color = 2131034251;
-			
-			// aapt resource value: 0x7F05008C
-			public const int mtrl_textinput_hovered_box_stroke_color = 2131034252;
+			public const int mtrl_tabs_legacy_text_color_selector = 2131034247;
 			
 			// aapt resource value: 0x7F050088
-			public const int mtrl_text_btn_text_color_selector = 2131034248;
+			public const int mtrl_tabs_ripple_color = 2131034248;
+			
+			// aapt resource value: 0x7F05008A
+			public const int mtrl_textinput_default_box_stroke_color = 2131034250;
+			
+			// aapt resource value: 0x7F05008B
+			public const int mtrl_textinput_disabled_color = 2131034251;
+			
+			// aapt resource value: 0x7F05008C
+			public const int mtrl_textinput_filled_box_default_background_color = 2131034252;
 			
 			// aapt resource value: 0x7F05008D
-			public const int notification_action_color_filter = 2131034253;
+			public const int mtrl_textinput_hovered_box_stroke_color = 2131034253;
+			
+			// aapt resource value: 0x7F050089
+			public const int mtrl_text_btn_text_color_selector = 2131034249;
 			
 			// aapt resource value: 0x7F05008E
-			public const int notification_icon_bg_color = 2131034254;
+			public const int notification_action_color_filter = 2131034254;
 			
 			// aapt resource value: 0x7F05008F
-			public const int notification_material_background_media_default_color = 2131034255;
+			public const int notification_icon_bg_color = 2131034255;
 			
 			// aapt resource value: 0x7F050090
-			public const int primary_dark_material_dark = 2131034256;
+			public const int notification_material_background_media_default_color = 2131034256;
 			
 			// aapt resource value: 0x7F050091
-			public const int primary_dark_material_light = 2131034257;
+			public const int preference_fallback_accent_color = 2131034257;
 			
 			// aapt resource value: 0x7F050092
-			public const int primary_material_dark = 2131034258;
+			public const int primary_dark_material_dark = 2131034258;
 			
 			// aapt resource value: 0x7F050093
-			public const int primary_material_light = 2131034259;
+			public const int primary_dark_material_light = 2131034259;
 			
 			// aapt resource value: 0x7F050094
-			public const int primary_text_default_material_dark = 2131034260;
+			public const int primary_material_dark = 2131034260;
 			
 			// aapt resource value: 0x7F050095
-			public const int primary_text_default_material_light = 2131034261;
+			public const int primary_material_light = 2131034261;
 			
 			// aapt resource value: 0x7F050096
-			public const int primary_text_disabled_material_dark = 2131034262;
+			public const int primary_text_default_material_dark = 2131034262;
 			
 			// aapt resource value: 0x7F050097
-			public const int primary_text_disabled_material_light = 2131034263;
+			public const int primary_text_default_material_light = 2131034263;
 			
 			// aapt resource value: 0x7F050098
-			public const int ripple_material_dark = 2131034264;
+			public const int primary_text_disabled_material_dark = 2131034264;
 			
 			// aapt resource value: 0x7F050099
-			public const int ripple_material_light = 2131034265;
+			public const int primary_text_disabled_material_light = 2131034265;
 			
 			// aapt resource value: 0x7F05009A
-			public const int secondary_text_default_material_dark = 2131034266;
+			public const int ripple_material_dark = 2131034266;
 			
 			// aapt resource value: 0x7F05009B
-			public const int secondary_text_default_material_light = 2131034267;
+			public const int ripple_material_light = 2131034267;
 			
 			// aapt resource value: 0x7F05009C
-			public const int secondary_text_disabled_material_dark = 2131034268;
+			public const int secondary_text_default_material_dark = 2131034268;
 			
 			// aapt resource value: 0x7F05009D
-			public const int secondary_text_disabled_material_light = 2131034269;
+			public const int secondary_text_default_material_light = 2131034269;
 			
 			// aapt resource value: 0x7F05009E
-			public const int switch_thumb_disabled_material_dark = 2131034270;
+			public const int secondary_text_disabled_material_dark = 2131034270;
 			
 			// aapt resource value: 0x7F05009F
-			public const int switch_thumb_disabled_material_light = 2131034271;
+			public const int secondary_text_disabled_material_light = 2131034271;
 			
 			// aapt resource value: 0x7F0500A0
-			public const int switch_thumb_material_dark = 2131034272;
+			public const int switch_thumb_disabled_material_dark = 2131034272;
 			
 			// aapt resource value: 0x7F0500A1
-			public const int switch_thumb_material_light = 2131034273;
+			public const int switch_thumb_disabled_material_light = 2131034273;
 			
 			// aapt resource value: 0x7F0500A2
-			public const int switch_thumb_normal_material_dark = 2131034274;
+			public const int switch_thumb_material_dark = 2131034274;
 			
 			// aapt resource value: 0x7F0500A3
-			public const int switch_thumb_normal_material_light = 2131034275;
+			public const int switch_thumb_material_light = 2131034275;
 			
 			// aapt resource value: 0x7F0500A4
-			public const int tooltip_background_dark = 2131034276;
+			public const int switch_thumb_normal_material_dark = 2131034276;
 			
 			// aapt resource value: 0x7F0500A5
-			public const int tooltip_background_light = 2131034277;
+			public const int switch_thumb_normal_material_light = 2131034277;
+			
+			// aapt resource value: 0x7F0500A6
+			public const int tooltip_background_dark = 2131034278;
+			
+			// aapt resource value: 0x7F0500A7
+			public const int tooltip_background_light = 2131034279;
 			
 			static Color()
 			{
@@ -11393,28 +14537,43 @@ namespace PizzaIllico.Mobile.Android
 			public const int notification_top_pad_large_text = 2131099874;
 			
 			// aapt resource value: 0x7F0600E3
-			public const int tooltip_corner_radius = 2131099875;
+			public const int preference_dropdown_padding_start = 2131099875;
 			
 			// aapt resource value: 0x7F0600E4
-			public const int tooltip_horizontal_padding = 2131099876;
+			public const int preference_icon_minWidth = 2131099876;
 			
 			// aapt resource value: 0x7F0600E5
-			public const int tooltip_margin = 2131099877;
+			public const int preference_seekbar_padding_horizontal = 2131099877;
 			
 			// aapt resource value: 0x7F0600E6
-			public const int tooltip_precise_anchor_extra_offset = 2131099878;
+			public const int preference_seekbar_padding_vertical = 2131099878;
 			
 			// aapt resource value: 0x7F0600E7
-			public const int tooltip_precise_anchor_threshold = 2131099879;
+			public const int preference_seekbar_value_minWidth = 2131099879;
 			
 			// aapt resource value: 0x7F0600E8
-			public const int tooltip_vertical_padding = 2131099880;
+			public const int tooltip_corner_radius = 2131099880;
 			
 			// aapt resource value: 0x7F0600E9
-			public const int tooltip_y_offset_non_touch = 2131099881;
+			public const int tooltip_horizontal_padding = 2131099881;
 			
 			// aapt resource value: 0x7F0600EA
-			public const int tooltip_y_offset_touch = 2131099882;
+			public const int tooltip_margin = 2131099882;
+			
+			// aapt resource value: 0x7F0600EB
+			public const int tooltip_precise_anchor_extra_offset = 2131099883;
+			
+			// aapt resource value: 0x7F0600EC
+			public const int tooltip_precise_anchor_threshold = 2131099884;
+			
+			// aapt resource value: 0x7F0600ED
+			public const int tooltip_vertical_padding = 2131099885;
+			
+			// aapt resource value: 0x7F0600EE
+			public const int tooltip_y_offset_non_touch = 2131099886;
+			
+			// aapt resource value: 0x7F0600EF
+			public const int tooltip_y_offset_touch = 2131099887;
 			
 			static Dimension()
 			{
@@ -11799,691 +14958,697 @@ namespace PizzaIllico.Mobile.Android
 			public const int googleg_standard_color_18 = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int ic_audiotrack_dark = 2131165313;
+			public const int ic_arrow_down_24dp = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int ic_audiotrack_light = 2131165314;
+			public const int ic_audiotrack_dark = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int ic_checked_checkbox = 2131165315;
+			public const int ic_audiotrack_light = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int ic_dialog_close_dark = 2131165316;
+			public const int ic_checked_checkbox = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int ic_dialog_close_light = 2131165317;
+			public const int ic_dialog_close_dark = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int ic_group_collapse_00 = 2131165318;
+			public const int ic_dialog_close_light = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int ic_group_collapse_01 = 2131165319;
+			public const int ic_group_collapse_00 = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int ic_group_collapse_02 = 2131165320;
+			public const int ic_group_collapse_01 = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int ic_group_collapse_03 = 2131165321;
+			public const int ic_group_collapse_02 = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int ic_group_collapse_04 = 2131165322;
+			public const int ic_group_collapse_03 = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int ic_group_collapse_05 = 2131165323;
+			public const int ic_group_collapse_04 = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int ic_group_collapse_06 = 2131165324;
+			public const int ic_group_collapse_05 = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int ic_group_collapse_07 = 2131165325;
+			public const int ic_group_collapse_06 = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int ic_group_collapse_08 = 2131165326;
+			public const int ic_group_collapse_07 = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int ic_group_collapse_09 = 2131165327;
+			public const int ic_group_collapse_08 = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int ic_group_collapse_10 = 2131165328;
+			public const int ic_group_collapse_09 = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int ic_group_collapse_11 = 2131165329;
+			public const int ic_group_collapse_10 = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int ic_group_collapse_12 = 2131165330;
+			public const int ic_group_collapse_11 = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int ic_group_collapse_13 = 2131165331;
+			public const int ic_group_collapse_12 = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int ic_group_collapse_14 = 2131165332;
+			public const int ic_group_collapse_13 = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int ic_group_collapse_15 = 2131165333;
+			public const int ic_group_collapse_14 = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int ic_group_expand_00 = 2131165334;
+			public const int ic_group_collapse_15 = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int ic_group_expand_01 = 2131165335;
+			public const int ic_group_expand_00 = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int ic_group_expand_02 = 2131165336;
+			public const int ic_group_expand_01 = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int ic_group_expand_03 = 2131165337;
+			public const int ic_group_expand_02 = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int ic_group_expand_04 = 2131165338;
+			public const int ic_group_expand_03 = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int ic_group_expand_05 = 2131165339;
+			public const int ic_group_expand_04 = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int ic_group_expand_06 = 2131165340;
+			public const int ic_group_expand_05 = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int ic_group_expand_07 = 2131165341;
+			public const int ic_group_expand_06 = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int ic_group_expand_08 = 2131165342;
+			public const int ic_group_expand_07 = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int ic_group_expand_09 = 2131165343;
+			public const int ic_group_expand_08 = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int ic_group_expand_10 = 2131165344;
+			public const int ic_group_expand_09 = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int ic_group_expand_11 = 2131165345;
+			public const int ic_group_expand_10 = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int ic_group_expand_12 = 2131165346;
+			public const int ic_group_expand_11 = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int ic_group_expand_13 = 2131165347;
+			public const int ic_group_expand_12 = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int ic_group_expand_14 = 2131165348;
+			public const int ic_group_expand_13 = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int ic_group_expand_15 = 2131165349;
+			public const int ic_group_expand_14 = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int ic_media_pause_dark = 2131165350;
+			public const int ic_group_expand_15 = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int ic_media_pause_light = 2131165351;
+			public const int ic_media_pause_dark = 2131165351;
 			
 			// aapt resource value: 0x7F0700A8
-			public const int ic_media_play_dark = 2131165352;
+			public const int ic_media_pause_light = 2131165352;
 			
 			// aapt resource value: 0x7F0700A9
-			public const int ic_media_play_light = 2131165353;
+			public const int ic_media_play_dark = 2131165353;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int ic_media_stop_dark = 2131165354;
+			public const int ic_media_play_light = 2131165354;
 			
 			// aapt resource value: 0x7F0700AB
-			public const int ic_media_stop_light = 2131165355;
+			public const int ic_media_stop_dark = 2131165355;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int ic_mr_button_connected_00_dark = 2131165356;
+			public const int ic_media_stop_light = 2131165356;
 			
 			// aapt resource value: 0x7F0700AD
-			public const int ic_mr_button_connected_00_light = 2131165357;
+			public const int ic_mr_button_connected_00_dark = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int ic_mr_button_connected_01_dark = 2131165358;
+			public const int ic_mr_button_connected_00_light = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int ic_mr_button_connected_01_light = 2131165359;
+			public const int ic_mr_button_connected_01_dark = 2131165359;
 			
 			// aapt resource value: 0x7F0700B0
-			public const int ic_mr_button_connected_02_dark = 2131165360;
+			public const int ic_mr_button_connected_01_light = 2131165360;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int ic_mr_button_connected_02_light = 2131165361;
+			public const int ic_mr_button_connected_02_dark = 2131165361;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int ic_mr_button_connected_03_dark = 2131165362;
+			public const int ic_mr_button_connected_02_light = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int ic_mr_button_connected_03_light = 2131165363;
+			public const int ic_mr_button_connected_03_dark = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int ic_mr_button_connected_04_dark = 2131165364;
+			public const int ic_mr_button_connected_03_light = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int ic_mr_button_connected_04_light = 2131165365;
+			public const int ic_mr_button_connected_04_dark = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int ic_mr_button_connected_05_dark = 2131165366;
+			public const int ic_mr_button_connected_04_light = 2131165366;
 			
 			// aapt resource value: 0x7F0700B7
-			public const int ic_mr_button_connected_05_light = 2131165367;
+			public const int ic_mr_button_connected_05_dark = 2131165367;
 			
 			// aapt resource value: 0x7F0700B8
-			public const int ic_mr_button_connected_06_dark = 2131165368;
+			public const int ic_mr_button_connected_05_light = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int ic_mr_button_connected_06_light = 2131165369;
+			public const int ic_mr_button_connected_06_dark = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int ic_mr_button_connected_07_dark = 2131165370;
+			public const int ic_mr_button_connected_06_light = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int ic_mr_button_connected_07_light = 2131165371;
+			public const int ic_mr_button_connected_07_dark = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int ic_mr_button_connected_08_dark = 2131165372;
+			public const int ic_mr_button_connected_07_light = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int ic_mr_button_connected_08_light = 2131165373;
+			public const int ic_mr_button_connected_08_dark = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int ic_mr_button_connected_09_dark = 2131165374;
+			public const int ic_mr_button_connected_08_light = 2131165374;
 			
 			// aapt resource value: 0x7F0700BF
-			public const int ic_mr_button_connected_09_light = 2131165375;
+			public const int ic_mr_button_connected_09_dark = 2131165375;
 			
 			// aapt resource value: 0x7F0700C0
-			public const int ic_mr_button_connected_10_dark = 2131165376;
+			public const int ic_mr_button_connected_09_light = 2131165376;
 			
 			// aapt resource value: 0x7F0700C1
-			public const int ic_mr_button_connected_10_light = 2131165377;
+			public const int ic_mr_button_connected_10_dark = 2131165377;
 			
 			// aapt resource value: 0x7F0700C2
-			public const int ic_mr_button_connected_11_dark = 2131165378;
+			public const int ic_mr_button_connected_10_light = 2131165378;
 			
 			// aapt resource value: 0x7F0700C3
-			public const int ic_mr_button_connected_11_light = 2131165379;
+			public const int ic_mr_button_connected_11_dark = 2131165379;
 			
 			// aapt resource value: 0x7F0700C4
-			public const int ic_mr_button_connected_12_dark = 2131165380;
+			public const int ic_mr_button_connected_11_light = 2131165380;
 			
 			// aapt resource value: 0x7F0700C5
-			public const int ic_mr_button_connected_12_light = 2131165381;
+			public const int ic_mr_button_connected_12_dark = 2131165381;
 			
 			// aapt resource value: 0x7F0700C6
-			public const int ic_mr_button_connected_13_dark = 2131165382;
+			public const int ic_mr_button_connected_12_light = 2131165382;
 			
 			// aapt resource value: 0x7F0700C7
-			public const int ic_mr_button_connected_13_light = 2131165383;
+			public const int ic_mr_button_connected_13_dark = 2131165383;
 			
 			// aapt resource value: 0x7F0700C8
-			public const int ic_mr_button_connected_14_dark = 2131165384;
+			public const int ic_mr_button_connected_13_light = 2131165384;
 			
 			// aapt resource value: 0x7F0700C9
-			public const int ic_mr_button_connected_14_light = 2131165385;
+			public const int ic_mr_button_connected_14_dark = 2131165385;
 			
 			// aapt resource value: 0x7F0700CA
-			public const int ic_mr_button_connected_15_dark = 2131165386;
+			public const int ic_mr_button_connected_14_light = 2131165386;
 			
 			// aapt resource value: 0x7F0700CB
-			public const int ic_mr_button_connected_15_light = 2131165387;
+			public const int ic_mr_button_connected_15_dark = 2131165387;
 			
 			// aapt resource value: 0x7F0700CC
-			public const int ic_mr_button_connected_16_dark = 2131165388;
+			public const int ic_mr_button_connected_15_light = 2131165388;
 			
 			// aapt resource value: 0x7F0700CD
-			public const int ic_mr_button_connected_16_light = 2131165389;
+			public const int ic_mr_button_connected_16_dark = 2131165389;
 			
 			// aapt resource value: 0x7F0700CE
-			public const int ic_mr_button_connected_17_dark = 2131165390;
+			public const int ic_mr_button_connected_16_light = 2131165390;
 			
 			// aapt resource value: 0x7F0700CF
-			public const int ic_mr_button_connected_17_light = 2131165391;
+			public const int ic_mr_button_connected_17_dark = 2131165391;
 			
 			// aapt resource value: 0x7F0700D0
-			public const int ic_mr_button_connected_18_dark = 2131165392;
+			public const int ic_mr_button_connected_17_light = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
-			public const int ic_mr_button_connected_18_light = 2131165393;
+			public const int ic_mr_button_connected_18_dark = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
-			public const int ic_mr_button_connected_19_dark = 2131165394;
+			public const int ic_mr_button_connected_18_light = 2131165394;
 			
 			// aapt resource value: 0x7F0700D3
-			public const int ic_mr_button_connected_19_light = 2131165395;
+			public const int ic_mr_button_connected_19_dark = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int ic_mr_button_connected_20_dark = 2131165396;
+			public const int ic_mr_button_connected_19_light = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int ic_mr_button_connected_20_light = 2131165397;
+			public const int ic_mr_button_connected_20_dark = 2131165397;
 			
 			// aapt resource value: 0x7F0700D6
-			public const int ic_mr_button_connected_21_dark = 2131165398;
+			public const int ic_mr_button_connected_20_light = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int ic_mr_button_connected_21_light = 2131165399;
+			public const int ic_mr_button_connected_21_dark = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int ic_mr_button_connected_22_dark = 2131165400;
+			public const int ic_mr_button_connected_21_light = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int ic_mr_button_connected_22_light = 2131165401;
+			public const int ic_mr_button_connected_22_dark = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int ic_mr_button_connected_23_dark = 2131165402;
+			public const int ic_mr_button_connected_22_light = 2131165402;
 			
 			// aapt resource value: 0x7F0700DB
-			public const int ic_mr_button_connected_23_light = 2131165403;
+			public const int ic_mr_button_connected_23_dark = 2131165403;
 			
 			// aapt resource value: 0x7F0700DC
-			public const int ic_mr_button_connected_24_dark = 2131165404;
+			public const int ic_mr_button_connected_23_light = 2131165404;
 			
 			// aapt resource value: 0x7F0700DD
-			public const int ic_mr_button_connected_24_light = 2131165405;
+			public const int ic_mr_button_connected_24_dark = 2131165405;
 			
 			// aapt resource value: 0x7F0700DE
-			public const int ic_mr_button_connected_25_dark = 2131165406;
+			public const int ic_mr_button_connected_24_light = 2131165406;
 			
 			// aapt resource value: 0x7F0700DF
-			public const int ic_mr_button_connected_25_light = 2131165407;
+			public const int ic_mr_button_connected_25_dark = 2131165407;
 			
 			// aapt resource value: 0x7F0700E0
-			public const int ic_mr_button_connected_26_dark = 2131165408;
+			public const int ic_mr_button_connected_25_light = 2131165408;
 			
 			// aapt resource value: 0x7F0700E1
-			public const int ic_mr_button_connected_26_light = 2131165409;
+			public const int ic_mr_button_connected_26_dark = 2131165409;
 			
 			// aapt resource value: 0x7F0700E2
-			public const int ic_mr_button_connected_27_dark = 2131165410;
+			public const int ic_mr_button_connected_26_light = 2131165410;
 			
 			// aapt resource value: 0x7F0700E3
-			public const int ic_mr_button_connected_27_light = 2131165411;
+			public const int ic_mr_button_connected_27_dark = 2131165411;
 			
 			// aapt resource value: 0x7F0700E4
-			public const int ic_mr_button_connected_28_dark = 2131165412;
+			public const int ic_mr_button_connected_27_light = 2131165412;
 			
 			// aapt resource value: 0x7F0700E5
-			public const int ic_mr_button_connected_28_light = 2131165413;
+			public const int ic_mr_button_connected_28_dark = 2131165413;
 			
 			// aapt resource value: 0x7F0700E6
-			public const int ic_mr_button_connected_29_dark = 2131165414;
+			public const int ic_mr_button_connected_28_light = 2131165414;
 			
 			// aapt resource value: 0x7F0700E7
-			public const int ic_mr_button_connected_29_light = 2131165415;
+			public const int ic_mr_button_connected_29_dark = 2131165415;
 			
 			// aapt resource value: 0x7F0700E8
-			public const int ic_mr_button_connected_30_dark = 2131165416;
+			public const int ic_mr_button_connected_29_light = 2131165416;
 			
 			// aapt resource value: 0x7F0700E9
-			public const int ic_mr_button_connected_30_light = 2131165417;
+			public const int ic_mr_button_connected_30_dark = 2131165417;
 			
 			// aapt resource value: 0x7F0700EA
-			public const int ic_mr_button_connecting_00_dark = 2131165418;
+			public const int ic_mr_button_connected_30_light = 2131165418;
 			
 			// aapt resource value: 0x7F0700EB
-			public const int ic_mr_button_connecting_00_light = 2131165419;
+			public const int ic_mr_button_connecting_00_dark = 2131165419;
 			
 			// aapt resource value: 0x7F0700EC
-			public const int ic_mr_button_connecting_01_dark = 2131165420;
+			public const int ic_mr_button_connecting_00_light = 2131165420;
 			
 			// aapt resource value: 0x7F0700ED
-			public const int ic_mr_button_connecting_01_light = 2131165421;
+			public const int ic_mr_button_connecting_01_dark = 2131165421;
 			
 			// aapt resource value: 0x7F0700EE
-			public const int ic_mr_button_connecting_02_dark = 2131165422;
+			public const int ic_mr_button_connecting_01_light = 2131165422;
 			
 			// aapt resource value: 0x7F0700EF
-			public const int ic_mr_button_connecting_02_light = 2131165423;
+			public const int ic_mr_button_connecting_02_dark = 2131165423;
 			
 			// aapt resource value: 0x7F0700F0
-			public const int ic_mr_button_connecting_03_dark = 2131165424;
+			public const int ic_mr_button_connecting_02_light = 2131165424;
 			
 			// aapt resource value: 0x7F0700F1
-			public const int ic_mr_button_connecting_03_light = 2131165425;
+			public const int ic_mr_button_connecting_03_dark = 2131165425;
 			
 			// aapt resource value: 0x7F0700F2
-			public const int ic_mr_button_connecting_04_dark = 2131165426;
+			public const int ic_mr_button_connecting_03_light = 2131165426;
 			
 			// aapt resource value: 0x7F0700F3
-			public const int ic_mr_button_connecting_04_light = 2131165427;
+			public const int ic_mr_button_connecting_04_dark = 2131165427;
 			
 			// aapt resource value: 0x7F0700F4
-			public const int ic_mr_button_connecting_05_dark = 2131165428;
+			public const int ic_mr_button_connecting_04_light = 2131165428;
 			
 			// aapt resource value: 0x7F0700F5
-			public const int ic_mr_button_connecting_05_light = 2131165429;
+			public const int ic_mr_button_connecting_05_dark = 2131165429;
 			
 			// aapt resource value: 0x7F0700F6
-			public const int ic_mr_button_connecting_06_dark = 2131165430;
+			public const int ic_mr_button_connecting_05_light = 2131165430;
 			
 			// aapt resource value: 0x7F0700F7
-			public const int ic_mr_button_connecting_06_light = 2131165431;
+			public const int ic_mr_button_connecting_06_dark = 2131165431;
 			
 			// aapt resource value: 0x7F0700F8
-			public const int ic_mr_button_connecting_07_dark = 2131165432;
+			public const int ic_mr_button_connecting_06_light = 2131165432;
 			
 			// aapt resource value: 0x7F0700F9
-			public const int ic_mr_button_connecting_07_light = 2131165433;
+			public const int ic_mr_button_connecting_07_dark = 2131165433;
 			
 			// aapt resource value: 0x7F0700FA
-			public const int ic_mr_button_connecting_08_dark = 2131165434;
+			public const int ic_mr_button_connecting_07_light = 2131165434;
 			
 			// aapt resource value: 0x7F0700FB
-			public const int ic_mr_button_connecting_08_light = 2131165435;
+			public const int ic_mr_button_connecting_08_dark = 2131165435;
 			
 			// aapt resource value: 0x7F0700FC
-			public const int ic_mr_button_connecting_09_dark = 2131165436;
+			public const int ic_mr_button_connecting_08_light = 2131165436;
 			
 			// aapt resource value: 0x7F0700FD
-			public const int ic_mr_button_connecting_09_light = 2131165437;
+			public const int ic_mr_button_connecting_09_dark = 2131165437;
 			
 			// aapt resource value: 0x7F0700FE
-			public const int ic_mr_button_connecting_10_dark = 2131165438;
+			public const int ic_mr_button_connecting_09_light = 2131165438;
 			
 			// aapt resource value: 0x7F0700FF
-			public const int ic_mr_button_connecting_10_light = 2131165439;
+			public const int ic_mr_button_connecting_10_dark = 2131165439;
 			
 			// aapt resource value: 0x7F070100
-			public const int ic_mr_button_connecting_11_dark = 2131165440;
+			public const int ic_mr_button_connecting_10_light = 2131165440;
 			
 			// aapt resource value: 0x7F070101
-			public const int ic_mr_button_connecting_11_light = 2131165441;
+			public const int ic_mr_button_connecting_11_dark = 2131165441;
 			
 			// aapt resource value: 0x7F070102
-			public const int ic_mr_button_connecting_12_dark = 2131165442;
+			public const int ic_mr_button_connecting_11_light = 2131165442;
 			
 			// aapt resource value: 0x7F070103
-			public const int ic_mr_button_connecting_12_light = 2131165443;
+			public const int ic_mr_button_connecting_12_dark = 2131165443;
 			
 			// aapt resource value: 0x7F070104
-			public const int ic_mr_button_connecting_13_dark = 2131165444;
+			public const int ic_mr_button_connecting_12_light = 2131165444;
 			
 			// aapt resource value: 0x7F070105
-			public const int ic_mr_button_connecting_13_light = 2131165445;
+			public const int ic_mr_button_connecting_13_dark = 2131165445;
 			
 			// aapt resource value: 0x7F070106
-			public const int ic_mr_button_connecting_14_dark = 2131165446;
+			public const int ic_mr_button_connecting_13_light = 2131165446;
 			
 			// aapt resource value: 0x7F070107
-			public const int ic_mr_button_connecting_14_light = 2131165447;
+			public const int ic_mr_button_connecting_14_dark = 2131165447;
 			
 			// aapt resource value: 0x7F070108
-			public const int ic_mr_button_connecting_15_dark = 2131165448;
+			public const int ic_mr_button_connecting_14_light = 2131165448;
 			
 			// aapt resource value: 0x7F070109
-			public const int ic_mr_button_connecting_15_light = 2131165449;
+			public const int ic_mr_button_connecting_15_dark = 2131165449;
 			
 			// aapt resource value: 0x7F07010A
-			public const int ic_mr_button_connecting_16_dark = 2131165450;
+			public const int ic_mr_button_connecting_15_light = 2131165450;
 			
 			// aapt resource value: 0x7F07010B
-			public const int ic_mr_button_connecting_16_light = 2131165451;
+			public const int ic_mr_button_connecting_16_dark = 2131165451;
 			
 			// aapt resource value: 0x7F07010C
-			public const int ic_mr_button_connecting_17_dark = 2131165452;
+			public const int ic_mr_button_connecting_16_light = 2131165452;
 			
 			// aapt resource value: 0x7F07010D
-			public const int ic_mr_button_connecting_17_light = 2131165453;
+			public const int ic_mr_button_connecting_17_dark = 2131165453;
 			
 			// aapt resource value: 0x7F07010E
-			public const int ic_mr_button_connecting_18_dark = 2131165454;
+			public const int ic_mr_button_connecting_17_light = 2131165454;
 			
 			// aapt resource value: 0x7F07010F
-			public const int ic_mr_button_connecting_18_light = 2131165455;
+			public const int ic_mr_button_connecting_18_dark = 2131165455;
 			
 			// aapt resource value: 0x7F070110
-			public const int ic_mr_button_connecting_19_dark = 2131165456;
+			public const int ic_mr_button_connecting_18_light = 2131165456;
 			
 			// aapt resource value: 0x7F070111
-			public const int ic_mr_button_connecting_19_light = 2131165457;
+			public const int ic_mr_button_connecting_19_dark = 2131165457;
 			
 			// aapt resource value: 0x7F070112
-			public const int ic_mr_button_connecting_20_dark = 2131165458;
+			public const int ic_mr_button_connecting_19_light = 2131165458;
 			
 			// aapt resource value: 0x7F070113
-			public const int ic_mr_button_connecting_20_light = 2131165459;
+			public const int ic_mr_button_connecting_20_dark = 2131165459;
 			
 			// aapt resource value: 0x7F070114
-			public const int ic_mr_button_connecting_21_dark = 2131165460;
+			public const int ic_mr_button_connecting_20_light = 2131165460;
 			
 			// aapt resource value: 0x7F070115
-			public const int ic_mr_button_connecting_21_light = 2131165461;
+			public const int ic_mr_button_connecting_21_dark = 2131165461;
 			
 			// aapt resource value: 0x7F070116
-			public const int ic_mr_button_connecting_22_dark = 2131165462;
+			public const int ic_mr_button_connecting_21_light = 2131165462;
 			
 			// aapt resource value: 0x7F070117
-			public const int ic_mr_button_connecting_22_light = 2131165463;
+			public const int ic_mr_button_connecting_22_dark = 2131165463;
 			
 			// aapt resource value: 0x7F070118
-			public const int ic_mr_button_connecting_23_dark = 2131165464;
+			public const int ic_mr_button_connecting_22_light = 2131165464;
 			
 			// aapt resource value: 0x7F070119
-			public const int ic_mr_button_connecting_23_light = 2131165465;
+			public const int ic_mr_button_connecting_23_dark = 2131165465;
 			
 			// aapt resource value: 0x7F07011A
-			public const int ic_mr_button_connecting_24_dark = 2131165466;
+			public const int ic_mr_button_connecting_23_light = 2131165466;
 			
 			// aapt resource value: 0x7F07011B
-			public const int ic_mr_button_connecting_24_light = 2131165467;
+			public const int ic_mr_button_connecting_24_dark = 2131165467;
 			
 			// aapt resource value: 0x7F07011C
-			public const int ic_mr_button_connecting_25_dark = 2131165468;
+			public const int ic_mr_button_connecting_24_light = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
-			public const int ic_mr_button_connecting_25_light = 2131165469;
+			public const int ic_mr_button_connecting_25_dark = 2131165469;
 			
 			// aapt resource value: 0x7F07011E
-			public const int ic_mr_button_connecting_26_dark = 2131165470;
+			public const int ic_mr_button_connecting_25_light = 2131165470;
 			
 			// aapt resource value: 0x7F07011F
-			public const int ic_mr_button_connecting_26_light = 2131165471;
+			public const int ic_mr_button_connecting_26_dark = 2131165471;
 			
 			// aapt resource value: 0x7F070120
-			public const int ic_mr_button_connecting_27_dark = 2131165472;
+			public const int ic_mr_button_connecting_26_light = 2131165472;
 			
 			// aapt resource value: 0x7F070121
-			public const int ic_mr_button_connecting_27_light = 2131165473;
+			public const int ic_mr_button_connecting_27_dark = 2131165473;
 			
 			// aapt resource value: 0x7F070122
-			public const int ic_mr_button_connecting_28_dark = 2131165474;
+			public const int ic_mr_button_connecting_27_light = 2131165474;
 			
 			// aapt resource value: 0x7F070123
-			public const int ic_mr_button_connecting_28_light = 2131165475;
+			public const int ic_mr_button_connecting_28_dark = 2131165475;
 			
 			// aapt resource value: 0x7F070124
-			public const int ic_mr_button_connecting_29_dark = 2131165476;
+			public const int ic_mr_button_connecting_28_light = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public const int ic_mr_button_connecting_29_light = 2131165477;
+			public const int ic_mr_button_connecting_29_dark = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int ic_mr_button_connecting_30_dark = 2131165478;
+			public const int ic_mr_button_connecting_29_light = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int ic_mr_button_connecting_30_light = 2131165479;
+			public const int ic_mr_button_connecting_30_dark = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int ic_mr_button_disabled_dark = 2131165480;
+			public const int ic_mr_button_connecting_30_light = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int ic_mr_button_disabled_light = 2131165481;
+			public const int ic_mr_button_disabled_dark = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int ic_mr_button_disconnected_dark = 2131165482;
+			public const int ic_mr_button_disabled_light = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int ic_mr_button_disconnected_light = 2131165483;
+			public const int ic_mr_button_disconnected_dark = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int ic_mr_button_grey = 2131165484;
+			public const int ic_mr_button_disconnected_light = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int ic_mtrl_chip_checked_black = 2131165485;
+			public const int ic_mr_button_grey = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int ic_mtrl_chip_checked_circle = 2131165486;
+			public const int ic_mtrl_chip_checked_black = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int ic_mtrl_chip_close_circle = 2131165487;
+			public const int ic_mtrl_chip_checked_circle = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int ic_unchecked_checkbox = 2131165488;
+			public const int ic_mtrl_chip_close_circle = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int ic_vol_mute = 2131165489;
+			public const int ic_unchecked_checkbox = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public const int ic_vol_type_speaker_dark = 2131165490;
+			public const int ic_vol_mute = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int ic_vol_type_speaker_group_dark = 2131165491;
+			public const int ic_vol_type_speaker_dark = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public const int ic_vol_type_speaker_group_light = 2131165492;
+			public const int ic_vol_type_speaker_group_dark = 2131165492;
 			
 			// aapt resource value: 0x7F070135
-			public const int ic_vol_type_speaker_light = 2131165493;
+			public const int ic_vol_type_speaker_group_light = 2131165493;
 			
 			// aapt resource value: 0x7F070136
-			public const int ic_vol_type_tv_dark = 2131165494;
+			public const int ic_vol_type_speaker_light = 2131165494;
 			
 			// aapt resource value: 0x7F070137
-			public const int ic_vol_type_tv_light = 2131165495;
+			public const int ic_vol_type_tv_dark = 2131165495;
 			
 			// aapt resource value: 0x7F070138
-			public const int ic_vol_unmute = 2131165496;
+			public const int ic_vol_type_tv_light = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int mr_button_connected_dark = 2131165497;
+			public const int ic_vol_unmute = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int mr_button_connected_light = 2131165498;
+			public const int mr_button_connected_dark = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int mr_button_connecting_dark = 2131165499;
+			public const int mr_button_connected_light = 2131165499;
 			
 			// aapt resource value: 0x7F07013C
-			public const int mr_button_connecting_light = 2131165500;
+			public const int mr_button_connecting_dark = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int mr_button_dark = 2131165501;
+			public const int mr_button_connecting_light = 2131165501;
 			
 			// aapt resource value: 0x7F07013E
-			public const int mr_button_dark_static = 2131165502;
+			public const int mr_button_dark = 2131165502;
 			
 			// aapt resource value: 0x7F07013F
-			public const int mr_button_light = 2131165503;
+			public const int mr_button_dark_static = 2131165503;
 			
 			// aapt resource value: 0x7F070140
-			public const int mr_button_light_static = 2131165504;
+			public const int mr_button_light = 2131165504;
 			
 			// aapt resource value: 0x7F070141
-			public const int mr_cast_checkbox = 2131165505;
+			public const int mr_button_light_static = 2131165505;
 			
 			// aapt resource value: 0x7F070142
-			public const int mr_cast_group_seekbar_track = 2131165506;
+			public const int mr_cast_checkbox = 2131165506;
 			
 			// aapt resource value: 0x7F070143
-			public const int mr_cast_mute_button = 2131165507;
+			public const int mr_cast_group_seekbar_track = 2131165507;
 			
 			// aapt resource value: 0x7F070144
-			public const int mr_cast_route_seekbar_track = 2131165508;
+			public const int mr_cast_mute_button = 2131165508;
 			
 			// aapt resource value: 0x7F070145
-			public const int mr_cast_stop = 2131165509;
+			public const int mr_cast_route_seekbar_track = 2131165509;
 			
 			// aapt resource value: 0x7F070146
-			public const int mr_cast_thumb = 2131165510;
+			public const int mr_cast_stop = 2131165510;
 			
 			// aapt resource value: 0x7F070147
-			public const int mr_dialog_close_dark = 2131165511;
+			public const int mr_cast_thumb = 2131165511;
 			
 			// aapt resource value: 0x7F070148
-			public const int mr_dialog_close_light = 2131165512;
+			public const int mr_dialog_close_dark = 2131165512;
 			
 			// aapt resource value: 0x7F070149
-			public const int mr_dialog_material_background_dark = 2131165513;
+			public const int mr_dialog_close_light = 2131165513;
 			
 			// aapt resource value: 0x7F07014A
-			public const int mr_dialog_material_background_light = 2131165514;
+			public const int mr_dialog_material_background_dark = 2131165514;
 			
 			// aapt resource value: 0x7F07014B
-			public const int mr_group_collapse = 2131165515;
+			public const int mr_dialog_material_background_light = 2131165515;
 			
 			// aapt resource value: 0x7F07014C
-			public const int mr_group_expand = 2131165516;
+			public const int mr_group_collapse = 2131165516;
 			
 			// aapt resource value: 0x7F07014D
-			public const int mr_media_pause_dark = 2131165517;
+			public const int mr_group_expand = 2131165517;
 			
 			// aapt resource value: 0x7F07014E
-			public const int mr_media_pause_light = 2131165518;
+			public const int mr_media_pause_dark = 2131165518;
 			
 			// aapt resource value: 0x7F07014F
-			public const int mr_media_play_dark = 2131165519;
+			public const int mr_media_pause_light = 2131165519;
 			
 			// aapt resource value: 0x7F070150
-			public const int mr_media_play_light = 2131165520;
+			public const int mr_media_play_dark = 2131165520;
 			
 			// aapt resource value: 0x7F070151
-			public const int mr_media_stop_dark = 2131165521;
+			public const int mr_media_play_light = 2131165521;
 			
 			// aapt resource value: 0x7F070152
-			public const int mr_media_stop_light = 2131165522;
+			public const int mr_media_stop_dark = 2131165522;
 			
 			// aapt resource value: 0x7F070153
-			public const int mr_vol_type_audiotrack_dark = 2131165523;
+			public const int mr_media_stop_light = 2131165523;
 			
 			// aapt resource value: 0x7F070154
-			public const int mr_vol_type_audiotrack_light = 2131165524;
+			public const int mr_vol_type_audiotrack_dark = 2131165524;
 			
 			// aapt resource value: 0x7F070155
-			public const int mtrl_snackbar_background = 2131165525;
+			public const int mr_vol_type_audiotrack_light = 2131165525;
 			
 			// aapt resource value: 0x7F070156
-			public const int mtrl_tabs_default_indicator = 2131165526;
+			public const int mtrl_snackbar_background = 2131165526;
 			
 			// aapt resource value: 0x7F070157
-			public const int navigation_empty_icon = 2131165527;
+			public const int mtrl_tabs_default_indicator = 2131165527;
 			
 			// aapt resource value: 0x7F070158
-			public const int notification_action_background = 2131165528;
+			public const int navigation_empty_icon = 2131165528;
 			
 			// aapt resource value: 0x7F070159
-			public const int notification_bg = 2131165529;
+			public const int notification_action_background = 2131165529;
 			
 			// aapt resource value: 0x7F07015A
-			public const int notification_bg_low = 2131165530;
+			public const int notification_bg = 2131165530;
 			
 			// aapt resource value: 0x7F07015B
-			public const int notification_bg_low_normal = 2131165531;
+			public const int notification_bg_low = 2131165531;
 			
 			// aapt resource value: 0x7F07015C
-			public const int notification_bg_low_pressed = 2131165532;
+			public const int notification_bg_low_normal = 2131165532;
 			
 			// aapt resource value: 0x7F07015D
-			public const int notification_bg_normal = 2131165533;
+			public const int notification_bg_low_pressed = 2131165533;
 			
 			// aapt resource value: 0x7F07015E
-			public const int notification_bg_normal_pressed = 2131165534;
+			public const int notification_bg_normal = 2131165534;
 			
 			// aapt resource value: 0x7F07015F
-			public const int notification_icon_background = 2131165535;
+			public const int notification_bg_normal_pressed = 2131165535;
 			
 			// aapt resource value: 0x7F070160
-			public const int notification_template_icon_bg = 2131165536;
+			public const int notification_icon_background = 2131165536;
 			
 			// aapt resource value: 0x7F070161
-			public const int notification_template_icon_low_bg = 2131165537;
+			public const int notification_template_icon_bg = 2131165537;
 			
 			// aapt resource value: 0x7F070162
-			public const int notification_tile_bg = 2131165538;
+			public const int notification_template_icon_low_bg = 2131165538;
 			
 			// aapt resource value: 0x7F070163
-			public const int notify_panel_notification_icon_bg = 2131165539;
+			public const int notification_tile_bg = 2131165539;
 			
 			// aapt resource value: 0x7F070164
-			public const int tooltip_frame_dark = 2131165540;
+			public const int notify_panel_notification_icon_bg = 2131165540;
 			
 			// aapt resource value: 0x7F070165
-			public const int tooltip_frame_light = 2131165541;
+			public const int preference_list_divider_material = 2131165541;
+			
+			// aapt resource value: 0x7F070166
+			public const int tooltip_frame_dark = 2131165542;
+			
+			// aapt resource value: 0x7F070167
+			public const int tooltip_frame_light = 2131165543;
 			
 			static Drawable()
 			{
@@ -12498,947 +15663,980 @@ namespace PizzaIllico.Mobile.Android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F080006
-			public const int accessibility_action_clickable_span = 2131230726;
-			
-			// aapt resource value: 0x7F080007
-			public const int accessibility_custom_action_0 = 2131230727;
-			
 			// aapt resource value: 0x7F080008
-			public const int accessibility_custom_action_1 = 2131230728;
+			public const int accessibility_action_clickable_span = 2131230728;
 			
 			// aapt resource value: 0x7F080009
-			public const int accessibility_custom_action_10 = 2131230729;
+			public const int accessibility_custom_action_0 = 2131230729;
 			
 			// aapt resource value: 0x7F08000A
-			public const int accessibility_custom_action_11 = 2131230730;
+			public const int accessibility_custom_action_1 = 2131230730;
 			
 			// aapt resource value: 0x7F08000B
-			public const int accessibility_custom_action_12 = 2131230731;
+			public const int accessibility_custom_action_10 = 2131230731;
 			
 			// aapt resource value: 0x7F08000C
-			public const int accessibility_custom_action_13 = 2131230732;
+			public const int accessibility_custom_action_11 = 2131230732;
 			
 			// aapt resource value: 0x7F08000D
-			public const int accessibility_custom_action_14 = 2131230733;
+			public const int accessibility_custom_action_12 = 2131230733;
 			
 			// aapt resource value: 0x7F08000E
-			public const int accessibility_custom_action_15 = 2131230734;
+			public const int accessibility_custom_action_13 = 2131230734;
 			
 			// aapt resource value: 0x7F08000F
-			public const int accessibility_custom_action_16 = 2131230735;
+			public const int accessibility_custom_action_14 = 2131230735;
 			
 			// aapt resource value: 0x7F080010
-			public const int accessibility_custom_action_17 = 2131230736;
+			public const int accessibility_custom_action_15 = 2131230736;
 			
 			// aapt resource value: 0x7F080011
-			public const int accessibility_custom_action_18 = 2131230737;
+			public const int accessibility_custom_action_16 = 2131230737;
 			
 			// aapt resource value: 0x7F080012
-			public const int accessibility_custom_action_19 = 2131230738;
+			public const int accessibility_custom_action_17 = 2131230738;
 			
 			// aapt resource value: 0x7F080013
-			public const int accessibility_custom_action_2 = 2131230739;
+			public const int accessibility_custom_action_18 = 2131230739;
 			
 			// aapt resource value: 0x7F080014
-			public const int accessibility_custom_action_20 = 2131230740;
+			public const int accessibility_custom_action_19 = 2131230740;
 			
 			// aapt resource value: 0x7F080015
-			public const int accessibility_custom_action_21 = 2131230741;
+			public const int accessibility_custom_action_2 = 2131230741;
 			
 			// aapt resource value: 0x7F080016
-			public const int accessibility_custom_action_22 = 2131230742;
+			public const int accessibility_custom_action_20 = 2131230742;
 			
 			// aapt resource value: 0x7F080017
-			public const int accessibility_custom_action_23 = 2131230743;
+			public const int accessibility_custom_action_21 = 2131230743;
 			
 			// aapt resource value: 0x7F080018
-			public const int accessibility_custom_action_24 = 2131230744;
+			public const int accessibility_custom_action_22 = 2131230744;
 			
 			// aapt resource value: 0x7F080019
-			public const int accessibility_custom_action_25 = 2131230745;
+			public const int accessibility_custom_action_23 = 2131230745;
 			
 			// aapt resource value: 0x7F08001A
-			public const int accessibility_custom_action_26 = 2131230746;
+			public const int accessibility_custom_action_24 = 2131230746;
 			
 			// aapt resource value: 0x7F08001B
-			public const int accessibility_custom_action_27 = 2131230747;
+			public const int accessibility_custom_action_25 = 2131230747;
 			
 			// aapt resource value: 0x7F08001C
-			public const int accessibility_custom_action_28 = 2131230748;
+			public const int accessibility_custom_action_26 = 2131230748;
 			
 			// aapt resource value: 0x7F08001D
-			public const int accessibility_custom_action_29 = 2131230749;
+			public const int accessibility_custom_action_27 = 2131230749;
 			
 			// aapt resource value: 0x7F08001E
-			public const int accessibility_custom_action_3 = 2131230750;
+			public const int accessibility_custom_action_28 = 2131230750;
 			
 			// aapt resource value: 0x7F08001F
-			public const int accessibility_custom_action_30 = 2131230751;
+			public const int accessibility_custom_action_29 = 2131230751;
 			
 			// aapt resource value: 0x7F080020
-			public const int accessibility_custom_action_31 = 2131230752;
+			public const int accessibility_custom_action_3 = 2131230752;
 			
 			// aapt resource value: 0x7F080021
-			public const int accessibility_custom_action_4 = 2131230753;
+			public const int accessibility_custom_action_30 = 2131230753;
 			
 			// aapt resource value: 0x7F080022
-			public const int accessibility_custom_action_5 = 2131230754;
+			public const int accessibility_custom_action_31 = 2131230754;
 			
 			// aapt resource value: 0x7F080023
-			public const int accessibility_custom_action_6 = 2131230755;
+			public const int accessibility_custom_action_4 = 2131230755;
 			
 			// aapt resource value: 0x7F080024
-			public const int accessibility_custom_action_7 = 2131230756;
+			public const int accessibility_custom_action_5 = 2131230756;
 			
 			// aapt resource value: 0x7F080025
-			public const int accessibility_custom_action_8 = 2131230757;
+			public const int accessibility_custom_action_6 = 2131230757;
 			
 			// aapt resource value: 0x7F080026
-			public const int accessibility_custom_action_9 = 2131230758;
+			public const int accessibility_custom_action_7 = 2131230758;
 			
 			// aapt resource value: 0x7F080027
-			public const int action0 = 2131230759;
-			
-			// aapt resource value: 0x7F080039
-			public const int actions = 2131230777;
+			public const int accessibility_custom_action_8 = 2131230759;
 			
 			// aapt resource value: 0x7F080028
-			public const int action_bar = 2131230760;
+			public const int accessibility_custom_action_9 = 2131230760;
 			
 			// aapt resource value: 0x7F080029
-			public const int action_bar_activity_content = 2131230761;
-			
-			// aapt resource value: 0x7F08002A
-			public const int action_bar_container = 2131230762;
-			
-			// aapt resource value: 0x7F08002B
-			public const int action_bar_root = 2131230763;
-			
-			// aapt resource value: 0x7F08002C
-			public const int action_bar_spinner = 2131230764;
-			
-			// aapt resource value: 0x7F08002D
-			public const int action_bar_subtitle = 2131230765;
-			
-			// aapt resource value: 0x7F08002E
-			public const int action_bar_title = 2131230766;
-			
-			// aapt resource value: 0x7F08002F
-			public const int action_container = 2131230767;
-			
-			// aapt resource value: 0x7F080030
-			public const int action_context_bar = 2131230768;
-			
-			// aapt resource value: 0x7F080031
-			public const int action_divider = 2131230769;
-			
-			// aapt resource value: 0x7F080032
-			public const int action_image = 2131230770;
-			
-			// aapt resource value: 0x7F080033
-			public const int action_menu_divider = 2131230771;
-			
-			// aapt resource value: 0x7F080034
-			public const int action_menu_presenter = 2131230772;
-			
-			// aapt resource value: 0x7F080035
-			public const int action_mode_bar = 2131230773;
-			
-			// aapt resource value: 0x7F080036
-			public const int action_mode_bar_stub = 2131230774;
-			
-			// aapt resource value: 0x7F080037
-			public const int action_mode_close_button = 2131230775;
-			
-			// aapt resource value: 0x7F080038
-			public const int action_text = 2131230776;
-			
-			// aapt resource value: 0x7F08003A
-			public const int activity_chooser_view_content = 2131230778;
+			public const int action0 = 2131230761;
 			
 			// aapt resource value: 0x7F08003B
-			public const int add = 2131230779;
+			public const int actions = 2131230779;
+			
+			// aapt resource value: 0x7F08002A
+			public const int action_bar = 2131230762;
+			
+			// aapt resource value: 0x7F08002B
+			public const int action_bar_activity_content = 2131230763;
+			
+			// aapt resource value: 0x7F08002C
+			public const int action_bar_container = 2131230764;
+			
+			// aapt resource value: 0x7F08002D
+			public const int action_bar_root = 2131230765;
+			
+			// aapt resource value: 0x7F08002E
+			public const int action_bar_spinner = 2131230766;
+			
+			// aapt resource value: 0x7F08002F
+			public const int action_bar_subtitle = 2131230767;
+			
+			// aapt resource value: 0x7F080030
+			public const int action_bar_title = 2131230768;
+			
+			// aapt resource value: 0x7F080031
+			public const int action_container = 2131230769;
+			
+			// aapt resource value: 0x7F080032
+			public const int action_context_bar = 2131230770;
+			
+			// aapt resource value: 0x7F080033
+			public const int action_divider = 2131230771;
+			
+			// aapt resource value: 0x7F080034
+			public const int action_image = 2131230772;
+			
+			// aapt resource value: 0x7F080035
+			public const int action_menu_divider = 2131230773;
+			
+			// aapt resource value: 0x7F080036
+			public const int action_menu_presenter = 2131230774;
+			
+			// aapt resource value: 0x7F080037
+			public const int action_mode_bar = 2131230775;
+			
+			// aapt resource value: 0x7F080038
+			public const int action_mode_bar_stub = 2131230776;
+			
+			// aapt resource value: 0x7F080039
+			public const int action_mode_close_button = 2131230777;
+			
+			// aapt resource value: 0x7F08003A
+			public const int action_text = 2131230778;
 			
 			// aapt resource value: 0x7F08003C
-			public const int adjust_height = 2131230780;
+			public const int activity_chooser_view_content = 2131230780;
 			
 			// aapt resource value: 0x7F08003D
-			public const int adjust_width = 2131230781;
+			public const int add = 2131230781;
 			
 			// aapt resource value: 0x7F08003E
-			public const int alertTitle = 2131230782;
+			public const int adjust_height = 2131230782;
 			
 			// aapt resource value: 0x7F08003F
-			public const int all = 2131230783;
+			public const int adjust_width = 2131230783;
+			
+			// aapt resource value: 0x7F080040
+			public const int alertTitle = 2131230784;
+			
+			// aapt resource value: 0x7F080041
+			public const int all = 2131230785;
 			
 			// aapt resource value: 0x7F080000
 			public const int ALT = 2131230720;
 			
-			// aapt resource value: 0x7F080040
-			public const int always = 2131230784;
-			
-			// aapt resource value: 0x7F080041
-			public const int async = 2131230785;
-			
 			// aapt resource value: 0x7F080042
-			public const int auto = 2131230786;
+			public const int always = 2131230786;
 			
 			// aapt resource value: 0x7F080043
-			public const int beginning = 2131230787;
+			public const int async = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int blocking = 2131230788;
+			public const int auto = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int bottom = 2131230789;
+			public const int beginning = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int bottomtab_navarea = 2131230790;
+			public const int blocking = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int bottomtab_tabbar = 2131230791;
+			public const int bottom = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int browser_actions_header_text = 2131230792;
-			
-			// aapt resource value: 0x7F08004B
-			public const int browser_actions_menu_items = 2131230795;
+			public const int bottomtab_navarea = 2131230792;
 			
 			// aapt resource value: 0x7F080049
-			public const int browser_actions_menu_item_icon = 2131230793;
+			public const int bottomtab_tabbar = 2131230793;
 			
 			// aapt resource value: 0x7F08004A
-			public const int browser_actions_menu_item_text = 2131230794;
-			
-			// aapt resource value: 0x7F08004C
-			public const int browser_actions_menu_view = 2131230796;
+			public const int browser_actions_header_text = 2131230794;
 			
 			// aapt resource value: 0x7F08004D
-			public const int buttonPanel = 2131230797;
+			public const int browser_actions_menu_items = 2131230797;
+			
+			// aapt resource value: 0x7F08004B
+			public const int browser_actions_menu_item_icon = 2131230795;
+			
+			// aapt resource value: 0x7F08004C
+			public const int browser_actions_menu_item_text = 2131230796;
 			
 			// aapt resource value: 0x7F08004E
-			public const int cancel_action = 2131230798;
+			public const int browser_actions_menu_view = 2131230798;
 			
 			// aapt resource value: 0x7F08004F
-			public const int center = 2131230799;
+			public const int buttonPanel = 2131230799;
 			
 			// aapt resource value: 0x7F080050
-			public const int center_horizontal = 2131230800;
+			public const int cancel_action = 2131230800;
 			
 			// aapt resource value: 0x7F080051
-			public const int center_vertical = 2131230801;
+			public const int center = 2131230801;
 			
 			// aapt resource value: 0x7F080052
-			public const int checkbox = 2131230802;
+			public const int center_horizontal = 2131230802;
 			
 			// aapt resource value: 0x7F080053
-			public const int @checked = 2131230803;
+			public const int center_vertical = 2131230803;
 			
 			// aapt resource value: 0x7F080054
-			public const int chronometer = 2131230804;
+			public const int checkbox = 2131230804;
 			
 			// aapt resource value: 0x7F080055
-			public const int clip_horizontal = 2131230805;
+			public const int @checked = 2131230805;
 			
 			// aapt resource value: 0x7F080056
-			public const int clip_vertical = 2131230806;
+			public const int chronometer = 2131230806;
 			
 			// aapt resource value: 0x7F080057
-			public const int collapseActionView = 2131230807;
+			public const int clip_horizontal = 2131230807;
 			
 			// aapt resource value: 0x7F080058
-			public const int container = 2131230808;
+			public const int clip_vertical = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int content = 2131230809;
+			public const int collapseActionView = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int contentPanel = 2131230810;
+			public const int container = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int coordinator = 2131230811;
+			public const int content = 2131230811;
+			
+			// aapt resource value: 0x7F08005C
+			public const int contentPanel = 2131230812;
+			
+			// aapt resource value: 0x7F08005D
+			public const int coordinator = 2131230813;
 			
 			// aapt resource value: 0x7F080001
 			public const int CTRL = 2131230721;
 			
-			// aapt resource value: 0x7F08005C
-			public const int custom = 2131230812;
-			
-			// aapt resource value: 0x7F08005D
-			public const int customPanel = 2131230813;
-			
 			// aapt resource value: 0x7F08005E
-			public const int dark = 2131230814;
+			public const int custom = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int decor_content_parent = 2131230815;
+			public const int customPanel = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int default_activity_button = 2131230816;
+			public const int dark = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int design_bottom_sheet = 2131230817;
+			public const int decor_content_parent = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int design_menu_item_action_area = 2131230818;
+			public const int default_activity_button = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int design_menu_item_action_area_stub = 2131230819;
+			public const int design_bottom_sheet = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int design_menu_item_text = 2131230820;
+			public const int design_menu_item_action_area = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int design_navigation_view = 2131230821;
+			public const int design_menu_item_action_area_stub = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int dialog_button = 2131230822;
+			public const int design_menu_item_text = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int disableHome = 2131230823;
+			public const int design_navigation_view = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int edit_query = 2131230824;
+			public const int dialog_button = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int end = 2131230825;
+			public const int disableHome = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int end_padder = 2131230826;
+			public const int edit_query = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int enterAlways = 2131230827;
+			public const int end = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int enterAlwaysCollapsed = 2131230828;
+			public const int end_padder = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int exitUntilCollapsed = 2131230829;
-			
-			// aapt resource value: 0x7F08006F
-			public const int expanded_menu = 2131230831;
+			public const int enterAlways = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int expand_activities_button = 2131230830;
+			public const int enterAlwaysCollapsed = 2131230830;
 			
-			// aapt resource value: 0x7F080070
-			public const int fill = 2131230832;
-			
-			// aapt resource value: 0x7F080073
-			public const int filled = 2131230835;
+			// aapt resource value: 0x7F08006F
+			public const int exitUntilCollapsed = 2131230831;
 			
 			// aapt resource value: 0x7F080071
-			public const int fill_horizontal = 2131230833;
+			public const int expanded_menu = 2131230833;
+			
+			// aapt resource value: 0x7F080070
+			public const int expand_activities_button = 2131230832;
 			
 			// aapt resource value: 0x7F080072
-			public const int fill_vertical = 2131230834;
-			
-			// aapt resource value: 0x7F080074
-			public const int @fixed = 2131230836;
+			public const int fill = 2131230834;
 			
 			// aapt resource value: 0x7F080075
-			public const int flyoutcontent_appbar = 2131230837;
+			public const int filled = 2131230837;
+			
+			// aapt resource value: 0x7F080073
+			public const int fill_horizontal = 2131230835;
+			
+			// aapt resource value: 0x7F080074
+			public const int fill_vertical = 2131230836;
 			
 			// aapt resource value: 0x7F080076
-			public const int flyoutcontent_recycler = 2131230838;
+			public const int @fixed = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int forever = 2131230839;
+			public const int flyoutcontent_appbar = 2131230839;
+			
+			// aapt resource value: 0x7F080078
+			public const int flyoutcontent_recycler = 2131230840;
+			
+			// aapt resource value: 0x7F080079
+			public const int forever = 2131230841;
+			
+			// aapt resource value: 0x7F08007A
+			public const int fragment_container_view_tag = 2131230842;
 			
 			// aapt resource value: 0x7F080002
 			public const int FUNCTION = 2131230722;
 			
-			// aapt resource value: 0x7F080078
-			public const int ghost_view = 2131230840;
-			
-			// aapt resource value: 0x7F080079
-			public const int ghost_view_holder = 2131230841;
-			
-			// aapt resource value: 0x7F08007A
-			public const int group_divider = 2131230842;
-			
 			// aapt resource value: 0x7F08007B
-			public const int home = 2131230843;
+			public const int ghost_view = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int homeAsUp = 2131230844;
+			public const int ghost_view_holder = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int hybrid = 2131230845;
+			public const int group_divider = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int icon = 2131230846;
+			public const int home = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int icon_group = 2131230847;
+			public const int homeAsUp = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int icon_only = 2131230848;
+			public const int hybrid = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int ifRoom = 2131230849;
+			public const int icon = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int image = 2131230850;
+			public const int icon_frame = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int info = 2131230851;
+			public const int icon_group = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int italic = 2131230852;
+			public const int icon_only = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int item_touch_helper_previous_elevation = 2131230853;
+			public const int ifRoom = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int labeled = 2131230854;
+			public const int image = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int largeLabel = 2131230855;
+			public const int info = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int left = 2131230856;
+			public const int italic = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int light = 2131230857;
+			public const int item_touch_helper_previous_elevation = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int line1 = 2131230858;
+			public const int labeled = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int line3 = 2131230859;
+			public const int largeLabel = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int listMode = 2131230860;
+			public const int left = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int list_item = 2131230861;
+			public const int light = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int main_appbar = 2131230862;
+			public const int line1 = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int main_tablayout = 2131230863;
+			public const int line3 = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int main_toolbar = 2131230864;
+			public const int listMode = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int main_viewpager = 2131230865;
+			public const int list_item = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int masked = 2131230866;
+			public const int main_appbar = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int media_actions = 2131230867;
+			public const int main_tablayout = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int media_controller_compat_view_tag = 2131230868;
+			public const int main_toolbar = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int message = 2131230869;
+			public const int main_viewpager = 2131230869;
+			
+			// aapt resource value: 0x7F080096
+			public const int masked = 2131230870;
+			
+			// aapt resource value: 0x7F080097
+			public const int media_actions = 2131230871;
+			
+			// aapt resource value: 0x7F080098
+			public const int media_controller_compat_view_tag = 2131230872;
+			
+			// aapt resource value: 0x7F080099
+			public const int message = 2131230873;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F080096
-			public const int middle = 2131230870;
-			
-			// aapt resource value: 0x7F080097
-			public const int mini = 2131230871;
-			
-			// aapt resource value: 0x7F080098
-			public const int mr_art = 2131230872;
-			
-			// aapt resource value: 0x7F080099
-			public const int mr_cast_checkbox = 2131230873;
-			
 			// aapt resource value: 0x7F08009A
-			public const int mr_cast_close_button = 2131230874;
+			public const int middle = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int mr_cast_divider = 2131230875;
+			public const int mini = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int mr_cast_group_icon = 2131230876;
+			public const int mr_art = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int mr_cast_group_name = 2131230877;
+			public const int mr_cast_checkbox = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int mr_cast_group_progress_bar = 2131230878;
+			public const int mr_cast_close_button = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int mr_cast_header_name = 2131230879;
+			public const int mr_cast_divider = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int mr_cast_list = 2131230880;
+			public const int mr_cast_group_icon = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int mr_cast_meta_art = 2131230881;
+			public const int mr_cast_group_name = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int mr_cast_meta_background = 2131230882;
+			public const int mr_cast_group_progress_bar = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int mr_cast_meta_black_scrim = 2131230883;
+			public const int mr_cast_header_name = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int mr_cast_meta_subtitle = 2131230884;
+			public const int mr_cast_list = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int mr_cast_meta_title = 2131230885;
+			public const int mr_cast_meta_art = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int mr_cast_mute_button = 2131230886;
+			public const int mr_cast_meta_background = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int mr_cast_route_icon = 2131230887;
+			public const int mr_cast_meta_black_scrim = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int mr_cast_route_name = 2131230888;
+			public const int mr_cast_meta_subtitle = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int mr_cast_route_progress_bar = 2131230889;
+			public const int mr_cast_meta_title = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int mr_cast_stop_button = 2131230890;
+			public const int mr_cast_mute_button = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int mr_cast_volume_layout = 2131230891;
+			public const int mr_cast_route_icon = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int mr_cast_volume_slider = 2131230892;
+			public const int mr_cast_route_name = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int mr_chooser_list = 2131230893;
+			public const int mr_cast_route_progress_bar = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int mr_chooser_route_desc = 2131230894;
+			public const int mr_cast_stop_button = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int mr_chooser_route_icon = 2131230895;
+			public const int mr_cast_volume_layout = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int mr_chooser_route_name = 2131230896;
+			public const int mr_cast_volume_slider = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int mr_chooser_title = 2131230897;
+			public const int mr_chooser_list = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int mr_close = 2131230898;
+			public const int mr_chooser_route_desc = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int mr_control_divider = 2131230899;
+			public const int mr_chooser_route_icon = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int mr_control_playback_ctrl = 2131230900;
+			public const int mr_chooser_route_name = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int mr_control_subtitle = 2131230901;
+			public const int mr_chooser_title = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int mr_control_title = 2131230902;
+			public const int mr_close = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int mr_control_title_container = 2131230903;
+			public const int mr_control_divider = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int mr_custom_control = 2131230904;
+			public const int mr_control_playback_ctrl = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int mr_default_control = 2131230905;
+			public const int mr_control_subtitle = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int mr_dialog_area = 2131230906;
+			public const int mr_control_title = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int mr_expandable_area = 2131230907;
+			public const int mr_control_title_container = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int mr_group_expand_collapse = 2131230908;
+			public const int mr_custom_control = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int mr_group_volume_route_name = 2131230909;
+			public const int mr_default_control = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int mr_media_main_control = 2131230910;
+			public const int mr_dialog_area = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int mr_name = 2131230911;
+			public const int mr_expandable_area = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int mr_picker_close_button = 2131230912;
+			public const int mr_group_expand_collapse = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int mr_picker_header_name = 2131230913;
+			public const int mr_group_volume_route_name = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int mr_picker_list = 2131230914;
+			public const int mr_media_main_control = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int mr_picker_route_icon = 2131230915;
+			public const int mr_name = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int mr_picker_route_name = 2131230916;
+			public const int mr_picker_close_button = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int mr_picker_route_progress_bar = 2131230917;
+			public const int mr_picker_header_name = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int mr_playback_control = 2131230918;
+			public const int mr_picker_list = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int mr_title_bar = 2131230919;
+			public const int mr_picker_route_icon = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int mr_volume_control = 2131230920;
+			public const int mr_picker_route_name = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int mr_volume_group_list = 2131230921;
+			public const int mr_picker_route_progress_bar = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int mr_volume_item_icon = 2131230922;
+			public const int mr_playback_control = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int mr_volume_slider = 2131230923;
+			public const int mr_title_bar = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int mtrl_child_content_container = 2131230924;
+			public const int mr_volume_control = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int mtrl_internal_children_alpha_tag = 2131230925;
+			public const int mr_volume_group_list = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int multiply = 2131230926;
+			public const int mr_volume_item_icon = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int navigation_header_container = 2131230927;
+			public const int mr_volume_slider = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int never = 2131230928;
+			public const int mtrl_child_content_container = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int none = 2131230929;
+			public const int mtrl_internal_children_alpha_tag = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int normal = 2131230930;
-			
-			// aapt resource value: 0x7F0800D3
-			public const int notification_background = 2131230931;
-			
-			// aapt resource value: 0x7F0800D4
-			public const int notification_main_column = 2131230932;
-			
-			// aapt resource value: 0x7F0800D5
-			public const int notification_main_column_container = 2131230933;
-			
-			// aapt resource value: 0x7F0800D6
-			public const int off = 2131230934;
-			
-			// aapt resource value: 0x7F0800D7
-			public const int on = 2131230935;
-			
-			// aapt resource value: 0x7F0800D8
-			public const int outline = 2131230936;
-			
-			// aapt resource value: 0x7F0800D9
-			public const int parallax = 2131230937;
-			
-			// aapt resource value: 0x7F0800DA
-			public const int parentPanel = 2131230938;
-			
-			// aapt resource value: 0x7F0800DB
-			public const int parent_matrix = 2131230939;
-			
-			// aapt resource value: 0x7F0800DC
-			public const int pin = 2131230940;
-			
-			// aapt resource value: 0x7F0800DD
-			public const int progress_circular = 2131230941;
-			
-			// aapt resource value: 0x7F0800DE
-			public const int progress_horizontal = 2131230942;
-			
-			// aapt resource value: 0x7F0800DF
-			public const int radio = 2131230943;
-			
-			// aapt resource value: 0x7F0800E0
-			public const int right = 2131230944;
-			
-			// aapt resource value: 0x7F0800E1
-			public const int right_icon = 2131230945;
-			
-			// aapt resource value: 0x7F0800E2
-			public const int right_side = 2131230946;
-			
-			// aapt resource value: 0x7F0800E3
-			public const int satellite = 2131230947;
-			
-			// aapt resource value: 0x7F0800E4
-			public const int save_non_transition_alpha = 2131230948;
-			
-			// aapt resource value: 0x7F0800E5
-			public const int save_overlay_view = 2131230949;
-			
-			// aapt resource value: 0x7F0800E6
-			public const int screen = 2131230950;
-			
-			// aapt resource value: 0x7F0800E7
-			public const int scroll = 2131230951;
-			
-			// aapt resource value: 0x7F0800EB
-			public const int scrollable = 2131230955;
-			
-			// aapt resource value: 0x7F0800E8
-			public const int scrollIndicatorDown = 2131230952;
-			
-			// aapt resource value: 0x7F0800E9
-			public const int scrollIndicatorUp = 2131230953;
-			
-			// aapt resource value: 0x7F0800EA
-			public const int scrollView = 2131230954;
-			
-			// aapt resource value: 0x7F0800EC
-			public const int search_badge = 2131230956;
-			
-			// aapt resource value: 0x7F0800ED
-			public const int search_bar = 2131230957;
-			
-			// aapt resource value: 0x7F0800EE
-			public const int search_button = 2131230958;
-			
-			// aapt resource value: 0x7F0800EF
-			public const int search_close_btn = 2131230959;
-			
-			// aapt resource value: 0x7F0800F0
-			public const int search_edit_frame = 2131230960;
-			
-			// aapt resource value: 0x7F0800F1
-			public const int search_go_btn = 2131230961;
-			
-			// aapt resource value: 0x7F0800F2
-			public const int search_mag_icon = 2131230962;
-			
-			// aapt resource value: 0x7F0800F3
-			public const int search_plate = 2131230963;
-			
-			// aapt resource value: 0x7F0800F4
-			public const int search_src_text = 2131230964;
-			
-			// aapt resource value: 0x7F0800F5
-			public const int search_voice_btn = 2131230965;
-			
-			// aapt resource value: 0x7F0800F7
-			public const int selected = 2131230967;
-			
-			// aapt resource value: 0x7F0800F6
-			public const int select_dialog_listview = 2131230966;
-			
-			// aapt resource value: 0x7F0800F8
-			public const int shellcontent_appbar = 2131230968;
-			
-			// aapt resource value: 0x7F0800F9
-			public const int shellcontent_toolbar = 2131230969;
+			public const int multiply = 2131230930;
 			
 			// aapt resource value: 0x7F080004
-			public const int SHIFT = 2131230724;
-			
-			// aapt resource value: 0x7F0800FA
-			public const int shortcut = 2131230970;
-			
-			// aapt resource value: 0x7F0800FB
-			public const int showCustom = 2131230971;
-			
-			// aapt resource value: 0x7F0800FC
-			public const int showHome = 2131230972;
-			
-			// aapt resource value: 0x7F0800FD
-			public const int showTitle = 2131230973;
-			
-			// aapt resource value: 0x7F0800FE
-			public const int sliding_tabs = 2131230974;
-			
-			// aapt resource value: 0x7F0800FF
-			public const int smallLabel = 2131230975;
-			
-			// aapt resource value: 0x7F080100
-			public const int snackbar_action = 2131230976;
-			
-			// aapt resource value: 0x7F080101
-			public const int snackbar_text = 2131230977;
-			
-			// aapt resource value: 0x7F080102
-			public const int snap = 2131230978;
-			
-			// aapt resource value: 0x7F080103
-			public const int snapMargins = 2131230979;
-			
-			// aapt resource value: 0x7F080104
-			public const int spacer = 2131230980;
-			
-			// aapt resource value: 0x7F080105
-			public const int split_action_bar = 2131230981;
-			
-			// aapt resource value: 0x7F080106
-			public const int src_atop = 2131230982;
-			
-			// aapt resource value: 0x7F080107
-			public const int src_in = 2131230983;
-			
-			// aapt resource value: 0x7F080108
-			public const int src_over = 2131230984;
-			
-			// aapt resource value: 0x7F080109
-			public const int standard = 2131230985;
-			
-			// aapt resource value: 0x7F08010A
-			public const int start = 2131230986;
-			
-			// aapt resource value: 0x7F08010B
-			public const int status_bar_latest_event_content = 2131230987;
-			
-			// aapt resource value: 0x7F08010C
-			public const int stretch = 2131230988;
-			
-			// aapt resource value: 0x7F08010D
-			public const int submenuarrow = 2131230989;
-			
-			// aapt resource value: 0x7F08010E
-			public const int submit_area = 2131230990;
+			public const int MvvmCrossTagId = 2131230724;
 			
 			// aapt resource value: 0x7F080005
-			public const int SYM = 2131230725;
+			public const int MvxBindingTagUnique = 2131230725;
+			
+			// aapt resource value: 0x7F0800D3
+			public const int navigation_header_container = 2131230931;
+			
+			// aapt resource value: 0x7F0800D4
+			public const int never = 2131230932;
+			
+			// aapt resource value: 0x7F0800D5
+			public const int none = 2131230933;
+			
+			// aapt resource value: 0x7F0800D6
+			public const int normal = 2131230934;
+			
+			// aapt resource value: 0x7F0800D7
+			public const int notification_background = 2131230935;
+			
+			// aapt resource value: 0x7F0800D8
+			public const int notification_main_column = 2131230936;
+			
+			// aapt resource value: 0x7F0800D9
+			public const int notification_main_column_container = 2131230937;
+			
+			// aapt resource value: 0x7F0800DA
+			public const int off = 2131230938;
+			
+			// aapt resource value: 0x7F0800DB
+			public const int on = 2131230939;
+			
+			// aapt resource value: 0x7F0800DC
+			public const int outline = 2131230940;
+			
+			// aapt resource value: 0x7F0800DD
+			public const int parallax = 2131230941;
+			
+			// aapt resource value: 0x7F0800DE
+			public const int parentPanel = 2131230942;
+			
+			// aapt resource value: 0x7F0800DF
+			public const int parent_matrix = 2131230943;
+			
+			// aapt resource value: 0x7F0800E0
+			public const int pin = 2131230944;
+			
+			// aapt resource value: 0x7F0800E1
+			public const int progress_circular = 2131230945;
+			
+			// aapt resource value: 0x7F0800E2
+			public const int progress_horizontal = 2131230946;
+			
+			// aapt resource value: 0x7F0800E3
+			public const int radio = 2131230947;
+			
+			// aapt resource value: 0x7F0800E4
+			public const int recycler_view = 2131230948;
+			
+			// aapt resource value: 0x7F0800E5
+			public const int right = 2131230949;
+			
+			// aapt resource value: 0x7F0800E6
+			public const int right_icon = 2131230950;
+			
+			// aapt resource value: 0x7F0800E7
+			public const int right_side = 2131230951;
+			
+			// aapt resource value: 0x7F0800E8
+			public const int satellite = 2131230952;
+			
+			// aapt resource value: 0x7F0800E9
+			public const int save_non_transition_alpha = 2131230953;
+			
+			// aapt resource value: 0x7F0800EA
+			public const int save_overlay_view = 2131230954;
+			
+			// aapt resource value: 0x7F0800EB
+			public const int screen = 2131230955;
+			
+			// aapt resource value: 0x7F0800EC
+			public const int scroll = 2131230956;
+			
+			// aapt resource value: 0x7F0800F0
+			public const int scrollable = 2131230960;
+			
+			// aapt resource value: 0x7F0800ED
+			public const int scrollIndicatorDown = 2131230957;
+			
+			// aapt resource value: 0x7F0800EE
+			public const int scrollIndicatorUp = 2131230958;
+			
+			// aapt resource value: 0x7F0800EF
+			public const int scrollView = 2131230959;
+			
+			// aapt resource value: 0x7F0800F1
+			public const int search_badge = 2131230961;
+			
+			// aapt resource value: 0x7F0800F2
+			public const int search_bar = 2131230962;
+			
+			// aapt resource value: 0x7F0800F3
+			public const int search_button = 2131230963;
+			
+			// aapt resource value: 0x7F0800F4
+			public const int search_close_btn = 2131230964;
+			
+			// aapt resource value: 0x7F0800F5
+			public const int search_edit_frame = 2131230965;
+			
+			// aapt resource value: 0x7F0800F6
+			public const int search_go_btn = 2131230966;
+			
+			// aapt resource value: 0x7F0800F7
+			public const int search_mag_icon = 2131230967;
+			
+			// aapt resource value: 0x7F0800F8
+			public const int search_plate = 2131230968;
+			
+			// aapt resource value: 0x7F0800F9
+			public const int search_src_text = 2131230969;
+			
+			// aapt resource value: 0x7F0800FA
+			public const int search_voice_btn = 2131230970;
+			
+			// aapt resource value: 0x7F0800FB
+			public const int seekbar = 2131230971;
+			
+			// aapt resource value: 0x7F0800FC
+			public const int seekbar_value = 2131230972;
+			
+			// aapt resource value: 0x7F0800FE
+			public const int selected = 2131230974;
+			
+			// aapt resource value: 0x7F0800FD
+			public const int select_dialog_listview = 2131230973;
+			
+			// aapt resource value: 0x7F0800FF
+			public const int shellcontent_appbar = 2131230975;
+			
+			// aapt resource value: 0x7F080100
+			public const int shellcontent_toolbar = 2131230976;
+			
+			// aapt resource value: 0x7F080006
+			public const int SHIFT = 2131230726;
+			
+			// aapt resource value: 0x7F080101
+			public const int shortcut = 2131230977;
+			
+			// aapt resource value: 0x7F080102
+			public const int showCustom = 2131230978;
+			
+			// aapt resource value: 0x7F080103
+			public const int showHome = 2131230979;
+			
+			// aapt resource value: 0x7F080104
+			public const int showTitle = 2131230980;
+			
+			// aapt resource value: 0x7F080105
+			public const int sliding_tabs = 2131230981;
+			
+			// aapt resource value: 0x7F080106
+			public const int smallLabel = 2131230982;
+			
+			// aapt resource value: 0x7F080107
+			public const int snackbar_action = 2131230983;
+			
+			// aapt resource value: 0x7F080108
+			public const int snackbar_text = 2131230984;
+			
+			// aapt resource value: 0x7F080109
+			public const int snap = 2131230985;
+			
+			// aapt resource value: 0x7F08010A
+			public const int snapMargins = 2131230986;
+			
+			// aapt resource value: 0x7F08010B
+			public const int spacer = 2131230987;
+			
+			// aapt resource value: 0x7F08010C
+			public const int spinner = 2131230988;
+			
+			// aapt resource value: 0x7F08010D
+			public const int split_action_bar = 2131230989;
+			
+			// aapt resource value: 0x7F08010E
+			public const int src_atop = 2131230990;
 			
 			// aapt resource value: 0x7F08010F
-			public const int tabMode = 2131230991;
+			public const int src_in = 2131230991;
 			
 			// aapt resource value: 0x7F080110
-			public const int tag_accessibility_actions = 2131230992;
+			public const int src_over = 2131230992;
 			
 			// aapt resource value: 0x7F080111
-			public const int tag_accessibility_clickable_spans = 2131230993;
+			public const int standard = 2131230993;
 			
 			// aapt resource value: 0x7F080112
-			public const int tag_accessibility_heading = 2131230994;
+			public const int start = 2131230994;
 			
 			// aapt resource value: 0x7F080113
-			public const int tag_accessibility_pane_title = 2131230995;
+			public const int status_bar_latest_event_content = 2131230995;
 			
 			// aapt resource value: 0x7F080114
-			public const int tag_screen_reader_focusable = 2131230996;
+			public const int stretch = 2131230996;
 			
 			// aapt resource value: 0x7F080115
-			public const int tag_transition_group = 2131230997;
+			public const int submenuarrow = 2131230997;
 			
 			// aapt resource value: 0x7F080116
-			public const int tag_unhandled_key_event_manager = 2131230998;
+			public const int submit_area = 2131230998;
 			
 			// aapt resource value: 0x7F080117
-			public const int tag_unhandled_key_listeners = 2131230999;
+			public const int switchWidget = 2131230999;
+			
+			// aapt resource value: 0x7F080007
+			public const int SYM = 2131230727;
 			
 			// aapt resource value: 0x7F080118
-			public const int terrain = 2131231000;
+			public const int tabMode = 2131231000;
 			
 			// aapt resource value: 0x7F080119
-			public const int text = 2131231001;
+			public const int tag_accessibility_actions = 2131231001;
 			
 			// aapt resource value: 0x7F08011A
-			public const int text2 = 2131231002;
-			
-			// aapt resource value: 0x7F08011F
-			public const int textinput_counter = 2131231007;
-			
-			// aapt resource value: 0x7F080120
-			public const int textinput_error = 2131231008;
-			
-			// aapt resource value: 0x7F080121
-			public const int textinput_helper_text = 2131231009;
+			public const int tag_accessibility_clickable_spans = 2131231002;
 			
 			// aapt resource value: 0x7F08011B
-			public const int textSpacerNoButtons = 2131231003;
+			public const int tag_accessibility_heading = 2131231003;
 			
 			// aapt resource value: 0x7F08011C
-			public const int textSpacerNoTitle = 2131231004;
+			public const int tag_accessibility_pane_title = 2131231004;
 			
 			// aapt resource value: 0x7F08011D
-			public const int textStart = 2131231005;
+			public const int tag_screen_reader_focusable = 2131231005;
 			
 			// aapt resource value: 0x7F08011E
-			public const int text_input_password_toggle = 2131231006;
+			public const int tag_transition_group = 2131231006;
+			
+			// aapt resource value: 0x7F08011F
+			public const int tag_unhandled_key_event_manager = 2131231007;
+			
+			// aapt resource value: 0x7F080120
+			public const int tag_unhandled_key_listeners = 2131231008;
+			
+			// aapt resource value: 0x7F080121
+			public const int terrain = 2131231009;
 			
 			// aapt resource value: 0x7F080122
-			public const int time = 2131231010;
+			public const int text = 2131231010;
 			
 			// aapt resource value: 0x7F080123
-			public const int title = 2131231011;
-			
-			// aapt resource value: 0x7F080124
-			public const int titleDividerNoCustom = 2131231012;
-			
-			// aapt resource value: 0x7F080125
-			public const int title_template = 2131231013;
-			
-			// aapt resource value: 0x7F080126
-			public const int toolbar = 2131231014;
-			
-			// aapt resource value: 0x7F080127
-			public const int top = 2131231015;
+			public const int text2 = 2131231011;
 			
 			// aapt resource value: 0x7F080128
-			public const int topPanel = 2131231016;
+			public const int textinput_counter = 2131231016;
 			
 			// aapt resource value: 0x7F080129
-			public const int touch_outside = 2131231017;
+			public const int textinput_error = 2131231017;
 			
 			// aapt resource value: 0x7F08012A
-			public const int transition_current_scene = 2131231018;
+			public const int textinput_helper_text = 2131231018;
+			
+			// aapt resource value: 0x7F080124
+			public const int textSpacerNoButtons = 2131231012;
+			
+			// aapt resource value: 0x7F080125
+			public const int textSpacerNoTitle = 2131231013;
+			
+			// aapt resource value: 0x7F080126
+			public const int textStart = 2131231014;
+			
+			// aapt resource value: 0x7F080127
+			public const int text_input_password_toggle = 2131231015;
 			
 			// aapt resource value: 0x7F08012B
-			public const int transition_layout_save = 2131231019;
+			public const int time = 2131231019;
 			
 			// aapt resource value: 0x7F08012C
-			public const int transition_position = 2131231020;
+			public const int title = 2131231020;
 			
 			// aapt resource value: 0x7F08012D
-			public const int transition_scene_layoutid_cache = 2131231021;
+			public const int titleDividerNoCustom = 2131231021;
 			
 			// aapt resource value: 0x7F08012E
-			public const int transition_transform = 2131231022;
+			public const int title_template = 2131231022;
 			
 			// aapt resource value: 0x7F08012F
-			public const int @unchecked = 2131231023;
+			public const int toolbar = 2131231023;
 			
 			// aapt resource value: 0x7F080130
-			public const int uniform = 2131231024;
+			public const int top = 2131231024;
 			
 			// aapt resource value: 0x7F080131
-			public const int unlabeled = 2131231025;
+			public const int topPanel = 2131231025;
 			
 			// aapt resource value: 0x7F080132
-			public const int up = 2131231026;
+			public const int touch_outside = 2131231026;
 			
 			// aapt resource value: 0x7F080133
-			public const int useLogo = 2131231027;
+			public const int transition_current_scene = 2131231027;
 			
 			// aapt resource value: 0x7F080134
-			public const int view_offset_helper = 2131231028;
+			public const int transition_layout_save = 2131231028;
 			
 			// aapt resource value: 0x7F080135
-			public const int visible = 2131231029;
+			public const int transition_position = 2131231029;
 			
 			// aapt resource value: 0x7F080136
-			public const int volume_item_container = 2131231030;
+			public const int transition_scene_layoutid_cache = 2131231030;
 			
 			// aapt resource value: 0x7F080137
-			public const int wide = 2131231031;
+			public const int transition_transform = 2131231031;
 			
 			// aapt resource value: 0x7F080138
-			public const int withText = 2131231032;
+			public const int @unchecked = 2131231032;
 			
 			// aapt resource value: 0x7F080139
-			public const int wrap_content = 2131231033;
+			public const int uniform = 2131231033;
+			
+			// aapt resource value: 0x7F08013A
+			public const int unlabeled = 2131231034;
+			
+			// aapt resource value: 0x7F08013B
+			public const int up = 2131231035;
+			
+			// aapt resource value: 0x7F08013C
+			public const int useLogo = 2131231036;
+			
+			// aapt resource value: 0x7F08013D
+			public const int view_offset_helper = 2131231037;
+			
+			// aapt resource value: 0x7F08013E
+			public const int view_tree_saved_state_registry_owner = 2131231038;
+			
+			// aapt resource value: 0x7F08013F
+			public const int visible = 2131231039;
+			
+			// aapt resource value: 0x7F080140
+			public const int visible_removing_fragment_view_tag = 2131231040;
+			
+			// aapt resource value: 0x7F080141
+			public const int volume_item_container = 2131231041;
+			
+			// aapt resource value: 0x7F080142
+			public const int wide = 2131231042;
+			
+			// aapt resource value: 0x7F080143
+			public const int withText = 2131231043;
+			
+			// aapt resource value: 0x7F080144
+			public const int wrap_content = 2131231044;
 			
 			static Id()
 			{
@@ -13720,133 +16918,187 @@ namespace PizzaIllico.Mobile.Android
 			public const int design_text_input_password_icon = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int FallbackTabbarDoNotUse = 2131427374;
+			public const int expand_button = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int FallbackToolbarDoNotUse = 2131427375;
+			public const int FallbackTabbarDoNotUse = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int FlyoutContent = 2131427376;
+			public const int FallbackToolbarDoNotUse = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int mr_cast_dialog = 2131427377;
+			public const int FlyoutContent = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int mr_cast_group_item = 2131427378;
+			public const int image_frame = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int mr_cast_group_volume_item = 2131427379;
+			public const int mr_cast_dialog = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int mr_cast_header_item = 2131427380;
+			public const int mr_cast_group_item = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int mr_cast_media_metadata = 2131427381;
+			public const int mr_cast_group_volume_item = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int mr_cast_route_item = 2131427382;
+			public const int mr_cast_header_item = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int mr_chooser_dialog = 2131427383;
+			public const int mr_cast_media_metadata = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int mr_chooser_list_item = 2131427384;
+			public const int mr_cast_route_item = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int mr_controller_material_dialog_b = 2131427385;
+			public const int mr_chooser_dialog = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int mr_controller_volume_item = 2131427386;
+			public const int mr_chooser_list_item = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int mr_picker_dialog = 2131427387;
+			public const int mr_controller_material_dialog_b = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int mr_picker_header_item = 2131427388;
+			public const int mr_controller_volume_item = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int mr_picker_route_item = 2131427389;
+			public const int mr_picker_dialog = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int mr_playback_control = 2131427390;
+			public const int mr_picker_header_item = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int mr_volume_control = 2131427391;
+			public const int mr_picker_route_item = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int mtrl_layout_snackbar = 2131427392;
+			public const int mr_playback_control = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int mtrl_layout_snackbar_include = 2131427393;
+			public const int mr_volume_control = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int notification_action = 2131427394;
+			public const int mtrl_layout_snackbar = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int notification_action_tombstone = 2131427395;
+			public const int mtrl_layout_snackbar_include = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int notification_media_action = 2131427396;
+			public const int notification_action = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int notification_media_cancel_action = 2131427397;
+			public const int notification_action_tombstone = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int notification_template_big_media = 2131427398;
+			public const int notification_media_action = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int notification_template_big_media_custom = 2131427399;
+			public const int notification_media_cancel_action = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int notification_template_big_media_narrow = 2131427400;
+			public const int notification_template_big_media = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int notification_template_big_media_narrow_custom = 2131427401;
+			public const int notification_template_big_media_custom = 2131427401;
 			
 			// aapt resource value: 0x7F0B004A
-			public const int notification_template_custom_big = 2131427402;
+			public const int notification_template_big_media_narrow = 2131427402;
 			
 			// aapt resource value: 0x7F0B004B
-			public const int notification_template_icon_group = 2131427403;
+			public const int notification_template_big_media_narrow_custom = 2131427403;
 			
 			// aapt resource value: 0x7F0B004C
-			public const int notification_template_lines_media = 2131427404;
+			public const int notification_template_custom_big = 2131427404;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int notification_template_media = 2131427405;
+			public const int notification_template_icon_group = 2131427405;
 			
 			// aapt resource value: 0x7F0B004E
-			public const int notification_template_media_custom = 2131427406;
+			public const int notification_template_lines_media = 2131427406;
 			
 			// aapt resource value: 0x7F0B004F
-			public const int notification_template_part_chronometer = 2131427407;
+			public const int notification_template_media = 2131427407;
 			
 			// aapt resource value: 0x7F0B0050
-			public const int notification_template_part_time = 2131427408;
+			public const int notification_template_media_custom = 2131427408;
 			
 			// aapt resource value: 0x7F0B0051
-			public const int RootLayout = 2131427409;
+			public const int notification_template_part_chronometer = 2131427409;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int select_dialog_item_material = 2131427410;
+			public const int notification_template_part_time = 2131427410;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int select_dialog_multichoice_material = 2131427411;
+			public const int preference = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int select_dialog_singlechoice_material = 2131427412;
+			public const int preference_category = 2131427412;
 			
 			// aapt resource value: 0x7F0B0055
-			public const int ShellContent = 2131427413;
+			public const int preference_category_material = 2131427413;
 			
 			// aapt resource value: 0x7F0B0056
-			public const int support_simple_spinner_dropdown_item = 2131427414;
+			public const int preference_dialog_edittext = 2131427414;
 			
 			// aapt resource value: 0x7F0B0057
-			public const int Tabbar = 2131427415;
+			public const int preference_dropdown = 2131427415;
 			
 			// aapt resource value: 0x7F0B0058
-			public const int Toolbar = 2131427416;
+			public const int preference_dropdown_material = 2131427416;
+			
+			// aapt resource value: 0x7F0B0059
+			public const int preference_information = 2131427417;
+			
+			// aapt resource value: 0x7F0B005A
+			public const int preference_information_material = 2131427418;
+			
+			// aapt resource value: 0x7F0B005B
+			public const int preference_list_fragment = 2131427419;
+			
+			// aapt resource value: 0x7F0B005C
+			public const int preference_material = 2131427420;
+			
+			// aapt resource value: 0x7F0B005D
+			public const int preference_recyclerview = 2131427421;
+			
+			// aapt resource value: 0x7F0B005E
+			public const int preference_widget_checkbox = 2131427422;
+			
+			// aapt resource value: 0x7F0B005F
+			public const int preference_widget_seekbar = 2131427423;
+			
+			// aapt resource value: 0x7F0B0060
+			public const int preference_widget_seekbar_material = 2131427424;
+			
+			// aapt resource value: 0x7F0B0061
+			public const int preference_widget_switch = 2131427425;
+			
+			// aapt resource value: 0x7F0B0062
+			public const int preference_widget_switch_compat = 2131427426;
+			
+			// aapt resource value: 0x7F0B0063
+			public const int RootLayout = 2131427427;
+			
+			// aapt resource value: 0x7F0B0064
+			public const int select_dialog_item_material = 2131427428;
+			
+			// aapt resource value: 0x7F0B0065
+			public const int select_dialog_multichoice_material = 2131427429;
+			
+			// aapt resource value: 0x7F0B0066
+			public const int select_dialog_singlechoice_material = 2131427430;
+			
+			// aapt resource value: 0x7F0B0067
+			public const int ShellContent = 2131427431;
+			
+			// aapt resource value: 0x7F0B0068
+			public const int support_simple_spinner_dropdown_item = 2131427432;
+			
+			// aapt resource value: 0x7F0B0069
+			public const int Tabbar = 2131427433;
+			
+			// aapt resource value: 0x7F0B006A
+			public const int Toolbar = 2131427434;
 			
 			static Layout()
 			{
@@ -14009,127 +17261,148 @@ namespace PizzaIllico.Mobile.Android
 			public const int common_signin_button_text_long = 2131492912;
 			
 			// aapt resource value: 0x7F0C0031
-			public const int copy_toast_msg = 2131492913;
+			public const int copy = 2131492913;
 			
 			// aapt resource value: 0x7F0C0032
-			public const int fab_transformation_scrim_behavior = 2131492914;
+			public const int copy_toast_msg = 2131492914;
 			
 			// aapt resource value: 0x7F0C0033
-			public const int fab_transformation_sheet_behavior = 2131492915;
+			public const int expand_button_title = 2131492915;
 			
 			// aapt resource value: 0x7F0C0034
-			public const int fallback_menu_item_copy_link = 2131492916;
+			public const int fab_transformation_scrim_behavior = 2131492916;
 			
 			// aapt resource value: 0x7F0C0035
-			public const int fallback_menu_item_open_in_browser = 2131492917;
+			public const int fab_transformation_sheet_behavior = 2131492917;
 			
 			// aapt resource value: 0x7F0C0036
-			public const int fallback_menu_item_share_link = 2131492918;
+			public const int fallback_menu_item_copy_link = 2131492918;
 			
 			// aapt resource value: 0x7F0C0037
-			public const int hide_bottom_view_on_scroll_behavior = 2131492919;
+			public const int fallback_menu_item_open_in_browser = 2131492919;
 			
 			// aapt resource value: 0x7F0C0038
-			public const int mr_button_content_description = 2131492920;
+			public const int fallback_menu_item_share_link = 2131492920;
 			
 			// aapt resource value: 0x7F0C0039
-			public const int mr_cast_button_connected = 2131492921;
+			public const int hide_bottom_view_on_scroll_behavior = 2131492921;
 			
 			// aapt resource value: 0x7F0C003A
-			public const int mr_cast_button_connecting = 2131492922;
+			public const int mr_button_content_description = 2131492922;
 			
 			// aapt resource value: 0x7F0C003B
-			public const int mr_cast_button_disconnected = 2131492923;
+			public const int mr_cast_button_connected = 2131492923;
 			
 			// aapt resource value: 0x7F0C003C
-			public const int mr_cast_dialog_title_view_placeholder = 2131492924;
+			public const int mr_cast_button_connecting = 2131492924;
 			
 			// aapt resource value: 0x7F0C003D
-			public const int mr_chooser_searching = 2131492925;
+			public const int mr_cast_button_disconnected = 2131492925;
 			
 			// aapt resource value: 0x7F0C003E
-			public const int mr_chooser_title = 2131492926;
+			public const int mr_cast_dialog_title_view_placeholder = 2131492926;
 			
 			// aapt resource value: 0x7F0C003F
-			public const int mr_controller_album_art = 2131492927;
+			public const int mr_chooser_searching = 2131492927;
 			
 			// aapt resource value: 0x7F0C0040
-			public const int mr_controller_casting_screen = 2131492928;
+			public const int mr_chooser_title = 2131492928;
 			
 			// aapt resource value: 0x7F0C0041
-			public const int mr_controller_close_description = 2131492929;
+			public const int mr_controller_album_art = 2131492929;
 			
 			// aapt resource value: 0x7F0C0042
-			public const int mr_controller_collapse_group = 2131492930;
+			public const int mr_controller_casting_screen = 2131492930;
 			
 			// aapt resource value: 0x7F0C0043
-			public const int mr_controller_disconnect = 2131492931;
+			public const int mr_controller_close_description = 2131492931;
 			
 			// aapt resource value: 0x7F0C0044
-			public const int mr_controller_expand_group = 2131492932;
+			public const int mr_controller_collapse_group = 2131492932;
 			
 			// aapt resource value: 0x7F0C0045
-			public const int mr_controller_no_info_available = 2131492933;
+			public const int mr_controller_disconnect = 2131492933;
 			
 			// aapt resource value: 0x7F0C0046
-			public const int mr_controller_no_media_selected = 2131492934;
+			public const int mr_controller_expand_group = 2131492934;
 			
 			// aapt resource value: 0x7F0C0047
-			public const int mr_controller_pause = 2131492935;
+			public const int mr_controller_no_info_available = 2131492935;
 			
 			// aapt resource value: 0x7F0C0048
-			public const int mr_controller_play = 2131492936;
+			public const int mr_controller_no_media_selected = 2131492936;
 			
 			// aapt resource value: 0x7F0C0049
-			public const int mr_controller_stop = 2131492937;
+			public const int mr_controller_pause = 2131492937;
 			
 			// aapt resource value: 0x7F0C004A
-			public const int mr_controller_stop_casting = 2131492938;
+			public const int mr_controller_play = 2131492938;
 			
 			// aapt resource value: 0x7F0C004B
-			public const int mr_controller_volume_slider = 2131492939;
+			public const int mr_controller_stop = 2131492939;
 			
 			// aapt resource value: 0x7F0C004C
-			public const int mr_dialog_default_group_name = 2131492940;
+			public const int mr_controller_stop_casting = 2131492940;
 			
 			// aapt resource value: 0x7F0C004D
-			public const int mr_dialog_groupable_header = 2131492941;
+			public const int mr_controller_volume_slider = 2131492941;
 			
 			// aapt resource value: 0x7F0C004E
-			public const int mr_dialog_transferable_header = 2131492942;
+			public const int mr_dialog_default_group_name = 2131492942;
 			
 			// aapt resource value: 0x7F0C004F
-			public const int mr_system_route_name = 2131492943;
+			public const int mr_dialog_groupable_header = 2131492943;
 			
 			// aapt resource value: 0x7F0C0050
-			public const int mr_user_route_category_name = 2131492944;
+			public const int mr_dialog_transferable_header = 2131492944;
 			
 			// aapt resource value: 0x7F0C0051
-			public const int mtrl_chip_close_icon_content_description = 2131492945;
+			public const int mr_system_route_name = 2131492945;
 			
 			// aapt resource value: 0x7F0C0052
-			public const int overflow_tab_title = 2131492946;
+			public const int mr_user_route_category_name = 2131492946;
 			
 			// aapt resource value: 0x7F0C0053
-			public const int password_toggle_content_description = 2131492947;
+			public const int mtrl_chip_close_icon_content_description = 2131492947;
 			
 			// aapt resource value: 0x7F0C0054
-			public const int path_password_eye = 2131492948;
+			public const int not_set = 2131492948;
 			
 			// aapt resource value: 0x7F0C0055
-			public const int path_password_eye_mask_strike_through = 2131492949;
+			public const int overflow_tab_title = 2131492949;
 			
 			// aapt resource value: 0x7F0C0056
-			public const int path_password_eye_mask_visible = 2131492950;
+			public const int password_toggle_content_description = 2131492950;
 			
 			// aapt resource value: 0x7F0C0057
-			public const int path_password_strike_through = 2131492951;
+			public const int path_password_eye = 2131492951;
 			
 			// aapt resource value: 0x7F0C0058
-			public const int search_menu_title = 2131492952;
+			public const int path_password_eye_mask_strike_through = 2131492952;
 			
 			// aapt resource value: 0x7F0C0059
-			public const int status_bar_notification_info_overflow = 2131492953;
+			public const int path_password_eye_mask_visible = 2131492953;
+			
+			// aapt resource value: 0x7F0C005A
+			public const int path_password_strike_through = 2131492954;
+			
+			// aapt resource value: 0x7F0C005B
+			public const int preference_copied = 2131492955;
+			
+			// aapt resource value: 0x7F0C005C
+			public const int search_menu_title = 2131492956;
+			
+			// aapt resource value: 0x7F0C005D
+			public const int status_bar_notification_info_overflow = 2131492957;
+			
+			// aapt resource value: 0x7F0C005E
+			public const int summary_collapsed_preference_list = 2131492958;
+			
+			// aapt resource value: 0x7F0C005F
+			public const int v7_preference_off = 2131492959;
+			
+			// aapt resource value: 0x7F0C0060
+			public const int v7_preference_on = 2131492960;
 			
 			static String()
 			{
@@ -14741,8 +18014,8 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 0x7F0D00C6
 			public const int CardView_Light = 2131558598;
 			
-			// aapt resource value: 0x7F0D020C
-			public const int collectionViewTheme = 2131558924;
+			// aapt resource value: 0x7F0D022C
+			public const int collectionViewTheme = 2131558956;
 			
 			// aapt resource value: 0x7F0D00C7
 			public const int MainTheme = 2131558599;
@@ -14793,937 +18066,1033 @@ namespace PizzaIllico.Mobile.Android
 			public const int Platform_Widget_AppCompat_Spinner = 2131558614;
 			
 			// aapt resource value: 0x7F0D00D7
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131558615;
-			
-			// aapt resource value: 0x7F0D00D8
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131558616;
-			
-			// aapt resource value: 0x7F0D00D9
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131558617;
-			
-			// aapt resource value: 0x7F0D00DA
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131558618;
-			
-			// aapt resource value: 0x7F0D00DB
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131558619;
-			
-			// aapt resource value: 0x7F0D00DC
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131558620;
-			
-			// aapt resource value: 0x7F0D00DD
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131558621;
-			
-			// aapt resource value: 0x7F0D00DE
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131558622;
-			
-			// aapt resource value: 0x7F0D00DF
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131558623;
-			
-			// aapt resource value: 0x7F0D00E5
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131558629;
-			
-			// aapt resource value: 0x7F0D00E0
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131558624;
-			
-			// aapt resource value: 0x7F0D00E1
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131558625;
-			
-			// aapt resource value: 0x7F0D00E2
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131558626;
-			
-			// aapt resource value: 0x7F0D00E3
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131558627;
-			
-			// aapt resource value: 0x7F0D00E4
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131558628;
-			
-			// aapt resource value: 0x7F0D00E6
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131558630;
-			
-			// aapt resource value: 0x7F0D00E7
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131558631;
-			
-			// aapt resource value: 0x7F0D020D
-			public const int scrollViewScrollBars = 2131558925;
-			
-			// aapt resource value: 0x7F0D020E
-			public const int scrollViewTheme = 2131558926;
-			
-			// aapt resource value: 0x7F0D00E8
-			public const int TextAppearance_AppCompat = 2131558632;
-			
-			// aapt resource value: 0x7F0D00E9
-			public const int TextAppearance_AppCompat_Body1 = 2131558633;
-			
-			// aapt resource value: 0x7F0D00EA
-			public const int TextAppearance_AppCompat_Body2 = 2131558634;
-			
-			// aapt resource value: 0x7F0D00EB
-			public const int TextAppearance_AppCompat_Button = 2131558635;
-			
-			// aapt resource value: 0x7F0D00EC
-			public const int TextAppearance_AppCompat_Caption = 2131558636;
+			public const int Preference = 2131558615;
 			
 			// aapt resource value: 0x7F0D00ED
-			public const int TextAppearance_AppCompat_Display1 = 2131558637;
+			public const int PreferenceCategoryTitleTextStyle = 2131558637;
 			
 			// aapt resource value: 0x7F0D00EE
-			public const int TextAppearance_AppCompat_Display2 = 2131558638;
-			
-			// aapt resource value: 0x7F0D00EF
-			public const int TextAppearance_AppCompat_Display3 = 2131558639;
+			public const int PreferenceFragment = 2131558638;
 			
 			// aapt resource value: 0x7F0D00F0
-			public const int TextAppearance_AppCompat_Display4 = 2131558640;
+			public const int PreferenceFragmentList = 2131558640;
 			
 			// aapt resource value: 0x7F0D00F1
-			public const int TextAppearance_AppCompat_Headline = 2131558641;
+			public const int PreferenceFragmentList_Material = 2131558641;
+			
+			// aapt resource value: 0x7F0D00EF
+			public const int PreferenceFragment_Material = 2131558639;
 			
 			// aapt resource value: 0x7F0D00F2
-			public const int TextAppearance_AppCompat_Inverse = 2131558642;
+			public const int PreferenceSummaryTextStyle = 2131558642;
 			
 			// aapt resource value: 0x7F0D00F3
-			public const int TextAppearance_AppCompat_Large = 2131558643;
+			public const int PreferenceThemeOverlay = 2131558643;
 			
 			// aapt resource value: 0x7F0D00F4
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131558644;
+			public const int PreferenceThemeOverlay_v14 = 2131558644;
 			
 			// aapt resource value: 0x7F0D00F5
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131558645;
+			public const int PreferenceThemeOverlay_v14_Material = 2131558645;
+			
+			// aapt resource value: 0x7F0D00D8
+			public const int Preference_Category = 2131558616;
+			
+			// aapt resource value: 0x7F0D00D9
+			public const int Preference_Category_Material = 2131558617;
+			
+			// aapt resource value: 0x7F0D00DA
+			public const int Preference_CheckBoxPreference = 2131558618;
+			
+			// aapt resource value: 0x7F0D00DB
+			public const int Preference_CheckBoxPreference_Material = 2131558619;
+			
+			// aapt resource value: 0x7F0D00DC
+			public const int Preference_DialogPreference = 2131558620;
+			
+			// aapt resource value: 0x7F0D00DD
+			public const int Preference_DialogPreference_EditTextPreference = 2131558621;
+			
+			// aapt resource value: 0x7F0D00DE
+			public const int Preference_DialogPreference_EditTextPreference_Material = 2131558622;
+			
+			// aapt resource value: 0x7F0D00DF
+			public const int Preference_DialogPreference_Material = 2131558623;
+			
+			// aapt resource value: 0x7F0D00E0
+			public const int Preference_DropDown = 2131558624;
+			
+			// aapt resource value: 0x7F0D00E1
+			public const int Preference_DropDown_Material = 2131558625;
+			
+			// aapt resource value: 0x7F0D00E2
+			public const int Preference_Information = 2131558626;
+			
+			// aapt resource value: 0x7F0D00E3
+			public const int Preference_Information_Material = 2131558627;
+			
+			// aapt resource value: 0x7F0D00E4
+			public const int Preference_Material = 2131558628;
+			
+			// aapt resource value: 0x7F0D00E5
+			public const int Preference_PreferenceScreen = 2131558629;
+			
+			// aapt resource value: 0x7F0D00E6
+			public const int Preference_PreferenceScreen_Material = 2131558630;
+			
+			// aapt resource value: 0x7F0D00E7
+			public const int Preference_SeekBarPreference = 2131558631;
+			
+			// aapt resource value: 0x7F0D00E8
+			public const int Preference_SeekBarPreference_Material = 2131558632;
+			
+			// aapt resource value: 0x7F0D00E9
+			public const int Preference_SwitchPreference = 2131558633;
+			
+			// aapt resource value: 0x7F0D00EB
+			public const int Preference_SwitchPreferenceCompat = 2131558635;
+			
+			// aapt resource value: 0x7F0D00EC
+			public const int Preference_SwitchPreferenceCompat_Material = 2131558636;
+			
+			// aapt resource value: 0x7F0D00EA
+			public const int Preference_SwitchPreference_Material = 2131558634;
 			
 			// aapt resource value: 0x7F0D00F6
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131558646;
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131558646;
 			
 			// aapt resource value: 0x7F0D00F7
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131558647;
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131558647;
 			
 			// aapt resource value: 0x7F0D00F8
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131558648;
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131558648;
 			
 			// aapt resource value: 0x7F0D00F9
-			public const int TextAppearance_AppCompat_Medium = 2131558649;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131558649;
 			
 			// aapt resource value: 0x7F0D00FA
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131558650;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131558650;
 			
 			// aapt resource value: 0x7F0D00FB
-			public const int TextAppearance_AppCompat_Menu = 2131558651;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131558651;
 			
 			// aapt resource value: 0x7F0D00FC
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131558652;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131558652;
 			
 			// aapt resource value: 0x7F0D00FD
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131558653;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131558653;
 			
 			// aapt resource value: 0x7F0D00FE
-			public const int TextAppearance_AppCompat_Small = 2131558654;
-			
-			// aapt resource value: 0x7F0D00FF
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131558655;
-			
-			// aapt resource value: 0x7F0D0100
-			public const int TextAppearance_AppCompat_Subhead = 2131558656;
-			
-			// aapt resource value: 0x7F0D0101
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131558657;
-			
-			// aapt resource value: 0x7F0D0102
-			public const int TextAppearance_AppCompat_Title = 2131558658;
-			
-			// aapt resource value: 0x7F0D0103
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131558659;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131558654;
 			
 			// aapt resource value: 0x7F0D0104
-			public const int TextAppearance_AppCompat_Tooltip = 2131558660;
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131558660;
+			
+			// aapt resource value: 0x7F0D00FF
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131558655;
+			
+			// aapt resource value: 0x7F0D0100
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131558656;
+			
+			// aapt resource value: 0x7F0D0101
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131558657;
+			
+			// aapt resource value: 0x7F0D0102
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131558658;
+			
+			// aapt resource value: 0x7F0D0103
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131558659;
 			
 			// aapt resource value: 0x7F0D0105
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131558661;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131558661;
 			
 			// aapt resource value: 0x7F0D0106
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131558662;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131558662;
+			
+			// aapt resource value: 0x7F0D022D
+			public const int scrollViewScrollBars = 2131558957;
+			
+			// aapt resource value: 0x7F0D022E
+			public const int scrollViewTheme = 2131558958;
 			
 			// aapt resource value: 0x7F0D0107
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131558663;
+			public const int TextAppearance_AppCompat = 2131558663;
 			
 			// aapt resource value: 0x7F0D0108
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131558664;
+			public const int TextAppearance_AppCompat_Body1 = 2131558664;
 			
 			// aapt resource value: 0x7F0D0109
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131558665;
+			public const int TextAppearance_AppCompat_Body2 = 2131558665;
 			
 			// aapt resource value: 0x7F0D010A
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131558666;
+			public const int TextAppearance_AppCompat_Button = 2131558666;
 			
 			// aapt resource value: 0x7F0D010B
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131558667;
+			public const int TextAppearance_AppCompat_Caption = 2131558667;
 			
 			// aapt resource value: 0x7F0D010C
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131558668;
+			public const int TextAppearance_AppCompat_Display1 = 2131558668;
 			
 			// aapt resource value: 0x7F0D010D
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131558669;
+			public const int TextAppearance_AppCompat_Display2 = 2131558669;
 			
 			// aapt resource value: 0x7F0D010E
-			public const int TextAppearance_AppCompat_Widget_Button = 2131558670;
+			public const int TextAppearance_AppCompat_Display3 = 2131558670;
 			
 			// aapt resource value: 0x7F0D010F
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131558671;
+			public const int TextAppearance_AppCompat_Display4 = 2131558671;
 			
 			// aapt resource value: 0x7F0D0110
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131558672;
+			public const int TextAppearance_AppCompat_Headline = 2131558672;
 			
 			// aapt resource value: 0x7F0D0111
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131558673;
+			public const int TextAppearance_AppCompat_Inverse = 2131558673;
 			
 			// aapt resource value: 0x7F0D0112
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131558674;
+			public const int TextAppearance_AppCompat_Large = 2131558674;
 			
 			// aapt resource value: 0x7F0D0113
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131558675;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131558675;
 			
 			// aapt resource value: 0x7F0D0114
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131558676;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131558676;
 			
 			// aapt resource value: 0x7F0D0115
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131558677;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131558677;
 			
 			// aapt resource value: 0x7F0D0116
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131558678;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131558678;
 			
 			// aapt resource value: 0x7F0D0117
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131558679;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131558679;
 			
 			// aapt resource value: 0x7F0D0118
-			public const int TextAppearance_Compat_Notification = 2131558680;
+			public const int TextAppearance_AppCompat_Medium = 2131558680;
 			
 			// aapt resource value: 0x7F0D0119
-			public const int TextAppearance_Compat_Notification_Info = 2131558681;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131558681;
 			
 			// aapt resource value: 0x7F0D011A
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131558682;
+			public const int TextAppearance_AppCompat_Menu = 2131558682;
 			
 			// aapt resource value: 0x7F0D011B
-			public const int TextAppearance_Compat_Notification_Line2 = 2131558683;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131558683;
 			
 			// aapt resource value: 0x7F0D011C
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131558684;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131558684;
 			
 			// aapt resource value: 0x7F0D011D
-			public const int TextAppearance_Compat_Notification_Media = 2131558685;
+			public const int TextAppearance_AppCompat_Small = 2131558685;
 			
 			// aapt resource value: 0x7F0D011E
-			public const int TextAppearance_Compat_Notification_Time = 2131558686;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131558686;
 			
 			// aapt resource value: 0x7F0D011F
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131558687;
+			public const int TextAppearance_AppCompat_Subhead = 2131558687;
 			
 			// aapt resource value: 0x7F0D0120
-			public const int TextAppearance_Compat_Notification_Title = 2131558688;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131558688;
 			
 			// aapt resource value: 0x7F0D0121
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131558689;
+			public const int TextAppearance_AppCompat_Title = 2131558689;
 			
 			// aapt resource value: 0x7F0D0122
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131558690;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131558690;
 			
 			// aapt resource value: 0x7F0D0123
-			public const int TextAppearance_Design_Counter = 2131558691;
+			public const int TextAppearance_AppCompat_Tooltip = 2131558691;
 			
 			// aapt resource value: 0x7F0D0124
-			public const int TextAppearance_Design_Counter_Overflow = 2131558692;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131558692;
 			
 			// aapt resource value: 0x7F0D0125
-			public const int TextAppearance_Design_Error = 2131558693;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131558693;
 			
 			// aapt resource value: 0x7F0D0126
-			public const int TextAppearance_Design_HelperText = 2131558694;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131558694;
 			
 			// aapt resource value: 0x7F0D0127
-			public const int TextAppearance_Design_Hint = 2131558695;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131558695;
 			
 			// aapt resource value: 0x7F0D0128
-			public const int TextAppearance_Design_Snackbar_Message = 2131558696;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131558696;
 			
 			// aapt resource value: 0x7F0D0129
-			public const int TextAppearance_Design_Tab = 2131558697;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131558697;
 			
 			// aapt resource value: 0x7F0D012A
-			public const int TextAppearance_MaterialComponents_Body1 = 2131558698;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131558698;
 			
 			// aapt resource value: 0x7F0D012B
-			public const int TextAppearance_MaterialComponents_Body2 = 2131558699;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131558699;
 			
 			// aapt resource value: 0x7F0D012C
-			public const int TextAppearance_MaterialComponents_Button = 2131558700;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131558700;
 			
 			// aapt resource value: 0x7F0D012D
-			public const int TextAppearance_MaterialComponents_Caption = 2131558701;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131558701;
 			
 			// aapt resource value: 0x7F0D012E
-			public const int TextAppearance_MaterialComponents_Chip = 2131558702;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131558702;
 			
 			// aapt resource value: 0x7F0D012F
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131558703;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131558703;
 			
 			// aapt resource value: 0x7F0D0130
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131558704;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131558704;
 			
 			// aapt resource value: 0x7F0D0131
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131558705;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131558705;
 			
 			// aapt resource value: 0x7F0D0132
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131558706;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131558706;
 			
 			// aapt resource value: 0x7F0D0133
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131558707;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131558707;
 			
 			// aapt resource value: 0x7F0D0134
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131558708;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131558708;
 			
 			// aapt resource value: 0x7F0D0135
-			public const int TextAppearance_MaterialComponents_Overline = 2131558709;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131558709;
 			
 			// aapt resource value: 0x7F0D0136
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131558710;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131558710;
 			
 			// aapt resource value: 0x7F0D0137
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131558711;
+			public const int TextAppearance_Compat_Notification = 2131558711;
 			
 			// aapt resource value: 0x7F0D0138
-			public const int TextAppearance_MaterialComponents_Tab = 2131558712;
+			public const int TextAppearance_Compat_Notification_Info = 2131558712;
 			
 			// aapt resource value: 0x7F0D0139
-			public const int TextAppearance_MediaRouter_Dynamic_Body = 2131558713;
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131558713;
 			
 			// aapt resource value: 0x7F0D013A
-			public const int TextAppearance_MediaRouter_Dynamic_Body_Light = 2131558714;
+			public const int TextAppearance_Compat_Notification_Line2 = 2131558714;
 			
 			// aapt resource value: 0x7F0D013B
-			public const int TextAppearance_MediaRouter_Dynamic_Header = 2131558715;
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131558715;
 			
 			// aapt resource value: 0x7F0D013C
-			public const int TextAppearance_MediaRouter_Dynamic_Header_Light = 2131558716;
+			public const int TextAppearance_Compat_Notification_Media = 2131558716;
 			
 			// aapt resource value: 0x7F0D013D
-			public const int TextAppearance_MediaRouter_Dynamic_Metadata_PrimaryText = 2131558717;
+			public const int TextAppearance_Compat_Notification_Time = 2131558717;
 			
 			// aapt resource value: 0x7F0D013E
-			public const int TextAppearance_MediaRouter_Dynamic_Metadata_SecondaryText = 2131558718;
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131558718;
 			
 			// aapt resource value: 0x7F0D013F
-			public const int TextAppearance_MediaRouter_PrimaryText = 2131558719;
+			public const int TextAppearance_Compat_Notification_Title = 2131558719;
 			
 			// aapt resource value: 0x7F0D0140
-			public const int TextAppearance_MediaRouter_SecondaryText = 2131558720;
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131558720;
 			
 			// aapt resource value: 0x7F0D0141
-			public const int TextAppearance_MediaRouter_Title = 2131558721;
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131558721;
 			
 			// aapt resource value: 0x7F0D0142
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131558722;
+			public const int TextAppearance_Design_Counter = 2131558722;
 			
 			// aapt resource value: 0x7F0D0143
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131558723;
+			public const int TextAppearance_Design_Counter_Overflow = 2131558723;
 			
 			// aapt resource value: 0x7F0D0144
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131558724;
-			
-			// aapt resource value: 0x7F0D0179
-			public const int ThemeOverlay_AppCompat = 2131558777;
-			
-			// aapt resource value: 0x7F0D017A
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131558778;
-			
-			// aapt resource value: 0x7F0D017B
-			public const int ThemeOverlay_AppCompat_Dark = 2131558779;
-			
-			// aapt resource value: 0x7F0D017C
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131558780;
-			
-			// aapt resource value: 0x7F0D017D
-			public const int ThemeOverlay_AppCompat_DayNight = 2131558781;
-			
-			// aapt resource value: 0x7F0D017E
-			public const int ThemeOverlay_AppCompat_DayNight_ActionBar = 2131558782;
-			
-			// aapt resource value: 0x7F0D017F
-			public const int ThemeOverlay_AppCompat_Dialog = 2131558783;
-			
-			// aapt resource value: 0x7F0D0180
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131558784;
-			
-			// aapt resource value: 0x7F0D0181
-			public const int ThemeOverlay_AppCompat_Light = 2131558785;
-			
-			// aapt resource value: 0x7F0D0182
-			public const int ThemeOverlay_MaterialComponents = 2131558786;
-			
-			// aapt resource value: 0x7F0D0183
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131558787;
-			
-			// aapt resource value: 0x7F0D0184
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131558788;
-			
-			// aapt resource value: 0x7F0D0185
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131558789;
-			
-			// aapt resource value: 0x7F0D0186
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131558790;
-			
-			// aapt resource value: 0x7F0D0187
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131558791;
-			
-			// aapt resource value: 0x7F0D0188
-			public const int ThemeOverlay_MaterialComponents_Light = 2131558792;
-			
-			// aapt resource value: 0x7F0D0189
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131558793;
-			
-			// aapt resource value: 0x7F0D018A
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131558794;
-			
-			// aapt resource value: 0x7F0D018B
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131558795;
-			
-			// aapt resource value: 0x7F0D018C
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131558796;
-			
-			// aapt resource value: 0x7F0D018D
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131558797;
-			
-			// aapt resource value: 0x7F0D018E
-			public const int ThemeOverlay_MediaRouter_Dark = 2131558798;
-			
-			// aapt resource value: 0x7F0D018F
-			public const int ThemeOverlay_MediaRouter_Light = 2131558799;
+			public const int TextAppearance_Design_Error = 2131558724;
 			
 			// aapt resource value: 0x7F0D0145
-			public const int Theme_AppCompat = 2131558725;
+			public const int TextAppearance_Design_HelperText = 2131558725;
 			
 			// aapt resource value: 0x7F0D0146
-			public const int Theme_AppCompat_CompactMenu = 2131558726;
+			public const int TextAppearance_Design_Hint = 2131558726;
 			
 			// aapt resource value: 0x7F0D0147
-			public const int Theme_AppCompat_DayNight = 2131558727;
+			public const int TextAppearance_Design_Snackbar_Message = 2131558727;
 			
 			// aapt resource value: 0x7F0D0148
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131558728;
+			public const int TextAppearance_Design_Tab = 2131558728;
 			
 			// aapt resource value: 0x7F0D0149
-			public const int Theme_AppCompat_DayNight_Dialog = 2131558729;
-			
-			// aapt resource value: 0x7F0D014C
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131558732;
+			public const int TextAppearance_MaterialComponents_Body1 = 2131558729;
 			
 			// aapt resource value: 0x7F0D014A
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131558730;
+			public const int TextAppearance_MaterialComponents_Body2 = 2131558730;
 			
 			// aapt resource value: 0x7F0D014B
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131558731;
+			public const int TextAppearance_MaterialComponents_Button = 2131558731;
+			
+			// aapt resource value: 0x7F0D014C
+			public const int TextAppearance_MaterialComponents_Caption = 2131558732;
 			
 			// aapt resource value: 0x7F0D014D
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131558733;
+			public const int TextAppearance_MaterialComponents_Chip = 2131558733;
 			
 			// aapt resource value: 0x7F0D014E
-			public const int Theme_AppCompat_Dialog = 2131558734;
-			
-			// aapt resource value: 0x7F0D0151
-			public const int Theme_AppCompat_DialogWhenLarge = 2131558737;
+			public const int TextAppearance_MaterialComponents_Headline1 = 2131558734;
 			
 			// aapt resource value: 0x7F0D014F
-			public const int Theme_AppCompat_Dialog_Alert = 2131558735;
+			public const int TextAppearance_MaterialComponents_Headline2 = 2131558735;
 			
 			// aapt resource value: 0x7F0D0150
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131558736;
+			public const int TextAppearance_MaterialComponents_Headline3 = 2131558736;
+			
+			// aapt resource value: 0x7F0D0151
+			public const int TextAppearance_MaterialComponents_Headline4 = 2131558737;
 			
 			// aapt resource value: 0x7F0D0152
-			public const int Theme_AppCompat_Light = 2131558738;
+			public const int TextAppearance_MaterialComponents_Headline5 = 2131558738;
 			
 			// aapt resource value: 0x7F0D0153
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131558739;
+			public const int TextAppearance_MaterialComponents_Headline6 = 2131558739;
 			
 			// aapt resource value: 0x7F0D0154
-			public const int Theme_AppCompat_Light_Dialog = 2131558740;
-			
-			// aapt resource value: 0x7F0D0157
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131558743;
+			public const int TextAppearance_MaterialComponents_Overline = 2131558740;
 			
 			// aapt resource value: 0x7F0D0155
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131558741;
+			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131558741;
 			
 			// aapt resource value: 0x7F0D0156
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131558742;
+			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131558742;
+			
+			// aapt resource value: 0x7F0D0157
+			public const int TextAppearance_MaterialComponents_Tab = 2131558743;
 			
 			// aapt resource value: 0x7F0D0158
-			public const int Theme_AppCompat_Light_NoActionBar = 2131558744;
+			public const int TextAppearance_MediaRouter_Dynamic_Body = 2131558744;
 			
 			// aapt resource value: 0x7F0D0159
-			public const int Theme_AppCompat_NoActionBar = 2131558745;
+			public const int TextAppearance_MediaRouter_Dynamic_Body_Light = 2131558745;
 			
 			// aapt resource value: 0x7F0D015A
-			public const int Theme_Design = 2131558746;
+			public const int TextAppearance_MediaRouter_Dynamic_Header = 2131558746;
 			
 			// aapt resource value: 0x7F0D015B
-			public const int Theme_Design_BottomSheetDialog = 2131558747;
+			public const int TextAppearance_MediaRouter_Dynamic_Header_Light = 2131558747;
 			
 			// aapt resource value: 0x7F0D015C
-			public const int Theme_Design_Light = 2131558748;
+			public const int TextAppearance_MediaRouter_Dynamic_Metadata_PrimaryText = 2131558748;
 			
 			// aapt resource value: 0x7F0D015D
-			public const int Theme_Design_Light_BottomSheetDialog = 2131558749;
+			public const int TextAppearance_MediaRouter_Dynamic_Metadata_SecondaryText = 2131558749;
 			
 			// aapt resource value: 0x7F0D015E
-			public const int Theme_Design_Light_NoActionBar = 2131558750;
+			public const int TextAppearance_MediaRouter_PrimaryText = 2131558750;
 			
 			// aapt resource value: 0x7F0D015F
-			public const int Theme_Design_NoActionBar = 2131558751;
+			public const int TextAppearance_MediaRouter_SecondaryText = 2131558751;
 			
 			// aapt resource value: 0x7F0D0160
-			public const int Theme_MaterialComponents = 2131558752;
+			public const int TextAppearance_MediaRouter_Title = 2131558752;
 			
 			// aapt resource value: 0x7F0D0161
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131558753;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131558753;
 			
 			// aapt resource value: 0x7F0D0162
-			public const int Theme_MaterialComponents_Bridge = 2131558754;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131558754;
 			
 			// aapt resource value: 0x7F0D0163
-			public const int Theme_MaterialComponents_CompactMenu = 2131558755;
-			
-			// aapt resource value: 0x7F0D0164
-			public const int Theme_MaterialComponents_Dialog = 2131558756;
-			
-			// aapt resource value: 0x7F0D0167
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131558759;
-			
-			// aapt resource value: 0x7F0D0165
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131558757;
-			
-			// aapt resource value: 0x7F0D0166
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131558758;
-			
-			// aapt resource value: 0x7F0D0168
-			public const int Theme_MaterialComponents_Light = 2131558760;
-			
-			// aapt resource value: 0x7F0D0169
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131558761;
-			
-			// aapt resource value: 0x7F0D016A
-			public const int Theme_MaterialComponents_Light_Bridge = 2131558762;
-			
-			// aapt resource value: 0x7F0D016B
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131558763;
-			
-			// aapt resource value: 0x7F0D016C
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131558764;
-			
-			// aapt resource value: 0x7F0D016D
-			public const int Theme_MaterialComponents_Light_Dialog = 2131558765;
-			
-			// aapt resource value: 0x7F0D0170
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131558768;
-			
-			// aapt resource value: 0x7F0D016E
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131558766;
-			
-			// aapt resource value: 0x7F0D016F
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131558767;
-			
-			// aapt resource value: 0x7F0D0171
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131558769;
-			
-			// aapt resource value: 0x7F0D0172
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131558770;
-			
-			// aapt resource value: 0x7F0D0173
-			public const int Theme_MaterialComponents_NoActionBar = 2131558771;
-			
-			// aapt resource value: 0x7F0D0174
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131558772;
-			
-			// aapt resource value: 0x7F0D0175
-			public const int Theme_MediaRouter = 2131558773;
-			
-			// aapt resource value: 0x7F0D0176
-			public const int Theme_MediaRouter_Light = 2131558774;
-			
-			// aapt resource value: 0x7F0D0178
-			public const int Theme_MediaRouter_LightControlPanel = 2131558776;
-			
-			// aapt resource value: 0x7F0D0177
-			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131558775;
-			
-			// aapt resource value: 0x7F0D0190
-			public const int Widget_AppCompat_ActionBar = 2131558800;
-			
-			// aapt resource value: 0x7F0D0191
-			public const int Widget_AppCompat_ActionBar_Solid = 2131558801;
-			
-			// aapt resource value: 0x7F0D0192
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131558802;
-			
-			// aapt resource value: 0x7F0D0193
-			public const int Widget_AppCompat_ActionBar_TabText = 2131558803;
-			
-			// aapt resource value: 0x7F0D0194
-			public const int Widget_AppCompat_ActionBar_TabView = 2131558804;
-			
-			// aapt resource value: 0x7F0D0195
-			public const int Widget_AppCompat_ActionButton = 2131558805;
-			
-			// aapt resource value: 0x7F0D0196
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131558806;
-			
-			// aapt resource value: 0x7F0D0197
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131558807;
-			
-			// aapt resource value: 0x7F0D0198
-			public const int Widget_AppCompat_ActionMode = 2131558808;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131558755;
 			
 			// aapt resource value: 0x7F0D0199
-			public const int Widget_AppCompat_ActivityChooserView = 2131558809;
+			public const int ThemeOverlay_AppCompat = 2131558809;
 			
 			// aapt resource value: 0x7F0D019A
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131558810;
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131558810;
 			
 			// aapt resource value: 0x7F0D019B
-			public const int Widget_AppCompat_Button = 2131558811;
-			
-			// aapt resource value: 0x7F0D01A1
-			public const int Widget_AppCompat_ButtonBar = 2131558817;
-			
-			// aapt resource value: 0x7F0D01A2
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131558818;
+			public const int ThemeOverlay_AppCompat_Dark = 2131558811;
 			
 			// aapt resource value: 0x7F0D019C
-			public const int Widget_AppCompat_Button_Borderless = 2131558812;
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131558812;
 			
 			// aapt resource value: 0x7F0D019D
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131558813;
+			public const int ThemeOverlay_AppCompat_DayNight = 2131558813;
 			
 			// aapt resource value: 0x7F0D019E
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131558814;
+			public const int ThemeOverlay_AppCompat_DayNight_ActionBar = 2131558814;
 			
 			// aapt resource value: 0x7F0D019F
-			public const int Widget_AppCompat_Button_Colored = 2131558815;
+			public const int ThemeOverlay_AppCompat_Dialog = 2131558815;
 			
 			// aapt resource value: 0x7F0D01A0
-			public const int Widget_AppCompat_Button_Small = 2131558816;
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131558816;
+			
+			// aapt resource value: 0x7F0D01A1
+			public const int ThemeOverlay_AppCompat_Light = 2131558817;
+			
+			// aapt resource value: 0x7F0D01A2
+			public const int ThemeOverlay_MaterialComponents = 2131558818;
 			
 			// aapt resource value: 0x7F0D01A3
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131558819;
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131558819;
 			
 			// aapt resource value: 0x7F0D01A4
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131558820;
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131558820;
 			
 			// aapt resource value: 0x7F0D01A5
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131558821;
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131558821;
 			
 			// aapt resource value: 0x7F0D01A6
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131558822;
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131558822;
 			
 			// aapt resource value: 0x7F0D01A7
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131558823;
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131558823;
 			
 			// aapt resource value: 0x7F0D01A8
-			public const int Widget_AppCompat_EditText = 2131558824;
+			public const int ThemeOverlay_MaterialComponents_Light = 2131558824;
 			
 			// aapt resource value: 0x7F0D01A9
-			public const int Widget_AppCompat_ImageButton = 2131558825;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131558825;
 			
 			// aapt resource value: 0x7F0D01AA
-			public const int Widget_AppCompat_Light_ActionBar = 2131558826;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131558826;
 			
 			// aapt resource value: 0x7F0D01AB
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131558827;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131558827;
 			
 			// aapt resource value: 0x7F0D01AC
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131558828;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131558828;
 			
 			// aapt resource value: 0x7F0D01AD
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131558829;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131558829;
 			
 			// aapt resource value: 0x7F0D01AE
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131558830;
+			public const int ThemeOverlay_MediaRouter_Dark = 2131558830;
 			
 			// aapt resource value: 0x7F0D01AF
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131558831;
+			public const int ThemeOverlay_MediaRouter_Light = 2131558831;
+			
+			// aapt resource value: 0x7F0D0164
+			public const int Theme_AppCompat = 2131558756;
+			
+			// aapt resource value: 0x7F0D0165
+			public const int Theme_AppCompat_CompactMenu = 2131558757;
+			
+			// aapt resource value: 0x7F0D0166
+			public const int Theme_AppCompat_DayNight = 2131558758;
+			
+			// aapt resource value: 0x7F0D0167
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131558759;
+			
+			// aapt resource value: 0x7F0D0168
+			public const int Theme_AppCompat_DayNight_Dialog = 2131558760;
+			
+			// aapt resource value: 0x7F0D016B
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131558763;
+			
+			// aapt resource value: 0x7F0D0169
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131558761;
+			
+			// aapt resource value: 0x7F0D016A
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131558762;
+			
+			// aapt resource value: 0x7F0D016C
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131558764;
+			
+			// aapt resource value: 0x7F0D016D
+			public const int Theme_AppCompat_Dialog = 2131558765;
+			
+			// aapt resource value: 0x7F0D0170
+			public const int Theme_AppCompat_DialogWhenLarge = 2131558768;
+			
+			// aapt resource value: 0x7F0D016E
+			public const int Theme_AppCompat_Dialog_Alert = 2131558766;
+			
+			// aapt resource value: 0x7F0D016F
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131558767;
+			
+			// aapt resource value: 0x7F0D0171
+			public const int Theme_AppCompat_Empty = 2131558769;
+			
+			// aapt resource value: 0x7F0D0172
+			public const int Theme_AppCompat_Light = 2131558770;
+			
+			// aapt resource value: 0x7F0D0173
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131558771;
+			
+			// aapt resource value: 0x7F0D0174
+			public const int Theme_AppCompat_Light_Dialog = 2131558772;
+			
+			// aapt resource value: 0x7F0D0177
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131558775;
+			
+			// aapt resource value: 0x7F0D0175
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131558773;
+			
+			// aapt resource value: 0x7F0D0176
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131558774;
+			
+			// aapt resource value: 0x7F0D0178
+			public const int Theme_AppCompat_Light_NoActionBar = 2131558776;
+			
+			// aapt resource value: 0x7F0D0179
+			public const int Theme_AppCompat_NoActionBar = 2131558777;
+			
+			// aapt resource value: 0x7F0D017A
+			public const int Theme_Design = 2131558778;
+			
+			// aapt resource value: 0x7F0D017B
+			public const int Theme_Design_BottomSheetDialog = 2131558779;
+			
+			// aapt resource value: 0x7F0D017C
+			public const int Theme_Design_Light = 2131558780;
+			
+			// aapt resource value: 0x7F0D017D
+			public const int Theme_Design_Light_BottomSheetDialog = 2131558781;
+			
+			// aapt resource value: 0x7F0D017E
+			public const int Theme_Design_Light_NoActionBar = 2131558782;
+			
+			// aapt resource value: 0x7F0D017F
+			public const int Theme_Design_NoActionBar = 2131558783;
+			
+			// aapt resource value: 0x7F0D0180
+			public const int Theme_MaterialComponents = 2131558784;
+			
+			// aapt resource value: 0x7F0D0181
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131558785;
+			
+			// aapt resource value: 0x7F0D0182
+			public const int Theme_MaterialComponents_Bridge = 2131558786;
+			
+			// aapt resource value: 0x7F0D0183
+			public const int Theme_MaterialComponents_CompactMenu = 2131558787;
+			
+			// aapt resource value: 0x7F0D0184
+			public const int Theme_MaterialComponents_Dialog = 2131558788;
+			
+			// aapt resource value: 0x7F0D0187
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131558791;
+			
+			// aapt resource value: 0x7F0D0185
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131558789;
+			
+			// aapt resource value: 0x7F0D0186
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131558790;
+			
+			// aapt resource value: 0x7F0D0188
+			public const int Theme_MaterialComponents_Light = 2131558792;
+			
+			// aapt resource value: 0x7F0D0189
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131558793;
+			
+			// aapt resource value: 0x7F0D018A
+			public const int Theme_MaterialComponents_Light_Bridge = 2131558794;
+			
+			// aapt resource value: 0x7F0D018B
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131558795;
+			
+			// aapt resource value: 0x7F0D018C
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131558796;
+			
+			// aapt resource value: 0x7F0D018D
+			public const int Theme_MaterialComponents_Light_Dialog = 2131558797;
+			
+			// aapt resource value: 0x7F0D0190
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131558800;
+			
+			// aapt resource value: 0x7F0D018E
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131558798;
+			
+			// aapt resource value: 0x7F0D018F
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131558799;
+			
+			// aapt resource value: 0x7F0D0191
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131558801;
+			
+			// aapt resource value: 0x7F0D0192
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131558802;
+			
+			// aapt resource value: 0x7F0D0193
+			public const int Theme_MaterialComponents_NoActionBar = 2131558803;
+			
+			// aapt resource value: 0x7F0D0194
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131558804;
+			
+			// aapt resource value: 0x7F0D0195
+			public const int Theme_MediaRouter = 2131558805;
+			
+			// aapt resource value: 0x7F0D0196
+			public const int Theme_MediaRouter_Light = 2131558806;
+			
+			// aapt resource value: 0x7F0D0198
+			public const int Theme_MediaRouter_LightControlPanel = 2131558808;
+			
+			// aapt resource value: 0x7F0D0197
+			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131558807;
 			
 			// aapt resource value: 0x7F0D01B0
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131558832;
+			public const int Widget_AppCompat_ActionBar = 2131558832;
 			
 			// aapt resource value: 0x7F0D01B1
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131558833;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131558833;
 			
 			// aapt resource value: 0x7F0D01B2
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131558834;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131558834;
 			
 			// aapt resource value: 0x7F0D01B3
-			public const int Widget_AppCompat_Light_ActionButton = 2131558835;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131558835;
 			
 			// aapt resource value: 0x7F0D01B4
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131558836;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131558836;
 			
 			// aapt resource value: 0x7F0D01B5
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131558837;
+			public const int Widget_AppCompat_ActionButton = 2131558837;
 			
 			// aapt resource value: 0x7F0D01B6
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131558838;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131558838;
 			
 			// aapt resource value: 0x7F0D01B7
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131558839;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131558839;
 			
 			// aapt resource value: 0x7F0D01B8
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131558840;
+			public const int Widget_AppCompat_ActionMode = 2131558840;
 			
 			// aapt resource value: 0x7F0D01B9
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131558841;
+			public const int Widget_AppCompat_ActivityChooserView = 2131558841;
 			
 			// aapt resource value: 0x7F0D01BA
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131558842;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131558842;
 			
 			// aapt resource value: 0x7F0D01BB
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131558843;
-			
-			// aapt resource value: 0x7F0D01BC
-			public const int Widget_AppCompat_Light_PopupMenu = 2131558844;
-			
-			// aapt resource value: 0x7F0D01BD
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131558845;
-			
-			// aapt resource value: 0x7F0D01BE
-			public const int Widget_AppCompat_Light_SearchView = 2131558846;
-			
-			// aapt resource value: 0x7F0D01BF
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131558847;
-			
-			// aapt resource value: 0x7F0D01C0
-			public const int Widget_AppCompat_ListMenuView = 2131558848;
+			public const int Widget_AppCompat_Button = 2131558843;
 			
 			// aapt resource value: 0x7F0D01C1
-			public const int Widget_AppCompat_ListPopupWindow = 2131558849;
+			public const int Widget_AppCompat_ButtonBar = 2131558849;
 			
 			// aapt resource value: 0x7F0D01C2
-			public const int Widget_AppCompat_ListView = 2131558850;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131558850;
+			
+			// aapt resource value: 0x7F0D01BC
+			public const int Widget_AppCompat_Button_Borderless = 2131558844;
+			
+			// aapt resource value: 0x7F0D01BD
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131558845;
+			
+			// aapt resource value: 0x7F0D01BE
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131558846;
+			
+			// aapt resource value: 0x7F0D01BF
+			public const int Widget_AppCompat_Button_Colored = 2131558847;
+			
+			// aapt resource value: 0x7F0D01C0
+			public const int Widget_AppCompat_Button_Small = 2131558848;
 			
 			// aapt resource value: 0x7F0D01C3
-			public const int Widget_AppCompat_ListView_DropDown = 2131558851;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131558851;
 			
 			// aapt resource value: 0x7F0D01C4
-			public const int Widget_AppCompat_ListView_Menu = 2131558852;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131558852;
 			
 			// aapt resource value: 0x7F0D01C5
-			public const int Widget_AppCompat_PopupMenu = 2131558853;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131558853;
 			
 			// aapt resource value: 0x7F0D01C6
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131558854;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131558854;
 			
 			// aapt resource value: 0x7F0D01C7
-			public const int Widget_AppCompat_PopupWindow = 2131558855;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131558855;
 			
 			// aapt resource value: 0x7F0D01C8
-			public const int Widget_AppCompat_ProgressBar = 2131558856;
+			public const int Widget_AppCompat_EditText = 2131558856;
 			
 			// aapt resource value: 0x7F0D01C9
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131558857;
+			public const int Widget_AppCompat_ImageButton = 2131558857;
 			
 			// aapt resource value: 0x7F0D01CA
-			public const int Widget_AppCompat_RatingBar = 2131558858;
+			public const int Widget_AppCompat_Light_ActionBar = 2131558858;
 			
 			// aapt resource value: 0x7F0D01CB
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131558859;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131558859;
 			
 			// aapt resource value: 0x7F0D01CC
-			public const int Widget_AppCompat_RatingBar_Small = 2131558860;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131558860;
 			
 			// aapt resource value: 0x7F0D01CD
-			public const int Widget_AppCompat_SearchView = 2131558861;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131558861;
 			
 			// aapt resource value: 0x7F0D01CE
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131558862;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131558862;
 			
 			// aapt resource value: 0x7F0D01CF
-			public const int Widget_AppCompat_SeekBar = 2131558863;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131558863;
 			
 			// aapt resource value: 0x7F0D01D0
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131558864;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131558864;
 			
 			// aapt resource value: 0x7F0D01D1
-			public const int Widget_AppCompat_Spinner = 2131558865;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131558865;
 			
 			// aapt resource value: 0x7F0D01D2
-			public const int Widget_AppCompat_Spinner_DropDown = 2131558866;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131558866;
 			
 			// aapt resource value: 0x7F0D01D3
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131558867;
+			public const int Widget_AppCompat_Light_ActionButton = 2131558867;
 			
 			// aapt resource value: 0x7F0D01D4
-			public const int Widget_AppCompat_Spinner_Underlined = 2131558868;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131558868;
 			
 			// aapt resource value: 0x7F0D01D5
-			public const int Widget_AppCompat_TextView = 2131558869;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131558869;
 			
 			// aapt resource value: 0x7F0D01D6
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131558870;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131558870;
 			
 			// aapt resource value: 0x7F0D01D7
-			public const int Widget_AppCompat_Toolbar = 2131558871;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131558871;
 			
 			// aapt resource value: 0x7F0D01D8
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131558872;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131558872;
 			
 			// aapt resource value: 0x7F0D01D9
-			public const int Widget_Compat_NotificationActionContainer = 2131558873;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131558873;
 			
 			// aapt resource value: 0x7F0D01DA
-			public const int Widget_Compat_NotificationActionText = 2131558874;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131558874;
 			
 			// aapt resource value: 0x7F0D01DB
-			public const int Widget_Design_AppBarLayout = 2131558875;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131558875;
 			
 			// aapt resource value: 0x7F0D01DC
-			public const int Widget_Design_BottomNavigationView = 2131558876;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131558876;
 			
 			// aapt resource value: 0x7F0D01DD
-			public const int Widget_Design_BottomSheet_Modal = 2131558877;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131558877;
 			
 			// aapt resource value: 0x7F0D01DE
-			public const int Widget_Design_CollapsingToolbar = 2131558878;
+			public const int Widget_AppCompat_Light_SearchView = 2131558878;
 			
 			// aapt resource value: 0x7F0D01DF
-			public const int Widget_Design_FloatingActionButton = 2131558879;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131558879;
 			
 			// aapt resource value: 0x7F0D01E0
-			public const int Widget_Design_NavigationView = 2131558880;
+			public const int Widget_AppCompat_ListMenuView = 2131558880;
 			
 			// aapt resource value: 0x7F0D01E1
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131558881;
+			public const int Widget_AppCompat_ListPopupWindow = 2131558881;
 			
 			// aapt resource value: 0x7F0D01E2
-			public const int Widget_Design_Snackbar = 2131558882;
+			public const int Widget_AppCompat_ListView = 2131558882;
 			
 			// aapt resource value: 0x7F0D01E3
-			public const int Widget_Design_TabLayout = 2131558883;
+			public const int Widget_AppCompat_ListView_DropDown = 2131558883;
 			
 			// aapt resource value: 0x7F0D01E4
-			public const int Widget_Design_TextInputLayout = 2131558884;
+			public const int Widget_AppCompat_ListView_Menu = 2131558884;
 			
 			// aapt resource value: 0x7F0D01E5
-			public const int Widget_MaterialComponents_BottomAppBar = 2131558885;
+			public const int Widget_AppCompat_PopupMenu = 2131558885;
 			
 			// aapt resource value: 0x7F0D01E6
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131558886;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131558886;
 			
 			// aapt resource value: 0x7F0D01E7
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131558887;
+			public const int Widget_AppCompat_PopupWindow = 2131558887;
 			
 			// aapt resource value: 0x7F0D01E8
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131558888;
+			public const int Widget_AppCompat_ProgressBar = 2131558888;
 			
 			// aapt resource value: 0x7F0D01E9
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131558889;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131558889;
 			
 			// aapt resource value: 0x7F0D01EA
-			public const int Widget_MaterialComponents_Button = 2131558890;
+			public const int Widget_AppCompat_RatingBar = 2131558890;
 			
 			// aapt resource value: 0x7F0D01EB
-			public const int Widget_MaterialComponents_Button_Icon = 2131558891;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131558891;
 			
 			// aapt resource value: 0x7F0D01EC
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131558892;
+			public const int Widget_AppCompat_RatingBar_Small = 2131558892;
 			
 			// aapt resource value: 0x7F0D01ED
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131558893;
+			public const int Widget_AppCompat_SearchView = 2131558893;
 			
 			// aapt resource value: 0x7F0D01EE
-			public const int Widget_MaterialComponents_Button_TextButton = 2131558894;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131558894;
 			
 			// aapt resource value: 0x7F0D01EF
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131558895;
+			public const int Widget_AppCompat_SeekBar = 2131558895;
 			
 			// aapt resource value: 0x7F0D01F0
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131558896;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131558896;
 			
 			// aapt resource value: 0x7F0D01F1
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131558897;
+			public const int Widget_AppCompat_Spinner = 2131558897;
 			
 			// aapt resource value: 0x7F0D01F2
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131558898;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131558898;
 			
 			// aapt resource value: 0x7F0D01F3
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131558899;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131558899;
 			
 			// aapt resource value: 0x7F0D01F4
-			public const int Widget_MaterialComponents_CardView = 2131558900;
-			
-			// aapt resource value: 0x7F0D01F9
-			public const int Widget_MaterialComponents_ChipGroup = 2131558905;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131558900;
 			
 			// aapt resource value: 0x7F0D01F5
-			public const int Widget_MaterialComponents_Chip_Action = 2131558901;
+			public const int Widget_AppCompat_TextView = 2131558901;
 			
 			// aapt resource value: 0x7F0D01F6
-			public const int Widget_MaterialComponents_Chip_Choice = 2131558902;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131558902;
 			
 			// aapt resource value: 0x7F0D01F7
-			public const int Widget_MaterialComponents_Chip_Entry = 2131558903;
+			public const int Widget_AppCompat_Toolbar = 2131558903;
 			
 			// aapt resource value: 0x7F0D01F8
-			public const int Widget_MaterialComponents_Chip_Filter = 2131558904;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131558904;
+			
+			// aapt resource value: 0x7F0D01F9
+			public const int Widget_Compat_NotificationActionContainer = 2131558905;
 			
 			// aapt resource value: 0x7F0D01FA
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131558906;
+			public const int Widget_Compat_NotificationActionText = 2131558906;
 			
 			// aapt resource value: 0x7F0D01FB
-			public const int Widget_MaterialComponents_NavigationView = 2131558907;
+			public const int Widget_Design_AppBarLayout = 2131558907;
 			
 			// aapt resource value: 0x7F0D01FC
-			public const int Widget_MaterialComponents_Snackbar = 2131558908;
+			public const int Widget_Design_BottomNavigationView = 2131558908;
 			
 			// aapt resource value: 0x7F0D01FD
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131558909;
+			public const int Widget_Design_BottomSheet_Modal = 2131558909;
 			
 			// aapt resource value: 0x7F0D01FE
-			public const int Widget_MaterialComponents_TabLayout = 2131558910;
+			public const int Widget_Design_CollapsingToolbar = 2131558910;
 			
 			// aapt resource value: 0x7F0D01FF
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131558911;
+			public const int Widget_Design_FloatingActionButton = 2131558911;
 			
 			// aapt resource value: 0x7F0D0200
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131558912;
+			public const int Widget_Design_NavigationView = 2131558912;
 			
 			// aapt resource value: 0x7F0D0201
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131558913;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131558913;
 			
 			// aapt resource value: 0x7F0D0202
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131558914;
+			public const int Widget_Design_Snackbar = 2131558914;
 			
 			// aapt resource value: 0x7F0D0203
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131558915;
+			public const int Widget_Design_TabLayout = 2131558915;
 			
 			// aapt resource value: 0x7F0D0204
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131558916;
+			public const int Widget_Design_TextInputLayout = 2131558916;
 			
 			// aapt resource value: 0x7F0D0205
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131558917;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131558917;
 			
 			// aapt resource value: 0x7F0D0206
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131558918;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131558918;
 			
 			// aapt resource value: 0x7F0D0207
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131558919;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131558919;
 			
 			// aapt resource value: 0x7F0D0208
-			public const int Widget_MaterialComponents_Toolbar = 2131558920;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131558920;
 			
 			// aapt resource value: 0x7F0D0209
-			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131558921;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131558921;
 			
 			// aapt resource value: 0x7F0D020A
-			public const int Widget_MediaRouter_MediaRouteButton = 2131558922;
+			public const int Widget_MaterialComponents_Button = 2131558922;
 			
 			// aapt resource value: 0x7F0D020B
-			public const int Widget_Support_CoordinatorLayout = 2131558923;
+			public const int Widget_MaterialComponents_Button_Icon = 2131558923;
+			
+			// aapt resource value: 0x7F0D020C
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131558924;
+			
+			// aapt resource value: 0x7F0D020D
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131558925;
+			
+			// aapt resource value: 0x7F0D020E
+			public const int Widget_MaterialComponents_Button_TextButton = 2131558926;
+			
+			// aapt resource value: 0x7F0D020F
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131558927;
+			
+			// aapt resource value: 0x7F0D0210
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131558928;
+			
+			// aapt resource value: 0x7F0D0211
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131558929;
+			
+			// aapt resource value: 0x7F0D0212
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131558930;
+			
+			// aapt resource value: 0x7F0D0213
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131558931;
+			
+			// aapt resource value: 0x7F0D0214
+			public const int Widget_MaterialComponents_CardView = 2131558932;
+			
+			// aapt resource value: 0x7F0D0219
+			public const int Widget_MaterialComponents_ChipGroup = 2131558937;
+			
+			// aapt resource value: 0x7F0D0215
+			public const int Widget_MaterialComponents_Chip_Action = 2131558933;
+			
+			// aapt resource value: 0x7F0D0216
+			public const int Widget_MaterialComponents_Chip_Choice = 2131558934;
+			
+			// aapt resource value: 0x7F0D0217
+			public const int Widget_MaterialComponents_Chip_Entry = 2131558935;
+			
+			// aapt resource value: 0x7F0D0218
+			public const int Widget_MaterialComponents_Chip_Filter = 2131558936;
+			
+			// aapt resource value: 0x7F0D021A
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131558938;
+			
+			// aapt resource value: 0x7F0D021B
+			public const int Widget_MaterialComponents_NavigationView = 2131558939;
+			
+			// aapt resource value: 0x7F0D021C
+			public const int Widget_MaterialComponents_Snackbar = 2131558940;
+			
+			// aapt resource value: 0x7F0D021D
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131558941;
+			
+			// aapt resource value: 0x7F0D021E
+			public const int Widget_MaterialComponents_TabLayout = 2131558942;
+			
+			// aapt resource value: 0x7F0D021F
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131558943;
+			
+			// aapt resource value: 0x7F0D0220
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131558944;
+			
+			// aapt resource value: 0x7F0D0221
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131558945;
+			
+			// aapt resource value: 0x7F0D0222
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131558946;
+			
+			// aapt resource value: 0x7F0D0223
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131558947;
+			
+			// aapt resource value: 0x7F0D0224
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131558948;
+			
+			// aapt resource value: 0x7F0D0225
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131558949;
+			
+			// aapt resource value: 0x7F0D0226
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131558950;
+			
+			// aapt resource value: 0x7F0D0227
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131558951;
+			
+			// aapt resource value: 0x7F0D0228
+			public const int Widget_MaterialComponents_Toolbar = 2131558952;
+			
+			// aapt resource value: 0x7F0D0229
+			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131558953;
+			
+			// aapt resource value: 0x7F0D022A
+			public const int Widget_MediaRouter_MediaRouteButton = 2131558954;
+			
+			// aapt resource value: 0x7F0D022B
+			public const int Widget_Support_CoordinatorLayout = 2131558955;
 			
 			static Style()
 			{
@@ -15738,37 +19107,37 @@ namespace PizzaIllico.Mobile.Android
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030032,0x7F030033,0x7F030034,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300B1,0x7F0300B6,0x7F0300B7,0x7F0300CA,0x7F0300F6,0x7F0300FB,0x7F030100,0x7F030101,0x7F030103,0x7F03010F,0x7F030119,0x7F030145,0x7F030162,0x7F030173,0x7F030177,0x7F030178,0x7F0301A9,0x7F0301AC,0x7F0301F2,0x7F0301FC }
+			// aapt resource value: { 0x7F03003C,0x7F03003D,0x7F03003E,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300BC,0x7F0300C9,0x7F0300CA,0x7F0300DF,0x7F030110,0x7F030115,0x7F03011A,0x7F03011B,0x7F03011D,0x7F03012A,0x7F030136,0x7F030163,0x7F030183,0x7F030198,0x7F0301A6,0x7F0301A7,0x7F0301DE,0x7F0301E1,0x7F03022E,0x7F030238 }
 			public static int[] ActionBar = new int[] {
-					2130903090,
-					2130903091,
-					2130903092,
-					2130903198,
-					2130903199,
-					2130903200,
-					2130903201,
-					2130903202,
-					2130903203,
-					2130903217,
-					2130903222,
-					2130903223,
+					2130903100,
+					2130903101,
+					2130903102,
+					2130903209,
+					2130903210,
+					2130903211,
+					2130903212,
+					2130903213,
+					2130903214,
+					2130903228,
+					2130903241,
 					2130903242,
-					2130903286,
-					2130903291,
-					2130903296,
-					2130903297,
-					2130903299,
-					2130903311,
-					2130903321,
-					2130903365,
-					2130903394,
-					2130903411,
-					2130903415,
-					2130903416,
-					2130903465,
-					2130903468,
-					2130903538,
-					2130903548};
+					2130903263,
+					2130903312,
+					2130903317,
+					2130903322,
+					2130903323,
+					2130903325,
+					2130903338,
+					2130903350,
+					2130903395,
+					2130903427,
+					2130903448,
+					2130903462,
+					2130903463,
+					2130903518,
+					2130903521,
+					2130903598,
+					2130903608};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -15875,14 +19244,14 @@ namespace PizzaIllico.Mobile.Android
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030032,0x7F030033,0x7F030089,0x7F0300F6,0x7F0301AC,0x7F0301FC }
+			// aapt resource value: { 0x7F03003C,0x7F03003D,0x7F030094,0x7F030110,0x7F0301E1,0x7F030238 }
 			public static int[] ActionMode = new int[] {
-					2130903090,
-					2130903091,
-					2130903177,
-					2130903286,
-					2130903468,
-					2130903548};
+					2130903100,
+					2130903101,
+					2130903188,
+					2130903312,
+					2130903521,
+					2130903608};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -15902,10 +19271,10 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F0300CF,0x7F030110 }
+			// aapt resource value: { 0x7F0300E8,0x7F03012B }
 			public static int[] ActivityChooserView = new int[] {
-					2130903247,
-					2130903312};
+					2130903272,
+					2130903339};
 			
 			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -15913,16 +19282,16 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F030054,0x7F030055,0x7F030139,0x7F03013A,0x7F03015F,0x7F030191,0x7F030192 }
+			// aapt resource value: { 0x10100F2,0x7F03005E,0x7F03005F,0x7F030157,0x7F030158,0x7F030180,0x7F0301C5,0x7F0301C6 }
 			public static int[] AlertDialog = new int[] {
 					16842994,
-					2130903124,
-					2130903125,
-					2130903353,
-					2130903354,
-					2130903391,
-					2130903441,
-					2130903442};
+					2130903134,
+					2130903135,
+					2130903383,
+					2130903384,
+					2130903424,
+					2130903493,
+					2130903494};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -16005,21 +19374,21 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300CA,0x7F0300D0,0x7F030132 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300DF,0x7F0300E9,0x7F030150 }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
-					2130903242,
-					2130903248,
-					2130903346};
+					2130903263,
+					2130903273,
+					2130903376};
 			
-			// aapt resource value: { 0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F0301A2 }
+			// aapt resource value: { 0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7 }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903455,
-					2130903456,
-					2130903457,
-					2130903458};
+					2130903508,
+					2130903509,
+					2130903510,
+					2130903511};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -16048,10 +19417,10 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F030130,0x7F030131 }
+			// aapt resource value: { 0x7F03014E,0x7F03014F }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903344,
-					2130903345};
+					2130903374,
+					2130903375};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -16062,12 +19431,12 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 5
 			public const int AppBarLayout_liftOnScroll = 5;
 			
-			// aapt resource value: { 0x1010119,0x7F03019C,0x7F0301F0,0x7F0301F1 }
+			// aapt resource value: { 0x1010119,0x7F0301D1,0x7F03022C,0x7F03022D }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903452,
-					2130903536,
-					2130903537};
+					2130903505,
+					2130903596,
+					2130903597};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -16081,12 +19450,12 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F0301ED,0x7F0301EE,0x7F0301EF }
+			// aapt resource value: { 0x1010142,0x7F030229,0x7F03022A,0x7F03022B }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903533,
-					2130903534,
-					2130903535};
+					2130903593,
+					2130903594,
+					2130903595};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -16131,29 +19500,29 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F030031,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300C0,0x7F0300C1,0x7F0300C2,0x7F0300C3,0x7F0300E5,0x7F0300E8,0x7F0300F0,0x7F030121,0x7F030133,0x7F0301CC,0x7F0301E6 }
+			// aapt resource value: { 0x1010034,0x7F030037,0x7F030038,0x7F030039,0x7F03003A,0x7F03003B,0x7F0300CE,0x7F0300CF,0x7F0300D0,0x7F0300D1,0x7F0300D3,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300FE,0x7F030101,0x7F030109,0x7F03013F,0x7F030151,0x7F030208,0x7F030222 }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
-					2130903085,
-					2130903086,
-					2130903087,
-					2130903088,
-					2130903089,
-					2130903227,
-					2130903228,
-					2130903229,
-					2130903230,
-					2130903232,
-					2130903233,
-					2130903234,
-					2130903235,
-					2130903269,
-					2130903272,
-					2130903280,
-					2130903329,
-					2130903347,
-					2130903500,
-					2130903526};
+					2130903095,
+					2130903096,
+					2130903097,
+					2130903098,
+					2130903099,
+					2130903246,
+					2130903247,
+					2130903248,
+					2130903249,
+					2130903251,
+					2130903252,
+					2130903253,
+					2130903254,
+					2130903294,
+					2130903297,
+					2130903305,
+					2130903359,
+					2130903377,
+					2130903560,
+					2130903586};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -16218,16 +19587,10 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 20
 			public const int AppCompatTextView_textLocale = 20;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002C,0x7F03003F,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030051,0x7F030057,0x7F030058,0x7F030069,0x7F03006E,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F030098,0x7F03009B,0x7F0300AA,0x7F0300B3,0x7F0300B4,0x7F0300B5,0x7F0300B8,0x7F0300BA,0x7F0300C5,0x7F0300C6,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F030100,0x7F03010E,0x7F030135,0x7F030136,0x7F030137,0x7F030138,0x7F03013B,0x7F03013C,0x7F03013D,0x7F03013E,0x7F03013F,0x7F030140,0x7F030141,0x7F030142,0x7F030143,0x7F03016A,0x7F03016B,0x7F03016C,0x7F030172,0x7F030174,0x7F03017B,0x7F03017C,0x7F03017D,0x7F03017E,0x7F030189,0x7F03018A,0x7F03018B,0x7F03018C,0x7F030199,0x7F03019A,0x7F0301B0,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E2,0x7F0301E3,0x7F0301FE,0x7F0301FF,0x7F030200,0x7F030201,0x7F030211,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030027,0x7F030029,0x7F03002A,0x7F03002B,0x7F03002C,0x7F030036,0x7F030049,0x7F030057,0x7F030058,0x7F030059,0x7F03005A,0x7F03005B,0x7F030061,0x7F030062,0x7F030074,0x7F030079,0x7F03009B,0x7F03009C,0x7F03009D,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300A6,0x7F0300B5,0x7F0300C0,0x7F0300C5,0x7F0300C6,0x7F0300CB,0x7F0300CD,0x7F0300D8,0x7F0300D9,0x7F0300DB,0x7F0300DC,0x7F0300DE,0x7F03011A,0x7F030129,0x7F030153,0x7F030154,0x7F030155,0x7F030156,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F03018E,0x7F03018F,0x7F030190,0x7F030197,0x7F030199,0x7F0301AA,0x7F0301AB,0x7F0301AC,0x7F0301AD,0x7F0301B8,0x7F0301BB,0x7F0301BD,0x7F0301BE,0x7F0301CE,0x7F0301CF,0x7F0301EA,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021E,0x7F03021F,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03024F,0x7F030252,0x7F030253,0x7F030254,0x7F030255,0x7F030256,0x7F030257,0x7F030258,0x7F030259,0x7F03025A,0x7F03025B }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
-					2130903040,
-					2130903041,
-					2130903042,
-					2130903043,
-					2130903044,
-					2130903045,
 					2130903046,
 					2130903047,
 					2130903048,
@@ -16235,12 +19598,12 @@ namespace PizzaIllico.Mobile.Android
 					2130903050,
 					2130903051,
 					2130903052,
+					2130903053,
 					2130903054,
 					2130903055,
 					2130903056,
 					2130903057,
 					2130903058,
-					2130903059,
 					2130903060,
 					2130903061,
 					2130903062,
@@ -16252,99 +19615,105 @@ namespace PizzaIllico.Mobile.Android
 					2130903068,
 					2130903069,
 					2130903070,
+					2130903071,
+					2130903072,
 					2130903073,
 					2130903074,
 					2130903075,
 					2130903076,
-					2130903077,
+					2130903079,
+					2130903081,
+					2130903082,
+					2130903083,
 					2130903084,
-					2130903103,
-					2130903117,
-					2130903118,
-					2130903119,
-					2130903120,
-					2130903121,
+					2130903094,
+					2130903113,
 					2130903127,
 					2130903128,
-					2130903145,
-					2130903150,
-					2130903184,
-					2130903185,
-					2130903186,
-					2130903187,
-					2130903188,
-					2130903189,
-					2130903190,
-					2130903191,
-					2130903192,
+					2130903129,
+					2130903130,
+					2130903131,
+					2130903137,
+					2130903138,
+					2130903156,
+					2130903161,
 					2130903195,
-					2130903210,
-					2130903219,
-					2130903220,
+					2130903196,
+					2130903197,
+					2130903198,
+					2130903199,
+					2130903200,
+					2130903201,
+					2130903202,
+					2130903203,
+					2130903206,
 					2130903221,
-					2130903224,
-					2130903226,
+					2130903232,
 					2130903237,
 					2130903238,
-					2130903239,
-					2130903240,
-					2130903241,
-					2130903296,
-					2130903310,
-					2130903349,
-					2130903350,
-					2130903351,
-					2130903352,
-					2130903355,
-					2130903356,
-					2130903357,
-					2130903358,
-					2130903359,
-					2130903360,
-					2130903361,
-					2130903362,
-					2130903363,
-					2130903402,
-					2130903403,
-					2130903404,
-					2130903410,
-					2130903412,
-					2130903419,
-					2130903420,
-					2130903421,
-					2130903422,
-					2130903433,
-					2130903434,
-					2130903435,
-					2130903436,
+					2130903243,
+					2130903245,
+					2130903256,
+					2130903257,
+					2130903259,
+					2130903260,
+					2130903262,
+					2130903322,
+					2130903337,
+					2130903379,
+					2130903380,
+					2130903381,
+					2130903382,
+					2130903385,
+					2130903386,
+					2130903387,
+					2130903388,
+					2130903389,
+					2130903390,
+					2130903391,
+					2130903392,
+					2130903393,
+					2130903438,
+					2130903439,
+					2130903440,
+					2130903447,
 					2130903449,
-					2130903450,
-					2130903472,
-					2130903511,
-					2130903512,
-					2130903513,
-					2130903514,
-					2130903516,
-					2130903517,
-					2130903518,
-					2130903519,
-					2130903522,
-					2130903523,
-					2130903550,
-					2130903551,
-					2130903552,
-					2130903553,
-					2130903569,
+					2130903466,
+					2130903467,
+					2130903468,
+					2130903469,
+					2130903480,
+					2130903483,
+					2130903485,
+					2130903486,
+					2130903502,
+					2130903503,
+					2130903530,
 					2130903571,
 					2130903572,
 					2130903573,
 					2130903574,
-					2130903575,
 					2130903576,
 					2130903577,
 					2130903578,
 					2130903579,
-					2130903580};
+					2130903582,
+					2130903583,
+					2130903610,
+					2130903611,
+					2130903612,
+					2130903613,
+					2130903631,
+					2130903634,
+					2130903635,
+					2130903636,
+					2130903637,
+					2130903638,
+					2130903639,
+					2130903640,
+					2130903641,
+					2130903642,
+					2130903643};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -16721,14 +20090,25 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 124
 			public const int AppCompatTheme_windowNoTitle = 124;
 			
-			// aapt resource value: { 0x7F030035,0x7F0300DA,0x7F0300DB,0x7F0300DC,0x7F0300DD,0x7F0300FC }
+			// aapt resource value: { 0x101030E,0x7F0301BD }
+			public static int[] BackgroundStyle = new int[] {
+					16843534,
+					2130903485};
+			
+			// aapt resource value: 0
+			public const int BackgroundStyle_android_selectableItemBackground = 0;
+			
+			// aapt resource value: 1
+			public const int BackgroundStyle_selectableItemBackground = 1;
+			
+			// aapt resource value: { 0x7F03003F,0x7F0300F3,0x7F0300F4,0x7F0300F5,0x7F0300F6,0x7F030116 }
 			public static int[] BottomAppBar = new int[] {
-					2130903093,
-					2130903258,
-					2130903259,
-					2130903260,
-					2130903261,
-					2130903292};
+					2130903103,
+					2130903283,
+					2130903284,
+					2130903285,
+					2130903286,
+					2130903318};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -16748,18 +20128,18 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 5
 			public const int BottomAppBar_hideOnScroll = 5;
 			
-			// aapt resource value: { 0x7F0300CA,0x7F030113,0x7F030115,0x7F030117,0x7F030118,0x7F03011C,0x7F03011D,0x7F03011E,0x7F030120,0x7F03015E }
+			// aapt resource value: { 0x7F0300DF,0x7F030130,0x7F030132,0x7F030134,0x7F030135,0x7F030139,0x7F03013A,0x7F03013B,0x7F03013E,0x7F03017E }
 			public static int[] BottomNavigationView = new int[] {
-					2130903242,
-					2130903315,
-					2130903317,
-					2130903319,
-					2130903320,
-					2130903324,
-					2130903325,
-					2130903326,
-					2130903328,
-					2130903390};
+					2130903263,
+					2130903344,
+					2130903346,
+					2130903348,
+					2130903349,
+					2130903353,
+					2130903354,
+					2130903355,
+					2130903358,
+					2130903422};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_elevation = 0;
@@ -16791,12 +20171,12 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 9
 			public const int BottomNavigationView_menu = 9;
 			
-			// aapt resource value: { 0x7F030039,0x7F03003A,0x7F03003C,0x7F03003D }
+			// aapt resource value: { 0x7F030043,0x7F030044,0x7F030046,0x7F030047 }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
-					2130903097,
-					2130903098,
-					2130903100,
-					2130903101};
+					2130903107,
+					2130903108,
+					2130903110,
+					2130903111};
 			
 			// aapt resource value: 0
 			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 0;
@@ -16810,28 +20190,28 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 3
 			public const int BottomSheetBehavior_Layout_behavior_skipCollapsed = 3;
 			
-			// aapt resource value: { 0x7F030026 }
+			// aapt resource value: { 0x7F030030 }
 			public static int[] ButtonBarLayout = new int[] {
-					2130903078};
+					2130903088};
 			
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F030062,0x7F030063,0x7F030064,0x7F030065,0x7F030066,0x7F030067,0x7F0300A4,0x7F0300A5,0x7F0300A6,0x7F0300A7,0x7F0300A8 }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F03006C,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030070,0x7F030071,0x7F0300AF,0x7F0300B0,0x7F0300B1,0x7F0300B2,0x7F0300B3 }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
-					2130903138,
-					2130903139,
-					2130903140,
-					2130903141,
-					2130903142,
-					2130903143,
-					2130903204,
-					2130903205,
-					2130903206,
-					2130903207,
-					2130903208};
+					2130903148,
+					2130903149,
+					2130903150,
+					2130903151,
+					2130903152,
+					2130903153,
+					2130903215,
+					2130903216,
+					2130903217,
+					2130903218,
+					2130903219};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -16872,51 +20252,78 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F03006B,0x7F03006C,0x7F03006D,0x7F03006F,0x7F030070,0x7F030071,0x7F030073,0x7F030074,0x7F030075,0x7F030076,0x7F030077,0x7F030078,0x7F03007D,0x7F03007E,0x7F03007F,0x7F030082,0x7F030083,0x7F030084,0x7F030085,0x7F030086,0x7F030087,0x7F030088,0x7F0300FA,0x7F030104,0x7F030108,0x7F030181,0x7F03018F,0x7F0301E4,0x7F0301E7 }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x7F0300C8,0x7F0301E4,0x7F0301E5 }
+			public static int[] CheckBoxPreference = new int[] {
+					16843247,
+					16843248,
+					16843249,
+					2130903240,
+					2130903524,
+					2130903525};
+			
+			// aapt resource value: 2
+			public const int CheckBoxPreference_android_disableDependentsState = 2;
+			
+			// aapt resource value: 1
+			public const int CheckBoxPreference_android_summaryOff = 1;
+			
+			// aapt resource value: 0
+			public const int CheckBoxPreference_android_summaryOn = 0;
+			
+			// aapt resource value: 3
+			public const int CheckBoxPreference_disableDependentsState = 3;
+			
+			// aapt resource value: 4
+			public const int CheckBoxPreference_summaryOff = 4;
+			
+			// aapt resource value: 5
+			public const int CheckBoxPreference_summaryOn = 5;
+			
+			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030076,0x7F030077,0x7F030078,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007E,0x7F03007F,0x7F030080,0x7F030081,0x7F030082,0x7F030083,0x7F030088,0x7F030089,0x7F03008A,0x7F03008D,0x7F03008E,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030114,0x7F03011E,0x7F030123,0x7F0301B0,0x7F0301C2,0x7F030220,0x7F030223 }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842923,
 					16843039,
 					16843087,
 					16843237,
-					2130903147,
-					2130903148,
-					2130903149,
-					2130903151,
-					2130903152,
-					2130903153,
-					2130903155,
-					2130903156,
-					2130903157,
 					2130903158,
 					2130903159,
 					2130903160,
-					2130903165,
+					2130903162,
+					2130903163,
+					2130903164,
 					2130903166,
 					2130903167,
+					2130903168,
+					2130903169,
 					2130903170,
 					2130903171,
+					2130903176,
+					2130903177,
+					2130903178,
+					2130903181,
+					2130903182,
+					2130903183,
+					2130903184,
+					2130903185,
+					2130903186,
+					2130903187,
+					2130903316,
+					2130903326,
+					2130903331,
+					2130903472,
+					2130903490,
+					2130903584,
+					2130903587};
+			
+			// aapt resource value: { 0x7F030075,0x7F030084,0x7F030085,0x7F030086,0x7F0301C7,0x7F0301C9 }
+			public static int[] ChipGroup = new int[] {
+					2130903157,
 					2130903172,
 					2130903173,
 					2130903174,
-					2130903175,
-					2130903176,
-					2130903290,
-					2130903300,
-					2130903304,
-					2130903425,
-					2130903439,
-					2130903524,
-					2130903527};
-			
-			// aapt resource value: { 0x7F03006A,0x7F030079,0x7F03007A,0x7F03007B,0x7F030193,0x7F030194 }
-			public static int[] ChipGroup = new int[] {
-					2130903146,
-					2130903161,
-					2130903162,
-					2130903163,
-					2130903443,
-					2130903444};
+					2130903495,
+					2130903497};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -17038,24 +20445,24 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 33
 			public const int Chip_textStartPadding = 33;
 			
-			// aapt resource value: { 0x7F03008C,0x7F03008D,0x7F0300A9,0x7F0300D1,0x7F0300D2,0x7F0300D3,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F030183,0x7F030185,0x7F0301A4,0x7F0301F2,0x7F0301F3,0x7F0301FD }
+			// aapt resource value: { 0x7F030097,0x7F030098,0x7F0300B4,0x7F0300EA,0x7F0300EB,0x7F0300EC,0x7F0300ED,0x7F0300EE,0x7F0300EF,0x7F0300F0,0x7F0301B2,0x7F0301B4,0x7F0301D9,0x7F03022E,0x7F03022F,0x7F030239 }
 			public static int[] CollapsingToolbarLayout = new int[] {
-					2130903180,
-					2130903181,
-					2130903209,
-					2130903249,
-					2130903250,
-					2130903251,
-					2130903252,
-					2130903253,
-					2130903254,
-					2130903255,
-					2130903427,
-					2130903429,
-					2130903460,
-					2130903538,
-					2130903539,
-					2130903549};
+					2130903191,
+					2130903192,
+					2130903220,
+					2130903274,
+					2130903275,
+					2130903276,
+					2130903277,
+					2130903278,
+					2130903279,
+					2130903280,
+					2130903474,
+					2130903476,
+					2130903513,
+					2130903598,
+					2130903599,
+					2130903609};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -17087,10 +20494,10 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F03012B,0x7F03012C }
+			// aapt resource value: { 0x7F030149,0x7F03014A }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903339,
-					2130903340};
+					2130903369,
+					2130903370};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -17116,11 +20523,11 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 15
 			public const int CollapsingToolbarLayout_toolbarId = 15;
 			
-			// aapt resource value: { 0x10101A5,0x101031F,0x7F030027 }
+			// aapt resource value: { 0x10101A5,0x101031F,0x7F030031 }
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
-					2130903079};
+					2130903089};
 			
 			// aapt resource value: 2
 			public const int ColorStateListItem_alpha = 2;
@@ -17131,12 +20538,12 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 0
 			public const int ColorStateListItem_android_color = 0;
 			
-			// aapt resource value: { 0x1010107,0x7F030052,0x7F030059,0x7F03005A }
+			// aapt resource value: { 0x1010107,0x7F03005C,0x7F030063,0x7F030064 }
 			public static int[] CompoundButton = new int[] {
 					16843015,
-					2130903122,
-					2130903129,
-					2130903130};
+					2130903132,
+					2130903139,
+					2130903140};
 			
 			// aapt resource value: 0
 			public const int CompoundButton_android_button = 0;
@@ -17150,23 +20557,23 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 3
 			public const int CompoundButton_buttonTintMode = 3;
 			
-			// aapt resource value: { 0x7F03011F,0x7F0301A3 }
+			// aapt resource value: { 0x7F03013D,0x7F0301D8 }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903327,
-					2130903459};
+					2130903357,
+					2130903512};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F030128,0x7F030129,0x7F03012A,0x7F03012D,0x7F03012E,0x7F03012F }
+			// aapt resource value: { 0x10100B3,0x7F030146,0x7F030147,0x7F030148,0x7F03014B,0x7F03014C,0x7F03014D }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903336,
-					2130903337,
-					2130903338,
-					2130903341,
-					2130903342,
-					2130903343};
+					2130903366,
+					2130903367,
+					2130903368,
+					2130903371,
+					2130903372,
+					2130903373};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -17192,10 +20599,10 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F030042,0x7F030043 }
+			// aapt resource value: { 0x7F03004C,0x7F03004D }
 			public static int[] DesignTheme = new int[] {
-					2130903106,
-					2130903107};
+					2130903116,
+					2130903117};
 			
 			// aapt resource value: 0
 			public const int DesignTheme_bottomSheetDialogTheme = 0;
@@ -17203,16 +20610,67 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 1
 			public const int DesignTheme_bottomSheetStyle = 1;
 			
-			// aapt resource value: { 0x7F03002A,0x7F03002B,0x7F030037,0x7F03008F,0x7F0300BF,0x7F0300F3,0x7F030198,0x7F0301E9 }
+			// aapt resource value: { 0x10101F2,0x10101F3,0x10101F4,0x10101F5,0x10101F6,0x10101F7,0x7F0300C1,0x7F0300C2,0x7F0300C3,0x7F0300C7,0x7F030185,0x7F03019A }
+			public static int[] DialogPreference = new int[] {
+					16843250,
+					16843251,
+					16843252,
+					16843253,
+					16843254,
+					16843255,
+					2130903233,
+					2130903234,
+					2130903235,
+					2130903239,
+					2130903429,
+					2130903450};
+			
+			// aapt resource value: 2
+			public const int DialogPreference_android_dialogIcon = 2;
+			
+			// aapt resource value: 5
+			public const int DialogPreference_android_dialogLayout = 5;
+			
+			// aapt resource value: 1
+			public const int DialogPreference_android_dialogMessage = 1;
+			
+			// aapt resource value: 0
+			public const int DialogPreference_android_dialogTitle = 0;
+			
+			// aapt resource value: 4
+			public const int DialogPreference_android_negativeButtonText = 4;
+			
+			// aapt resource value: 3
+			public const int DialogPreference_android_positiveButtonText = 3;
+			
+			// aapt resource value: 6
+			public const int DialogPreference_dialogIcon = 6;
+			
+			// aapt resource value: 7
+			public const int DialogPreference_dialogLayout = 7;
+			
+			// aapt resource value: 8
+			public const int DialogPreference_dialogMessage = 8;
+			
+			// aapt resource value: 9
+			public const int DialogPreference_dialogTitle = 9;
+			
+			// aapt resource value: 10
+			public const int DialogPreference_negativeButtonText = 10;
+			
+			// aapt resource value: 11
+			public const int DialogPreference_positiveButtonText = 11;
+			
+			// aapt resource value: { 0x7F030034,0x7F030035,0x7F030041,0x7F03009A,0x7F0300D2,0x7F03010D,0x7F0301CD,0x7F030225 }
 			public static int[] DrawerArrowToggle = new int[] {
-					2130903082,
-					2130903083,
-					2130903095,
-					2130903183,
-					2130903231,
-					2130903283,
-					2130903448,
-					2130903529};
+					2130903092,
+					2130903093,
+					2130903105,
+					2130903194,
+					2130903250,
+					2130903309,
+					2130903501,
+					2130903589};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -17238,21 +20696,28 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F030035,0x7F030036,0x7F03003E,0x7F0300CA,0x7F0300DE,0x7F0300DF,0x7F0300FA,0x7F030102,0x7F03014C,0x7F030176,0x7F030181,0x7F03018F,0x7F03020F }
+			// aapt resource value: { 0x7F03024D }
+			public static int[] EditTextPreference = new int[] {
+					2130903629};
+			
+			// aapt resource value: 0
+			public const int EditTextPreference_useSimpleSummaryProvider = 0;
+			
+			// aapt resource value: { 0x7F03003F,0x7F030040,0x7F030048,0x7F0300DF,0x7F0300F7,0x7F0300F8,0x7F030114,0x7F03011C,0x7F03016B,0x7F0301A5,0x7F0301B0,0x7F0301C2,0x7F03024C }
 			public static int[] FloatingActionButton = new int[] {
-					2130903093,
-					2130903094,
-					2130903102,
-					2130903242,
-					2130903262,
+					2130903103,
+					2130903104,
+					2130903112,
 					2130903263,
-					2130903290,
-					2130903298,
-					2130903372,
-					2130903414,
-					2130903425,
-					2130903439,
-					2130903567};
+					2130903287,
+					2130903288,
+					2130903316,
+					2130903324,
+					2130903403,
+					2130903461,
+					2130903472,
+					2130903490,
+					2130903628};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_backgroundTint = 0;
@@ -17260,9 +20725,9 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 1
 			public const int FloatingActionButton_backgroundTintMode = 1;
 			
-			// aapt resource value: { 0x7F030038 }
+			// aapt resource value: { 0x7F030042 }
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
-					2130903096};
+					2130903106};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
@@ -17300,10 +20765,10 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 12
 			public const int FloatingActionButton_useCompatPadding = 12;
 			
-			// aapt resource value: { 0x7F03011A,0x7F030134 }
+			// aapt resource value: { 0x7F030137,0x7F030152 }
 			public static int[] FlowLayout = new int[] {
-					2130903322,
-					2130903348};
+					2130903351,
+					2130903378};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -17311,27 +20776,27 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F0300E9,0x7F0300EA,0x7F0300EB,0x7F0300EC,0x7F0300ED,0x7F0300EE }
+			// aapt resource value: { 0x7F030102,0x7F030103,0x7F030104,0x7F030105,0x7F030106,0x7F030107 }
 			public static int[] FontFamily = new int[] {
-					2130903273,
-					2130903274,
-					2130903275,
-					2130903276,
-					2130903277,
-					2130903278};
+					2130903298,
+					2130903299,
+					2130903300,
+					2130903301,
+					2130903302,
+					2130903303};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300E7,0x7F0300EF,0x7F0300F0,0x7F0300F1,0x7F030206 }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F030100,0x7F030108,0x7F030109,0x7F03010A,0x7F030242 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
 					16844143,
 					16844144,
-					2130903271,
-					2130903279,
-					2130903280,
-					2130903281,
-					2130903558};
+					2130903296,
+					2130903304,
+					2130903305,
+					2130903306,
+					2130903618};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -17381,11 +20846,11 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 5
 			public const int FontFamily_fontProviderQuery = 5;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F0300F2 }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F03010B }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130903282};
+					2130903307};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -17395,6 +20860,32 @@ namespace PizzaIllico.Mobile.Android
 			
 			// aapt resource value: 2
 			public const int ForegroundLinearLayout_foregroundInsidePadding = 2;
+			
+			// aapt resource value: { 0x1010003,0x10100D0,0x10100D1 }
+			public static int[] Fragment = new int[] {
+					16842755,
+					16842960,
+					16842961};
+			
+			// aapt resource value: { 0x1010003,0x10100D1 }
+			public static int[] FragmentContainerView = new int[] {
+					16842755,
+					16842961};
+			
+			// aapt resource value: 0
+			public const int FragmentContainerView_android_name = 0;
+			
+			// aapt resource value: 1
+			public const int FragmentContainerView_android_tag = 1;
+			
+			// aapt resource value: 1
+			public const int Fragment_android_id = 1;
+			
+			// aapt resource value: 0
+			public const int Fragment_android_name = 0;
+			
+			// aapt resource value: 2
+			public const int Fragment_android_tag = 2;
 			
 			// aapt resource value: { 0x101019D,0x101019E,0x10101A1,0x10101A2,0x10101A3,0x10101A4,0x1010201,0x101020B,0x1010510,0x1010511,0x1010512,0x1010513 }
 			public static int[] GradientColor = new int[] {
@@ -17458,24 +20949,24 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x7F03008E }
+			// aapt resource value: { 0x7F030099 }
 			public static int[] ItemsViewRendererTheme = new int[] {
-					2130903182};
+					2130903193};
 			
 			// aapt resource value: 0
 			public const int ItemsViewRendererTheme_collectionViewStyle = 0;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300B7,0x7F0300B9,0x7F03014D,0x7F03018E }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300CA,0x7F0300CC,0x7F03016D,0x7F0301C1 }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
 					16843046,
 					16843047,
 					16843048,
-					2130903223,
-					2130903225,
-					2130903373,
-					2130903438};
+					2130903242,
+					2130903244,
+					2130903405,
+					2130903489};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -17534,11 +21025,34 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x7F030081,0x7F03010C,0x7F03010D }
+			// aapt resource value: { 0x10100B2,0x10101F8,0x7F0300E4,0x7F0300E5,0x7F03024D }
+			public static int[] ListPreference = new int[] {
+					16842930,
+					16843256,
+					2130903268,
+					2130903269,
+					2130903629};
+			
+			// aapt resource value: 0
+			public const int ListPreference_android_entries = 0;
+			
+			// aapt resource value: 1
+			public const int ListPreference_android_entryValues = 1;
+			
+			// aapt resource value: 2
+			public const int ListPreference_entries = 2;
+			
+			// aapt resource value: 3
+			public const int ListPreference_entryValues = 3;
+			
+			// aapt resource value: 4
+			public const int ListPreference_useSimpleSummaryProvider = 4;
+			
+			// aapt resource value: { 0x7F03008C,0x7F030127,0x7F030128 }
 			public static int[] LoadingImageView = new int[] {
-					2130903169,
-					2130903308,
-					2130903309};
+					2130903180,
+					2130903335,
+					2130903336};
 			
 			// aapt resource value: 0
 			public const int LoadingImageView_circleCrop = 0;
@@ -17549,32 +21063,32 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 2
 			public const int LoadingImageView_imageAspectRatioAdjust = 2;
 			
-			// aapt resource value: { 0x7F030029,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030061,0x7F030122,0x7F030123,0x7F030124,0x7F030125,0x7F030144,0x7F030147,0x7F030207,0x7F030208,0x7F030209,0x7F03020A,0x7F03020B,0x7F03020C,0x7F03020D,0x7F03020E,0x7F030210,0x7F03021D }
+			// aapt resource value: { 0x7F030033,0x7F030065,0x7F030066,0x7F030067,0x7F030068,0x7F030069,0x7F03006A,0x7F03006B,0x7F030140,0x7F030141,0x7F030142,0x7F030143,0x7F030162,0x7F030165,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024E,0x7F03025C }
 			public static int[] MapAttrs = new int[] {
-					2130903081,
-					2130903131,
-					2130903132,
-					2130903133,
-					2130903134,
-					2130903135,
-					2130903136,
-					2130903137,
-					2130903330,
-					2130903331,
-					2130903332,
-					2130903333,
-					2130903364,
-					2130903367,
-					2130903559,
-					2130903560,
-					2130903561,
-					2130903562,
-					2130903563,
-					2130903564,
-					2130903565,
-					2130903566,
-					2130903568,
-					2130903581};
+					2130903091,
+					2130903141,
+					2130903142,
+					2130903143,
+					2130903144,
+					2130903145,
+					2130903146,
+					2130903147,
+					2130903360,
+					2130903361,
+					2130903362,
+					2130903363,
+					2130903394,
+					2130903397,
+					2130903619,
+					2130903620,
+					2130903621,
+					2130903622,
+					2130903623,
+					2130903624,
+					2130903625,
+					2130903626,
+					2130903630,
+					2130903644};
 			
 			// aapt resource value: 0
 			public const int MapAttrs_ambientEnabled = 0;
@@ -17648,24 +21162,24 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 23
 			public const int MapAttrs_zOrderOnTop = 23;
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030035,0x7F030036,0x7F0300AC,0x7F030103,0x7F030105,0x7F030106,0x7F030107,0x7F030109,0x7F03010A,0x7F030181,0x7F0301A5,0x7F0301A6 }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F03003F,0x7F030040,0x7F0300B7,0x7F03011D,0x7F03011F,0x7F030120,0x7F030121,0x7F030124,0x7F030125,0x7F0301B0,0x7F0301DA,0x7F0301DB }
 			public static int[] MaterialButton = new int[] {
 					16843191,
 					16843192,
 					16843193,
 					16843194,
-					2130903093,
-					2130903094,
-					2130903212,
-					2130903299,
-					2130903301,
-					2130903302,
-					2130903303,
-					2130903305,
-					2130903306,
-					2130903425,
-					2130903461,
-					2130903462};
+					2130903103,
+					2130903104,
+					2130903223,
+					2130903325,
+					2130903327,
+					2130903328,
+					2130903329,
+					2130903332,
+					2130903333,
+					2130903472,
+					2130903514,
+					2130903515};
 			
 			// aapt resource value: 3
 			public const int MaterialButton_android_insetBottom = 3;
@@ -17715,10 +21229,10 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 15
 			public const int MaterialButton_strokeWidth = 15;
 			
-			// aapt resource value: { 0x7F0301A5,0x7F0301A6 }
+			// aapt resource value: { 0x7F0301DA,0x7F0301DB }
 			public static int[] MaterialCardView = new int[] {
-					2130903461,
-					2130903462};
+					2130903514,
+					2130903515};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_strokeColor = 0;
@@ -17726,40 +21240,40 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 1
 			public const int MaterialCardView_strokeWidth = 1;
 			
-			// aapt resource value: { 0x7F030042,0x7F030043,0x7F030072,0x7F03007C,0x7F030080,0x7F030090,0x7F030091,0x7F030097,0x7F030098,0x7F03009A,0x7F0300C9,0x7F0300E6,0x7F030148,0x7F030149,0x7F030163,0x7F030184,0x7F030195,0x7F0301C8,0x7F0301CD,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301DB,0x7F0301E0,0x7F0301E1,0x7F0301E5 }
+			// aapt resource value: { 0x7F03004C,0x7F03004D,0x7F03007D,0x7F030087,0x7F03008B,0x7F03009B,0x7F03009C,0x7F0300A2,0x7F0300A3,0x7F0300A5,0x7F0300DE,0x7F0300FF,0x7F030166,0x7F030167,0x7F030184,0x7F0301B3,0x7F0301CA,0x7F030204,0x7F030209,0x7F03020A,0x7F03020B,0x7F03020C,0x7F03020D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030217,0x7F03021C,0x7F03021D,0x7F030221 }
 			public static int[] MaterialComponentsTheme = new int[] {
-					2130903106,
-					2130903107,
-					2130903154,
-					2130903164,
-					2130903168,
-					2130903184,
-					2130903185,
-					2130903191,
-					2130903192,
-					2130903194,
-					2130903241,
-					2130903270,
-					2130903368,
-					2130903369,
-					2130903395,
+					2130903116,
+					2130903117,
+					2130903165,
+					2130903175,
+					2130903179,
+					2130903195,
+					2130903196,
+					2130903202,
+					2130903203,
+					2130903205,
+					2130903262,
+					2130903295,
+					2130903398,
+					2130903399,
 					2130903428,
-					2130903445,
-					2130903496,
-					2130903501,
-					2130903502,
-					2130903503,
-					2130903504,
-					2130903505,
-					2130903506,
-					2130903507,
-					2130903508,
-					2130903509,
-					2130903510,
-					2130903515,
-					2130903520,
-					2130903521,
-					2130903525};
+					2130903475,
+					2130903498,
+					2130903556,
+					2130903561,
+					2130903562,
+					2130903563,
+					2130903564,
+					2130903565,
+					2130903566,
+					2130903567,
+					2130903568,
+					2130903569,
+					2130903570,
+					2130903575,
+					2130903580,
+					2130903581,
+					2130903585};
 			
 			// aapt resource value: 0
 			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 0;
@@ -17857,13 +21371,13 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 31
 			public const int MaterialComponentsTheme_textInputStyle = 31;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F0300D8,0x7F0300D9,0x7F030151 }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F0300F1,0x7F0300F2,0x7F030171 }
 			public static int[] MediaRouteButton = new int[] {
 					16843071,
 					16843072,
-					2130903256,
-					2130903257,
-					2130903377};
+					2130903281,
+					2130903282,
+					2130903409};
 			
 			// aapt resource value: 1
 			public const int MediaRouteButton_android_minHeight = 1;
@@ -17907,7 +21421,7 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030028,0x7F03009D,0x7F030109,0x7F03010A,0x7F030164,0x7F03018D,0x7F030202 }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030013,0x7F030025,0x7F030026,0x7F030032,0x7F0300A8,0x7F030124,0x7F030125,0x7F030186,0x7F0301C0,0x7F03023E }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -17922,16 +21436,16 @@ namespace PizzaIllico.Mobile.Android
 					16843236,
 					16843237,
 					16843375,
-					2130903053,
-					2130903071,
-					2130903072,
-					2130903080,
-					2130903197,
-					2130903305,
-					2130903306,
-					2130903396,
-					2130903437,
-					2130903554};
+					2130903059,
+					2130903077,
+					2130903078,
+					2130903090,
+					2130903208,
+					2130903332,
+					2130903333,
+					2130903430,
+					2130903488,
+					2130903614};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -18002,7 +21516,7 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030175,0x7F0301A7 }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F0301A4,0x7F0301DC }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -18011,8 +21525,8 @@ namespace PizzaIllico.Mobile.Android
 					16843055,
 					16843056,
 					16843057,
-					2130903413,
-					2130903463};
+					2130903460,
+					2130903516};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -18041,20 +21555,75 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300CA,0x7F0300F5,0x7F030113,0x7F030114,0x7F030116,0x7F030118,0x7F03011B,0x7F03011E,0x7F03015E }
+			// aapt resource value: { 0x10100B2,0x10101F8,0x7F0300E4,0x7F0300E5 }
+			public static int[] MultiSelectListPreference = new int[] {
+					16842930,
+					16843256,
+					2130903268,
+					2130903269};
+			
+			// aapt resource value: 0
+			public const int MultiSelectListPreference_android_entries = 0;
+			
+			// aapt resource value: 1
+			public const int MultiSelectListPreference_android_entryValues = 1;
+			
+			// aapt resource value: 2
+			public const int MultiSelectListPreference_entries = 2;
+			
+			// aapt resource value: 3
+			public const int MultiSelectListPreference_entryValues = 3;
+			
+			// aapt resource value: { 0x7F030000,0x7F030004 }
+			public static int[] MvxBinding = new int[] {
+					2130903040,
+					2130903044};
+			
+			// aapt resource value: 0
+			public const int MvxBinding_MvxBind = 0;
+			
+			// aapt resource value: 1
+			public const int MvxBinding_MvxLang = 1;
+			
+			// aapt resource value: { 0x7F030005 }
+			public static int[] MvxControl = new int[] {
+					2130903045};
+			
+			// aapt resource value: 0
+			public const int MvxControl_MvxTemplate = 0;
+			
+			// aapt resource value: { 0x7F030002 }
+			public static int[] MvxExpandableListView = new int[] {
+					2130903042};
+			
+			// aapt resource value: 0
+			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
+			
+			// aapt resource value: { 0x7F030001,0x7F030003 }
+			public static int[] MvxListView = new int[] {
+					2130903041,
+					2130903043};
+			
+			// aapt resource value: 0
+			public const int MvxListView_MvxDropDownItemTemplate = 0;
+			
+			// aapt resource value: 1
+			public const int MvxListView_MvxItemTemplate = 1;
+			
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300DF,0x7F03010F,0x7F030130,0x7F030131,0x7F030133,0x7F030135,0x7F030138,0x7F03013B,0x7F03017E }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130903242,
-					2130903285,
-					2130903315,
-					2130903316,
-					2130903318,
-					2130903320,
-					2130903323,
-					2130903326,
-					2130903390};
+					2130903263,
+					2130903311,
+					2130903344,
+					2130903345,
+					2130903347,
+					2130903349,
+					2130903352,
+					2130903355,
+					2130903422};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -18092,15 +21661,15 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 11
 			public const int NavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F030165 }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F030189 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903397};
+					2130903433};
 			
-			// aapt resource value: { 0x7F03019E }
+			// aapt resource value: { 0x7F0301D3 }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903454};
+					2130903507};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -18114,10 +21683,296 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x7F030166,0x7F030169 }
+			// aapt resource value: { 0x1010002,0x101000D,0x101000E,0x10100F2,0x10101E1,0x10101E6,0x10101E8,0x10101E9,0x10101EA,0x10101EB,0x10101EC,0x10101ED,0x10101EE,0x10102E3,0x101055C,0x1010561,0x7F03002D,0x7F03002F,0x7F0300BE,0x7F0300BF,0x7F0300E0,0x7F0300E1,0x7F03010C,0x7F03011D,0x7F030122,0x7F03012F,0x7F03013C,0x7F030144,0x7F030187,0x7F030196,0x7F0301BC,0x7F0301BF,0x7F0301C8,0x7F0301E3,0x7F03022E,0x7F030251 }
+			public static int[] Preference = new int[] {
+					16842754,
+					16842765,
+					16842766,
+					16842994,
+					16843233,
+					16843238,
+					16843240,
+					16843241,
+					16843242,
+					16843243,
+					16843244,
+					16843245,
+					16843246,
+					16843491,
+					16844124,
+					16844129,
+					2130903085,
+					2130903087,
+					2130903230,
+					2130903231,
+					2130903264,
+					2130903265,
+					2130903308,
+					2130903325,
+					2130903330,
+					2130903343,
+					2130903356,
+					2130903364,
+					2130903431,
+					2130903446,
+					2130903484,
+					2130903487,
+					2130903496,
+					2130903523,
+					2130903598,
+					2130903633};
+			
+			// aapt resource value: { 0x10100F2,0x1010129,0x101012A,0x7F03002E }
+			public static int[] PreferenceFragment = new int[] {
+					16842994,
+					16843049,
+					16843050,
+					2130903086};
+			
+			// aapt resource value: { 0x10100F2,0x1010129,0x101012A,0x7F03002E }
+			public static int[] PreferenceFragmentCompat = new int[] {
+					16842994,
+					16843049,
+					16843050,
+					2130903086};
+			
+			// aapt resource value: 3
+			public const int PreferenceFragmentCompat_allowDividerAfterLastItem = 3;
+			
+			// aapt resource value: 1
+			public const int PreferenceFragmentCompat_android_divider = 1;
+			
+			// aapt resource value: 2
+			public const int PreferenceFragmentCompat_android_dividerHeight = 2;
+			
+			// aapt resource value: 0
+			public const int PreferenceFragmentCompat_android_layout = 0;
+			
+			// aapt resource value: 3
+			public const int PreferenceFragment_allowDividerAfterLastItem = 3;
+			
+			// aapt resource value: 1
+			public const int PreferenceFragment_android_divider = 1;
+			
+			// aapt resource value: 2
+			public const int PreferenceFragment_android_dividerHeight = 2;
+			
+			// aapt resource value: 0
+			public const int PreferenceFragment_android_layout = 0;
+			
+			// aapt resource value: { 0x10101E7,0x7F03012C,0x7F030188 }
+			public static int[] PreferenceGroup = new int[] {
+					16843239,
+					2130903340,
+					2130903432};
+			
+			// aapt resource value: 0
+			public const int PreferenceGroup_android_orderingFromXml = 0;
+			
+			// aapt resource value: 1
+			public const int PreferenceGroup_initialExpandedChildrenCount = 1;
+			
+			// aapt resource value: 2
+			public const int PreferenceGroup_orderingFromXml = 2;
+			
+			// aapt resource value: { 0x101011F,0x1010120,0x7F03016A,0x7F03016C }
+			public static int[] PreferenceImageView = new int[] {
+					16843039,
+					16843040,
+					2130903402,
+					2130903404};
+			
+			// aapt resource value: 1
+			public const int PreferenceImageView_android_maxHeight = 1;
+			
+			// aapt resource value: 0
+			public const int PreferenceImageView_android_maxWidth = 0;
+			
+			// aapt resource value: 2
+			public const int PreferenceImageView_maxHeight = 2;
+			
+			// aapt resource value: 3
+			public const int PreferenceImageView_maxWidth = 3;
+			
+			// aapt resource value: { 0x7F030073,0x7F0300C4,0x7F0300DA,0x7F0300DD,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301BA,0x7F0301E8,0x7F0301E9 }
+			public static int[] PreferenceTheme = new int[] {
+					2130903155,
+					2130903236,
+					2130903258,
+					2130903261,
+					2130903451,
+					2130903452,
+					2130903453,
+					2130903454,
+					2130903455,
+					2130903456,
+					2130903457,
+					2130903458,
+					2130903459,
+					2130903482,
+					2130903528,
+					2130903529};
+			
+			// aapt resource value: 0
+			public const int PreferenceTheme_checkBoxPreferenceStyle = 0;
+			
+			// aapt resource value: 1
+			public const int PreferenceTheme_dialogPreferenceStyle = 1;
+			
+			// aapt resource value: 2
+			public const int PreferenceTheme_dropdownPreferenceStyle = 2;
+			
+			// aapt resource value: 3
+			public const int PreferenceTheme_editTextPreferenceStyle = 3;
+			
+			// aapt resource value: 4
+			public const int PreferenceTheme_preferenceCategoryStyle = 4;
+			
+			// aapt resource value: 5
+			public const int PreferenceTheme_preferenceCategoryTitleTextAppearance = 5;
+			
+			// aapt resource value: 6
+			public const int PreferenceTheme_preferenceFragmentCompatStyle = 6;
+			
+			// aapt resource value: 7
+			public const int PreferenceTheme_preferenceFragmentListStyle = 7;
+			
+			// aapt resource value: 8
+			public const int PreferenceTheme_preferenceFragmentStyle = 8;
+			
+			// aapt resource value: 9
+			public const int PreferenceTheme_preferenceInformationStyle = 9;
+			
+			// aapt resource value: 10
+			public const int PreferenceTheme_preferenceScreenStyle = 10;
+			
+			// aapt resource value: 11
+			public const int PreferenceTheme_preferenceStyle = 11;
+			
+			// aapt resource value: 12
+			public const int PreferenceTheme_preferenceTheme = 12;
+			
+			// aapt resource value: 13
+			public const int PreferenceTheme_seekBarPreferenceStyle = 13;
+			
+			// aapt resource value: 14
+			public const int PreferenceTheme_switchPreferenceCompatStyle = 14;
+			
+			// aapt resource value: 15
+			public const int PreferenceTheme_switchPreferenceStyle = 15;
+			
+			// aapt resource value: 16
+			public const int Preference_allowDividerAbove = 16;
+			
+			// aapt resource value: 17
+			public const int Preference_allowDividerBelow = 17;
+			
+			// aapt resource value: 11
+			public const int Preference_android_defaultValue = 11;
+			
+			// aapt resource value: 10
+			public const int Preference_android_dependency = 10;
+			
+			// aapt resource value: 2
+			public const int Preference_android_enabled = 2;
+			
+			// aapt resource value: 13
+			public const int Preference_android_fragment = 13;
+			
+			// aapt resource value: 0
+			public const int Preference_android_icon = 0;
+			
+			// aapt resource value: 15
+			public const int Preference_android_iconSpaceReserved = 15;
+			
+			// aapt resource value: 6
+			public const int Preference_android_key = 6;
+			
+			// aapt resource value: 3
+			public const int Preference_android_layout = 3;
+			
+			// aapt resource value: 8
+			public const int Preference_android_order = 8;
+			
+			// aapt resource value: 1
+			public const int Preference_android_persistent = 1;
+			
+			// aapt resource value: 5
+			public const int Preference_android_selectable = 5;
+			
+			// aapt resource value: 12
+			public const int Preference_android_shouldDisableView = 12;
+			
+			// aapt resource value: 14
+			public const int Preference_android_singleLineTitle = 14;
+			
+			// aapt resource value: 7
+			public const int Preference_android_summary = 7;
+			
+			// aapt resource value: 4
+			public const int Preference_android_title = 4;
+			
+			// aapt resource value: 9
+			public const int Preference_android_widgetLayout = 9;
+			
+			// aapt resource value: 18
+			public const int Preference_defaultValue = 18;
+			
+			// aapt resource value: 19
+			public const int Preference_dependency = 19;
+			
+			// aapt resource value: 20
+			public const int Preference_enableCopying = 20;
+			
+			// aapt resource value: 21
+			public const int Preference_enabled = 21;
+			
+			// aapt resource value: 22
+			public const int Preference_fragment = 22;
+			
+			// aapt resource value: 23
+			public const int Preference_icon = 23;
+			
+			// aapt resource value: 24
+			public const int Preference_iconSpaceReserved = 24;
+			
+			// aapt resource value: 25
+			public const int Preference_isPreferenceVisible = 25;
+			
+			// aapt resource value: 26
+			public const int Preference_key = 26;
+			
+			// aapt resource value: 27
+			public const int Preference_layout = 27;
+			
+			// aapt resource value: 28
+			public const int Preference_order = 28;
+			
+			// aapt resource value: 29
+			public const int Preference_persistent = 29;
+			
+			// aapt resource value: 30
+			public const int Preference_selectable = 30;
+			
+			// aapt resource value: 31
+			public const int Preference_shouldDisableView = 31;
+			
+			// aapt resource value: 32
+			public const int Preference_singleLineTitle = 32;
+			
+			// aapt resource value: 33
+			public const int Preference_summary = 33;
+			
+			// aapt resource value: 34
+			public const int Preference_title = 34;
+			
+			// aapt resource value: 35
+			public const int Preference_widgetLayout = 35;
+			
+			// aapt resource value: { 0x7F03018A,0x7F03018D }
 			public static int[] RecycleListView = new int[] {
-					2130903398,
-					2130903401};
+					2130903434,
+					2130903437};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -18125,20 +21980,20 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F0300E0,0x7F0300E1,0x7F0300E2,0x7F0300E3,0x7F0300E4,0x7F030127,0x7F030180,0x7F030197,0x7F03019D }
+			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F0300FC,0x7F0300FD,0x7F030145,0x7F0301AF,0x7F0301CC,0x7F0301D2 }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842987,
 					16842993,
-					2130903264,
-					2130903265,
-					2130903266,
-					2130903267,
-					2130903268,
-					2130903335,
-					2130903424,
-					2130903447,
-					2130903453};
+					2130903289,
+					2130903290,
+					2130903291,
+					2130903292,
+					2130903293,
+					2130903365,
+					2130903471,
+					2130903500,
+					2130903506};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_clipToPadding = 1;
@@ -18176,46 +22031,46 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 11
 			public const int RecyclerView_stackFromEnd = 11;
 			
-			// aapt resource value: { 0x7F030111 }
+			// aapt resource value: { 0x7F03012D }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130903313};
+					2130903341};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
 			
-			// aapt resource value: { 0x7F03003B }
+			// aapt resource value: { 0x7F030045 }
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
-					2130903099};
+					2130903109};
 			
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x7F030186 }
+			// aapt resource value: { 0x7F0301B5 }
 			public static int[] ScrollViewRendererTheme = new int[] {
-					2130903430};
+					2130903477};
 			
 			// aapt resource value: 0
 			public const int ScrollViewRendererTheme_scrollViewStyle = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030082,0x7F03009C,0x7F0300B2,0x7F0300F4,0x7F03010B,0x7F030126,0x7F030179,0x7F03017A,0x7F030187,0x7F030188,0x7F0301A8,0x7F0301AD,0x7F030212 }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F03008D,0x7F0300A7,0x7F0300BD,0x7F03010E,0x7F030126,0x7F030144,0x7F0301A8,0x7F0301A9,0x7F0301B6,0x7F0301B7,0x7F0301DD,0x7F0301E2,0x7F030250 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
-					2130903170,
-					2130903196,
-					2130903218,
-					2130903284,
-					2130903307,
+					2130903181,
+					2130903207,
+					2130903229,
+					2130903310,
 					2130903334,
-					2130903417,
-					2130903418,
-					2130903431,
-					2130903432,
+					2130903364,
 					2130903464,
-					2130903469,
-					2130903570};
+					2130903465,
+					2130903478,
+					2130903479,
+					2130903517,
+					2130903522,
+					2130903632};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -18268,11 +22123,42 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x7F030056,0x7F030099,0x7F030182 }
+			// aapt resource value: { 0x10100F2,0x1010136,0x7F030028,0x7F03017F,0x7F0301B9,0x7F0301C3,0x7F03024B }
+			public static int[] SeekBarPreference = new int[] {
+					16842994,
+					16843062,
+					2130903080,
+					2130903423,
+					2130903481,
+					2130903491,
+					2130903627};
+			
+			// aapt resource value: 2
+			public const int SeekBarPreference_adjustable = 2;
+			
+			// aapt resource value: 0
+			public const int SeekBarPreference_android_layout = 0;
+			
+			// aapt resource value: 1
+			public const int SeekBarPreference_android_max = 1;
+			
+			// aapt resource value: 3
+			public const int SeekBarPreference_min = 3;
+			
+			// aapt resource value: 4
+			public const int SeekBarPreference_seekBarIncrement = 4;
+			
+			// aapt resource value: 5
+			public const int SeekBarPreference_showSeekBarValue = 5;
+			
+			// aapt resource value: 6
+			public const int SeekBarPreference_updatesContinuously = 6;
+			
+			// aapt resource value: { 0x7F030060,0x7F0300A4,0x7F0301B1 }
 			public static int[] SignInButton = new int[] {
-					2130903126,
-					2130903193,
-					2130903426};
+					2130903136,
+					2130903204,
+					2130903473};
 			
 			// aapt resource value: 0
 			public const int SignInButton_buttonSize = 0;
@@ -18283,16 +22169,16 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 2
 			public const int SignInButton_scopeUris = 2;
 			
-			// aapt resource value: { 0x7F030195,0x7F030196 }
+			// aapt resource value: { 0x7F0301CA,0x7F0301CB }
 			public static int[] Snackbar = new int[] {
-					2130903445,
-					2130903446};
+					2130903498,
+					2130903499};
 			
-			// aapt resource value: { 0x101011F,0x7F0300CA,0x7F03014A }
+			// aapt resource value: { 0x101011F,0x7F0300DF,0x7F030168 }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
-					2130903242,
-					2130903370};
+					2130903263,
+					2130903400};
 			
 			// aapt resource value: 0
 			public const int SnackbarLayout_android_maxWidth = 0;
@@ -18309,13 +22195,13 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 1
 			public const int Snackbar_snackbarStyle = 1;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030173 }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030198 }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903411};
+					2130903448};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -18366,22 +22252,22 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030190,0x7F03019B,0x7F0301AE,0x7F0301AF,0x7F0301B1,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F030203,0x7F030204,0x7F030205 }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0301C4,0x7F0301D0,0x7F0301E6,0x7F0301E7,0x7F0301EB,0x7F030226,0x7F030227,0x7F030228,0x7F03023F,0x7F030240,0x7F030241 }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903440,
-					2130903451,
-					2130903470,
-					2130903471,
-					2130903473,
-					2130903530,
+					2130903492,
+					2130903504,
+					2130903526,
+					2130903527,
 					2130903531,
-					2130903532,
-					2130903555,
-					2130903556,
-					2130903557};
+					2130903590,
+					2130903591,
+					2130903592,
+					2130903615,
+					2130903616,
+					2130903617};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -18425,6 +22311,92 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 13
 			public const int SwitchCompat_trackTintMode = 13;
 			
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F0300C8,0x7F0301E4,0x7F0301E5,0x7F0301EC,0x7F0301ED }
+			public static int[] SwitchPreference = new int[] {
+					16843247,
+					16843248,
+					16843249,
+					16843627,
+					16843628,
+					2130903240,
+					2130903524,
+					2130903525,
+					2130903532,
+					2130903533};
+			
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F0300C8,0x7F0301E4,0x7F0301E5,0x7F0301EC,0x7F0301ED }
+			public static int[] SwitchPreferenceCompat = new int[] {
+					16843247,
+					16843248,
+					16843249,
+					16843627,
+					16843628,
+					2130903240,
+					2130903524,
+					2130903525,
+					2130903532,
+					2130903533};
+			
+			// aapt resource value: 2
+			public const int SwitchPreferenceCompat_android_disableDependentsState = 2;
+			
+			// aapt resource value: 1
+			public const int SwitchPreferenceCompat_android_summaryOff = 1;
+			
+			// aapt resource value: 0
+			public const int SwitchPreferenceCompat_android_summaryOn = 0;
+			
+			// aapt resource value: 4
+			public const int SwitchPreferenceCompat_android_switchTextOff = 4;
+			
+			// aapt resource value: 3
+			public const int SwitchPreferenceCompat_android_switchTextOn = 3;
+			
+			// aapt resource value: 5
+			public const int SwitchPreferenceCompat_disableDependentsState = 5;
+			
+			// aapt resource value: 6
+			public const int SwitchPreferenceCompat_summaryOff = 6;
+			
+			// aapt resource value: 7
+			public const int SwitchPreferenceCompat_summaryOn = 7;
+			
+			// aapt resource value: 8
+			public const int SwitchPreferenceCompat_switchTextOff = 8;
+			
+			// aapt resource value: 9
+			public const int SwitchPreferenceCompat_switchTextOn = 9;
+			
+			// aapt resource value: 2
+			public const int SwitchPreference_android_disableDependentsState = 2;
+			
+			// aapt resource value: 1
+			public const int SwitchPreference_android_summaryOff = 1;
+			
+			// aapt resource value: 0
+			public const int SwitchPreference_android_summaryOn = 0;
+			
+			// aapt resource value: 4
+			public const int SwitchPreference_android_switchTextOff = 4;
+			
+			// aapt resource value: 3
+			public const int SwitchPreference_android_switchTextOn = 3;
+			
+			// aapt resource value: 5
+			public const int SwitchPreference_disableDependentsState = 5;
+			
+			// aapt resource value: 6
+			public const int SwitchPreference_summaryOff = 6;
+			
+			// aapt resource value: 7
+			public const int SwitchPreference_summaryOn = 7;
+			
+			// aapt resource value: 8
+			public const int SwitchPreference_switchTextOff = 8;
+			
+			// aapt resource value: 9
+			public const int SwitchPreference_switchTextOn = 9;
+			
 			// aapt resource value: { 0x1010002,0x10100F2,0x101014F }
 			public static int[] TabItem = new int[] {
 					16842754,
@@ -18440,33 +22412,33 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F0301B2,0x7F0301B3,0x7F0301B4,0x7F0301B5,0x7F0301B6,0x7F0301B7,0x7F0301B8,0x7F0301B9,0x7F0301BA,0x7F0301BB,0x7F0301BC,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C3,0x7F0301C4,0x7F0301C5,0x7F0301C6,0x7F0301C7,0x7F0301C9,0x7F0301CA,0x7F0301CB }
+			// aapt resource value: { 0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F0301FC,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030200,0x7F030201,0x7F030202,0x7F030203,0x7F030205,0x7F030206,0x7F030207 }
 			public static int[] TabLayout = new int[] {
-					2130903474,
-					2130903475,
-					2130903476,
-					2130903477,
-					2130903478,
-					2130903479,
-					2130903480,
-					2130903481,
-					2130903482,
-					2130903483,
-					2130903484,
-					2130903485,
-					2130903486,
-					2130903487,
-					2130903488,
-					2130903489,
-					2130903490,
-					2130903491,
-					2130903492,
-					2130903493,
-					2130903494,
-					2130903495,
-					2130903497,
-					2130903498,
-					2130903499};
+					2130903534,
+					2130903535,
+					2130903536,
+					2130903537,
+					2130903538,
+					2130903539,
+					2130903540,
+					2130903541,
+					2130903542,
+					2130903543,
+					2130903544,
+					2130903545,
+					2130903546,
+					2130903547,
+					2130903548,
+					2130903549,
+					2130903550,
+					2130903551,
+					2130903552,
+					2130903553,
+					2130903554,
+					2130903555,
+					2130903557,
+					2130903558,
+					2130903559};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -18543,7 +22515,7 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 24
 			public const int TabLayout_tabUnboundedRipple = 24;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F0300E8,0x7F0300F0,0x7F0301CC,0x7F0301E6 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F030101,0x7F030109,0x7F030208,0x7F030222 }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -18557,10 +22529,10 @@ namespace PizzaIllico.Mobile.Android
 					16843108,
 					16843692,
 					16844165,
-					2130903272,
-					2130903280,
-					2130903500,
-					2130903526};
+					2130903297,
+					2130903305,
+					2130903560,
+					2130903586};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -18610,36 +22582,36 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 15
 			public const int TextAppearance_textLocale = 15;
 			
-			// aapt resource value: { 0x101009A,0x1010150,0x7F030044,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004A,0x7F03004B,0x7F03004C,0x7F0300AD,0x7F0300AE,0x7F0300AF,0x7F0300B0,0x7F0300CD,0x7F0300CE,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FD,0x7F0300FE,0x7F0300FF,0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170,0x7F030171 }
+			// aapt resource value: { 0x101009A,0x1010150,0x7F03004E,0x7F03004F,0x7F030050,0x7F030051,0x7F030052,0x7F030053,0x7F030054,0x7F030055,0x7F030056,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F0300BB,0x7F0300E6,0x7F0300E7,0x7F030111,0x7F030112,0x7F030113,0x7F030117,0x7F030118,0x7F030119,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195 }
 			public static int[] TextInputLayout = new int[] {
 					16842906,
 					16843088,
-					2130903108,
-					2130903109,
-					2130903110,
-					2130903111,
-					2130903112,
-					2130903113,
-					2130903114,
-					2130903115,
-					2130903116,
-					2130903213,
-					2130903214,
-					2130903215,
-					2130903216,
-					2130903245,
-					2130903246,
-					2130903287,
-					2130903288,
-					2130903289,
-					2130903293,
-					2130903294,
-					2130903295,
-					2130903405,
-					2130903406,
-					2130903407,
-					2130903408,
-					2130903409};
+					2130903118,
+					2130903119,
+					2130903120,
+					2130903121,
+					2130903122,
+					2130903123,
+					2130903124,
+					2130903125,
+					2130903126,
+					2130903224,
+					2130903225,
+					2130903226,
+					2130903227,
+					2130903270,
+					2130903271,
+					2130903313,
+					2130903314,
+					2130903315,
+					2130903319,
+					2130903320,
+					2130903321,
+					2130903441,
+					2130903442,
+					2130903443,
+					2130903444,
+					2130903445};
 			
 			// aapt resource value: 1
 			public const int TextInputLayout_android_hint = 1;
@@ -18725,11 +22697,11 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 27
 			public const int TextInputLayout_passwordToggleTintMode = 27;
 			
-			// aapt resource value: { 0x1010034,0x7F0300CB,0x7F0300CC }
+			// aapt resource value: { 0x1010034,0x7F0300E2,0x7F0300E3 }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
-					2130903243,
-					2130903244};
+					2130903266,
+					2130903267};
 			
 			// aapt resource value: 0
 			public const int ThemeEnforcement_android_textAppearance = 0;
@@ -18740,38 +22712,38 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F030053,0x7F03008A,0x7F03008B,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F030145,0x7F030146,0x7F03014B,0x7F03015E,0x7F030160,0x7F030161,0x7F030173,0x7F0301A9,0x7F0301AA,0x7F0301AB,0x7F0301F2,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F03005D,0x7F030095,0x7F030096,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F030163,0x7F030164,0x7F030169,0x7F03017E,0x7F030181,0x7F030182,0x7F030198,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F03022E,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
-					2130903123,
-					2130903178,
-					2130903179,
-					2130903198,
-					2130903199,
-					2130903200,
-					2130903201,
-					2130903202,
-					2130903203,
-					2130903365,
-					2130903366,
-					2130903371,
-					2130903390,
-					2130903392,
-					2130903393,
-					2130903411,
-					2130903465,
-					2130903466,
-					2130903467,
-					2130903538,
-					2130903540,
-					2130903541,
-					2130903542,
-					2130903543,
-					2130903544,
-					2130903545,
-					2130903546,
-					2130903547};
+					2130903133,
+					2130903189,
+					2130903190,
+					2130903209,
+					2130903210,
+					2130903211,
+					2130903212,
+					2130903213,
+					2130903214,
+					2130903395,
+					2130903396,
+					2130903401,
+					2130903422,
+					2130903425,
+					2130903426,
+					2130903448,
+					2130903518,
+					2130903519,
+					2130903520,
+					2130903598,
+					2130903600,
+					2130903601,
+					2130903602,
+					2130903603,
+					2130903604,
+					2130903605,
+					2130903606,
+					2130903607};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -18863,19 +22835,19 @@ namespace PizzaIllico.Mobile.Android
 			// aapt resource value: 29
 			public const int Toolbar_titleTextColor = 29;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F030167,0x7F030168,0x7F0301E8 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F03018B,0x7F03018C,0x7F030224 }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903399,
-					2130903400,
-					2130903528};
+					2130903435,
+					2130903436,
+					2130903588};
 			
-			// aapt resource value: { 0x10100D4,0x7F030035,0x7F030036 }
+			// aapt resource value: { 0x10100D4,0x7F03003F,0x7F030040 }
 			public static int[] ViewBackgroundHelper = new int[] {
 					16842964,
-					2130903093,
-					2130903094};
+					2130903103,
+					2130903104};
 			
 			// aapt resource value: 0
 			public const int ViewBackgroundHelper_android_background = 0;

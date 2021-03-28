@@ -17,7 +17,8 @@ namespace PizzaIllico.Mobile.Pages
         private ObservableCollection<ShopItem> Shops;
         public ShopListPage()
         {
-            BindingContext = new ShopListViewModel();
+            //BindingContext = new ShopListViewModel();
+            BindingContext = new ProfilViewModel();
             InitializeComponent();
         }
         async void CheckShop(object sender, System.EventArgs e)

@@ -48,5 +48,6 @@ namespace PizzaIllico.Mobile.ViewModels
 				Shops = new ObservableCollection<ShopItem>(response.Data);
 			}
 		}
+
 	}
 }
