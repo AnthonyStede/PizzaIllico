@@ -16,7 +16,7 @@ namespace PizzaIllico.Mobile.ViewModels
         public string Login { get; set; }
 
         public string Password { get; set; }
-
+        public string AccessToken { get; set; }
         public string Message { get; set; }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -41,6 +41,7 @@ namespace PizzaIllico.Mobile.ViewModels
                         Message = "Login Success!";
                         OnPropertyChanged(new PropertyChangedEventArgs(nameof(Message)));
                         await Application.Current.MainPage.Navigation.PushAsync(new ShopListPage());
+                        AccessToken = isSuccess.Data.AccessToken;
                     }
                     else
                     {

@@ -8,6 +8,7 @@ using System.Net.Http.Headers;
 using System.Collections.Generic;
 using System.Diagnostics;
 using PizzaIllico.Mobile.Dtos.Authentications.Credentials;
+using PizzaIllico.Mobile.Dtos;
 
 namespace PizzaIllico.Mobile.Services
 {
@@ -111,6 +112,20 @@ namespace PizzaIllico.Mobile.Services
             ResponseBody responseBody = JsonConvert.DeserializeObject<ResponseBody>(jsonResponse);
 
             return responseBody;
+        }
+
+        public async Task<Response> UserProfilAsync (String AccessToken)
+        {
+            var client = new HttpClient();
+
+            client.DefaultRequestHeaders.Add("Authorization", "Bearer " + AccessToken);
+
+            var response = await client.GetAsync("https://pizza.julienmialon.ovh/api/v1/accounts/me");
+
+            string content = await response.Content.ReadAsStringAsync();
+
+            return JsonConvert.DeserializeObject<Response>(content);
+           
         }
     }
 }
