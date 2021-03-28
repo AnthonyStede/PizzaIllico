@@ -1,5 +1,7 @@
-﻿using PizzaIllico.Mobile.Pages;
+﻿using GalaSoft.MvvmLight.Messaging;
+using PizzaIllico.Mobile.Pages;
 using PizzaIllico.Mobile.Services;
+using Prism.Events;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,9 +21,10 @@ namespace PizzaIllico.Mobile.ViewModels
         public string AccessToken { get; set; }
         public string Message { get; set; }
         
+
         public event PropertyChangedEventHandler PropertyChanged;
 
-     
+        //private IEventAggregator eventAggregator;
 
         protected virtual void OnPropertyChanged(PropertyChangedEventArgs e)
         {
@@ -45,6 +48,12 @@ namespace PizzaIllico.Mobile.ViewModels
                         await Application.Current.MainPage.Navigation.PushAsync(new ShopListPage());
                         AccessToken = isSuccess.Data.AccessToken;
                         OnPropertyChanged(new PropertyChangedEventArgs(nameof(AccessToken)));
+                        Messenger.Default.Send(AccessToken);
+                        //eventAggregator.GetEvent<LoginViewModel>().Publish(AccessToken);
+                        var param = new Dictionary<string, string>
+                        {
+                            {"AccessToken",AccessToken }
+                        };
                     }
                     else
                     {

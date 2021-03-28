@@ -18,7 +18,7 @@ namespace PizzaIllico.Mobile.Pages
         public ShopListPage()
         {
             //BindingContext = new ShopListViewModel();
-            BindingContext = new ProfilViewModel();
+            BindingContext = new ShopListViewModel();
             InitializeComponent();
         }
         async void GoToCommandes(object sender, System.EventArgs e)
@@ -27,6 +27,7 @@ namespace PizzaIllico.Mobile.Pages
         }
         async void GoToProfil(object sender, System.EventArgs e)
         {
+            BindingContext = new ProfilViewModel();
             await Navigation.PushAsync(new ProfilPage());
         }
 
