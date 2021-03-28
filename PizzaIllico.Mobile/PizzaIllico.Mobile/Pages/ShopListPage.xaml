@@ -10,8 +10,9 @@
                        x:DataType="viewModels:ShopListViewModel"
                        Title="Shops">
     <StackLayout>
-        <ListView ItemsSource="{Binding Shops}"
+        <ListView HasUnevenRows="True" ItemsSource="{Binding Shops} "
                   SelectionMode="None"
+                  BackgroundColor="White"
                   >
             <ListView.Behaviors>
                 <extensions:ListViewItemTappedBehavior Command="{Binding SelectedCommand}"/>
@@ -20,10 +21,18 @@
                 <DataTemplate>
                     <ViewCell x:DataType="pizzas:ShopItem">
                         <StackLayout Orientation="Vertical">
-                            <Label Text="{Binding Name}"
+                            <Label Padding="5,0,0,0" Text="{Binding Name}" Font="15" TextColor="Black"
                                     />
-                            <Label Text="{Binding Address}"
+                            <Grid Margin ="0,0,0,20" Grid.Column="0" Padding="5,0,0,0" ColumnSpacing="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="5*"/>
+                                    <ColumnDefinition Width="3*"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding Address}" HorizontalOptions="StartAndExpand" Grid.Column="0"
                                    />
+                                <Button ClassId="{Binding Id}" Text="Voir le shop" HeightRequest="80" HorizontalOptions="EndAndExpand" Grid.Column="1"
+                                        Clicked="CheckShop"/>
+                            </Grid>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

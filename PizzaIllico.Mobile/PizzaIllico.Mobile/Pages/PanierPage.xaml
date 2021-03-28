@@ -5,17 +5,18 @@
                        xmlns:viewModels="clr-namespace:PizzaIllico.Mobile.ViewModels;assembly=PizzaIllico.Mobile"
                        xmlns:pizzas="clr-namespace:PizzaIllico.Mobile.Dtos.Pizzas;assembly=PizzaIllico.Mobile"
                        xmlns:extensions="clr-namespace:PizzaIllico.Mobile.Extensions;assembly=PizzaIllico.Mobile"
-                       x:Class="PizzaIllico.Mobile.Pages.PizzaListPage"
-                       x:DataType="viewModels:PizzaListViewModel"
-                       Title="Pizzas">
+                       x:Class="PizzaIllico.Mobile.Pages.PanierPage"
+                       x:DataType="viewModels:PanierViewModel"
+                       Title="Panier">
     <StackLayout>
-        
+
         <Label x:Name="nomRestaurantLabel" Margin ="0,30,0,0" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Font="Bold,20" TextColor="Black"/>
         <Label x:Name="addresseRestaurantLabel" Margin ="0,30,0,10" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Font="13" TextColor="Black"/>
-        <Button Text="Voir le panier" HorizontalOptions="FillAndExpand" Clicked ="GoToPanier"/>
-        <ListView HasUnevenRows="True" ItemsSource="{Binding Pizzas} "
-                  SelectionMode="None"
+        <Label x:Name="prixLabel" Margin ="0,30,0,10" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Font="13" TextColor="Black"/>
+        <Button Text="Passer la commande" HorizontalOptions="FillAndExpand"/>
+        <ListView HasUnevenRows="True" ItemsSource="{Binding PizzasFinal} "
                   BackgroundColor="White"
+                  SelectionMode="None"
                   >
             <ListView.Behaviors>
                 <extensions:ListViewItemTappedBehavior Command="{Binding SelectedCommand}"/>
@@ -39,8 +40,6 @@
                                    />
                                 <Label Text="{Binding Price,StringFormat='Prix : {0:F0} €'}" Grid.Column="0" Grid.Row="1"
                                    />
-                                <Button ClassId="{Binding Id}" Text="Ajouter au panier" HeightRequest="80" HorizontalOptions="EndAndExpand" Grid.Column="1"
-                                        Clicked="AddPizzaPanier"/>
                             </Grid>
                         </StackLayout>
                     </ViewCell>
