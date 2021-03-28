@@ -15,8 +15,12 @@ namespace PizzaIllico.Mobile.ViewModels
 	{
 		private ObservableCollection<PizzaItem> _pizzas;
 		private ObservableCollection<PizzaItem> _pizzasFinal;
+		private ObservableCollection<ShopItem> _shops;
 		private List<long> _pizzaPanierId;
 		private int _idShop;
+		private double _prix;
+		ShopItem _shop;
+		PizzaApiService _apiService = new PizzaApiService();
 
 		public ObservableCollection<PizzaItem> Pizzas
 		{
@@ -29,11 +33,17 @@ namespace PizzaIllico.Mobile.ViewModels
 			set => SetProperty(ref _pizzasFinal, value);
 		}
 
+		public ObservableCollection<ShopItem> Shops
+		{
+			get => _shops;
+			set => SetProperty(ref _shops, value);
+		}
 		public ICommand SelectedCommand { get; }
 
-		public PanierViewModel(int idShop, List<long> pizzaPanierId)
+		public PanierViewModel(int idShop, List<long> pizzaPanierId, double prix)
 		{
 			_idShop = idShop;
+			_prix = prix;
 			_pizzaPanierId = pizzaPanierId;
 			SelectedCommand = new Command<PizzaItem>(SelectedAction);
 		}
@@ -63,12 +73,38 @@ namespace PizzaIllico.Mobile.ViewModels
                     {
 						if(i == p.Id)
                         {
-							Console.WriteLine($"Id_liste : " + i + " / id_base = " + p.Id);
 							PizzasFinal.Add(p);
                         }
                     }
                 }
 			}
+		}
+
+		public ICommand CommanderCommand
+		{
+
+			get
+			{
+				return new Command(async () =>
+				{
+					IPizzaApiService service = DependencyService.Get<IPizzaApiService>();
+					Response<List<ShopItem>> response = await service.ListShops();
+					Shops = new ObservableCollection<ShopItem>(response.Data);
+					foreach (ShopItem s in Shops)
+					{
+						if (_idShop == s.Id)
+						{
+							_shop = s;
+						}
+					}
+
+					var isSuccess = await _apiService.CommanderAsync(_idShop, _prix, _shop);
+					Console.WriteLine($"Appel HTTP : {isSuccess.IsSuccess}");
+					Console.WriteLine($"Error message : {isSuccess.ErrorMessage}");
+					Console.WriteLine($"code : {isSuccess.ErrorCode}");
+				});
+			}
+
 		}
 	}
 }
